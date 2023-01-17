@@ -1,0 +1,20 @@
+.header {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    background: $purple-000;
+    z-index: -1;
+  }
+}
+.language {
+  display: flex;
+  align-items: center;
+}

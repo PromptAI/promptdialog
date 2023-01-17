@@ -1,0 +1,1664 @@
+{"0": {
+    "doc": "Create a user question and answer (FAQ)",
+    "title": "User question and answer (FAQ)",
+    "content": ". After the project is created, there will be a default user question and answer (FAQ) based on the project. A project has and only has one user question and answer (FAQ). ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/faq/01-create-faq/#user-question-and-answer-faq",
+    "relUrl": "/docs/en/tutorial/faq/01-create-faq/#user-question-and-answer-faq"
+  },"1": {
+    "doc": "Create a user question and answer (FAQ)",
+    "title": "Go to the FAQ homepage",
+    "content": "As shown in the figure, you can click the user question and answer (FAQ) on the left navigation bar or click the view details link that appears after the user question and answer (FAQ) to jump to the user question and answer (FAQ) home page. In this interface, you can add, modify, delete, and train FAQs. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/faq/01-create-faq/#go-to-the-faq-homepage",
+    "relUrl": "/docs/en/tutorial/faq/01-create-faq/#go-to-the-faq-homepage"
+  },"2": {
+    "doc": "Create a user question and answer (FAQ)",
+    "title": "New FAQ",
+    "content": "On the user question and answer (FAQ) homepage, click the Add User Question button in the upper right corner to pop up the FAQ creation interface. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/faq/01-create-faq/#new-faq",
+    "relUrl": "/docs/en/tutorial/faq/01-create-faq/#new-faq"
+  },"3": {
+    "doc": "Create a user question and answer (FAQ)",
+    "title": "Fill in the specific information of the FAQ",
+    "content": "Please pay attention to the following items when filling in the user question and answer (FAQ) details: -After the FAQ training is released, the conversation between the user and the intelligent assistant is in the form of one question and one answer. -When creating a FAQ, it must include the user’s question and the reply of the intelligent assistant. -User questions cannot be repeated . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/faq/01-create-faq/#fill-in-the-specific-information-of-the-faq",
+    "relUrl": "/docs/en/tutorial/faq/01-create-faq/#fill-in-the-specific-information-of-the-faq"
+  },"4": {
+    "doc": "Create a user question and answer (FAQ)",
+    "title": "Created successfully",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/faq/01-create-faq/#created-successfully",
+    "relUrl": "/docs/en/tutorial/faq/01-create-faq/#created-successfully"
+  },"5": {
+    "doc": "Create a user question and answer (FAQ)",
+    "title": "Create a user question and answer (FAQ)",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/faq/01-create-faq/",
+    "relUrl": "/docs/en/tutorial/faq/01-create-faq/"
+  },"6": {
+    "doc": "创建用户问答（FAQ）",
+    "title": "用户问答（FAQ）",
+    "content": ". 项目创建完成后，基于项目会有一个默认的用户问答（FAQ），一个项目有且仅有一个用户问答（FAQ））。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/faq/01-create-faq/#%E7%94%A8%E6%88%B7%E9%97%AE%E7%AD%94faq",
+    "relUrl": "/docs/zh/tutorial/faq/01-create-faq/#用户问答faq"
+  },"7": {
+    "doc": "创建用户问答（FAQ）",
+    "title": "进入FAQ主页",
+    "content": "如图所示，可以点击左侧导航栏的用户问答（FAQ）或者点击用户问答（FAQ）后出现的查看详情链接，跳转到用户问答（FAQ）主页。 在此界面可以对FAQ进行新增，修改，删除，训练等操作。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/faq/01-create-faq/#%E8%BF%9B%E5%85%A5faq%E4%B8%BB%E9%A1%B5",
+    "relUrl": "/docs/zh/tutorial/faq/01-create-faq/#进入faq主页"
+  },"8": {
+    "doc": "创建用户问答（FAQ）",
+    "title": "新建FAQ",
+    "content": "在用户问答（FAQ）主页，点击右上角的添加用户提问按钮，弹出FAQ创建界面。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/faq/01-create-faq/#%E6%96%B0%E5%BB%BAfaq",
+    "relUrl": "/docs/zh/tutorial/faq/01-create-faq/#新建faq"
+  },"9": {
+    "doc": "创建用户问答（FAQ）",
+    "title": "填写FAQ具体信息",
+    "content": "填写用户问答（FAQ）详细信息的时候，请注意以下事项： . | FAQ训练发布后，用户跟智能助手之间会话为一问一答的形式。 | FAQ创建的时候必须包含用户提问跟智能助手的回复。 | 用户提问内容不能重复 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/faq/01-create-faq/#%E5%A1%AB%E5%86%99faq%E5%85%B7%E4%BD%93%E4%BF%A1%E6%81%AF",
+    "relUrl": "/docs/zh/tutorial/faq/01-create-faq/#填写faq具体信息"
+  },"10": {
+    "doc": "创建用户问答（FAQ）",
+    "title": "创建成功",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/faq/01-create-faq/#%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F",
+    "relUrl": "/docs/zh/tutorial/faq/01-create-faq/#创建成功"
+  },"11": {
+    "doc": "创建用户问答（FAQ）",
+    "title": "创建用户问答（FAQ）",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/faq/01-create-faq/",
+    "relUrl": "/docs/zh/tutorial/faq/01-create-faq/"
+  },"12": {
+    "doc": "Create a conversation flow diagram",
+    "title": "Conversation flow diagram",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/01-create-flow/#conversation-flow-diagram",
+    "relUrl": "/docs/en/tutorial/flow/01-create-flow/#conversation-flow-diagram"
+  },"13": {
+    "doc": "Create a conversation flow diagram",
+    "title": "Create a conversation flow diagram",
+    "content": "Click the dialog flow diagram under the dialog overview to add a new one. Enter the node name and description information of the new dialog flow diagram in the pop-up dialog box, and click OK to create a new branch. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/01-create-flow/",
+    "relUrl": "/docs/en/tutorial/flow/01-create-flow/"
+  },"14": {
+    "doc": "Create a conversation flow diagram",
+    "title": "Create a dialog flow graph user input node",
+    "content": "After creating a new dialog flow diagram, it will automatically jump to the editing home page of the created dialog flow diagram. At this time, click the root node of the dialog flow graph and select the node type to be created from the pop-up dialog box. Here we select the node type as user input. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/01-create-flow/#create-a-dialog-flow-graph-user-input-node",
+    "relUrl": "/docs/en/tutorial/flow/01-create-flow/#create-a-dialog-flow-graph-user-input-node"
+  },"15": {
+    "doc": "Create a conversation flow diagram",
+    "title": "Edit User Input Node",
+    "content": "After selecting the user input node to be created, the user input node editing interface will pop up on the right, where we can edit the user’s intention. It is expected that user input and more training examples below will be converted into user intent. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/01-create-flow/#edit-user-input-node",
+    "relUrl": "/docs/en/tutorial/flow/01-create-flow/#edit-user-input-node"
+  },"16": {
+    "doc": "Create a conversation flow diagram",
+    "title": "Add reply node",
+    "content": "Continue to click the user input node and select machine reply from the pop-up box. If the user enters a match with the user node in front of this node, this information will be returned to the user. Reply to multiple contents . When we need to reply to multiple contents, we can add multiple texts to the reply node or continue to add reply nodes after the nodes that need to reply to multiple contents . | The reply node adds multiple text implementations, as shown in the figure . | The implementation method of adding a reply node after the node that needs to reply to multiple contents is shown in the figure When the machine replies to multiple content, you need to adjust the reply order of each content. You can refer to the following methods | To adjust the order of multiple texts in the reply node, you can click the icon button, drag it to the desired order, and then release it | If you need to adjust the reply order of multiple consecutive machine reply nodes, you only need to use the Recycle Bin function to adjust the order of machine reply nodes | . The dialogue effect pictures of the two methods are as follows: . Reply node to add an attachment . Open the editing interface of the reply node as shown in the figure, click Attachment, and upload the attachment according to the prompts. After uploading: . The dialogue effect is shown below. You can directly click Attachment to download it: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/01-create-flow/#add-reply-node",
+    "relUrl": "/docs/en/tutorial/flow/01-create-flow/#add-reply-node"
+  },"17": {
+    "doc": "Create a conversation flow diagram",
+    "title": "Completed",
+    "content": "So far, the simplest conversation flow diagram is complete. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/01-create-flow/#completed",
+    "relUrl": "/docs/en/tutorial/flow/01-create-flow/#completed"
+  },"18": {
+    "doc": "创建对话流图",
+    "title": "对话流图",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/01-create-flow/#%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE",
+    "relUrl": "/docs/zh/tutorial/flow/01-create-flow/#对话流图"
+  },"19": {
+    "doc": "创建对话流图",
+    "title": "创建对话流图",
+    "content": "依次点击对话概览下的对话流图，新增流图，弹出的对话框中输入新的对话流图节点名、描述信息，点击确认即可创建好新的分支。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/01-create-flow/",
+    "relUrl": "/docs/zh/tutorial/flow/01-create-flow/"
+  },"20": {
+    "doc": "创建对话流图",
+    "title": "创建对话流图用户输入节点",
+    "content": "创建完新的对话流图后，会自动跳转到所创建的对话流图的编辑主页。此时，点击对话流图的根节点，从弹出的对话框中选择需要创建的节点类型。 这里我们选择节点类型为用户输入。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/01-create-flow/#%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/01-create-flow/#创建对话流图用户输入节点"
+  },"21": {
+    "doc": "创建对话流图",
+    "title": "编辑用户输入节点",
+    "content": "当我们选择完需要创建的用户输入节点后，右侧会弹出用户输入节点编辑界面，这里我们可以编辑用户的意图。期待用户输入跟下面的更多训练例句都会转换为用户意图。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/01-create-flow/#%E7%BC%96%E8%BE%91%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/01-create-flow/#编辑用户输入节点"
+  },"22": {
+    "doc": "创建对话流图",
+    "title": "添加回复节点",
+    "content": "继续点击用户输入节点，从弹出框选择机器回复。用户如输入与该节点前面的用户节点匹配的时候，此信息将会回复给用户。 . 回复多个内容 . 当需要回复多个内容的时候，我们可以通过在回复节点添加多个文本或者在需要回复多个内容的节点后面继续添加回复节点实现 . | 回复节点添加多个文本实现方式，如图所示 . | 需要回复多个内容的节点后面添加回复节点实现方式，如图所示 . | . 当机器回复多个内容的情况下，你需要调整每个内容的回复顺序，可以参照以下方法 . | 回复节点多个文本顺序调整，你可以鼠标选中图示按钮，然后拖动到您期望的顺序然后松开即可 | 如果你需要调整连续多个机器回复节点回复顺序，您只需要借助回收站功能来调整机器回复节点顺序 | . 两种方式的对话效果图都如下： . 回复节点添加附件 . 如图所示打开回复节点的编辑界面，然后点击附件，按照提示上传附件。 . 上传完成后： . 对话效果图如下，可以直接点击附件进行下载： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/01-create-flow/#%E6%B7%BB%E5%8A%A0%E5%9B%9E%E5%A4%8D%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/01-create-flow/#添加回复节点"
+  },"23": {
+    "doc": "创建对话流图",
+    "title": "完成",
+    "content": "至此，一个最简单的对话流图就完成了。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/01-create-flow/#%E5%AE%8C%E6%88%90",
+    "relUrl": "/docs/zh/tutorial/flow/01-create-flow/#完成"
+  },"24": {
+    "doc": "Create Project",
+    "title": "Create Project",
+    "content": ". The user must first create a project before creating FAQ or conversion flow diagram under the project . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/project/01-create-project/",
+    "relUrl": "/docs/en/tutorial/project/01-create-project/"
+  },"25": {
+    "doc": "Create Project",
+    "title": "Create Project",
+    "content": "After logging in, click the Create Project button in the upper right corner to fill in the project related information in the pop-up dialog box. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/project/01-create-project/",
+    "relUrl": "/docs/en/tutorial/project/01-create-project/"
+  },"26": {
+    "doc": "Create Project",
+    "title": "Fill in relevant information",
+    "content": ". | name：project name | language：language | description：Description information related to the project | welcome：Welcome message sent by the intelligent assistant to the user after the training is released successfully | fallback：The default reply sent to the user when the intelligent assistant cannot recognize the user’s intention | image：Project image displayed in the project list | . ) . Create completed . After successful creation, select the project just created to enter the project overview interface . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/project/01-create-project/#fill-in-relevant-information",
+    "relUrl": "/docs/en/tutorial/project/01-create-project/#fill-in-relevant-information"
+  },"27": {
+    "doc": "创建项目",
+    "title": "创建项目",
+    "content": ". 用户必须先创建一个项目，然后才能在项目下面创建用户问答（FAQ）或对话流图 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/project/01-create-project/",
+    "relUrl": "/docs/zh/tutorial/project/01-create-project/"
+  },"28": {
+    "doc": "创建项目",
+    "title": "创建项目",
+    "content": "登录后点击右上角的创建项目按钮,在弹出的对话框即可填写项目相关信息。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/project/01-create-project/",
+    "relUrl": "/docs/zh/tutorial/project/01-create-project/"
+  },"29": {
+    "doc": "创建项目",
+    "title": "填写相关信息",
+    "content": ". | 名称：项目名称 | 语言：语言 | 描述：项目相关的描述信息 | 欢迎语：训练发布成功后，智能助手发给用户的欢迎语 | 未知问题回复：当智能助手不能识别用户的意图时，发送给用户的默认回复 | 图片：项目列表展示的项目图片 | . ) . 创建完成 . 创建成功后选择刚刚创建的项目即可进入项目概览界面 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/project/01-create-project/#%E5%A1%AB%E5%86%99%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF",
+    "relUrl": "/docs/zh/tutorial/project/01-create-project/#填写相关信息"
+  },"30": {
+    "doc": "Variables - Hot Words",
+    "title": "Variables - Hot Words",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/entity/01-dictionary/",
+    "relUrl": "/docs/en/tutorial/entity/01-dictionary/"
+  },"31": {
+    "doc": "Variables - Hot Words",
+    "title": "{: .no_toc .header }",
+    "content": "When we use variable extraction, sometimes the extracted variable values are words in specific scenarios. In this case, we can add hot words to variables to improve the recognition accuracy. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/entity/01-dictionary/#-no_toc-header-",
+    "relUrl": "/docs/en/tutorial/entity/01-dictionary/#-no_toc-header-"
+  },"32": {
+    "doc": "Variables - Hot Words",
+    "title": "Add hot words to variables",
+    "content": "Here we add hot words to the variable fruit name. The hot words are as follows: . Apple tangerine Banana plum Durian Sugar cane grapefruit strawberry Blueberry Mulberry Peach tomato watermelon . Click the Upload button behind the fruit name, and upload the hot words according to the prompts, with the format reference to clickDownload Sample. After uploading successfully, you can click Details to check which hot words have been uploaded successfully, or you can download backup hot words to local, or do not want to use hot words delete uploaded hot words . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/entity/01-dictionary/#add-hot-words-to-variables",
+    "relUrl": "/docs/en/tutorial/entity/01-dictionary/#add-hot-words-to-variables"
+  },"33": {
+    "doc": "Variables - Hot Words",
+    "title": "Create Flow Diagram",
+    "content": "Here we create a dialog flow diagram Fruit name price query. | Add user input nodes as follows: Note: In order to improve the recognition rate of hot words, at least two hot words need to be marked here | When the fruit name is added and extracted successfully, the machine replies as follows: The webhook settings of the machine reply node are as follows: . | When adding fruit name extraction fails, the machine replies to the following nodes: | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/entity/01-dictionary/#create-flow-diagram",
+    "relUrl": "/docs/en/tutorial/entity/01-dictionary/#create-flow-diagram"
+  },"34": {
+    "doc": "Variables - Hot Words",
+    "title": "Train and verify the effect",
+    "content": "As shown in the figure, the fruit names in our hot words can also be accurately identified and queried. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/entity/01-dictionary/#train-and-verify-the-effect",
+    "relUrl": "/docs/en/tutorial/entity/01-dictionary/#train-and-verify-the-effect"
+  },"35": {
+    "doc": "变量-热词",
+    "title": "变量-热词",
+    "content": ". 当我们使用变量提取的的时候，有时候提取到的变量值是特定场景下的词汇，这种情况下我们可以为变量添加热词， 提高识别准确率。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/entity/01-dictionary/",
+    "relUrl": "/docs/zh/tutorial/entity/01-dictionary/"
+  },"36": {
+    "doc": "变量-热词",
+    "title": "给变量添加热词",
+    "content": "这里我们给变量水果名添加热词，热词内容如下: . 苹果 橘子 香蕉 李子 榴莲 甘蔗 柚子 草莓 蓝莓 桑葚 桃子 番茄 西瓜 . 点击水果名后面的上传按钮，按照提示上传热词，格式参考点击下载样例。 . 上传成功后可以点击详情查看都有哪些热词已上传成功，也可以下载备份热词到本地，或者不想要使用热词删除上传的热词 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/entity/01-dictionary/#%E7%BB%99%E5%8F%98%E9%87%8F%E6%B7%BB%E5%8A%A0%E7%83%AD%E8%AF%8D",
+    "relUrl": "/docs/zh/tutorial/entity/01-dictionary/#给变量添加热词"
+  },"37": {
+    "doc": "变量-热词",
+    "title": "创建流图",
+    "content": "这里我们创建对话流图水果名价格查询。 . | 添加用户输入节点如下： 注意：这里为了提高热词识别率，最少需要标注两个热词 . | 添加水果名提取成功时机器回复节点如下： 机器回复节点的webhook设置如下： . | 添加水果名提取失败时机器回复节点如下： . | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/entity/01-dictionary/#%E5%88%9B%E5%BB%BA%E6%B5%81%E5%9B%BE",
+    "relUrl": "/docs/zh/tutorial/entity/01-dictionary/#创建流图"
+  },"38": {
+    "doc": "变量-热词",
+    "title": "训练并验证效果",
+    "content": "如图所我们之前热词中的水果名也能准确识别并查询到价格。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/entity/01-dictionary/#%E8%AE%AD%E7%BB%83%E5%B9%B6%E9%AA%8C%E8%AF%81%E6%95%88%E6%9E%9C",
+    "relUrl": "/docs/zh/tutorial/entity/01-dictionary/#训练并验证效果"
+  },"39": {
+    "doc": "Favorites",
+    "title": "Favorites",
+    "content": ". Favorites can facilitate you to copy the nodes of the dialog flow graph between different projects . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/favorite/01-favorite/",
+    "relUrl": "/docs/en/tutorial/favorite/01-favorite/"
+  },"40": {
+    "doc": "Favorites",
+    "title": "Favorite single node",
+    "content": "We select Query Weather Flow Chart in the Help Document project, click the Chengdu Weather node, and then select Collect Current Node. At this time, open the Favorites to see that the collection has been successful. Click the Details to see the details of the favorite node . You can also select Favorites -Conversation Flow Diagram on the left to view . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/favorite/01-favorite/#favorite-single-node",
+    "relUrl": "/docs/en/tutorial/favorite/01-favorite/#favorite-single-node"
+  },"41": {
+    "doc": "Favorites",
+    "title": "Collect the current node and its successors",
+    "content": "We select the “Buy fruit” flow chart in the “Help document” project, click the “I want to buy fruit” node, and then select “Collect the current node and its subsequent nodes”. At this time, open the Favorites to see that the collection has been successful. Click the Details to see the details of the favorite node . You can also select Favorites -Conversation Flow Diagram on the left to view . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/favorite/01-favorite/#collect-the-current-node-and-its-successors",
+    "relUrl": "/docs/en/tutorial/favorite/01-favorite/#collect-the-current-node-and-its-successors"
+  },"42": {
+    "doc": "Favorites",
+    "title": "Favorite FAQ",
+    "content": "We choose ` Hello World FAQ in the project, here we choose to collect the first user question Where do you come from?`, Click the favorite icon of Operation . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/favorite/01-favorite/#favorite-faq",
+    "relUrl": "/docs/en/tutorial/favorite/01-favorite/#favorite-faq"
+  },"43": {
+    "doc": "Favorites",
+    "title": "Cancel Favorite Node",
+    "content": "Click the Favorites -Conversation Flow Diagram on the left, select the node you want to cancel the collection, and click the Operation icon to cancel the collection . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/favorite/01-favorite/#cancel-favorite-node",
+    "relUrl": "/docs/en/tutorial/favorite/01-favorite/#cancel-favorite-node"
+  },"44": {
+    "doc": "Favorites",
+    "title": "Cancel Favorite FAQ",
+    "content": "Click the Favorites -Conversation Flow Diagramon the left, select the node you want to cancel the collection, and click the Operation icon to cancel the collection . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/favorite/01-favorite/#cancel-favorite-faq",
+    "relUrl": "/docs/en/tutorial/favorite/01-favorite/#cancel-favorite-faq"
+  },"45": {
+    "doc": "收藏夹",
+    "title": "收藏夹",
+    "content": ". 收藏夹可以方便你在不同的项目之间对对话流图的节点进行复制 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/favorite/01-favorite/",
+    "relUrl": "/docs/zh/tutorial/favorite/01-favorite/"
+  },"46": {
+    "doc": "收藏夹",
+    "title": "收藏单个节点",
+    "content": "我们选择帮助文档项目中的查询天气流图，点击成都天气节点，然后选择收藏当前节点。 . 此时打开收藏夹可以看到已经收藏成功，点击详情可以看到收藏的节点详细信息 . 你也可以选择左侧收藏夹-对话流图查看 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/favorite/01-favorite/#%E6%94%B6%E8%97%8F%E5%8D%95%E4%B8%AA%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/favorite/01-favorite/#收藏单个节点"
+  },"47": {
+    "doc": "收藏夹",
+    "title": "收藏当前节点及其后续",
+    "content": "我们选择帮助文档项目中的购买水果流图，点击我想买水果节点，然后选择收藏当前节点及其后续节点。 . 此时打开收藏夹可以看到已经收藏成功，点击详情可以看到收藏的节点详细信息 . 你也可以选择左侧收藏夹-对话流图查看 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/favorite/01-favorite/#%E6%94%B6%E8%97%8F%E5%BD%93%E5%89%8D%E8%8A%82%E7%82%B9%E5%8F%8A%E5%85%B6%E5%90%8E%E7%BB%AD",
+    "relUrl": "/docs/zh/tutorial/favorite/01-favorite/#收藏当前节点及其后续"
+  },"48": {
+    "doc": "收藏夹",
+    "title": "收藏用户问答（FAQ）",
+    "content": "我们选择Hello World!项目中的用户问答（FAQ），这里我们选择收藏第一个用户提问你来自哪里？，点击操作的收藏图标即可 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/favorite/01-favorite/#%E6%94%B6%E8%97%8F%E7%94%A8%E6%88%B7%E9%97%AE%E7%AD%94faq",
+    "relUrl": "/docs/zh/tutorial/favorite/01-favorite/#收藏用户问答faq"
+  },"49": {
+    "doc": "收藏夹",
+    "title": "取消收藏节点",
+    "content": "点击左侧收藏夹-对话流图，选择你需要取消收藏的节点，点击操作的取消收藏图标即可 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/favorite/01-favorite/#%E5%8F%96%E6%B6%88%E6%94%B6%E8%97%8F%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/favorite/01-favorite/#取消收藏节点"
+  },"50": {
+    "doc": "收藏夹",
+    "title": "取消收藏用户问答（FAQ）",
+    "content": "点击左侧收藏夹-对话流图，选择你需要取消收藏的节点，点击操作的取消收藏图标即可 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/favorite/01-favorite/#%E5%8F%96%E6%B6%88%E6%94%B6%E8%97%8F%E7%94%A8%E6%88%B7%E9%97%AE%E7%AD%94faq",
+    "relUrl": "/docs/zh/tutorial/favorite/01-favorite/#取消收藏用户问答faq"
+  },"51": {
+    "doc": "Conversation flow diagram and user question and answer (FAQ)",
+    "title": "Conversation flow diagram and user question and answer (FAQ)",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow_and_faq/01-flow-and-faq/",
+    "relUrl": "/docs/en/tutorial/flow_and_faq/01-flow-and-faq/"
+  },"52": {
+    "doc": "Conversation flow diagram and user question and answer (FAQ)",
+    "title": "Mixed debugging or release",
+    "content": "User question answering (FAQ) and dialog flow diagram are checked during debugging or publishing, and cross answering is allowed during the dialogue. That is, when entering a flow diagram, the user enters the intention in the user’s question and answer, At this time, the machine corresponding to the intention will reply. We combine a conversation flow diagram with user question and answer (FAQ) training: In the dialogue process, we first conduct flow chart dialogue, and then conduct user question and answer dialogue. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow_and_faq/01-flow-and-faq/#mixed-debugging-or-release",
+    "relUrl": "/docs/en/tutorial/flow_and_faq/01-flow-and-faq/#mixed-debugging-or-release"
+  },"53": {
+    "doc": "对话流图与用户问答（FAQ）",
+    "title": "流程对话与用户问答（FAQ）",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow_and_faq/01-flow-and-faq/#%E6%B5%81%E7%A8%8B%E5%AF%B9%E8%AF%9D%E4%B8%8E%E7%94%A8%E6%88%B7%E9%97%AE%E7%AD%94faq",
+    "relUrl": "/docs/zh/tutorial/flow_and_faq/01-flow-and-faq/#流程对话与用户问答faq"
+  },"54": {
+    "doc": "对话流图与用户问答（FAQ）",
+    "title": "混合调试或发布",
+    "content": "在调试或发布时勾选了用户问答（FAQ）和对话流图，在对话过程中可交叉回答。即：在进入某个流图中，此时用户输入用户问答中的意图， 此时会回复该意图对应的机器回复。 . 我们将一个对话流图与用户问答（FAQ）组合训练: 在对话过程中我们先进行流图对话，再进行用户问答对话。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow_and_faq/01-flow-and-faq/#%E6%B7%B7%E5%90%88%E8%B0%83%E8%AF%95%E6%88%96%E5%8F%91%E5%B8%83",
+    "relUrl": "/docs/zh/tutorial/flow_and_faq/01-flow-and-faq/#混合调试或发布"
+  },"55": {
+    "doc": "对话流图与用户问答（FAQ）",
+    "title": "对话流图与用户问答（FAQ）",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow_and_faq/01-flow-and-faq/",
+    "relUrl": "/docs/zh/tutorial/flow_and_faq/01-flow-and-faq/"
+  },"56": {
+    "doc": "Create Information Collection (Form)",
+    "title": "Concept description",
+    "content": ". For the concept of information form, please refer to Information Formof Concept description . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/form/01-form/#concept-description",
+    "relUrl": "/docs/en/tutorial/form/01-form/#concept-description"
+  },"57": {
+    "doc": "Create Information Collection (Form)",
+    "title": "Use Scenarios",
+    "content": "There are many scenarios for using information forms. For example, users need to know their identity information when booking hotels and their order number when querying orders, Such scenarios are suitable for processing with information forms. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/form/01-form/#use-scenarios",
+    "relUrl": "/docs/en/tutorial/form/01-form/#use-scenarios"
+  },"58": {
+    "doc": "Create Information Collection (Form)",
+    "title": "create form",
+    "content": "Create a conversation flow diagram Buy fruit . New user input node . Create an Information Collection (Form) node . Improve information list (Slots) . | Collect fruit names Click Information Collection List (Slots) Add Information Collection Item Node (a variable node and a machine query node will be added by default), as shown in the figure Here we first click the variable node ({} node is not defined in the figure), add the variable fruit name, and modify the query content of the query node later. Click the query node to add a user input node to extract and collect information. Here we variable name , fruit name, variable value source , entity extraction, At the same time, mark the fruit name of the example sentences entered by the user for correct extraction . | Collect fruit weight Continue to add information collection items - fruit weight, as shown in the figure after completion . | . 3.Collect fruit weight and fruit names When we need to extract ‘fruit names’ and ‘fruit weight’ simultaneously in a user input, Select ** Slots **, add the training example sentence shown in the figure, and extract ‘fruit names’ and ‘fruit weight’ from the training example sentence` . | Process other user requests (Interrupts) If the user wants to exit or ask him for a request during information collection, you can set it here. For example, let’s take Information Collection (Form) as an example, Click Users’ Other Requests and add user input points, as shown in the figure Continue to add the machine reply node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure | . Complete collection succeeded . After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user, and save it in the answer list (refer to Create Answer List） . The complete flow diagram is as follows: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/form/01-form/#create-form",
+    "relUrl": "/docs/en/tutorial/form/01-form/#create-form"
+  },"59": {
+    "doc": "Create Information Collection (Form)",
+    "title": "Training and verification results",
+    "content": "Click Debug Run - Current Module in the upper right corner to wait for the training to complete the verification effect . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/form/01-form/#training-and-verification-results",
+    "relUrl": "/docs/en/tutorial/form/01-form/#training-and-verification-results"
+  },"60": {
+    "doc": "Create Information Collection (Form)",
+    "title": "Create Information Collection (Form)",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/form/01-form/",
+    "relUrl": "/docs/en/tutorial/form/01-form/"
+  },"61": {
+    "doc": "创建信息收集（Form）",
+    "title": "概念说明",
+    "content": ". 信息表单的概念请参照信息表单概念说明 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/form/01-form/#%E6%A6%82%E5%BF%B5%E8%AF%B4%E6%98%8E",
+    "relUrl": "/docs/zh/tutorial/form/01-form/#概念说明"
+  },"62": {
+    "doc": "创建信息收集（Form）",
+    "title": "使用场景",
+    "content": "信息表单的使用场景很多，比如说用户订酒店，订车票的时候需要知道用户的身份信息，查询订单的时候需要知道用户的订单号， 诸如此类的场景，很适合使用信息表单来处理。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/form/01-form/#%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF",
+    "relUrl": "/docs/zh/tutorial/form/01-form/#使用场景"
+  },"63": {
+    "doc": "创建信息收集（Form）",
+    "title": "创建表单",
+    "content": "创建对话流图购买水果 . 新增用户输入节点 . 创建信息收集（Form）节点 . 完善信息列表（Slots） . | 收集水果名 点击信息收集列表（Slots）添加信息收集项节点（默认会添加一个变量节点和一个机器询问节点），如图所示 这里我们先点击变量节点（即图中{}未定义节点），添加变量水果名，修改后面询问节点的询问内容。 点击询问节点，添加用户输入节点，用来提取收集信息。这里我们变量名称选择水果名，变量值来源选择实体提取， 同时对用户输入例句进行水果名标记标记，以便正确提取 . | 收集水果重量 继续添加信息收集项-水果重量,完成后如图所示 . | 收集水果重量和水果名 当我们需要在一句用户输入同时提取水果名和水果重量时， 选择信息列表(Slots)，添加如图所示训练例句，同时在训练例句中提取水果名和水果重量 | 处理用户其他请求（Interrupts） 如果说，信息收集的过程中，用户想要退出或者有请他请求，可以在此处设置。比如这里我们以用户想要退出信息收集（Form）为例 , 点击用户其他请求（Interrupts）然后添加用户输入几点，例句如图所示 继续在后面依次添加机器回复节点和收集中断节点，更加友好处理用户退出，如图所示 | . 完善收集成功 . 收集成功后我们将收集到的信息跟用户确认，我们在收集成功节点后面添加一个机器回复， 跟用户确认订单信息并保存到回答列表（参照创建回答列表） . 完整流图如下： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/form/01-form/#%E5%88%9B%E5%BB%BA%E8%A1%A8%E5%8D%95",
+    "relUrl": "/docs/zh/tutorial/form/01-form/#创建表单"
+  },"64": {
+    "doc": "创建信息收集（Form）",
+    "title": "训练并验证结果",
+    "content": "点解右上角的调试运行-当前模块，等待训练完成验证效果 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/form/01-form/#%E8%AE%AD%E7%BB%83%E5%B9%B6%E9%AA%8C%E8%AF%81%E7%BB%93%E6%9E%9C",
+    "relUrl": "/docs/zh/tutorial/form/01-form/#训练并验证结果"
+  },"65": {
+    "doc": "创建信息收集（Form）",
+    "title": "创建信息收集（Form）",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/form/01-form/",
+    "relUrl": "/docs/zh/tutorial/form/01-form/"
+  },"66": {
+    "doc": "undo/redo",
+    "title": "Effect",
+    "content": ". Sometimes we delete a node or multiple nodes by mistake. If we need to go back to the previous step to restore the node that was deleted by mistake, . This is the usage scenario of undo/redo . The undo/redo in the current version does not support cross device and cross browser . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/redo_undo/01-index/#effect",
+    "relUrl": "/docs/en/tutorial/redo_undo/01-index/#effect"
+  },"67": {
+    "doc": "undo/redo",
+    "title": "Examples",
+    "content": "We prepare the following conversation flow diagram . We delete the last bot reply node as shown in the figure . We click undo to restore the deleted bot to the node . We click Redo to delete the recovered bot recovery node again . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/redo_undo/01-index/#examples",
+    "relUrl": "/docs/en/tutorial/redo_undo/01-index/#examples"
+  },"68": {
+    "doc": "undo/redo",
+    "title": "undo/redo",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/redo_undo/01-index/",
+    "relUrl": "/docs/en/tutorial/redo_undo/01-index/"
+  },"69": {
+    "doc": "撤销/重做",
+    "title": "作用",
+    "content": ". 有时候我们会存在误删除某个节点或者多个节点的情况，如果我们需要回退到上一步操作，恢复误删除的节点， 这就是撤销/重做功能的使用场景。 目前版本撤销/重做功能不支持跨设备跨浏览器 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/redo_undo/01-index/#%E4%BD%9C%E7%94%A8",
+    "relUrl": "/docs/zh/tutorial/redo_undo/01-index/#作用"
+  },"70": {
+    "doc": "撤销/重做",
+    "title": "示例",
+    "content": "我们准备如下对话流图 . 我们删除最后一个机器回复节点如图 这时候我们点击撤销按钮，删除的机器回复节点恢复 我们点击重做按钮，恢复的机器回复节点再次被删除 . 注意：撤销/重做功能我们正在测试试用阶段，建议您尽量少试用，避免您的重要数据丢失 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/redo_undo/01-index/#%E7%A4%BA%E4%BE%8B",
+    "relUrl": "/docs/zh/tutorial/redo_undo/01-index/#示例"
+  },"71": {
+    "doc": "撤销/重做",
+    "title": "撤销/重做",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/redo_undo/01-index/",
+    "relUrl": "/docs/zh/tutorial/redo_undo/01-index/"
+  },"72": {
+    "doc": "Copy Node",
+    "title": "Copy Node",
+    "content": ". Copy Node allows you to quickly copy/paste the same nodes . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/copy/01-paste/",
+    "relUrl": "/docs/en/tutorial/copy/01-paste/"
+  },"73": {
+    "doc": "Copy Node",
+    "title": "Copy Node",
+    "content": "Select ‘Query weather’ flow chart, click the ‘Chengdu weather’ user input node, and select ‘Copy node’ from the pop-up box. You can also use the shortcut key ‘control c’ to copy, . At this time, the node has been successfully copied to the Paste Board, as shown in the figure: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/copy/01-paste/",
+    "relUrl": "/docs/en/tutorial/copy/01-paste/"
+  },"74": {
+    "doc": "Copy Node",
+    "title": "Paste",
+    "content": "Select the Chengdu Weather node of the Paste Board and drag it to the node to be linked. When the + icon appears, release it. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/copy/01-paste/#paste",
+    "relUrl": "/docs/en/tutorial/copy/01-paste/#paste"
+  },"75": {
+    "doc": "复制节点",
+    "title": "复制节点",
+    "content": ". 复制节点可以方便你快速复制/粘贴相同的节点 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/copy/01-paste/",
+    "relUrl": "/docs/zh/tutorial/copy/01-paste/"
+  },"76": {
+    "doc": "复制节点",
+    "title": "复制节点",
+    "content": "选择查询天气流图，点击成都天气用户输入节点，从弹出框选择复制节点，你也可以使用快捷键control c复制， 此时节点已成功复制到粘贴板，如图所示： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/copy/01-paste/",
+    "relUrl": "/docs/zh/tutorial/copy/01-paste/"
+  },"77": {
+    "doc": "复制节点",
+    "title": "粘贴",
+    "content": "选中粘贴板的成都天气节点然后拖动到需要链接的节点上，当出现+图标的时候松开即可。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/copy/01-paste/#%E7%B2%98%E8%B4%B4",
+    "relUrl": "/docs/zh/tutorial/copy/01-paste/#粘贴"
+  },"78": {
+    "doc": "Synonyms",
+    "title": "Synonyms",
+    "content": ". 使用同义词可以将同义词替换成原始词 . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/synonym/01-synonym/",
+    "relUrl": "/docs/en/tutorial/synonym/01-synonym/"
+  },"79": {
+    "doc": "Synonyms",
+    "title": "Add Synonyms",
+    "content": "Select Project View - Synonyms in the left menu bar, click the Add button in the upper right corner to add a synonym, and save after editing, as shown in the figure . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/synonym/01-synonym/#add-synonyms",
+    "relUrl": "/docs/en/tutorial/synonym/01-synonym/#add-synonyms"
+  },"80": {
+    "doc": "Synonyms",
+    "title": "Use synonyms in flow diagrams",
+    "content": "Select the ‘query weather’ flow chart and edit the ‘Chengdu weather’ user input node. Here we add synonyms to the training statement, as shown in the figure . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/synonym/01-synonym/#use-synonyms-in-flow-diagrams",
+    "relUrl": "/docs/en/tutorial/synonym/01-synonym/#use-synonyms-in-flow-diagrams"
+  },"81": {
+    "doc": "Synonyms",
+    "title": "Finish",
+    "content": "The complete flow diagram is shown in the figure, and then click Debug Run： . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/synonym/01-synonym/#finish",
+    "relUrl": "/docs/en/tutorial/synonym/01-synonym/#finish"
+  },"82": {
+    "doc": "Synonyms",
+    "title": "Verification",
+    "content": "As shown in the figure, synonyms of ‘Chengdu’ have been successfully replaced . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/synonym/01-synonym/#verification",
+    "relUrl": "/docs/en/tutorial/synonym/01-synonym/#verification"
+  },"83": {
+    "doc": "同义词",
+    "title": "同义词",
+    "content": ". 使用同义词可以将同义词替换成原始词 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/synonym/01-synonym/",
+    "relUrl": "/docs/zh/tutorial/synonym/01-synonym/"
+  },"84": {
+    "doc": "同义词",
+    "title": "添加同义词",
+    "content": "选择左侧菜单栏项目视图-同义词，点击右上角的新增同义词按钮添加同义词，编辑完成后保存，如图所示 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/synonym/01-synonym/#%E6%B7%BB%E5%8A%A0%E5%90%8C%E4%B9%89%E8%AF%8D",
+    "relUrl": "/docs/zh/tutorial/synonym/01-synonym/#添加同义词"
+  },"85": {
+    "doc": "同义词",
+    "title": "在流图中使用同义词",
+    "content": "选择查询天气流图，编辑成都天气用户输入节点，这里我们把同义词添加到训练语句，如图所示 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/synonym/01-synonym/#%E5%9C%A8%E6%B5%81%E5%9B%BE%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%90%8C%E4%B9%89%E8%AF%8D",
+    "relUrl": "/docs/zh/tutorial/synonym/01-synonym/#在流图中使用同义词"
+  },"86": {
+    "doc": "同义词",
+    "title": "创建完成",
+    "content": "完整流图如图所示，然后点击调试运行： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/synonym/01-synonym/#%E5%88%9B%E5%BB%BA%E5%AE%8C%E6%88%90",
+    "relUrl": "/docs/zh/tutorial/synonym/01-synonym/#创建完成"
+  },"87": {
+    "doc": "同义词",
+    "title": "验证",
+    "content": "如图所示，成都市的同义词都已被成功替换 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/synonym/01-synonym/#%E9%AA%8C%E8%AF%81",
+    "relUrl": "/docs/zh/tutorial/synonym/01-synonym/#验证"
+  },"88": {
+    "doc": "trash",
+    "title": "Effect",
+    "content": ". When we delete one or more nodes in the flow graph, but may use them later, we can move them to the recycle bin first, . Drag to the required node when necessary . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#effect",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#effect"
+  },"89": {
+    "doc": "trash",
+    "title": "Supported node types for moving to the trash",
+    "content": ". | user | bot | Form | Form-Field | Interrupts | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#supported-node-types-for-moving-to-the-trash",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#supported-node-types-for-moving-to-the-trash"
+  },"90": {
+    "doc": "trash",
+    "title": "Moving to the trash",
+    "content": "The node that supports moving to the recycle bin has a move trash button after clicking. Click OK in the pop-up window to move to trash . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#moving-to-the-trash",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#moving-to-the-trash"
+  },"91": {
+    "doc": "trash",
+    "title": "Recover node from trash",
+    "content": ". | Select 好的 bot node in the trash and drag it to the node to be linked. When the + icon appears, release it. The recover node will be used as a child node behind the node you dragged to ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#recover-node-from-trash",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#recover-node-from-trash"
+  },"92": {
+    "doc": "trash",
+    "title": "Remove from trash",
+    "content": "Click the trash icon, and then select the node to be deleted in the trash operation window and click Delete. As shown in the figure . | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#remove-from-trash",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#remove-from-trash"
+  },"93": {
+    "doc": "trash",
+    "title": "Insert node using trash",
+    "content": ". | The preparation is shown in the lower flow chart. We add a user input node between the bot reply nodes | Move the later 好的 bot node to the trash | Add new user input node | Select the 好的 bot node in the trash and drag it to the user input node just created. When the + icon appears, release it | Finish ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#insert-node-using-trash",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#insert-node-using-trash"
+  },"94": {
+    "doc": "trash",
+    "title": "Delete intermediate nodes using the trash",
+    "content": "| The preparation is shown in the lower flow diagram. We use the trash to delete the user input node between the two bot reply nodes . | Move the later 好的 bot node to the trash . | Delete user input node我叫小明 . | Select the 好的 bot reply node in the trash and drag it to the bot reply node 您好，请问你怎么称呼？, Release the + icon when it appears | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/#delete-intermediate-nodes-using-the-trash",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/#delete-intermediate-nodes-using-the-trash"
+  },"95": {
+    "doc": "trash",
+    "title": "trash",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/trash/01-trash/",
+    "relUrl": "/docs/en/tutorial/trash/01-trash/"
+  },"96": {
+    "doc": "回收站",
+    "title": "作用",
+    "content": ". 当我们删除流图中某个/多个节点的时候，但是可能后面还会用到他，这时我们就可以先把它移动到回收站， 需要使用的时候然后拖动到需要的节点 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E4%BD%9C%E7%94%A8",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#作用"
+  },"97": {
+    "doc": "回收站",
+    "title": "支持的移动到回收站的节点类型",
+    "content": ". | 用户输入 | 机器回复 | 用户选项 | 信息收集（Form） | 信息收集项 | 用户其他请求（Interrupts） | 信息收集（Form）中的反问节点 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E6%94%AF%E6%8C%81%E7%9A%84%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%9B%9E%E6%94%B6%E7%AB%99%E7%9A%84%E8%8A%82%E7%82%B9%E7%B1%BB%E5%9E%8B",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#支持的移动到回收站的节点类型"
+  },"98": {
+    "doc": "回收站",
+    "title": "移动到回收站",
+    "content": "支持移动到回收站的节点点击后有置回收站按钮，弹出窗口点击确定即可移动到回收站 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%9B%9E%E6%94%B6%E7%AB%99",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#移动到回收站"
+  },"99": {
+    "doc": "回收站",
+    "title": "从回收站恢复节点",
+    "content": ". | 选中回收站的好的机器回复节点然后拖动到需要链接的节点上，当出现+图标的时候松开即可。 恢复的节点会作为拖动到的节点后的一个子节点 ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E4%BB%8E%E5%9B%9E%E6%94%B6%E7%AB%99%E6%81%A2%E5%A4%8D%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#从回收站恢复节点"
+  },"100": {
+    "doc": "回收站",
+    "title": "从回收站删除",
+    "content": "点击回收站图标，然后在回收站操作窗口选择需要删除的节点点击删除即可。如图所示 . | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E4%BB%8E%E5%9B%9E%E6%94%B6%E7%AB%99%E5%88%A0%E9%99%A4",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#从回收站删除"
+  },"101": {
+    "doc": "回收站",
+    "title": "使用回收站插入节点",
+    "content": ". | 准备如下流图，我们在两个机器回复节点中间添加一个用户输入节点 | 后面这个好的机器回复节点移动到回收站 | 添加一个用户输入节点 | 选中回收站的好的机器回复节点然后拖动到刚刚创建的用户输入节点，当出现+图标的时候松开即可 | 完成 ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E4%BD%BF%E7%94%A8%E5%9B%9E%E6%94%B6%E7%AB%99%E6%8F%92%E5%85%A5%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#使用回收站插入节点"
+  },"102": {
+    "doc": "回收站",
+    "title": "使用回收站删除中间节点",
+    "content": "| 准备如下流图，我们利用回收站删除在两个机器回复节点中间的用户输入节点 . | 将后面这个好的机器回复节点移动到回收站 . | 删除我叫小明这个用户输入节点 . | 选中回收站的好的机器回复节点然后拖动到机器回复节点您好，请问你怎么称呼？，当出现+图标的时候松开即可 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/#%E4%BD%BF%E7%94%A8%E5%9B%9E%E6%94%B6%E7%AB%99%E5%88%A0%E9%99%A4%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/#使用回收站删除中间节点"
+  },"103": {
+    "doc": "回收站",
+    "title": "回收站",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/trash/01-trash/",
+    "relUrl": "/docs/zh/tutorial/trash/01-trash/"
+  },"104": {
+    "doc": "Concept description of webhook",
+    "title": "Webhook",
+    "content": ". Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules. Learn about the relevant concepts in our system webhook through the following concept descriptions. | HTTP GET Request brief introduction | Introduction to the concept of webhook editing page | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/01-webhook/#webhook",
+    "relUrl": "/docs/en/tutorial/webhook/01-webhook/#webhook"
+  },"105": {
+    "doc": "Concept description of webhook",
+    "title": "HTTP GET Request brief introduction",
+    "content": ". | The URL is what we normally input in the address bar when we open Baidu: https://www.baidu.com, as shown in the following figure. This is the simplest URL address and opens Baidu’s homepage | Look at a slightly more complicated URL. Enter Shanghai Youyou Blog Park in the Baidu input box | Check the URL address bar. Compared with the previous Baidu homepage URL, there are many more parameters. Of course, the most important parameter is: wd=Shanghai Youyou Blog Park (the following string can be temporarily ignored). | The question is, what are the functions of these parameters? A simple comparison can be made by entering: . | https://www.baidu.com ; | https://www.baidu.com/s?wd=Shanghai Youyou What’s the difference between the opened pages? Now you know the role. That is to say, the /s? Wd=Shanghai Youyou Blog Park is the search result page | . | The basic format of a complete URL address is as follows: . https://host:port/path?xxx=aaa&amp;ooo=bbb --http/https: This is the protocol type --host: IP address or domain name of the server --port: The default port of the HTTP server is 80. In this case, the port number can be omitted.If other ports are used, it must be specified, for example: 192.168.3.111:8080, where 8080 is the port --path: Path to access resources, as shown in Figure 2/s (In Figure 2, the path and request parameters are put together) --?: In the URL? This symbol is a split line, which is used to distinguish the path in front of the question mark and the parameter behind the question mark --url-params: After the question mark is the request parameter, format: xxx=aaa, as shown in Figure 2, the area is the request parameter --&amp;: Multiple parameters are connected with the &amp; symbol . | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/01-webhook/#http-get-request-brief-introduction",
+    "relUrl": "/docs/en/tutorial/webhook/01-webhook/#http-get-request-brief-introduction"
+  },"106": {
+    "doc": "Concept description of webhook",
+    "title": "Introduction to the concept of webhook editing page",
+    "content": "Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules. | name When creating a new webhook, we can give each one a name related to the webhook function, which is easy to distinguish when referring to a flow | URL The url here has the same meaning as the http url mentioned above, which can be understood with reference to the above. Please pay attention to the ‘http/https’ protocol when filling in here. In addition, the URL address also supports variable transmission. When calling the hit webhook, the corresponding variable placeholder will be replaced with the variable value. As shown in the figure, if we define a variable city in the flow diagram, we need to use {city} to transfer when configuring here app.promptai.cn/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&amp;city={city} | Request Settings - Request Method The request method represents the http request method, which currently supports: get、post、put、delete | Request Settings - Request Header The request header represents the http request header, which can be added here when the external interface needs a specific request header | Request Settings - Data Format The data format represents the data format of the request body.。 . | None:Indicates that the request body has no | Form Data Format:application/x-www-form-urlencoded， | JSON Data Format:application/json， | Text Data Format:text/plain | . | Response Settings - Response Processing . | Ignore Response: It means that the data returned by the interface will not be processed after the interface is requested | Ignore the status code: Ignore the http status code returned by the interface | Original response: directly display the content returned by the interface without any processing | User defined Processing: User defined variables to extract, splice and assemble the returned data. | . | Response Settings - Parse Response After the user-defined processing is selected, the data returned by the interface can be parsed by defining variables For example, the data format returned here is as follows { \"lives\": [ { \"province\": \"四川\", \"city\": \"成都市\", \"adcode\": \"510100\", \"weather\": \"多云\", \"temperature\": \"19\" } ], \"info\": \"OK\" } . We can define two variables through the following diagram: weather、temperature to extract and query the temperature and weather of the city. | Response Settings - Response Success When the response is successful, we can extract the response data, or we can not process it or display it according to the original response content. The previously extracted variables are also supported here, as shown in the figure: . | Response Settings - Response Failed The reply content after the response fails | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/01-webhook/#introduction-to-the-concept-of-webhook-editing-page",
+    "relUrl": "/docs/en/tutorial/webhook/01-webhook/#introduction-to-the-concept-of-webhook-editing-page"
+  },"107": {
+    "doc": "Concept description of webhook",
+    "title": "Concept description of webhook",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/01-webhook/",
+    "relUrl": "/docs/en/tutorial/webhook/01-webhook/"
+  },"108": {
+    "doc": "webhook概念说明",
+    "title": "Webhook",
+    "content": ". 通过 webhook，我们可以在特定的步骤跟外部接口（API）交互。将收集到的输入信息通过 webhook 的方式提交到 API 并且按照自定义的规则展示 Api 的处理结果。 通过下面的几个概念说明，了解我们系统 webhook 中的相关概念。 . | HTTP GET 请求简单介绍 | webhook 编辑页面概念介绍 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/01-webhook/#webhook",
+    "relUrl": "/docs/zh/tutorial/webhook/01-webhook/#webhook"
+  },"109": {
+    "doc": "webhook概念说明",
+    "title": "HTTP GET 请求简单介绍",
+    "content": ". | url 就是我们平常打开百度在地址栏输入的：https://www.baidu.com,如下图，这个是最简单的url地址，打开的是百度的主页 | 再看一个稍微复杂一点的 url，在百度输入框输入：上海悠悠博客园 | 查看 url 地址栏，对比之前的百度首页 url 地址，后面多了很多参数。当然最主要的参数是:wd=上海悠悠博客园（后面的一大串可以暂时忽略）。 . | 那么问题来了，这些参数有什么作用呢？可以做个简单的对比，在地址栏分别输入： . | https://www.baidu.com ; | https://www.baidu.com/s?wd=上海悠悠博客园 对比打开的页面有什么不一样，现在知道作用了吧，也就是说这个多的”/s？wd=上海悠悠博客园”就是搜索的结果页面 | . | 那么一个完整的 url 地址，基本格式如下： . https://host:port/path?xxx=aaa&amp;ooo=bbb --http/https：这个是协议类型，如图中1所示 --host:服务器的IP地址或者域名，如图中2所示 --port:HTTP服务器的默认端口是80，这种情况下端口号可以省略。 如果使用了别的端口，必须指明，例如：192.168.3.111:8080，这里的8080就是端口 --path:访问资源的路径,如图中3所示/s (图中3是把path和请求参数放一起了) --？:url里面的？这个符号是个分割线，用来区分问号前面的是path，问号后面的是参数 --url-params:问号后面的是请求参数，格式：xxx=aaa，如图4区域就是请求参数 --&amp;：多个参数用&amp;符号连接 . | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/01-webhook/#http-get-%E8%AF%B7%E6%B1%82%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D",
+    "relUrl": "/docs/zh/tutorial/webhook/01-webhook/#http-get-请求简单介绍"
+  },"110": {
+    "doc": "webhook概念说明",
+    "title": "webhook 编辑页面概念介绍",
+    "content": "通过 webhook，我们可以在特定的步骤跟外部接口（API）交互。 将收集到的输入信息通过 webhook 的方式提交到 API 并且按照自定义的规则展示 Api 的处理结果。 . | 名称 我们新建 webhook 的时候可以给每一个取一个跟 webhook 功能相关的名称，方便在 flow 引用的时候区分 | URL 此处的 url 跟上文提到的 http url 是同一个意思，可以参照上文理解。此处填写的时候需要注意区分选择http/https协议。 另外 URL 地址还支持变量传递，调用命中的 webhook 的时候，就会把相应的变量占位符替换成变量的值。 如图所示，假如流图中我们定义了一个变量 city，这里配置的时候就需要用{city}进行传递 app.promptai.cn/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&amp;city={city} . | 请求设置-请求方法 请求方法表示 http 请求方法，目前支持的有 get、post、put、delete | 请求设置-请求标头 请求标头表示 http 请求 header，当外部接口需要特定请求头的时候可以在此处添加 | 请求设置-数据格式 数据格式表示请求体的数据格式。 . | 无数据格式-表示请求体没有 | 表单格式-application/x-www-form-urlencoded， | JSON 数据格式-application/json， 文本数据格式-text/plain | . | 响应设置-响应处理 . | 忽略响应-表示请求接口后对接口返回数据不做任何处理 | 忽略状态码-忽略接口返回的 http 状态码 | 原始响应-直接展示接口返回的内容，不做任何的处理 | 自定义处理-自定义变量，对返回的数据进行提取并拼接组装。 | . | 响应设置-解析响应 当选择自定义处理后，可以通过定义变量，解析接口返回的数据 比如说这里我们返回的数据格式如下 { \"lives\": [ { \"province\": \"四川\", \"city\": \"成都市\", \"adcode\": \"510100\", \"weather\": \"多云\", \"temperature\": \"19\" } ], \"info\": \"OK\" } . 我们可以通过如下图示定义两个变量：weather,temperature 提取查询城市的温度跟天气。 . | 响应设置-请求响应成功时 当响应成功时，我们可以对响应的数据进行提取，也可以不处理或者按照响应内容原文展示。此处也支持前面提取到的变量使用，如图所示： . | 响应设置-请求响应失败时 响应失败后回复的内容 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/01-webhook/#webhook-%E7%BC%96%E8%BE%91%E9%A1%B5%E9%9D%A2%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D",
+    "relUrl": "/docs/zh/tutorial/webhook/01-webhook/#webhook-编辑页面概念介绍"
+  },"111": {
+    "doc": "webhook概念说明",
+    "title": "webhook概念说明",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/01-webhook/",
+    "relUrl": "/docs/zh/tutorial/webhook/01-webhook/"
+  },"112": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "Create a complex dialog flow diagram",
+    "content": ". This tutorial will guide you to create a complex dialog flow diagram, which will contain the following node types: . | User input node without variables | User input node with variables | User Options Node | Webhook node | Information Collection (Form) Node | The Form node contains the Break node | User input node with intention template | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/"
+  },"113": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "User input node without variables",
+    "content": "Create a user input node as shown in. After filling in the relevant information, the switch behind * * Need to extract variables * * remains closed. Click Save in the upper right corner. Users without variables click the node to complete the creation. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#user-input-node-without-variables",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#user-input-node-without-variables"
+  },"114": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "User input node with variables",
+    "content": "As shown in the figure, select the user input node, and then edit it as shown in the figure. Turn on the Need to Extract Variables switch, and then select the variable name to extract (if not, click the plus sign under the switch to create) Select the extracted value of the variable for annotation in the expected user input and more training examples. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#user-input-node-with-variables",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#user-input-node-with-variables"
+  },"115": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "User Options Node",
+    "content": "As shown in the figure, select the Create User Options node, fill in the relevant information in the pop-up box, and click Save in the upper right corner to complete the creation of the user options node. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#user-options-node",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#user-options-node"
+  },"116": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "Webhook node",
+    "content": "First, click the Project View - Webhooks on the left to enter the Webhooks management interface, and then click Add on the top right to create a new Webhook. Here we take a get interface as an example. The new webhook is shown in the following figure: . After the webhook is created, we return to the dialog flow graph editing page just now and select the machine reply node under the user input node (if not, create one) to extract the fruit name variable created previously. Here we need to delete the default reply, create a webhook reply, and click Save . Dialogue effect picture: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#webhook-node",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#webhook-node"
+  },"117": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "Information Collection (Form) Node",
+    "content": "As shown in the figure, select the Create Information Collection (From) node, fill in the relevant information from the pop-up box, and click OK. Click the information list (Slots), select Information Collection Item, and select the variable name to be collected from the pop-up window. If the variable name in the pop-up window is empty, you can click the Add button on the right to add variables . Edit the missing query after the variable extraction node, and continue to add user input nodes after completion. At this time, the variable value source is entity extraction, and then labeled as shown in the figure. Click Other User Requests under Information Collection (Form), and then create and improve The user enters the node, and then continues to click the created user input node to create the * * Information Collection Interruption * * node, as shown in the figure after creation: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#information-collection-form-node",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#information-collection-form-node"
+  },"118": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "User input node with intention template",
+    "content": "Select a user node, click Save to Intent List, set the template name from the pop-up box, and then save. As shown in the figure: . Select the user node, click Select from Template, select the required template from the pop-up box, and then save. As shown in the figure: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#user-input-node-with-intention-template",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#user-input-node-with-intention-template"
+  },"119": {
+    "doc": "Create a complex dialog flow diagram",
+    "title": "Finish creating",
+    "content": "At this point, a dialog flow diagram containing various types is created, and you can start training. The preview of the whole session branch is shown in the figure: . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/02-create-complex-flow/#finish-creating",
+    "relUrl": "/docs/en/tutorial/flow/02-create-complex-flow/#finish-creating"
+  },"120": {
+    "doc": "创建复杂对话流图",
+    "title": "创建复杂对话流图",
+    "content": ". 此教程将引导您创建一个复杂的对话流图，对话流图将包含以下节点类型： . | 不带变量的用户输入节点 | 带变量的用户输入节点 | 用户选项节点 | webhook 节点 | 信息收集（Form）节点 | 信息收集（Form）节点包含 Break 节点 | 带意图模板的用户输入节点 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/"
+  },"121": {
+    "doc": "创建复杂对话流图",
+    "title": "不带变量的用户输入节点",
+    "content": "如所示创建一个用户输入节点，填写好相关信息后，是否需要提取变量后面的开关保持关闭，点击右上角保存，不带变量的用户点击节点即创建完成。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#%E4%B8%8D%E5%B8%A6%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#不带变量的用户输入节点"
+  },"122": {
+    "doc": "创建复杂对话流图",
+    "title": "带变量的用户输入节点",
+    "content": "如图所示，选择用户输入节点，然后按照图示编辑。打开是否需要提取变量开关，然后选择需要提取的变量名（如果没有则点击开关下的加号创建） 在期待用户输入跟更多训练例句中选择变量的提取值进行标注。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#%E5%B8%A6%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#带变量的用户输入节点"
+  },"123": {
+    "doc": "创建复杂对话流图",
+    "title": "用户选项节点",
+    "content": "如图所示，选择创建用户选项节点,然后从弹出框填写好相关信息后，点击右上角保存，用户选项节点即创建完成。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#%E7%94%A8%E6%88%B7%E9%80%89%E9%A1%B9%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#用户选项节点"
+  },"124": {
+    "doc": "创建复杂对话流图",
+    "title": "webhook 节点",
+    "content": "首先点击左侧项目视图-Webhooks，进入 Webhooks 管理界面，然后点击右上方的新增创建一个新的 Webhook。 . 这里我们以一个 get 接口为例，新建的 webhook 如下图所示： . webhook 创建完成后，我们回到刚刚的对话流图编辑页面，选择之前创建的提取水果名变量的用户输入节点下机器回复节点（如果没有则创建一个）。 这里我们需要删除默认的回复，然后创建一个 webhook 回复，然后点击保存 . 对话效果图： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#webhook-%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#webhook-节点"
+  },"125": {
+    "doc": "创建复杂对话流图",
+    "title": "信息收集（Form）节点",
+    "content": "如图所示，选择创建信息收集(From)节点,然后从弹出框填写好相关信息后，点击确定。 . 点击信息列表（Slots）,选择信息收集项，从弹出的窗口选择需要收集的变量名称。 . 如果弹出的窗口变量名为空，此时可以点击右侧的添加按钮,添加变量 . 编辑变量提取节点后的缺失询问，完成后继续添加用户输入节点。此时变量值来源选择实体提取，然后按照图示进行标注。 . 点击信息收集（Form）下的用户其它请求（Interrupts）,然后创建并完善 用户输入节点，然后继续点击创建的用户输入节点，创建信息收集中断节点，创建完成后如图所示： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86form%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#信息收集form节点"
+  },"126": {
+    "doc": "创建复杂对话流图",
+    "title": "带意图模板的用户输入节点",
+    "content": "选择用户节点，点击保存到意图列表，从弹出框设置模板名，然后保存。如图所示： . 选择用户节点，点击从模板中选取，从弹出框选择需要的模板，然后保存。如图所示： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#%E5%B8%A6%E6%84%8F%E5%9B%BE%E6%A8%A1%E6%9D%BF%E7%9A%84%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E8%8A%82%E7%82%B9",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#带意图模板的用户输入节点"
+  },"127": {
+    "doc": "创建复杂对话流图",
+    "title": "完成创建",
+    "content": "至此，一个包含各种类型的对话流图就创建完成了，接下来就可以开始训练。整个会话分支预览如图所示： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/02-create-complex-flow/#%E5%AE%8C%E6%88%90%E5%88%9B%E5%BB%BA",
+    "relUrl": "/docs/zh/tutorial/flow/02-create-complex-flow/#完成创建"
+  },"128": {
+    "doc": "Project Overview",
+    "title": "Project Overview",
+    "content": ". The user can overview the overview information of the selected project in this interface, and can also quickly edit the project details from this interface to jump to the user question and answer (FAQ) and session branch. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/project/02-overview-project/",
+    "relUrl": "/docs/en/tutorial/project/02-overview-project/"
+  },"129": {
+    "doc": "Project Overview",
+    "title": "Edit Project",
+    "content": "Click the current project XXX in the overview map, and continue to click the pop-up editing node to quickly edit the project information. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/project/02-overview-project/#edit-project",
+    "relUrl": "/docs/en/tutorial/project/02-overview-project/#edit-project"
+  },"130": {
+    "doc": "Project Overview",
+    "title": "Shortcut Jump/Edit",
+    "content": ". | Click the FAQ in the overview map, and continue to click the pop-up View Details to jump to FAQ homepage. | . | Click the Planned View Process sub node under the dialog flow diagram in the overview diagram, and continue to click the pop-up View Details to jump to the dialog flow diagram home page you selected. | . | Click the dialog flow diagram in the overview diagram, and continue to click the pop-up editing node, where you can edit the dialog flow diagram branch prompt. | . | When the user checks All after child present as button , after publishing the project, all dialogue processes under the project will be displayed with buttons under the branch prompt. Check Check only | . After the project is published, the dialog process in which only the Branch Prompt Branch Option is enabled under the project will be displayed with the button below the branch prompt. Check No . After the project is published, all the dialog processes of the project will not be displayed with buttons under the branch prompt. | Click the default reply of the overview map: XXX. Continue to click the pop-up editing node, where you can edit the fallback reply prompt of the project. | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/project/02-overview-project/#shortcut-jumpedit",
+    "relUrl": "/docs/en/tutorial/project/02-overview-project/#shortcut-jumpedit"
+  },"131": {
+    "doc": "项目概览",
+    "title": "项目概览",
+    "content": ". 用户在此界面可以总览所选项目概览信息，同时也可以从此界面快捷编辑项目详情，跳转到用户问答（FAQ），会话分支。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/project/02-overview-project/",
+    "relUrl": "/docs/zh/tutorial/project/02-overview-project/"
+  },"132": {
+    "doc": "项目概览",
+    "title": "编辑项目信息",
+    "content": "点击概览图的当前项目 XXX,继续点击弹出的编辑节点，即可快捷编辑项目信息。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/project/02-overview-project/#%E7%BC%96%E8%BE%91%E9%A1%B9%E7%9B%AE%E4%BF%A1%E6%81%AF",
+    "relUrl": "/docs/zh/tutorial/project/02-overview-project/#编辑项目信息"
+  },"133": {
+    "doc": "项目概览",
+    "title": "快捷跳转/编辑",
+    "content": ". | 点击概览图的用户问答（FAQ）,继续点击弹出的查看详情，即可跳转到用户问答（FAQ）主页。 | . | 点击概览图的对话流图下的打算查看流程子节点,继续点击弹出的查看详情，即可跳转到您所选的对话流图主页。 | . | 点击概览图的对话流图,继续点击弹出的编辑节点，此处可以编辑对话流图分支提示语。 | . | 当用户此处勾选下级是否作为选项呈现后的全部，发布项目后，项目下所有的对话流程会在分支提示语下面以用按钮呈现。勾选仅选中 ，发布项目后该项目下仅开启分支提示分支选项的对话流程会在分支提示语下面以用按钮呈现。勾选否 ，发布项目后该项目所有的对话流程都不会在分支提示语下面以用按钮呈现。 | . | 点击概览图的默认回复：XXX,继续点击弹出的编辑节点，此处可以编辑项目的未知回复提示语。 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/project/02-overview-project/#%E5%BF%AB%E6%8D%B7%E8%B7%B3%E8%BD%AC%E7%BC%96%E8%BE%91",
+    "relUrl": "/docs/zh/tutorial/project/02-overview-project/#快捷跳转编辑"
+  },"134": {
+    "doc": "Examples of webhook",
+    "title": "Webhook",
+    "content": ". Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules. Through the following examples, you can quickly understand the use of webhook. | Get weather information through get request | Submit information through post request | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/02-webhook/#webhook",
+    "relUrl": "/docs/en/tutorial/webhook/02-webhook/#webhook"
+  },"135": {
+    "doc": "Examples of webhook",
+    "title": "Get weather information through get request",
+    "content": ". | Here we have prepared the interface for querying weather: . url:https://app.promptai.cnF/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&amp;city=xxxx . Request header:Authorization=9f480349b1474c8a9f0d48c80e8e9ca8 . Request parameters:key=c4f69dbbd66cfc7f4e49310fea69dff1,city=any city . | The following figure shows the weather information of Chengdu obtained through Postman： . | Create a webhook as shown below, and submit it for saving after creation attention：the variable city is used in the URL and is enclosed in {}, representing that the city is a variable in the conversation flow graph | Follow these steps to create a conversation flow diagram . | Create Conversation Flow Graph | Create user node attention：The variable city here must be the same as the variable name referenced by {} in the URL in webhook . | Create bot node | . | Create Complete and Train | After the training, start to verify whether the webhook is effective. It can be seen from the figure that variables can be correctly extracted and weather information can be obtained through webhook | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/02-webhook/#get-weather-information-through-get-request",
+    "relUrl": "/docs/en/tutorial/webhook/02-webhook/#get-weather-information-through-get-request"
+  },"136": {
+    "doc": "Examples of webhook",
+    "title": "Submit information through post request",
+    "content": ". | Here we have prepared a post interface, which will reassemble the request body and request parameters and return them . url:https://www.fastmock.site/mock/e7ed910a1b72aa375762495523e5f325/webhook/api/facke?address=some address . request header：none . request body： . { \"name\":\"goobai\", \"age\":12 } . | The following figure shows the information returned through the postman： | Create a webhook as shown below, and submit it for saving after creation . attention：Here, the URL uses the variable address, and the body uses the variables name and age, all of which need to be enclosed in {} . | Follow these steps to create a conversation flow diagram . | Create conversation flow . | Create bot node . | Create the user node and extract the variable address | Create bot node . | Create the user node and extract the variable name | Create bot node . | Create the user node and extract the variable age | Create bot node and select the webhook of collection age, name and address | . | Create Complete and Train | After the training, start to verify whether the webhook is effective. It can be seen from the figure that variables can be correctly extracted and webhook can be successfully called Correctly extract the returned information from the interface. | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/02-webhook/#submit-information-through-post-request",
+    "relUrl": "/docs/en/tutorial/webhook/02-webhook/#submit-information-through-post-request"
+  },"137": {
+    "doc": "Examples of webhook",
+    "title": "Examples of webhook",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/webhook/02-webhook/",
+    "relUrl": "/docs/en/tutorial/webhook/02-webhook/"
+  },"138": {
+    "doc": "webhook示例",
+    "title": "Webhook",
+    "content": ". 通过webhook，我们可以在特定的步骤跟外部接口（API）交互。将收集到的输入信息通过webhook的方式提交到API并且按照自定义的规则展示Api的处理结果。 通过下面几个示例，让你快速了解webhook的使用。 . | 通过get请求获取指定城市天气 | 通过post请求提交信息 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/02-webhook/#webhook",
+    "relUrl": "/docs/zh/tutorial/webhook/02-webhook/#webhook"
+  },"139": {
+    "doc": "webhook示例",
+    "title": "通过get请求获取天气信息F",
+    "content": ". | 这里我们已经准备好了查询天气的接口: . url:https://app.promptai.cnF/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&amp;city=xxxx . http请求头:Authorization=9f480349b1474c8a9f0d48c80e8e9ca8 . 请求参数:key=c4f69dbbd66cfc7f4e49310fea69dff1,city=你要查询的城市 . | 下图是通过postman获取成都的天气信息： . | 按照下面的图示，创建webhook，创建完成后提交保存 注意：这里URL中用到了变量city,并且用{}括起来，代表这个city是会话流图中的变量 | 按照如下步骤创建流图 . | 创建会话流图 | 创建user节点 注意：这里的变量名（city）必须与webhook中URL中{}引用的变量名一样 . | 创建bot节点 | . | 创建完成并训练 | 训练完成后开始验证webhook是否生效。从图示可以看出，可以正确提取到变量并通过webhook获取到天气信息 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/02-webhook/#%E9%80%9A%E8%BF%87get%E8%AF%B7%E6%B1%82%E8%8E%B7%E5%8F%96%E5%A4%A9%E6%B0%94%E4%BF%A1%E6%81%AFf",
+    "relUrl": "/docs/zh/tutorial/webhook/02-webhook/#通过get请求获取天气信息f"
+  },"140": {
+    "doc": "webhook示例",
+    "title": "通过post请求提交信息",
+    "content": ". | 这里我们已经准备好了一个post接口，接口会将请求body,请求参数重新组装后返回 . url:https://www.fastmock.site/mock/e7ed910a1b72aa375762495523e5f325/webhook/api/facke?address=成都市高新区 . http请求头：无 . http请求body： . { \"name\":\"goobai\", \"age\":12 } . | 下图是通过postman接口返回信息： | 按照下面的图示，创建webhook,创建完成后提交保存 . 注意：这里URL中用到了变量address,body用到了变量name、age,都需要用{}括起来 . | 按照如下步骤创建流图 . | 创建会话流图 . | 创建bot节点 . | 创建user节点,并提取变量address | 创建bot节点 . | 创建user节点,并提取变量name | 创建bot节点 . | 创建user节点,并提取变量age | 创建bot节点并选择收集年龄，姓名，地址这个webhook | . | 创建完成并训练 | 训练完成后开始验证webhook是否生效。从图示可以看出，可以正确提取到变量并成功调用webhook 正确提取到接口返回信息。 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/02-webhook/#%E9%80%9A%E8%BF%87post%E8%AF%B7%E6%B1%82%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF",
+    "relUrl": "/docs/zh/tutorial/webhook/02-webhook/#通过post请求提交信息"
+  },"141": {
+    "doc": "webhook示例",
+    "title": "webhook示例",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/webhook/02-webhook/",
+    "relUrl": "/docs/zh/tutorial/webhook/02-webhook/"
+  },"142": {
+    "doc": "Debug Dialog Flow Diagram",
+    "title": "Debug Dialog Flow Diagram",
+    "content": ". This tutorial will guide you through debugging the completed dialog flow diagram. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/03-train-project/",
+    "relUrl": "/docs/en/tutorial/flow/03-train-project/"
+  },"143": {
+    "doc": "Debug Dialog Flow Diagram",
+    "title": "Select dialog flow graph for debugging",
+    "content": "Click to enter the project to be debugged, select the dialog flow diagram to be debugged in the dialog flow diagram on the left, click the debug run in the upper right corner, and then select to debug the current dialog flow diagram, debug all dialog flow diagrams of the current project, and combine them according to the needs from the pop-up box Dialog flow diagram for debugging. Here we select the current module. Note: The more dialog flow graphs you select, the longer it takes to debug. It is recommended that you select only the necessary dialog flow graphs for debugging. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/03-train-project/#select-dialog-flow-graph-for-debugging",
+    "relUrl": "/docs/en/tutorial/flow/03-train-project/#select-dialog-flow-graph-for-debugging"
+  },"144": {
+    "doc": "Debug Dialog Flow Diagram",
+    "title": "In training",
+    "content": "When the debugging module is selected, the training progress box will pop up automatically to show the training progress. At this time, users can jump to other pages for operation, or stay here to wait for the completion of training. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/03-train-project/#in-training",
+    "relUrl": "/docs/en/tutorial/flow/03-train-project/#in-training"
+  },"145": {
+    "doc": "Debug Dialog Flow Diagram",
+    "title": "Cancel Training",
+    "content": "Select the dialog flow graph being trained from the left side (the dialog flow graph being debugged and run Debugging and run button will prompt ‘Debugging and running’), click the small robot icon called at the bottom right (it cannot be clicked when the selected dialog flow graph is not in training), and then you can see the current dialog flow graph. In training status, click OK to cancel to cancel the current training task. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/03-train-project/#cancel-training",
+    "relUrl": "/docs/en/tutorial/flow/03-train-project/#cancel-training"
+  },"146": {
+    "doc": "Debug Dialog Flow Diagram",
+    "title": "Training completed",
+    "content": "As shown in the figure, the robot chat window will pop up automatically after the training. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/03-train-project/#training-completed",
+    "relUrl": "/docs/en/tutorial/flow/03-train-project/#training-completed"
+  },"147": {
+    "doc": "Debug Dialog Flow Diagram",
+    "title": "Validation results",
+    "content": "As shown in the figure, enter the chat information in the robot dialog window to verify whether the robot replies as expected. What we verify here is that the user asks whether the fruit price can correctly obtain the fruit price information from the webhook, and the result meets the expectation. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/03-train-project/#validation-results",
+    "relUrl": "/docs/en/tutorial/flow/03-train-project/#validation-results"
+  },"148": {
+    "doc": "调试对话流图",
+    "title": "调试项目",
+    "content": ". 此教程将引导您对创建完成的对话流图进行调试。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/#%E8%B0%83%E8%AF%95%E9%A1%B9%E7%9B%AE",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/#调试项目"
+  },"149": {
+    "doc": "调试对话流图",
+    "title": "选择对话流图进行调试",
+    "content": "点击进入需要调试的项目，选择左侧对话流图中需要调试的对话流图，点击右上角的调试运行，可从弹出框按需求选择对当前对话流图进行调试、对当前项目的所有对话流图进行调试、组合 对话流图进行调试。这里我们选择当前模块。注意：选择的对话流图越多，调试所花费的时间越长，建议只选择必须的对话流图进行调试。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/#%E9%80%89%E6%8B%A9%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/#选择对话流图进行调试"
+  },"150": {
+    "doc": "调试对话流图",
+    "title": "训练中",
+    "content": "当选择调试的模块后，自动弹出训练进度框，展示训练进度。此时用户可以跳转到其它页面操作，也可以留在此页面等待训练完成。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/#%E8%AE%AD%E7%BB%83%E4%B8%AD",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/#训练中"
+  },"151": {
+    "doc": "调试对话流图",
+    "title": "取消训练",
+    "content": "从左侧选择正在训练的对话流图（正在调试运行的对话流图调试运行按钮上方会提示正在调试运行中），点开右下叫的小机器人图标（当所选对话流图不在训练中的时候是无法点开的），此时可以看到当前对话流图的 训练状态，点击确定取消即可取消当前训练任务。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/#%E5%8F%96%E6%B6%88%E8%AE%AD%E7%BB%83",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/#取消训练"
+  },"152": {
+    "doc": "调试对话流图",
+    "title": "训练完成",
+    "content": "如图所示，训练完成后，会自动弹出机器人聊天窗口。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/#%E8%AE%AD%E7%BB%83%E5%AE%8C%E6%88%90",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/#训练完成"
+  },"153": {
+    "doc": "调试对话流图",
+    "title": "验证结果",
+    "content": "如图所示，在机器人对话窗口输入聊天信息，验证机器人回复是否符合预期。 这里我们验证的是用户询问水果价格是否能从webhook正确获取水果价格信息，结果符合预期。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/#%E9%AA%8C%E8%AF%81%E7%BB%93%E6%9E%9C",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/#验证结果"
+  },"154": {
+    "doc": "调试对话流图",
+    "title": "调试对话流图",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/03-train-project/",
+    "relUrl": "/docs/zh/tutorial/flow/03-train-project/"
+  },"155": {
+    "doc": "Publish Project",
+    "title": "Create a complex dialog flow diagram",
+    "content": ". This tutorial will lead you to publish a conversation flow diagram . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/04-publish-project/#create-a-complex-dialog-flow-diagram",
+    "relUrl": "/docs/en/tutorial/flow/04-publish-project/#create-a-complex-dialog-flow-diagram"
+  },"156": {
+    "doc": "Publish Project",
+    "title": "Select dialog flow graph to publish",
+    "content": "Click to enter the project to be published, first click the project tool - Publish Run on the left, check the user question and answer (FAQ) and session flow diagram to be published in the interface, and then click Publish in the upper right corner. Note: Wrong conversation. The flow graph must be modified correctly before running check publishing. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/04-publish-project/#select-dialog-flow-graph-to-publish",
+    "relUrl": "/docs/en/tutorial/flow/04-publish-project/#select-dialog-flow-graph-to-publish"
+  },"157": {
+    "doc": "Publish Project",
+    "title": "Publishing",
+    "content": "As shown in the figure, after the module to be published is currently selected, an icon will prompt the task status on the left side of the publish button, and the text of the publish button will change to being published. At this time, users can jump to other pages to operate, or stay here to wait for the completion of training, Or click Stop to stop publishing. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/04-publish-project/#publishing",
+    "relUrl": "/docs/en/tutorial/flow/04-publish-project/#publishing"
+  },"158": {
+    "doc": "Publish Project",
+    "title": "Publishing completed",
+    "content": "As shown in the figure, after the publishing is completed, the icon icon next to the publishing will change, and the mouse will be placed on the icon to prompt the completion of the publishing. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/04-publish-project/#publishing-completed",
+    "relUrl": "/docs/en/tutorial/flow/04-publish-project/#publishing-completed"
+  },"159": {
+    "doc": "Publish Project",
+    "title": "Validation results",
+    "content": "As shown in the figure, enter the chat information in the robot dialog window to verify whether the robot replies as expected. What we verify here is that the user asks whether the fruit price can correctly obtain the fruit price information from the webhook, and the result meets the expectation. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/04-publish-project/#validation-results",
+    "relUrl": "/docs/en/tutorial/flow/04-publish-project/#validation-results"
+  },"160": {
+    "doc": "Publish Project",
+    "title": "Publish Project",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/flow/04-publish-project/",
+    "relUrl": "/docs/en/tutorial/flow/04-publish-project/"
+  },"161": {
+    "doc": "发布项目",
+    "title": "创建复杂对话流图",
+    "content": ". 此教程将引导您发布对话流图 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/04-publish-project/#%E5%88%9B%E5%BB%BA%E5%A4%8D%E6%9D%82%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE",
+    "relUrl": "/docs/zh/tutorial/flow/04-publish-project/#创建复杂对话流图"
+  },"162": {
+    "doc": "发布项目",
+    "title": "选择对话流图进行发布",
+    "content": "点击进入需要发布的项目，先点击左侧的项目工具-发布运行，勾选界面中需要发布的用户问答（FAQ）、会话流图，然后点击右上角的发布。注意：错误的对话 流图必须修改正确后才运行勾选发布。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/04-publish-project/#%E9%80%89%E6%8B%A9%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE%E8%BF%9B%E8%A1%8C%E5%8F%91%E5%B8%83",
+    "relUrl": "/docs/zh/tutorial/flow/04-publish-project/#选择对话流图进行发布"
+  },"163": {
+    "doc": "发布项目",
+    "title": "发布中",
+    "content": "如图所示，当前选择发布的模块后，发布按钮左侧会有icon提示任务状态，发布按钮文字变成发布中。此时用户可以跳转到其它页面操作，也可以留在此页面等待训练完成， 或者点击停止按钮停止发布。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/04-publish-project/#%E5%8F%91%E5%B8%83%E4%B8%AD",
+    "relUrl": "/docs/zh/tutorial/flow/04-publish-project/#发布中"
+  },"164": {
+    "doc": "发布项目",
+    "title": "发布完成",
+    "content": "如图所示，发布完成后，发布旁边的icon图标改变，鼠标放到图标上提示发布完成相关信息。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/04-publish-project/#%E5%8F%91%E5%B8%83%E5%AE%8C%E6%88%90",
+    "relUrl": "/docs/zh/tutorial/flow/04-publish-project/#发布完成"
+  },"165": {
+    "doc": "发布项目",
+    "title": "验证结果",
+    "content": "如图所示，在机器人对话窗口输入聊天信息，验证机器人回复是否符合预期。 这里我们验证的是用户询问水果价格是否能从webhook正确获取水果价格信息，结果符合预期。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/04-publish-project/#%E9%AA%8C%E8%AF%81%E7%BB%93%E6%9E%9C",
+    "relUrl": "/docs/zh/tutorial/flow/04-publish-project/#验证结果"
+  },"166": {
+    "doc": "发布项目",
+    "title": "发布项目",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/flow/04-publish-project/",
+    "relUrl": "/docs/zh/tutorial/flow/04-publish-project/"
+  },"167": {
+    "doc": "Concept description",
+    "title": "Concept description",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/appendix/appendix/",
+    "relUrl": "/docs/en/appendix/appendix/"
+  },"168": {
+    "doc": "Concept description",
+    "title": "Intention",
+    "content": "Intent refers to the meaning of user input. We believe that the user’s input implies a certain meaning, and assign this kind of statements containing the same meaning with an intention tag. Example . In order to support multiple user inputs and reduce the possibility of robot answering incorrectly, multiple example sentences are supported for each intention. Example sentences will be used as training samples and put into the intention classification model for training. Therefore, the number and quality of example sentences determine the accuracy of robot replies to a large extent. In the editing of examples, we hope that the distinction between different intentions is as high as possible, that is, examples with different intentions should not overlap as much as possible; At the same time, the expression of example sentences in similar intentions can be as rich as possible, for example: . | Intention 1: Greet . | Hello! | Hello. | . | Intention 2: Goodbye . | See you tomorrow. | Bye From the perspective of model training, the generalization ability of Intent 1 is weaker than that of Intent 2. Therefore, if you can provide more and more unique examples, the effect of the model will be better. | . | . Intention List . The intention list exists for the purpose of reusing intention. We often encounter repeated intentions in the dialogue, such as confirmation, denial and thanks. This kind of intention often appears in different positions of the dialogue process, while repeatedly constructing repeated intentions is tedious and error prone. The concept of intention list is to solve this problem. We can save the intention to be reused as an intention template and add it to the intention list. When we need to use this intention elsewhere in the project, we can directly reference the saved intention. Another advantage of this design is that we only need to operate once when we need to add, modify, or delete samples in a certain intention. We strongly recommend that you use the intention list as much as possible. On the one hand, the reuse of intention can make the design easier; On the other hand, the combination of similar intentions can greatly improve the recognition accuracy of the model. Assurance of accuracy of intent classification . Due to the diversity of languages, more data are often required for model training to obtain better recognition performance. As the generalization ability of the machine increases with the increase of data, if you find that the recognition accuracy of the intention is not high enough, please confirm in turn: . | Whether there are similar unconsolidated intentions. If yes, please merge the intention and save it in the intention list for reuse. | Whether there are too few examples in the intention. If the number of examples with different intentions is less than 3, or the number of examples with different intentions is unbalanced, please add more examples as appropriate. | Whether the sample used for testing exists in two or more intentions. If it exists, please reorganize your intentions. If possible, please do not put the same sample into more different intentions, which will confuse the model. | . ",
+    "url": "http://0.0.0.0:4000/docs/en/appendix/appendix/#intention",
+    "relUrl": "/docs/en/appendix/appendix/#intention"
+  },"169": {
+    "doc": "Concept description",
+    "title": "Answer",
+    "content": "The answer refers to the bot’s reply. The system will reply different information according to different input of users. The answer supports three forms: . | Text | Image | Webhook The answer must include a text message. | . Answer List . The answer list exists for the reuse of answers. We often encounter repeated answers in conversations, such as goodbye, calling the same webhook, and thanks. Such answers often appear in different positions of the dialogue process, and it is tedious and error prone to repeatedly construct repeated answers. The concept of answer list is to solve this problem. We can save the answer to be reused as an answer template and add it to the answer list. When we need to use this answer elsewhere in the project, we can directly reference the saved answer. Another advantage of this design is that when we need to add, modify, or delete an answer, we only need to operate once. We strongly recommend that you use the answer list as much as possible. Reuse of answers can make the design easier and save a lot of time in building your flow diagram. ",
+    "url": "http://0.0.0.0:4000/docs/en/appendix/appendix/#answer",
+    "relUrl": "/docs/en/appendix/appendix/#answer"
+  },"170": {
+    "doc": "Concept description",
+    "title": "Variable",
+    "content": "Variables are the memory of the bot. Declared variables represent what information the bot needs to remember. For example, in the scenario of booking a train ticket, the user provides the required information, such as destination, departure time, and seat requirements, during the multi round conversation with the machine. This kind of information needs to be recorded until the end of the dialogue, and then determine the final destination of these variables according to the actual situation. Without variables, the bot cannot remember any information during the conversation. Extraction of variables . Variable extraction can occur anywhere in the conversation process. It can be extracted from user input or set manually. The following are several ways to extract variables. Entity extraction . Entity extraction is the most common method in variable extraction. It is usually used to extract some information in user input, such as time, place, name, mobile number, specific information, etc. We provide built-in variables and dimension variables. Among them, built-in variables are variables that can be extracted by rules. At present, they include date, number, telephone, and ordinal words, eliminating the trouble of manual marking. Such variables will continue to be updated in subsequent releases. The labeled variables are for some special cases, such as the need to extract some specific words. Such words need to be labeled manually, predicted and extracted with the help of machine learning and models. As with example sentences, the accuracy of extraction can be improved by providing a variety of expressions and displaying different entity words in example sentences as much as possible. Input Text . The input text mode is usually used to extract the entire user input statement. A common application scenario is to collect user feedback and ask if there are other requirements. This type of scenario usually requires a complete record of the user’s speech, rather than extracting a specific phrase from it. It should be noted that although we do not care about the specific values extracted, we still need to add different examples to ensure that the model understands that the current user input belongs to the purpose of extraction, so as to extract variables. Custom Value . The custom value method is similar to the input text. However, the common scenario is whether a service is required. In other words, a limited number of categories need to be filled in with this variable. For example, when booking air tickets, users may need to ask if they need a window seat. At this time, we expect the value of the variable ‘windows’ to be’ true | false ‘, and do not want to fill in other values. That is to say, no matter whether the user says “Yes” or “I want to rely on the window”, we want the ‘windows’ variable to be set to’ True ‘. Therefore, we provide a user-defined value method, which specific value can be filled according to a user’s intention. This value is mandatory and you can decide. Reset Variable Values . The above methods are all methods to extract variables from user input. If you need to extract variables after a bot replies, you can use reset variable values to set them. The difference between this setting method and the above three methods is: . | The scopes are different. The scope of this method is a specific context, that is, the reset only takes effect in the current dialog; The above methods are globally effective. If you want to extract variables specifically in multiple scenes of the conversation, use Reset Variable Values. | Reset the variable value to transfer the variable value. The variables with the same name are extracted by default based on the variables entered by the user. If you need to reuse some built-in variables or set some variable values to other extracted variables, you can use Reset Variable Values. | . ",
+    "url": "http://0.0.0.0:4000/docs/en/appendix/appendix/#variable",
+    "relUrl": "/docs/en/appendix/appendix/#variable"
+  },"171": {
+    "doc": "Concept description",
+    "title": "User question and answer (FAQ）",
+    "content": "User question and answer (FAQ) provides the function of one question and one answer, which simplifies the design of dialogue process. User Q&amp;A is mainly aimed at a class of questions that are not closely related to the process. It is characterized by a large number of questions. Each question has its own answer, but it has no great impact on the dialogue process. If you use the flow diagram to define, you need to edit a large number of branches. On the one hand, adding operations is cumbersome, and on the other hand, it is not easy to maintain the flow diagram. Therefore, we have designed a user question and answer function to separate the definition of such questions without affecting the overall flow diagram. ",
+    "url": "http://0.0.0.0:4000/docs/en/appendix/appendix/#user-question-and-answer-faq",
+    "relUrl": "/docs/en/appendix/appendix/#user-question-and-answer-faq"
+  },"172": {
+    "doc": "Concept description",
+    "title": "Form",
+    "content": "For multiple information collection scenarios: air ticket booking, hotel booking, order after-sales, etc., we have designed a form function. Information collection is performed by machine operation. Only a few necessary settings are needed to achieve the design of complex processes. The following is an introduction to several related concepts in form design. Slots . The information list defines several variables that the form needs to collect, how the robot asks about these variables, how the user answers, and how to extract variables. When there are multiple extraction methods, they can be written in turn. The robot will ask the user in sequence until all variables are collected. Note that the robot will skip the assigned variables when asking. Interrupts . Users may not answer in the way we expect. In fact, we hope that the machine can process user input more intelligently. For example, when we are asking for some information, if the user asks “I don’t want to continue filling”, we hope to exit the form properly. At this time, we can use ‘other user requests’ to add possible user statements under this branch and give corresponding responses. If the user needs to exit, it can also be indicated in this section. If necessary, it is also supported to continue this branch outside the form. Confirm . When the form is filled without failure, all variables are filled out, and the form pops up normally, all processes behind this node will be executed. Usually, the node needs to confirm all the variables previously, or it can be directly submitted to the external api through the system reply. ",
+    "url": "http://0.0.0.0:4000/docs/en/appendix/appendix/#form",
+    "relUrl": "/docs/en/appendix/appendix/#form"
+  },"173": {
+    "doc": "概念说明",
+    "title": "概念说明",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/appendix/appendix/",
+    "relUrl": "/docs/zh/appendix/appendix/"
+  },"174": {
+    "doc": "概念说明",
+    "title": "意图",
+    "content": "意图指用户的输入所表示的意义。我们认为用户的输入都隐含着某种特定的含义，并将这一类包含同一意义的语句赋予一个意图的标签。 . 例句 . 为了支持多种用户输入，减少机器人回答错误的可能性，对于每个意图，都支持多个例句。例句会作为训练样本，放入意图分类模型中进行训练。因此，例句的数量与质量在很大程度上决定了机器人回复的准确性。在例句的编辑上，我们希望不同意图之间的区分度尽量高，也就是说，不同意图的例句尽量不要重合；与此同时，同类意图中的例句的表达可以尽可能的丰富，举个例子： . | 意图1: 打招呼 . | 你好！ | 你好。 | . | 意图2: 再见 . | 明天见 | 拜拜 从模型训练的角度来说，意图1的泛化能力会弱于意图2。因此，如果您可以提供更多更独特的例句，模型的效果也会更好。 | . | . 意图列表 . 意图列表是为了意图的复用而存在的。我们在对话中经常会遇见重复的意图，比如：确认，否认，感谢。此类意图往往会出现在对话流程的不同位置，而反复构建重复的意图是很繁琐且易出错的。意图列表的概念则是为了解决这个问题。我们可以将需要重复使用的意图保存为意图模板，增加到意图列表中，在项目的其他位置需要使用这一意图时，我们便可以直接引用已经保存的意图。这个设计的另一个优点是，在需要增加、修改、删除某个意图中的样本时，我们也只需要操作一遍。 . 我们强烈建议您尽量使用意图列表，一方面，意图的复用可以使设计更加简便；另一方面，相似意图的合并很大程度上能够提升模型的识别准确率。 . 意图分类准确性的保证 . 由于语言的多样性，往往需要提供更多的数据以供模型进行训练，以获得更好的识别性能。由于机器的泛化能力随着数据的增加而增强，因此，如果您发现该意图的识别准确率不够高，请依次确认: . | 是否存在相似的未合并的意图。若有，请将意图合并，保存到意图列表中进行复用。 | 意图中的例句是否过少。若该意图例句少于3条，或者存在不同意图的示例数量不平衡的情况，请酌情增加例句。 | 用于测试的样例是否存在于两个或以上意图中。若存在，请重新整理您的意图，如果可能，请不要将相同的样例放到更多不同的意图中，这样会使模型混淆。 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/appendix/appendix/#%E6%84%8F%E5%9B%BE",
+    "relUrl": "/docs/zh/appendix/appendix/#意图"
+  },"175": {
+    "doc": "概念说明",
+    "title": "回答",
+    "content": "回答指的是bot的回复。根据用户的不同输入，系统将回复不同的信息。 . 回答支持三种形式： . | 文本 | 图片 | webhook 回答中必须包含一条文本信息。 | . 回答列表 . 回答列表是为了回答的复用而存在的。我们在对话中经常会遇见重复的回答，比如：再见，调用同样的webhook，感谢。此类回答往往会出现在对话流程的不同位置，而反复构建重复的回答是很繁琐且易出错的。回答列表的概念则是为了解决这个问题。我们可以将需要重复使用的回答保存为回答模板，增加到回答列表中，在项目的其他位置需要使用这一回答时，我们便可以直接引用已经保存的回答。这个设计的另一个优点是，在需要增加、修改、删除某个回答时，我们也只需要操作一遍。 . 我们强烈建议您尽量使用回答列表，回答的复用可以使设计更加简便，大量节省您的流图构建时间。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/appendix/appendix/#%E5%9B%9E%E7%AD%94",
+    "relUrl": "/docs/zh/appendix/appendix/#回答"
+  },"176": {
+    "doc": "概念说明",
+    "title": "变量",
+    "content": "变量是bot的记忆，声明变量表示的是bot需要记忆哪些信息。举个例子，在订火车票的场景中，用户在与机器多轮对话的过程中提供所需的信息，比如目的地，出发时间，座位要求。这类信息需要被记录下来，直到对话结束，再根据实际情况决定这些变量的最终去向。如果没有变量，bot将无法记住对话过程中的任何信息。 . 变量的提取 . 变量的提取可以发生在对话流程中的任何一处。既可以从用户输入中提取，也可以手动设置。下面是变量提取的几种方式。 . 实体提取 . 实体提取是变量提取中最常见的方式。通常用于提取用户输入中的部分信息，比如：时间、地点、姓名、手机号、具体信息等。我们提供了内置变量与标注变量两种方式。其中，内置变量为一些可以通过规则进行提取的变量，目前包含了日期、数字、电话、序数词，免去了您手动标注的麻烦，此类变量在后续的发布中还会持续更新。而标注变量则是针对一些特殊的情况，比如希望提取一些特定的词汇，这类词汇需要您手动进行标注，利用机器学习，由模型辅助进行预测与提取。与例句一样，通过提供多种多样的表达、尽量在例句中展示不同的实体词这两个方法，可以提高提取的准确率。 . 输入文本 . 输入文本方式通常用于提取整个用户输入语句。常见的适用场景为：收集用户的反馈意见、询问是否有其他需求。这类场景通常需要完整记录用户发言，而并不需要从中提取某个特定的词组。需要注意的是，虽然我们不关心提取到的具体值，但是我们仍需要增加不同的例句，以保证模型了解当前的用户输入属于需要提取的意图，从而进行变量的提取。 . 自定义值 . 自定义值方式与输入文本有相似之处，然而其常用场景一般为是否需要某项服务，换句话说，需要该变量填入有限的类别。举个例子，预定机票时，可能需要提问用户，需要靠窗的位置吗。此时我们期望填入的变量windows值为True|False，而不希望填入其他值。也就是说，不论用户说“是的”，还是“我要靠窗”，我们都希望windows变量置为True，因此，我们提供了自定义值的方式，可以根据用户的某一个意图确定填入哪个具体的值，该值是必填的，并且由您决定。 . 重置变量值 . 上述方法都是从用户输入中提取变量的方法，如果需要在某个bot回复后提取变量，则可以使用重置变量值进行设置。这种设置方法与上文的三种方法的区别为： . | 作用域不同。该方法的作用域为特定的上下文，也就是说，该重置只在当前的对话中生效；而上文的方法都是全局有效的。如果希望在对话的多个场景中有针对性的提取变量，请使用重置变量值。 | 重置变量值可实现变量值的传递。基于用户输入的变量提取默认提取到同名的变量，如果需要复用某些内置变量，或者需要将某些变量值设为另一些已提取到的变量，可使用重置变量值。 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/appendix/appendix/#%E5%8F%98%E9%87%8F",
+    "relUrl": "/docs/zh/appendix/appendix/#变量"
+  },"177": {
+    "doc": "概念说明",
+    "title": "用户问答（FAQ）",
+    "content": "用户问答(FAQ)提供了一问一答的功能，简化了对话流程的设计。用户问答主要针对一类与流程关联性不大的问题，其特点是数量繁多，每个问题都有其答案，但对于对话流程并没有很大的影响。如果使用流图来定义，需要编辑大量的分支，一方面添加操作较繁琐，另一方面不便于流图的维护。因此，我们设计了用户问答功能，将此类问题的定义独立出来，并不影响整体的流图。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/appendix/appendix/#%E7%94%A8%E6%88%B7%E9%97%AE%E7%AD%94faq",
+    "relUrl": "/docs/zh/appendix/appendix/#用户问答faq"
+  },"178": {
+    "doc": "概念说明",
+    "title": "表单",
+    "content": "针对多信息收集的场景：订机票、订酒店、订单售后等，我们设计了表单功能，由机器操作进行信息收集，只需要一些必要且少量的设置，即可实现复杂流程的设计。 以下是表单设计中的几个相关概念的介绍。 . 信息列表(Slots) . 信息列表定义了表单所需收集的几个变量，机器人如何针对这些变量进行询问以及用户如何回答，变量如何提取。当有多种提取方式时，可依次写出。机器人会依照顺序依次询问用户，直到收集完成所有变量，注意，机器人在询问时会跳过已赋值的变量。 . 用户其他请求(Interrupts) . 用户并不一定会按照我们期望的方式回答，事实上，我们希望机器可以更加智能的处理用户的输入。比如，当我们正在询问某一个信息时，如果用户这时提出“我不想继续填了”，我们希望能够妥善退出表单。这时，我们可以利用用户其他请求，在这个分支下增加用户可能的发言，并给出相应的回复。如果用户需要退出，也可以在该部分进行表示，如果有需要的话，也支持在表单外继续该分支。 . 收集成功(Confirm) . 当表单填写没有失败，所有变量都填写完毕，正常跳出表单时，会执行该节点后的所有流程。通常该节点后面需要进行先前所有变量的确认，也可以直接通过系统回复提交到外部api。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/appendix/appendix/#%E8%A1%A8%E5%8D%95",
+    "relUrl": "/docs/zh/appendix/appendix/#表单"
+  },"179": {
+    "doc": "Create answer list",
+    "title": "Concept description",
+    "content": ". When you have many nodes that need to use the same reply, it is strongly recommended that you use the answer list, which can save you a lot of repeated operation time. For the concept of answer list, please refer toAnswer ListConcept description . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/node-template/bot-global/#concept-description",
+    "relUrl": "/docs/en/tutorial/node-template/bot-global/#concept-description"
+  },"180": {
+    "doc": "Create answer list",
+    "title": "Create answer list",
+    "content": "If it is shown in the figure, click Item View - Answer List - Add in order to create a general answer template for extracting answers to the birthday. After filling in the figure, click OK to save, . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/node-template/bot-global/",
+    "relUrl": "/docs/en/tutorial/node-template/bot-global/"
+  },"181": {
+    "doc": "Create answer list",
+    "title": "Use in conversation flow diagrams",
+    "content": ". | Here we use the flow diagram to create the intention list. Please refer to the Create Intent Listtutorial for the creation process: . | Select one of the last two nodes of the flow graph, click to select from the answer list as shown in the figure, and then select the answer template we just created. Do the same for the other of the last two nodes After selection, we can add, delete and modify replies here (the operation will take effect for all reply nodes referencing the template) The completed flow diagram is as follows: . | Training and verification results Click Debug Run - Current Module in the upper right corner to wait for the training to complete the verification effect . | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/node-template/bot-global/#use-in-conversation-flow-diagrams",
+    "relUrl": "/docs/en/tutorial/node-template/bot-global/#use-in-conversation-flow-diagrams"
+  },"182": {
+    "doc": "创建回答列表",
+    "title": "概念说明",
+    "content": ". 当您有许多节点需要使用相同的回复时，强烈建议您使用回答列表，可以节省你大量的重复操作时间， 回答列表的概念请参照回答列表概念说明 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/node-template/bot-global/#%E6%A6%82%E5%BF%B5%E8%AF%B4%E6%98%8E",
+    "relUrl": "/docs/zh/tutorial/node-template/bot-global/#概念说明"
+  },"183": {
+    "doc": "创建回答列表",
+    "title": "创建回答列表",
+    "content": "如果所示，依次点击项目视图-回答列表-新增，我们创建一个回答提取到生日的通用回答模板，按照图中填好后点击确定保存， . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/node-template/bot-global/",
+    "relUrl": "/docs/zh/tutorial/node-template/bot-global/"
+  },"184": {
+    "doc": "创建回答列表",
+    "title": "在对话流图中使用",
+    "content": ". | 这里我们使用创建意图列表的流图，创建过程可以参照创建意图列表教程。流图如下： . | 选择流图最后的两个节点中一个，按照图中所示点击从回答列表中选取 然后选择我们刚刚创建的回答模板。对最后两个节点的另一个进行同样的操作 选择完成后，我们可以在此处添加、删除、修改回复（操作对所有引用该模板的回复节点都会生效） 完成流图如下： . | 训练并验证结果 点解右上角的调试运行-当前模块，等待训练完成验证效果 . | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/node-template/bot-global/#%E5%9C%A8%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE%E4%B8%AD%E4%BD%BF%E7%94%A8",
+    "relUrl": "/docs/zh/tutorial/node-template/bot-global/#在对话流图中使用"
+  },"185": {
+    "doc": "Base Example",
+    "title": "Basice Example",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/example/faq-flow/#basice-example",
+    "relUrl": "/docs/en/example/faq-flow/#basice-example"
+  },"186": {
+    "doc": "Base Example",
+    "title": "Video",
+    "content": "You can quickly learn how to create simple question and answer (FAQ) and session flow graph through the following video. ",
+    "url": "http://0.0.0.0:4000/docs/en/example/faq-flow/#video",
+    "relUrl": "/docs/en/example/faq-flow/#video"
+  },"187": {
+    "doc": "Base Example",
+    "title": "Base Example",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/example/faq-flow/",
+    "relUrl": "/docs/en/example/faq-flow/"
+  },"188": {
+    "doc": "简单问答（FAQ）和对话流图",
+    "title": "简单问答（FAQ）和对话流图",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/faq-flow/",
+    "relUrl": "/docs/zh/example/faq-flow/"
+  },"189": {
+    "doc": "简单问答（FAQ）和对话流图",
+    "title": "示例视频",
+    "content": "你可以通过下面视频，快速了解如何创建简单问答（FAQ）和会话流图。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/faq-flow/#%E7%A4%BA%E4%BE%8B%E8%A7%86%E9%A2%91",
+    "relUrl": "/docs/zh/example/faq-flow/#示例视频"
+  },"190": {
+    "doc": "Information Form",
+    "title": "Information Form",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/example/form/",
+    "relUrl": "/docs/en/example/form/"
+  },"191": {
+    "doc": "Information Form",
+    "title": "Video",
+    "content": "You can quickly learn how to create a session flow diagram with information form collection through the following video. ",
+    "url": "http://0.0.0.0:4000/docs/en/example/form/#video",
+    "relUrl": "/docs/en/example/form/#video"
+  },"192": {
+    "doc": "信息表单",
+    "title": "信息表单",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/form/",
+    "relUrl": "/docs/zh/example/form/"
+  },"193": {
+    "doc": "信息表单",
+    "title": "示例视频",
+    "content": "你可以通过下面视频，快速了解如何创建一个带信息表单收集的会话流图。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/form/#%E7%A4%BA%E4%BE%8B%E8%A7%86%E9%A2%91",
+    "relUrl": "/docs/zh/example/form/#示例视频"
+  },"194": {
+    "doc": "About",
+    "title": "About Prompt AI",
+    "content": "This article will guide you to quickly start using the intelligent conversation service provided by Prompt AI. Prompt AI is the next generation cloud based professional intelligent session design cloud platform built by Feiyu for SMEs. In addition to covering the functions of traditional intelligent sessions, Prompt AI, based on the concept of visualization, combined with new technologies and professional intelligent dialogue experience, can fully meet the comprehensive intelligent session design needs of SMEs customers, allowing customers to integrate intelligent sessions into their own business systems more quickly and easily. Compared with other intelligent session schemes, Prompt AI has the following characteristics: . | Easy to use：Based on application scenarios, professional graphic design functions are exposed to customers in a simple and easy to understand way, so thatcustomers can quickly get started. When meeting special or complex scenarios, it can be quickly customized or extended through standard interfaces. | Fast and convenient：AI integrates the conversations of common scenarios professionally without the need for customers to build from scratch. | Multi scene switching：Multi scenario switching is an important concept of Prompt AI. As a true “package” of intelligent session services, users do not need tobuild different session schemes for different session needs to fully save costs and make the session system play a greater role. | Go online quickly：Rapid design and construction of an intelligent session system is also an important concept of Prompt AI. Rapid design, rapid construction,rapid packaging, and rapid deployment reduce the complexity of users deploying a complete session system from zero, and make deployment simple, fast, and stable. | . The following figure shows the usage overview of Prompt AI： . ",
+    "url": "http://0.0.0.0:4000/docs/en/about/#about-prompt-ai",
+    "relUrl": "/docs/en/about/#about-prompt-ai"
+  },"195": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/about/",
+    "relUrl": "/docs/en/about/"
+  },"196": {
+    "doc": "Example",
+    "title": "Example",
+    "content": ". We provide the following examples to guide you to quickly understand and use the session services provided by Prompt AI. ",
+    "url": "http://0.0.0.0:4000/docs/en/example/",
+    "relUrl": "/docs/en/example/"
+  },"197": {
+    "doc": "Common Problem",
+    "title": "Common Problem",
+    "content": ". The following is a list of common problem solving methods in our system . ",
+    "url": "http://0.0.0.0:4000/docs/en/faq/",
+    "relUrl": "/docs/en/faq/"
+  },"198": {
+    "doc": "Common Problem",
+    "title": "Common problems that can be solved by reference to the tutorial",
+    "content": "How do I get the URL when I customize the webhook? . Please refer to the tutorialwebhook . How to write in case of multiple replies? . Please refer to the tutorialCreate conversation flow graph - add reply node . How do I stop training? . Please refer to the tutorialDebugging Project - Cancel Training . Do not know the function of intention template . Please refer to the tutorialCreate Intent List . Does the initial node of the flow chart have a user option by default? . Please refer to the tutorialDialog Flow Graph Settings . Add a node and then delete it. Is there an undo function? . Please refer to the tutorialUndo/Redo . Machine reply attachment support . Please refer to the tutorialCreate conversation flow graph - add reply node . ",
+    "url": "http://0.0.0.0:4000/docs/en/faq/#common-problems-that-can-be-solved-by-reference-to-the-tutorial",
+    "relUrl": "/docs/en/faq/#common-problems-that-can-be-solved-by-reference-to-the-tutorial"
+  },"199": {
+    "doc": "Common Problem",
+    "title": "How to extract multiple variables in a sentence? For example, “I want five jin of apples”",
+    "content": "Please refer to the tutorialCreate Form-Improve Slots） . ",
+    "url": "http://0.0.0.0:4000/docs/en/faq/#how-to-extract-multiple-variables-in-a-sentence-for-example-i-want-five-jin-of-apples",
+    "relUrl": "/docs/en/faq/#how-to-extract-multiple-variables-in-a-sentence-for-example-i-want-five-jin-of-apples"
+  },"200": {
+    "doc": "Common Problem",
+    "title": "Other",
+    "content": "Machine replies are selected from the answer list. Can you cancel? . If the machine replies that it has selected from the answer list but has not saved it, you can select Close, and then select Don’t Save in the prompt box . Can we add our own projects to the Project Templates? . The current version is temporarily not supported. Please follow our version update . ### Can the node convert the type? . Currently, only user input can be converted to a button, You can change the “user input method” of the user input node to “click input” . Shortcut key support: control c/z . You can use control c to quickly copy nodes to the pasteboard, and control z to undo the previous operation . The node has errors and cannot be saved . If there is an error in a node, click Save when editing the node, and an error message will appear. If you want to use a node first, you can click Close . Can I debug in parallel . Currently, it is not supported due to limited server resources . Can’t recognize facial expressions . Currently, emoticons are not supported. Please follow our version update . City extraction cannot be completed, and only annotated . You can try to change variable extraction entity extraction source into input text . Does reset variable support multiple? . Yes, after adding a reset variable, you can continue to click the Add button below . The user has not operated for a long time. Does it support active inquiry? . Currently not supported, please follow our version update . ",
+    "url": "http://0.0.0.0:4000/docs/en/faq/#other",
+    "relUrl": "/docs/en/faq/#other"
+  },"201": {
+    "doc": "Local installation",
+    "title": "Local installation",
+    "content": ". When RASA developers need to use the editing function of the system flow diagram or need to debug and verify the flow diagram, You can use the Download Rasa Files function of the system to debug and verify the downloaded RASA files locally. ",
+    "url": "http://0.0.0.0:4000/docs/en/local_install/",
+    "relUrl": "/docs/en/local_install/"
+  },"202": {
+    "doc": "Local installation",
+    "title": "Rasa file download",
+    "content": "The function of downloading RASA files is mainly to facilitate developers to use the convenient and fast flow graph editing function of the system, and then use the system to help generate RASA files, Then debug and verify the model. | As shown in the figure, click Download RASA File at the top right corner of the selected flow graph to pop up a selection box, where you can click the corresponding dialog flow graph, and then click OK to download the RASA file. The selection box has the following combinations: . | Current download, download the current dialog flow diagram | Combined download, free check the dialog flow diagram under the current project | Download all, check all dialog flow diagrams under the current project | . | When the current project has a flow diagram containing error nodes, it will be classified into Unavailable Modules in the pop-up box. Click the mouse on the flow diagram to see the number of error messages. The link behind the point flow diagram can quickly jump to the corresponding flow diagram for modification. | . Note: welcome message, Fallback, branch prompt, jump to the node, and question prompt again (FAQ) takes effect only with the support of the system . ",
+    "url": "http://0.0.0.0:4000/docs/en/local_install/#rasa-file-download",
+    "relUrl": "/docs/en/local_install/#rasa-file-download"
+  },"203": {
+    "doc": "Local installation",
+    "title": "Rasa environmental preparation",
+    "content": "Local installation requires your local python version 3.8 or above (3.8.10 is recommended), and the following dependent packages need to be installed through pip . rasa==3.2.0 jieba==0.42.1 transformers==4.24.0 jsonpath==0.82 . After installation, enter ‘rasa init’ on the command line to verify as shown in the figure. ",
+    "url": "http://0.0.0.0:4000/docs/en/local_install/#rasa-environmental-preparation",
+    "relUrl": "/docs/en/local_install/#rasa-environmental-preparation"
+  },"204": {
+    "doc": "Local installation",
+    "title": "RASA file debugging verification",
+    "content": "Here we take the Project Templates-&gt;Help Document -&gt;Collection of User Information as an example . | Move the first downloaded rasa file to/Users/admin/dev/flow/rasa/data/and unzip to`rasa, As shown in the figure after decompression: | . | Training debugging . # Enter directory cd /Users/admin/dev/flow/rasa/data/rasa # Start actions rasa actions # Open another command line window for training rasa train # Debug Dialog rasa shell -p 8001 . Note: IfOSError: [Errno 30] Read-only file system: '/rasa' error, please refer to the following solutions: . | mkdir /rasa &amp;&amp; chmod 777 /rasa | modify config.yml in the file and comment out cache_dir: /rasa/bert | . | Validation results Perform debugging verification as shown in the figure . | . Note: . | The current version does not support Chinese variables. Docker image will be added in subsequent versions | The current version does not support built-in variables | . ",
+    "url": "http://0.0.0.0:4000/docs/en/local_install/#rasa-file-debugging-verification",
+    "relUrl": "/docs/en/local_install/#rasa-file-debugging-verification"
+  },"205": {
+    "doc": "Localized Deployment",
+    "title": "Localized Deployment",
+    "content": ". If you need to deploy the service to your own private server or local, you can refer to the following tutorial. ",
+    "url": "http://0.0.0.0:4000/docs/en/private_deploy/",
+    "relUrl": "/docs/en/private_deploy/"
+  },"206": {
+    "doc": "Localized Deployment",
+    "title": "Get the latest image",
+    "content": "Use the following command to obtain the latest installation image. Before obtaining the latest image, please confirm that the latest docker service has been installed . docker pull registry.cn-chengdu.aliyuncs.com/zpcloud/zbot-aio:latest . ",
+    "url": "http://0.0.0.0:4000/docs/en/private_deploy/#get-the-latest-image",
+    "relUrl": "/docs/en/private_deploy/#get-the-latest-image"
+  },"207": {
+    "doc": "Localized Deployment",
+    "title": "Start Container",
+    "content": "Start service without GPU . After obtaining the latest image, if you do not use the GPU, you can start the service with the following command . docker run --name zbot --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock -v &lt;host-path-log&gt;:/data/logs -v &lt;host-path-mysql&gt;:/data/mysql -v &lt;host-path-mongo&gt;:/data/mongo -v &lt;host-path-p8s&gt;:/data/minimalzp/p8s -p hostport:80 registry.cn-chengdu.aliyuncs.com/zpcloud/zbot-aio:latest . explain: . | /var/run/docker.sock: Docker Communication file (the service communicates with the docker to manage the model container)。 | /usr/local/zbot/.promptai/: The training file cache directory needs to be consistent with the following mapping directory. If you need to modify it, you need to add the parameter ` - e ai. base. dir=- v:`, `` as the directory you need to modify . | &lt;host-path-log&gt;: Log save directory | &lt;host-path-mysql&gt;: MySQL data file directory | &lt;host-path-mongo&gt;: Mongodb data file directory | &lt;host-path-p8s&gt;: Minimalzp data directory | hostport: The service exposed port cannot be occupied by other programs | . Start the service using the GPU . If you need to use the GPU, please install the GPU driver first. Currently, only the ‘nvidia’ video card is supported. Driver download link . # Check whether the drive is normal nvidia-smi . As shown in the figure after the drive is installed normally . Start the service and use the GPU. All GPUs of the current computer are used by default. If you need to specify GPUs, please refer to the documentation . # Use GPU docker run --name zbot --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock -v &lt;host-path-log&gt;:/data/logs -v &lt;host-path-mysql&gt;:/data/mysql -v &lt;host-path-mongo&gt;:/data/mongo -v &lt;host-path-p8s&gt;:/data/minimalzp/p8s -p hostport:80 --gpus all registry.cn-chengdu.aliyuncs.com/zpcloud/zbot-aio:latest . Installation is complete . After the command is executed, we can see the address, account and password information, as shown in the figure: . # Check the container log to determine whether the service was started successfully docker logs -f zbot . Login experience . Use the address, account and password displayed after installation to open the experience, as shown in the figure: . Note: Default initial login account/password: admin@promptai.local /Promptai, but please refer to the display after the service installation is completed . ",
+    "url": "http://0.0.0.0:4000/docs/en/private_deploy/#start-container",
+    "relUrl": "/docs/en/private_deploy/#start-container"
+  },"208": {
+    "doc": "Localized Deployment",
+    "title": "explain",
+    "content": "Model Container . When we debug and publish the project, the system will create (by starting a new docker container) the corresponding model container according to the published project. Each published project will correspond to a model container,All debugging projects under one account correspond to the same model container. Start time . The first startup will take a long time because the system will pull the container’s docker image (this process occurs automatically). Please be patient. ",
+    "url": "http://0.0.0.0:4000/docs/en/private_deploy/#explain",
+    "relUrl": "/docs/en/private_deploy/#explain"
+  },"209": {
+    "doc": "Localized Deployment",
+    "title": "Get help",
+    "content": "Please scan the code to join the WeChat group for help. The WeChat QR code can be viewed in the upper right corner after logging into the system. ",
+    "url": "http://0.0.0.0:4000/docs/en/private_deploy/#get-help",
+    "relUrl": "/docs/en/private_deploy/#get-help"
+  },"210": {
+    "doc": "Release",
+    "title": "Release",
+    "content": ". When the intelligent session we have trained has been debugged, it can be published through QR code or embedded web pages . ",
+    "url": "http://0.0.0.0:4000/docs/en/release/",
+    "relUrl": "/docs/en/release/"
+  },"211": {
+    "doc": "Release",
+    "title": "QR code release (mobile terminal)",
+    "content": "When you need to access the mobile terminal, you can experience it by accessing the mobile terminal link or scanning the QR code. | Embed the QR code into the website, and users can experience the published projects through mobile browser scanning or WeChat scanning . | Embed mobile link into the website, and users can open the link to experience the published project . | . ",
+    "url": "http://0.0.0.0:4000/docs/en/release/#qr-code-release-mobile-terminal",
+    "relUrl": "/docs/en/release/#qr-code-release-mobile-terminal"
+  },"212": {
+    "doc": "Release",
+    "title": "Web page embedded publishing",
+    "content": ". | As shown in the figure, here we have prepared weather broadcast and released it in the project . | Install nginx service . | Add the following configuration to the nginx. conf configuration file, and then restart nginx. server { listen 7000; listen [::]:7000; location / { root /Users/admin/service/zbot; # The path of the html file to be mapped index index.html index.htm; } } . Note: Please refer to this for nginx installationcourse . | At/Users/admin/service/zbot, create a new file index.html with the following contents: . &lt;!DOCTYPE html&gt; &lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;release promptai demo&lt;/h1&gt; &lt;p&gt;this is release promptai demo. &lt;/p&gt; &lt;/body&gt; &lt;/html&gt; . | Verify whether the service is normal. As shown in the figure, check whether the nginx service is normal . | . | Embed Smart Sessions to Web Sites . | Edit /Users/admin/service/zbot/index.html and add the embedded code of the publishing interface. After editing, the index.html content is as follows &lt;!DOCTYPE html&gt; &lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;release promptai demo&lt;/h1&gt; &lt;p&gt;this is release promptai demo. &lt;/p&gt; &lt;script type=\"text/javascript\" src=\"https://app.promptai.cn/ava/chatbot.app?name=Prompt+AI&amp;id=a1_p_bzr812l9dg5c&amp;token=NDA3OGY3NjQtNDIyZC00ZGRmLTk2MTYtMWY1YjVlMDM5YzQ1&amp;project=p_bzr812l9dg5c\"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt; . | . | When we open the website again, we can see that there are more chat boxes in the lower right corner of the website. Click Open to start an intelligent session. So far, our intelligent session has been published. | . ",
+    "url": "http://0.0.0.0:4000/docs/en/release/#web-page-embedded-publishing",
+    "relUrl": "/docs/en/release/#web-page-embedded-publishing"
+  },"213": {
+    "doc": "RASA Learning",
+    "title": "RASA Learning",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/study_rasa/",
+    "relUrl": "/docs/en/study_rasa/"
+  },"214": {
+    "doc": "RASA Learning",
+    "title": "Visual design tools",
+    "content": "https://www.promptai.cn/ PROMPT AI is a website that uses mind mapping to achieve dialogue process design. With a visual interface, it can use simple operations to design project files compatible with rasa and automatically deploy them online. The website interface has a download function, which can translate the edited dialogue into rasa projects, including configuration, nlu, story data, modification, training, operation and deployment in the local environment. ",
+    "url": "http://0.0.0.0:4000/docs/en/study_rasa/#visual-design-tools",
+    "relUrl": "/docs/en/study_rasa/#visual-design-tools"
+  },"215": {
+    "doc": "RASA Learning",
+    "title": "Official information",
+    "content": ". | Rasa Official Document | . https://rasa.com/docs/rasa/ The documents provided on Rasa’s official website contain detailed instructions from installation to deployment and the main changes of each major version. Every major version of Rasa has major changes, such as data format adjustment from markdown to yaml format and domain. yml file; There are detailed descriptions in the official documents. | Official sample of Rasa | . https://github.com/RasaHQ/rasa/tree/main/examples Several examples are given in Rasa’s official code base. The Rasa team also has a relatively large example bot, sara, which is in a separate code warehouse. However, because the sara bot itself has a lot of content, it is more suitable for beginners to learn. The examples in the Rasa code base are relatively small, which is suitable for beginners to learn the small functions in the Rasa framework. In addition, it should be noted that since Rasa iterations are frequent and the data format is constantly changing, the corresponding version number needs to be selected, otherwise various problems may occur; In addition, during actual learning, we found that in some examples, the configuration file config. yml needs to be modified slightly before it can be used. Please note this. | Rasa Blog | . https://rasa.com/blog/ Rasa official blog link. In the blog, Rasa developers will introduce the implementation logic and design ideas behind the corresponding technologies. These blogs are worth referring to when you need to understand Rasa in depth. | Official Forum | . https://forum.rasa.com/ Here you can find some users’ actual use problems, and the official team will also maintain the page. If you use an earlier version of Rasa, it is easier to find the answer here. ",
+    "url": "http://0.0.0.0:4000/docs/en/study_rasa/#official-information",
+    "relUrl": "/docs/en/study_rasa/#official-information"
+  },"216": {
+    "doc": "RASA Learning",
+    "title": "Non official/Chinese bot data",
+    "content": "The following are some unofficial materials. If there are other public materials, please contact us and we will add them in time. | Rasa Chinese Chat Robot Development Guide | . https://jiangdg.blog.csdn.net/article/details/104328946 Personally, I think the blog translation of this series is relatively accurate and easy to understand. After reading these articles, I should have a preliminary understanding of the Rasa framework and be able to build a basic dialogue robot. The author has finished introducing the main parts of the Rasa framework, including the installation instructions, NLU and CORE. This series is worth seeing. | Github Personal Project – based on Rasa v2. x | . https://github.com/Dustyposa/rasa_ch_faq In addition to using the functions provided by rasa, the rasa project with high quality also has other customized functions, such as custom action, custom pipeline, etc. If necessary, it can be designed according to the author’s design ideas. | Github Personal Project – based on Rasa v1. x | . https://github.com/GaoQ1/rasa_chatbot_cn The author wrote a series of blog posts and provided his project documents with high quality. The overall project is based on Rasa v1.10. If you are using the Rasa v1. x series, you can rest assured to refer to this project. | Rasa Book | . https://github.com/Chinese-NLP-book/rasa_chinese_book_code . Based on Rasa v3.0, the book systematically explains the principles of the Rasa framework, how to build bots in different scenarios, and the high concurrency support of Rasa, which is helpful for the industrial use of Rasa. ",
+    "url": "http://0.0.0.0:4000/docs/en/study_rasa/#non-officialchinese-bot-data",
+    "relUrl": "/docs/en/study_rasa/#non-officialchinese-bot-data"
+  },"217": {
+    "doc": "Settings illustration",
+    "title": "Settings illustration",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/",
+    "relUrl": "/docs/en/tutorial/setting/"
+  },"218": {
+    "doc": "Settings illustration",
+    "title": "{: .no_toc .header }",
+    "content": "This tutorial will explain the various settings in the system and their use scene effects. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/#-no_toc-header-",
+    "relUrl": "/docs/en/tutorial/setting/#-no_toc-header-"
+  },"219": {
+    "doc": "Settings illustration",
+    "title": "project settings",
+    "content": "Welcome and fallback in project settings will affect the chat robot after training and release . project welcome . As shown in the figure, after setting the welcome , open the robot chat window and send it to the user as the first message. Note: The welcome in project settings takes effect immediately after modification. Downloading Rasa readable files is not supported. project fallback . As shown in the figure, when the chat robot cannot recognize the user’s intention, it will send the Fallback set by the project to the user as a message. Note: The fallback in project settings takes effect immediately after modification. Downloading Rasa readable files is not supported. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/#project-settings",
+    "relUrl": "/docs/en/tutorial/setting/#project-settings"
+  },"220": {
+    "doc": "Settings illustration",
+    "title": "Flow Graph Settings",
+    "content": "When editing a dialog flow diagram, you can set whether to present branch prompts and subordinates as options . Branch welcome . When the user checks whether ** Subordinates present ** All ** after ** as an option here, after publishing the project, all dialogue processes under the project will be displayed with buttons under the branch prompt. Check ** Check only** . After the project is published, the dialog process in which only the child presented as button is enabled under the project will be displayed with the button below the branch prompt. Check No . , after the project is published, all the dialog processes of the project will not be displayed with buttons under the branch prompt Note: Branch welcome, child presented as button will take effect immediately after modification. Downloading Rasa readable files is not supported. Whether to prompt branch options and branch guide words . Whether the dialog overview editor prompts branching options and guideline . Note: Branch welcome, child presented as button will take effect immediately after modification. Downloading Rasa readable files is not supported. Whether branch options and guidelines are prompted in the branch editing interface. When the training is released, the enabled Prompt for Branches option will be added to the welcome message as a button first, and the branch guide will return the set guide after the user clicks the corresponding branch button or sends a message to hit the branch . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/#flow-graph-settings",
+    "relUrl": "/docs/en/tutorial/setting/#flow-graph-settings"
+  },"221": {
+    "doc": "Settings illustration",
+    "title": "Configure the delay time of bot reply",
+    "content": "The bot reply node can set the reply delay time. When the robot replies, it will delay the corresponding set time to reply to the message. As shown in the figure, we set the robot to reply with a 5s delay . When the user enters the intention to hit the bot reply with the set delay time, the bot will reply after the reset delay time. As shown in the figure： . ##Configure bot reply conditions . When the bot reply condition is set, it will go through the blocked branches according to whether the value of the corresponding variable is extracted. When there are multiple conditions, they need to be met at the same time As shown in the figure, we can continue the following selection when the city is not empty . The effect after training is shown in the figure： . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/#configure-the-delay-time-of-bot-reply",
+    "relUrl": "/docs/en/tutorial/setting/#configure-the-delay-time-of-bot-reply"
+  },"222": {
+    "doc": "Settings illustration",
+    "title": "Configure reset variable values",
+    "content": "After setting the reset variable value, the value of the variable will be reset to the set value, and the value extracted by the subsequent node from the variable is the set value. The setting method is shown in the figure . The effect after training is shown in the figure：： . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/#configure-reset-variable-values",
+    "relUrl": "/docs/en/tutorial/setting/#configure-reset-variable-values"
+  },"223": {
+    "doc": "Settings illustration",
+    "title": "Download Rasa file",
+    "content": "At present, our system supports direct downloading of rasa readable files. Click the Download Rasa file button at the top right corner to download the Rasa readable files corresponding to the dialog flow graph as required Note: welcome , fallback, branch prompt, and question prompt (FAQ) need system support to take effect . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/setting/#download-rasa-file",
+    "relUrl": "/docs/en/tutorial/setting/#download-rasa-file"
+  },"224": {
+    "doc": "Developer's guide",
+    "title": "Quick start",
+    "content": ". This article will guide you to quickly understand the session services provided by Prompt AI. You will open and use the new session services through the following steps to obtain a new service experience. This tutorial is very important for you to use our system. We strongly recommend that you take the time to read our tutorial thoroughly. ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/#quick-start",
+    "relUrl": "/docs/en/tutorial/#quick-start"
+  },"225": {
+    "doc": "Developer's guide",
+    "title": "Developer's guide",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/",
+    "relUrl": "/docs/en/tutorial/"
+  },"226": {
+    "doc": "About",
+    "title": "About",
+    "content": ". This article will guide you to quickly start using the intelligent conversation service provided by Prompt AI. Prompt AI is the next generation cloud based professional intelligent session design cloud platform built by Feiyu for SMEs. In addition to covering the functions of traditional intelligent sessions, Prompt AI, based on the concept of * * visualization * *, combined with new technologies and professional intelligent dialogue experience, can fully meet the comprehensive intelligent session design needs of SMEs customers, allowing customers to integrate intelligent sessions into their own business systems more quickly and easily. Compared with other intelligent session schemes, Prompt AI has the following characteristics: . | Easy to use：Based on application scenarios, professional graphic design functions are exposed to customers in a simple and easy to understand way, so that customers can quickly get started. When meeting special or complex scenarios, it can be quickly customized or extended through standard interfaces. | Fast and convenient：AI integrates the conversations of common scenarios professionally without the need for customers to build from scratch. | Multi scene switching：Multi scenario switching is an important concept of Prompt AI. As a true “package” of intelligent session services, users do not need to build different session schemes for different session needs to fully save costs and make the session system play a greater role. | Go online quickly：Rapid design and construction of an intelligent session system is also an important concept of Prompt AI. Rapid design, rapid construction, rapid packaging, and rapid deployment reduce the complexity of users deploying a complete session system from zero, and make deployment simple, fast, and stable. | . ",
+    "url": "http://0.0.0.0:4000/docs/en/",
+    "relUrl": "/docs/en/"
+  },"227": {
+    "doc": "关于",
+    "title": "关于Prompt AI",
+    "content": ". 本文将引导你快速开始使用 Prompt AI 所提供的智能对话服务。 . Prompt AI是飞语为中小企业客户打造的下一代基于云的专业智能会话设计云平台。除了覆盖传统智能会话的功能外，Prompt AI基于可视化的理念，结合全新的技术和专业的智能对话经验，可全面满足中小企业客户全面的智能会话设计需求，让客户能更快、更容易的将智能会话集成于自身的业务系统中。 . Prompt AI与其它智能会话方案相比，具有如下特点： . | 简单易用：基于应用场景，专业的图形设计功能通过简洁易理解的方式暴露给客户，让客户能快速上手。在满足特殊或复杂场景时，可通过标准的接口进行快速定制或扩展。 | 快捷便利：AI将常用场景的会话进行专业整合，无需客户从头构建。 | 多场景切换：多场景切换是Prompt AI的一个重要理念，作为一个真正意义上的“一揽子”智能会话服务，用户无需为不同的会话需求构建不同的会话方案，充分节约成本，并让会话系统发挥更大价值。 | 快速上线：快速的设计构建一个智能会话系统，也是Prompt AI的一个重要概念，快速设计、快速构建、快速打包、快速部署，降低用户从零部署一个完整的会话系统的复杂度，让部署变得简单快速稳定。 | . 下图为Prompt AI使用概览： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/about/#%E5%85%B3%E4%BA%8Eprompt-ai",
+    "relUrl": "/docs/zh/about/#关于prompt-ai"
+  },"228": {
+    "doc": "关于",
+    "title": "关于",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/about/",
+    "relUrl": "/docs/zh/about/"
+  },"229": {
+    "doc": "示例",
+    "title": "示例引导",
+    "content": ". 我们提供以下几个示例，引导你快速了解并使用Prompt AI所提供的会话服务。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/#%E7%A4%BA%E4%BE%8B%E5%BC%95%E5%AF%BC",
+    "relUrl": "/docs/zh/example/#示例引导"
+  },"230": {
+    "doc": "示例",
+    "title": "示例",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/",
+    "relUrl": "/docs/zh/example/"
+  },"231": {
+    "doc": "常见问题",
+    "title": "常见问题",
+    "content": ". 下文列出了我们使用系统中的一些常见问题解决办法参考 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/faq/",
+    "relUrl": "/docs/zh/faq/"
+  },"232": {
+    "doc": "常见问题",
+    "title": "参考教程可解决的常见问题",
+    "content": "请问自定义webhook的时候，URL是怎么得到的？ . 请参考教程webhook . 续出现多个回复怎么写？ . 请参考教程创建对话流图-添加回复节点 . 如何停止训练？ . 请参考教程调试项目-取消训练 . 不知道意图模板这个功能 . 请参考教程创建意图列表 . 请问他这个流程图的初始节点是默认有一个用户选项吗？ . 请参考教程对话流图设置 . 这个添加一个节点，然后删除，有撤销功能吗？ . 支持，请参考教程撤销/重做 . 机器回复附件支持 . 请参考教程创建对话流图-添加回复节点 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/faq/#%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B%E5%8F%AF%E8%A7%A3%E5%86%B3%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98",
+    "relUrl": "/docs/zh/faq/#参考教程可解决的常见问题"
+  },"233": {
+    "doc": "常见问题",
+    "title": "如何在一句话中提取多个变量？比如 “我想要五斤苹果”",
+    "content": "请参考教程创建表单-完善信息列表（Slots） . ",
+    "url": "http://0.0.0.0:4000/docs/zh/faq/#%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%AD%E6%8F%90%E5%8F%96%E5%A4%9A%E4%B8%AA%E5%8F%98%E9%87%8F%E6%AF%94%E5%A6%82-%E6%88%91%E6%83%B3%E8%A6%81%E4%BA%94%E6%96%A4%E8%8B%B9%E6%9E%9C",
+    "relUrl": "/docs/zh/faq/#如何在一句话中提取多个变量比如-我想要五斤苹果"
+  },"234": {
+    "doc": "常见问题",
+    "title": "其他",
+    "content": "机器回复从回答列表中选取，能取消吗? . 如果机器回复选了从回答列表选取但是没有保存，可以选择关闭，然后提示框选择不保存 . 我们自己写的项目可以加到项目模板里面吗？ . 目前版本暂时不支持，请关注我们版本更新 . 节点能不能转换类型？ . 目前仅支持用户输入转换到按钮，可将用户输入节点的用户输入方式改成点击输入即可 . 快捷键支持：control c/z . 可用control c快速复制节点到粘贴板，control z撤销上一步操作 . 节点有错误不能保存 . 节点有错误是编辑节点的时候点保存按钮会有错误提示，如果你想先用一个节点占位，可以点关闭按钮 . 能不能并行debug . 目前由于服务器资源有限，暂不支持 . 不能识别表情 . 目前暂不支持表情，请关注我们的版本更新 . 城市提取不能提取完，只能提取标注的 . 你可以尝试将变量提取-实体提取来源改成输入文本 . 重置变量是否支持多个？ . 支持，添加一个重置变量后可以继续点下面的添加按钮 . 用户长时间未操作，支持主动询问吗？ . 目前暂不支持，请关注我们的版本更新 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/faq/#%E5%85%B6%E4%BB%96",
+    "relUrl": "/docs/zh/faq/#其他"
+  },"235": {
+    "doc": "本地安装",
+    "title": "本地安装",
+    "content": ". 当RASA开发人员需要使用系统流图的编辑功能或者是需要对流图进行调试验证的时候， 可以利用系统的下载RASA文件功能，在本地利用下载的Rasa文件进行调试验证。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/local_install/",
+    "relUrl": "/docs/zh/local_install/"
+  },"236": {
+    "doc": "本地安装",
+    "title": "Rasa文件下载",
+    "content": "下载RASA文件功能主要是为了方便开发人员能使用系统方便快捷的流图编辑功能，然后利用系统帮助生成RASA文件， 再对模型进行调试验证。 . | 如图所示，点击所选流图右上角的下载RASA文件，弹出选择框，这里你可以相应的对话流图，然后点击确定下载RASA文件。 选择框有以下几个组合可选： | 当前下载，下载当前对话流图 | 组合下载，自由勾选当前项目下的对话流图 | 全部下载，勾选当前项目下的全部对话流图 | . | 当前项目有包含错误节点的流图时，会在弹出框归类到不可用模块，鼠标放到流图上面可以看到错误信息数量，点流图后面的链接可以快捷跳转到对应流图进行修改。 | . 注意：欢迎语，未知问题回复，分支提示语，跳转到节点，再次提问提示语（FAQ）需要系统支持才生效 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/local_install/#rasa%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD",
+    "relUrl": "/docs/zh/local_install/#rasa文件下载"
+  },"237": {
+    "doc": "本地安装",
+    "title": "Rasa环境准备",
+    "content": "本地安装需要你本地python版本3.8以上（推荐3.8.10），同时需要通过pip安装以下依赖包 . rasa==3.2.0 jieba==0.42.1 transformers==4.24.0 jsonpath==0.82 . 安装完成后命令行输入rasa init验证如图所示。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/local_install/#rasa%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87",
+    "relUrl": "/docs/zh/local_install/#rasa环境准备"
+  },"238": {
+    "doc": "本地安装",
+    "title": "RASA文件调试验证",
+    "content": "这里我们以项目模板-&gt;帮助文档-&gt;收集用户信息为例 . | 移动最开始下载的rasa文件到/Users/admin/dev/flow/rasa/data/并解压到rasa，解压后如图所示: . | 训练调试 . # 进入目录 cd /Users/admin/dev/flow/rasa/data/rasa # 启动actions rasa actions # 开启另一命令行窗口进行训练 rasa train # 调试对话 rasa shell -p 8001 . 注意:如果出现OSError: [Errno 30] Read-only file system: '/rasa'错误，可以参考下面解决办法： . | mkdir /rasa &amp;&amp; chmod 777 /rasa | 修改文件中的config.yml，注释掉cache_dir: /rasa/bert这一项 | . | 验证结果 如图所示行进行调试验证 . | . 注意： . | 目前版本不支持中文变量，后续版本会增加docker image进行支持 | 目前版本不支持内置变量 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/local_install/#rasa%E6%96%87%E4%BB%B6%E8%B0%83%E8%AF%95%E9%AA%8C%E8%AF%81",
+    "relUrl": "/docs/zh/local_install/#rasa文件调试验证"
+  },"239": {
+    "doc": "本地化部署",
+    "title": "本地化部署",
+    "content": ". 如果你需要将服务部署到自己的私有服务器或者本地，可以参考如下教程。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/private_deploy/",
+    "relUrl": "/docs/zh/private_deploy/"
+  },"240": {
+    "doc": "本地化部署",
+    "title": "获取最新镜像",
+    "content": "通过如下命令获取最新安装镜像。获取最新镜像前，请您确认已经安装最新docker服务 . docker pull registry.cn-chengdu.aliyuncs.com/zpcloud/zbot-aio:latest . ",
+    "url": "http://0.0.0.0:4000/docs/zh/private_deploy/#%E8%8E%B7%E5%8F%96%E6%9C%80%E6%96%B0%E9%95%9C%E5%83%8F",
+    "relUrl": "/docs/zh/private_deploy/#获取最新镜像"
+  },"241": {
+    "doc": "本地化部署",
+    "title": "启动容器",
+    "content": "不使用GPU启动服务 . 获取最新镜像后，如果不使用GPU可以通过下面命令启动服务 . # 不使用GPU docker run --name zbot --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock -v &lt;host-path-log&gt;:/data/logs -v &lt;host-path-mysql&gt;:/data/mysql -v &lt;host-path-mongo&gt;:/data/mongo -v &lt;host-path-p8s&gt;:/data/minimalzp/p8s -p hostport:80 registry.cn-chengdu.aliyuncs.com/zpcloud/zbot-aio:latest . 说明： . | /var/run/docker.sock:docker通讯文件（服务与docker通讯，对模型容器进行管理）。 | /usr/local/zbot/.promptai/：训练文件缓存目录，需要与后面的映射目录一致，如果需要修改需要在启动命令添加参数-e ai.base.dir=&lt;path&gt; -v &lt;path&gt;:&lt;path&gt;，&lt;path&gt;为你需要修改的目录 | &lt;host-path-log&gt;：日志保存目录 | &lt;host-path-mysql&gt;：mysql数据文件目录 | &lt;host-path-mongo&gt;：mongodb数据文件目录 | &lt;host-path-p8s&gt;：minimalzp数据目录 | hostport:服务暴露端口，不能被其它程序占用 | . 使用GPU启动服务 . 如果需要使用GPU请首先安装好GPU驱动程序，目前仅支持nvidia显卡，驱动下载链接 . # 查看驱动是否正常 nvidia-smi . 驱动安装正常后如图所示 . 启动服务，并且使用GPU。默认使用当前电脑的所有GPU，如果你需要指定GPU请参考文档 . # 使用GPU docker run --name zbot --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock -v &lt;host-path-log&gt;:/data/logs -v &lt;host-path-mysql&gt;:/data/mysql -v &lt;host-path-mongo&gt;:/data/mongo -v &lt;host-path-p8s&gt;:/data/minimalzp/p8s -p hostport:80 --gpus all registry.cn-chengdu.aliyuncs.com/zpcloud/zbot-aio:latest . 安装完成 . 命令执行完成后，我们可以看到地址、账号、密码信息，如图所示： . # 通过查看容器的日志，判断服务是否启动成功 docker logs -f zbot . 登录体验 . 使用安装完成后显示的地址、账号、密码即可开启体验，如图所示： . 备注：默认的初始登录账号/密码:admin@promptai.local/promptai，但是请以服务安装完成后的显示为准 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/private_deploy/#%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8",
+    "relUrl": "/docs/zh/private_deploy/#启动容器"
+  },"242": {
+    "doc": "本地化部署",
+    "title": "说明",
+    "content": "模型容器 . 当我们进行项目调试及发布的时候，系统会根据发布的项目来创建（通过启动新的docker容器）对应的模型容器，每一个发布的项目都会对应一个模型容器， 一个账号下所有调试的项目对应同一个模型容器。 . 启动时间 . 第一次启动会消耗较长时间，因为此时系统将pull容器的docker image（此过程自动发生），请耐心等待。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/private_deploy/#%E8%AF%B4%E6%98%8E",
+    "relUrl": "/docs/zh/private_deploy/#说明"
+  },"243": {
+    "doc": "本地化部署",
+    "title": "获取帮助",
+    "content": "请扫码加入微信群里获取帮助，微信二维码在登录系统后右上角查看。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/private_deploy/#%E8%8E%B7%E5%8F%96%E5%B8%AE%E5%8A%A9",
+    "relUrl": "/docs/zh/private_deploy/#获取帮助"
+  },"244": {
+    "doc": "发布",
+    "title": "发布",
+    "content": ". 当我们训练的智能会话已经调试完成后，可以通过二维码或者嵌入网页的方式发布 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/release/",
+    "relUrl": "/docs/zh/release/"
+  },"245": {
+    "doc": "发布",
+    "title": "二维码发布 （移动端）",
+    "content": "当你需要在移动端访问的时候，可以通过访问移动端链接或者扫描二维码的方式体验。 . | 将二维码嵌入到网站，用户便可以通过移动端浏览器扫描或者微信扫描体验发布的项目 . | 将移动端链接嵌入到网站，用户打开链接即可体验发布的项目 . | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/release/#%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8F%91%E5%B8%83-%E7%A7%BB%E5%8A%A8%E7%AB%AF",
+    "relUrl": "/docs/zh/release/#二维码发布-移动端"
+  },"246": {
+    "doc": "发布",
+    "title": "网页嵌入发布",
+    "content": ". | 如图所示，这里我们已经将天气播报准备好，并且在项目中已发布 . | 安装nginx服务 . | 在nginx.conf配置文件中添加如下配置，然后重启nginx。 . server { listen 7000; listen [::]:7000; location / { root /Users/admin/service/zbot; # 需要映射的html文件路径 index index.html index.htm; } } . 备注：nginx安装可以参考此教程 . | 在/Users/admin/service/zbot新建文件index.html，内容如下： . &lt;!DOCTYPE html&gt; &lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;release promptai demo&lt;/h1&gt; &lt;p&gt;this is release promptai demo. &lt;/p&gt; &lt;/body&gt; &lt;/html&gt; . | 验证服务是否正常。如图所示，查看nginx服务是否正常 . | . | 将智能会话嵌入到网站 . | 编辑/Users/admin/service/zbot/index.html并将发布界面的嵌入代码添加进去，编辑后index.html内容如下 &lt;!DOCTYPE html&gt; &lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;release promptai demo&lt;/h1&gt; &lt;p&gt;this is release promptai demo. &lt;/p&gt; &lt;script type=\"text/javascript\" src=\"https://app.promptai.cn/ava/chatbot.app?name=Prompt+AI&amp;id=a1_p_bzr812l9dg5c&amp;token=NDA3OGY3NjQtNDIyZC00ZGRmLTk2MTYtMWY1YjVlMDM5YzQ1&amp;project=p_bzr812l9dg5c\"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt; . | . | 此时我们再次打开网站已经可以看到网站右下角已经多了个聊天小框，点开即可开启智能会话，至此我们智能会话发布完成。 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/release/#%E7%BD%91%E9%A1%B5%E5%B5%8C%E5%85%A5%E5%8F%91%E5%B8%83",
+    "relUrl": "/docs/zh/release/#网页嵌入发布"
+  },"247": {
+    "doc": "RASA学习",
+    "title": "RASA学习",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/study_rasa/",
+    "relUrl": "/docs/zh/study_rasa/"
+  },"248": {
+    "doc": "RASA学习",
+    "title": "一 可视化设计工具",
+    "content": "https://www.promptai.cn/ PROMPT AI是一个利用思维导图实现对话流程设计的网站，拥有可视化界面，可以使用简单的操作设计兼容rasa的项目文件并自动化部署上线。网站的界面上有下载功能，可以将编辑好的对话翻译成rasa项目，包括配置、nlu、story数据，在本地环境修改，训练，运行与部署。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/study_rasa/#%E4%B8%80-%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%BE%E8%AE%A1%E5%B7%A5%E5%85%B7",
+    "relUrl": "/docs/zh/study_rasa/#一-可视化设计工具"
+  },"249": {
+    "doc": "RASA学习",
+    "title": "二 官方资料",
+    "content": ". | Rasa官方文档 | . https://rasa.com/docs/rasa/ Rasa官网提供的文档，有详细的从安装到部署的说明以及每个大版本的主要变化说明。Rasa每个大版本都有较大的改动，比如数据格式上：从markdown到yaml格式、domain.yml文件中的数据结构调整；在官方文档中都有较详细的说明。 . | Rasa官方样例 | . https://github.com/RasaHQ/rasa/tree/main/examples Rasa官方代码库中给的几个例子。Rasa团队还有一个比较大型的example bot——sara，是在单独的代码仓库里，但由于sara bot本身内容较多，较适合已入门的学者学习。而Rasa代码库中的example都比较小，适合初学者学习Rasa框架中的各个小功能。另外需要注意的是，由于Rasa迭代比较频繁，数据格式也在不断变化，需要选择好对应的版本号，否则可能会出现各种问题；此外，在实际学习时，我们发现有一些example中需要稍微修改配置文件config.yml，才能够实际使用，请注意这点。 . | Rasa博客 | . https://rasa.com/blog/ Rasa官方博客链接。在博客中，Rasa的开发人员会介绍相应的技术背后的实现逻辑、设计思想，在需要深入了解Rasa的时候，这些博客是值得参考的。 . | 官方论坛 | . https://forum.rasa.com/ 在这里可以找到一些用户的实际使用问题，也会有官方团队的人维护版面。如果你使用的是较早期版本的Rasa，这里比较容易找到答案。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/study_rasa/#%E4%BA%8C-%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99",
+    "relUrl": "/docs/zh/study_rasa/#二-官方资料"
+  },"250": {
+    "doc": "RASA学习",
+    "title": "三 非官方/中文bot资料",
+    "content": "以下是一些非官方的资料，如有其他公开资料，请联系我们，我们会及时添加。 . | Rasa中文聊天机器人开发指南 | . https://jiangdg.blog.csdn.net/article/details/104328946 个人认为这个系列的博客翻译是比较准确的，并且较为通俗易懂，看完这几篇应该可以对Rasa框架有初步的认识并且能够搭建起基础的对话机器人。该作者已经完成了介绍Rasa框架主要的几部分，包括安装说明，NLU以及CORE篇，这个系列值得一看。 . | Github个人项目——基于Rasa v2.x | . https://github.com/Dustyposa/rasa_ch_faq 质量很高的rasa项目，除了使用rasa提供的功能外，还做了其他的定制化功能，比如custom action, custom pipeline等，有需要可仿照该作者的设计思路进行设计。 . | Github个人项目——基于Rasa v1.x | . https://github.com/GaoQ1/rasa_chatbot_cn 该作者写了一系列博文，并且提供了他的项目文件，质量很高。项目整体基于Rasa v1.10，如果有正在使用Rasa v1.x系列的朋友们可以放心参考这个项目。 . | Rasa书 | . https://github.com/Chinese-NLP-book/rasa_chinese_book_code . 该书基于Rasa v3.0版本，系统地讲解了Rasa框架的原理，以及如何搭建各种不同场景的bot，也讲解了Rasa的高并发支持，有助于Rasa的工业界使用。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/study_rasa/#%E4%B8%89-%E9%9D%9E%E5%AE%98%E6%96%B9%E4%B8%AD%E6%96%87bot%E8%B5%84%E6%96%99",
+    "relUrl": "/docs/zh/study_rasa/#三-非官方中文bot资料"
+  },"251": {
+    "doc": "配置说明",
+    "title": "配置说明",
+    "content": ". 此教程将对系统中各种配置进行及其使用场景效果进行说明。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/",
+    "relUrl": "/docs/zh/tutorial/setting/"
+  },"252": {
+    "doc": "配置说明",
+    "title": "项目设置",
+    "content": "项目设置中欢迎语和未知问题回复会在训练及发布完成后对聊天机器人产生影响。 . 欢迎语 . 如图所示，设置欢迎语后打开机器人聊天窗口会作为第一条消息发送给用户。 注意：项目设置中修改欢迎语后必须重新训练发布后才能生效。下载Rasa可读文件此项功能不支持。 . 未知问题回复 . 如图所示，当聊天机器人不能识别用户意图的时候，就会把项目设置的未知问题回复作为一条消息发送给用户。 注意：项目设置中修改未知问题回复后立即生效，不需要重新发布。下载Rasa可读文件此项功能不支持。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/#%E9%A1%B9%E7%9B%AE%E8%AE%BE%E7%BD%AE",
+    "relUrl": "/docs/zh/tutorial/setting/#项目设置"
+  },"253": {
+    "doc": "配置说明",
+    "title": "对话流图设置",
+    "content": "对话概览编辑对话流图的时候，可以设置分支提示语、下级是否作为选项呈现 . 分支提示语 . 当用户此处勾选下级是否作为选项呈现后的全部，发布项目后，项目下所有的对话流程会在分支提示语下面以用按钮呈现。勾选仅选中 ，发布项目后该项目下仅开启分支提示分支选项的对话流程会在分支提示语下面以用按钮呈现。勾选否 ，发布项目后该项目所有的对话流程都不会在分支提示语下面以用按钮呈现 注意：分支提示语、下级是否作为选项呈现改后立即生效，不需要重新发布。下载Rasa可读文件此项功能不支持。 . 是否提示分支选项及分支引导语 . 对话概览编辑是否提示分支选项及引导语。 注意：是否提示分支选项，分支引导语修改后立即生效，不需要重新发布。下载Rasa可读文件此项功能不支持。 . 分支编辑界面编辑是否提示分支选项及引导语。 . 训练发布的时候，开启的是否提示分支选项分支会优先作为按钮添加在欢迎语的后面，分支引导语在用户点击对应分支按钮或者发送消息命中分支后会将设置的引导语一并返回 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/#%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE%E8%AE%BE%E7%BD%AE",
+    "relUrl": "/docs/zh/tutorial/setting/#对话流图设置"
+  },"254": {
+    "doc": "配置说明",
+    "title": "配置机器回复的延时时间",
+    "content": "机器回复节点可以设置回复延时时间。当机器人回复的时候，会延迟对应设置时间回复消息。如图所示，这里我们设置机器人延时5s回复 . 当用户输入意图命中设置延时时间的机器回复后，消息再设定的延时时间后回复。如图所示： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/#%E9%85%8D%E7%BD%AE%E6%9C%BA%E5%99%A8%E5%9B%9E%E5%A4%8D%E7%9A%84%E5%BB%B6%E6%97%B6%E6%97%B6%E9%97%B4",
+    "relUrl": "/docs/zh/tutorial/setting/#配置机器回复的延时时间"
+  },"255": {
+    "doc": "配置说明",
+    "title": "配置机器人回复条件",
+    "content": "当设置机器人回复条件后，会根据是否提取到的对应变量的值走不通的分支。当有多个条件时，需要同时满足。 如图，这里我们设置成提取到city不为空时可以继续后面下面的选择 . 训练后的效果如图： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/#%E9%85%8D%E7%BD%AE%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9B%9E%E5%A4%8D%E6%9D%A1%E4%BB%B6",
+    "relUrl": "/docs/zh/tutorial/setting/#配置机器人回复条件"
+  },"256": {
+    "doc": "配置说明",
+    "title": "配置重置变量值",
+    "content": "当设置重置变量值后，变量的值就会重置成设置成的值，后续节点提取到该变量的值即为设定的值。设置方法如图所示 . 训练效果图： . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/#%E9%85%8D%E7%BD%AE%E9%87%8D%E7%BD%AE%E5%8F%98%E9%87%8F%E5%80%BC",
+    "relUrl": "/docs/zh/tutorial/setting/#配置重置变量值"
+  },"257": {
+    "doc": "配置说明",
+    "title": "下载Rasa可读文件",
+    "content": "目前我们系统支持直接下载rasa可读文件，点击右上角的其它按钮，按自己需要下载对应对话流图的Rasa可读文件 注意：欢迎语，未知问题回复，分支提示语，再次提问提示语（FAQ）需要系统支持才生效 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/setting/#%E4%B8%8B%E8%BD%BDrasa%E5%8F%AF%E8%AF%BB%E6%96%87%E4%BB%B6",
+    "relUrl": "/docs/zh/tutorial/setting/#下载rasa可读文件"
+  },"258": {
+    "doc": "开发指南",
+    "title": "快速开始",
+    "content": ". 本文将引导你快速了解Prompt AI所提供的会话服务，你将通过如下几步开启并使用全新会话服务，获得全新的服务体验。 该教程对您上手使用我们的系统非常重要，强烈建议您抽出时间通读我们的教程。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B",
+    "relUrl": "/docs/zh/tutorial/#快速开始"
+  },"259": {
+    "doc": "开发指南",
+    "title": "开发指南",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/",
+    "relUrl": "/docs/zh/tutorial/"
+  },"260": {
+    "doc": "关于",
+    "title": "关于",
+    "content": ". 本文将引导你快速开始使用 Prompt AI 所提供的智能对话服务。 . Prompt AI是飞语为中小企业客户打造的下一代基于云的专业智能会话设计云平台。除了覆盖传统智能会话的功能外，Prompt AI基于可视化的理念，结合全新的技术和专业的智能对话经验，可全面满足中小企业客户全面的智能会话设计需求，让客户能更快、更容易的将智能会话集成于自身的业务系统中。 . Prompt AI与其它智能会话方案相比，具有如下特点： . | 简单易用：基于应用场景，专业的图形设计功能通过简洁易理解的方式暴露给客户，让客户能快速上手。在满足特殊或复杂场景时，可通过标准的接口进行快速定制或扩展。 | 快捷便利：AI将常用场景的会话进行专业整合，无需客户从头构建。 | 多场景切换：多场景切换是Prompt AI的一个重要理念，作为一个真正意义上的“一揽子”智能会话服务，用户无需为不同的会话需求构建不同的会话方案，充分节约成本，并让会话系统发挥更大价值。 | 快速上线：快速的设计构建一个智能会话系统，也是Prompt AI的一个重要概念，快速设计、快速构建、快速打包、快速部署，降低用户从零部署一个完整的会话系统的复杂度，让部署变得简单快速稳定。 | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/",
+    "relUrl": "/docs/zh/"
+  },"261": {
+    "doc": "Redirect",
+    "title": "Redirect",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/docs/",
+    "relUrl": "/docs/"
+  },"262": {
+    "doc": "官网",
+    "title": "官网",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/",
+    "relUrl": "/"
+  },"263": {
+    "doc": "Variable extraction",
+    "title": "Variable extraction",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/example/slot/",
+    "relUrl": "/docs/en/example/slot/"
+  },"264": {
+    "doc": "Variable extraction",
+    "title": "Video",
+    "content": "You can quickly learn how to create a session flow graph with variable extraction through the following video. ",
+    "url": "http://0.0.0.0:4000/docs/en/example/slot/#video",
+    "relUrl": "/docs/en/example/slot/#video"
+  },"265": {
+    "doc": "变量提取",
+    "title": "变量提取",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/slot/",
+    "relUrl": "/docs/zh/example/slot/"
+  },"266": {
+    "doc": "变量提取",
+    "title": "示例视频",
+    "content": "你可以通过下面视频，快速了解如何创建一个带变量提取的会话流图。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/slot/#%E7%A4%BA%E4%BE%8B%E8%A7%86%E9%A2%91",
+    "relUrl": "/docs/zh/example/slot/#示例视频"
+  },"267": {
+    "doc": "Recycle Bin",
+    "title": "Recycle Bin",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/en/example/trash/",
+    "relUrl": "/docs/en/example/trash/"
+  },"268": {
+    "doc": "Recycle Bin",
+    "title": "Video",
+    "content": "You can learn how to use the recycle bin to insert nodes between two nodes, and use the recycle bin to delete intermediate nodes of two intermediate nodes through the following video. ",
+    "url": "http://0.0.0.0:4000/docs/en/example/trash/#video",
+    "relUrl": "/docs/en/example/trash/#video"
+  },"269": {
+    "doc": "回收站",
+    "title": "回收站",
+    "content": ". ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/trash/",
+    "relUrl": "/docs/zh/example/trash/"
+  },"270": {
+    "doc": "回收站",
+    "title": "示例视频",
+    "content": "你可以通过下面视频，你将了解怎么使用回收站在两个节点间插入节点，使用回收站删除两个中间节点的中间节点。 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/example/trash/#%E7%A4%BA%E4%BE%8B%E8%A7%86%E9%A2%91",
+    "relUrl": "/docs/zh/example/trash/#示例视频"
+  },"271": {
+    "doc": "Create Intent List",
+    "title": "Intent List Concept",
+    "content": ". Please refer to the concept description of Intention List . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/node-template/user-global/#intent-list-concept",
+    "relUrl": "/docs/en/tutorial/node-template/user-global/#intent-list-concept"
+  },"272": {
+    "doc": "Create Intent List",
+    "title": "Create Intent List",
+    "content": "If it is shown in the figure, click Project View - Intent List - Add in order to create a general intent template for extracting birthdays. After filling in the figure, click OK to save, . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/node-template/user-global/",
+    "relUrl": "/docs/en/tutorial/node-template/user-global/"
+  },"273": {
+    "doc": "Create Intent List",
+    "title": "Use in conversation flow diagrams",
+    "content": ". | As shown in the figure, first create a flow graph to ask for birthdays, then create a machine reply node to ask for birthdays and a user input node in turn. | Select the user input node to edit the node, click Select from the intention list as shown in the figure, and then select the intention template we just created After selection, we can add, delete and modify training statements here (the operation will take effect on all user input nodes referencing the template) Then create a branch, reference the birthday extraction template, and complete the flow chart as follows: . | Training and verification results Click Debug Run - Current Module in the upper right corner to wait for the training to complete the verification effect . | . ",
+    "url": "http://0.0.0.0:4000/docs/en/tutorial/node-template/user-global/#use-in-conversation-flow-diagrams",
+    "relUrl": "/docs/en/tutorial/node-template/user-global/#use-in-conversation-flow-diagrams"
+  },"274": {
+    "doc": "创建意图列表",
+    "title": "意图列表概念",
+    "content": ". 请参照意图列表概念说明 . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/node-template/user-global/#%E6%84%8F%E5%9B%BE%E5%88%97%E8%A1%A8%E6%A6%82%E5%BF%B5",
+    "relUrl": "/docs/zh/tutorial/node-template/user-global/#意图列表概念"
+  },"275": {
+    "doc": "创建意图列表",
+    "title": "创建意图列表",
+    "content": "如果所示，依次点击项目视图-意图列表-新增，我们创建一个提取生日的通用意图模板，按照图中填好后点击确定保存， . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/node-template/user-global/",
+    "relUrl": "/docs/zh/tutorial/node-template/user-global/"
+  },"276": {
+    "doc": "创建意图列表",
+    "title": "在对话流图中使用",
+    "content": ". | 如图所示，先创建一个询问生日的流图，然后依次创建一个询问生日的机器回复节点，和一个用户输入节点。 . | 选择用户输入节点编辑节点，按照图中所示点击从意图列表选择 然后选择我们刚刚创建的意图模板 选择完成后，我们可以在此处添加、删除、修改训练语句（操作对所有引用该模板的用户输入节点都会生效） 再创建一个分支，引用生日提取模板，然后完成流图如下： . | 训练并验证结果 点解右上角的调试运行-当前模块，等待训练完成验证效果 . | . ",
+    "url": "http://0.0.0.0:4000/docs/zh/tutorial/node-template/user-global/#%E5%9C%A8%E5%AF%B9%E8%AF%9D%E6%B5%81%E5%9B%BE%E4%B8%AD%E4%BD%BF%E7%94%A8",
+    "relUrl": "/docs/zh/tutorial/node-template/user-global/#在对话流图中使用"
+  }
+}

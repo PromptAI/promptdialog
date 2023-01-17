@@ -1,0 +1,8 @@
+<div class="language">
+  {%- assign language = include.language -%}
+  {%- if language == 'en' -%}
+    <a href="/docs/zh" class="language-link" rel="noopener noreferrer">中文</a>
+  {%- else -%}
+    <a href="/docs/en" class="language-link" rel="noopener noreferrer">English</a>
+  {%- endif -%}
+</div>
