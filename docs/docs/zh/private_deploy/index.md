@@ -51,9 +51,9 @@ hostport=9000
 
 # 5、run container
 # GPU version 
-# docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v $basedir/logs:/data/logs -v $basedir/mysql:/data/mysql -v $basedir/mongo:/data/mongo -v $basedir/p8s:/data/minimalzp/p8s -p $hostport:80 --gpus all $zbot
+# docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v $basedir/.promptai/:$basedir/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v $basedir/logs:/data/logs -v $basedir/mysql:/data/mysql -v $basedir/mongo:/data/mongo -v $basedir/p8s:/data/minimalzp/p8s -e ai.base.dir=$basedir/.promptai/ -p $hostport:80 --gpus all $zbot
 # CPU version
-docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v $basedir/logs:/data/logs -v $basedir/mysql:/data/mysql -v $basedir/mongo:/data/mongo -v $basedir/p8s:/data/minimalzp/p8s -p $hostport:80  $zbot
+docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v $basedir/.promptai/:$basedir/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v $basedir/logs:/data/logs -v $basedir/mysql:/data/mysql -v $basedir/mongo:/data/mongo -v $basedir/p8s:/data/minimalzp/p8s -e ai.base.dir=$basedir/.promptai/ -p $hostport:80  $zbot
 ```
 
 安装结果请看后文。
@@ -77,11 +77,11 @@ docker pull registry.cn-hangzhou.aliyuncs.com/promptai/zbotai:release
 获取最新镜像后，如果不使用GPU可以通过下面命令启动服务
 ```shell
 # 不使用GPU
-docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v <host-path-log>:/data/logs -v <host-path-mysql>:/data/mysql -v <host-path-mongo>:/data/mongo -v <host-path-p8s>:/data/minimalzp/p8s -p hostport:80  registry.cn-hangzhou.aliyuncs.com/promptai/zbot-aio:latest
+docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v <host-path>/.promptai/:<host-path>/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v <host-path-log>:/data/logs -v <host-path-mysql>:/data/mysql -v <host-path-mongo>:/data/mongo -v <host-path-p8s>:/data/minimalzp/p8s  -e ai.base.dir=<host-path>/.promptai/ -p hostport:80  registry.cn-hangzhou.aliyuncs.com/promptai/zbot-aio:latest
 ```
 <br/>说明：
 - `/var/run/docker.sock`:docker通讯文件（服务与docker通讯，对模型容器进行管理）。
-- `/usr/local/zbot/.promptai/`：训练文件缓存目录，需要与后面的映射目录一致，如果需要修改需要在启动命令添加参数`-e ai.base.dir=<path> -v <path>:<path>`，`<path>`为你需要修改的目录
+- `<host-path>/.promptai/`：训练文件缓存目录
 - `<host-path-log>`：日志保存目录
 - `<host-path-mysql>`：mysql数据文件目录
 - `<host-path-mongo>`：mongodb数据文件目录
@@ -101,7 +101,7 @@ nvidia-smi
 启动服务，并且使用GPU。默认使用当前电脑的所有GPU，如果你需要指定GPU[请参考文档](https://docs.docker.com/engine/reference/commandline/run/#access-an-nvidia-gpu)
 ```shell
 # 使用GPU
-docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v /usr/local/zbot/.promptai/:/usr/local/zbot/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v <host-path-log>:/data/logs -v <host-path-mysql>:/data/mysql -v <host-path-mongo>:/data/mongo -v <host-path-p8s>:/data/minimalzp/p8s -p hostport:80 --gpus all registry.cn-hangzhou.aliyuncs.com/promptai/zbot-aio:latest
+docker run --restart always --name zbot -d --add-host=host.docker.internal:host-gateway -v <host-path>/.promptai/:<host-path>/.promptai/:rw -v /var/run/docker.sock:/var/run/docker.sock  -v <host-path-log>:/data/logs -v <host-path-mysql>:/data/mysql -v <host-path-mongo>:/data/mongo -v <host-path-p8s>:/data/minimalzp/p8s  -e ai.base.dir=<host-path>/.promptai/ -p hostport:80  --gpus all registry.cn-hangzhou.aliyuncs.com/promptai/zbot-aio:latest
 ```
 
 ### 安装完成
