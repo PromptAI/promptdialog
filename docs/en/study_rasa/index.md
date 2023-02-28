@@ -58,7 +58,7 @@ https://github.com/Chinese-NLP-book/rasa_chinese_book_code
 
 Based on Rasa v3.0, the book systematically explains the principles of the Rasa framework, how to build bots in different scenarios, and the high concurrency support of Rasa, which is helpful for the industrial use of Rasa.
 
-5、Rasa 3 installation and introduce
+5. Rasa 3 installation and introduce
 
 https://mp.weixin.qq.com/s/hyXp_fgu5FJ0q1cBERGXFw
 

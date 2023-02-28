@@ -59,7 +59,7 @@ https://github.com/Chinese-NLP-book/rasa_chinese_book_code
 
 该书基于Rasa v3.0版本，系统地讲解了Rasa框架的原理，以及如何搭建各种不同场景的bot，也讲解了Rasa的高并发支持，有助于Rasa的工业界使用。
 
-5、Rasa3 安装及入门教程
+5. Rasa3 安装及入门教程
 
 https://mp.weixin.qq.com/s/hyXp_fgu5FJ0q1cBERGXFw
 
