@@ -15,29 +15,29 @@ has_children: true
 
 ### 请问自定义webhook的时候，URL是怎么得到的？
 
-请参考教程[webhook](/docs/tutorial/webhook/01-webhook/)
+请参考教程[webhook](/docs/zh/tutorial/webhook/01-webhook/)
 
 ### 续出现多个回复怎么写？
-请参考教程[创建对话流图-添加回复节点](/docs/tutorial/flow/01-create-flow/#添加回复节点)
+请参考教程[创建对话流图-添加回复节点](/docs/zh/tutorial/flow/01-create-flow/#添加回复节点)
 
 ### 如何停止训练？
-请参考教程[调试项目-取消训练](/docs/tutorial/flow/03-train-project/#取消训练)
+请参考教程[调试项目-取消训练](/docs/zh/tutorial/flow/03-train-project/#取消训练)
 
 ### 不知道意图模板这个功能
-请参考教程[创建意图列表](/docs/tutorial/node-template/user-global/)
+请参考教程[创建意图列表](/docs/zh/tutorial/node-template/user-global/)
 
 ### 请问他这个流程图的初始节点是默认有一个用户选项吗？
-请参考教程[对话流图设置](/docs/tutorial/setting/#对话流图设置)
+请参考教程[对话流图设置](/docs/zh/tutorial/setting/#对话流图设置)
 
 ### 这个添加一个节点，然后删除，有撤销功能吗？
-支持，请参考教程[撤销/重做](/docs/tutorial/setting/#对话流图设置)
+支持，请参考教程[撤销/重做](/docs/zh/tutorial/setting/#对话流图设置)
 
 ### 机器回复附件支持
-请参考教程[创建对话流图-添加回复节点](/docs/tutorial/flow/01-create-flow/#回复节点添加附件)
+请参考教程[创建对话流图-添加回复节点](/docs/zh/tutorial/flow/01-create-flow/#回复节点添加附件)
 
 ## 如何在一句话中提取多个变量？比如 “我想要五斤苹果”
 
-请参考教程[创建表单-完善信息列表（Slots）](/docs/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+请参考教程[创建表单-完善信息列表（Slots）](/docs/zh/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
 
 ## 其他
 
