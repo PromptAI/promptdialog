@@ -44,7 +44,7 @@ Please refer to the tutorial[Create conversation flow graph - add reply node](/d
 
 ## How to extract multiple variables in a sentence? For example, "I want five jin of apples"
 
-Please refer to the tutorial[Create Form-Improve Slots）](/docs/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+Please refer to the tutorial[Create Form-Improve Slots）](/docs/en/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
 
 ## Other
 
@@ -79,7 +79,7 @@ Currently, emoticons are not supported. Please follow our version update
 
 ### City extraction cannot be completed, and only annotated
 
-You can try to change **variable extraction entity extraction source** into input text
+You can try to change **Variable value source** into Enter text
 
 ### Does reset variable support multiple?
 

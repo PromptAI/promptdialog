@@ -9,7 +9,7 @@ nav_order: 21
 {: .no_toc .header }
 ---
 When you have many nodes that need to use the same reply, it is strongly recommended that you use the answer list, which can save you a lot of repeated operation time.
-For the concept of answer list, please refer to[Answer List](/docs/appendix/appendix/#回答列表)Concept description
+For the concept of answer list, please refer to[Answer List](/docs/en/appendix/appendix/#回答列表)Concept description
 
 ## Create answer list
 

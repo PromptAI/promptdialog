@@ -8,7 +8,7 @@ nav_order: 22
 # 意图列表概念
 {: .no_toc .header }
 ---
-请参照[意图列表](/docs/appendix/appendix/#意图列表)概念说明
+请参照[意图列表](/docs/zh/appendix/appendix/#意图列表)概念说明
 
 ## 创建意图列表
 
