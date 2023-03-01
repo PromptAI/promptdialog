@@ -76,10 +76,10 @@ The user enters the node, and then continues to click the created user input nod
 
 ## User input node with intention template
 
-Select a user node, click **Save to Intent List**, set the template name from the pop-up box, and then save. As shown in the figure:
+Select a user node, click **Save to Intent List**, set the intent template name from the pop-up box, and then save. As shown in the figure:
 
 ![15-create-user](/assets/images/tutorial/flow/complex/15-create-user.png)
-Select the user node, click Select from Template, select the required template from the pop-up box, and then save. As shown in the figure:
+Select the user node, click Select from intent list, select the required intent template from the pop-up box, and then save. As shown in the figure:
 
 ![16-create-user](/assets/images/tutorial/flow/complex/16-create-user.png)
 
