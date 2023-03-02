@@ -8,7 +8,7 @@ nav_order: 23
 # 概念说明
 {: .no_toc .header }
 ---
-信息表单的概念请参照[信息表单](/docs/appendix/appendix/#表单)概念说明
+信息表单的概念请参照[信息表单](/docs/zh/appendix/appendix/#表单)概念说明
 
 ## 使用场景
 
@@ -54,7 +54,7 @@ nav_order: 23
     
 ### 完善收集成功
   <br/>收集成功后我们将收集到的信息跟用户确认，我们在收集成功节点后面添加一个机器回复，
-跟用户确认订单信息并保存到回答列表（参照[创建回答列表](/docs/tutorial/node-template/bot-global/)）
+跟用户确认订单信息并保存到回答列表（参照[创建回答列表](/docs/zh/tutorial/node-template/bot-global/)）
 ![14-form](/assets/images/tutorial/form/14-form.png)
 
 ### 完整流图如下：

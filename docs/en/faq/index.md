@@ -42,10 +42,17 @@ Please refer to the tutorial[Undo/Redo](/docs/en/tutorial/setting/#对话流图�
 
 Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/en/tutorial/flow/01-create-flow/#回复节点添加附件)
 
-## How to extract multiple variables in a sentence? For example, "I want five jin of apples"
+### How to extract multiple variables in a sentence? For example, "I want five jin of apples"
 
-Please refer to the tutorial[Create Form-Improve Slots）](/docs/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+Please refer to the tutorial[Create Form-Improve Slots）](/docs/en/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
 
+### During the conversation, I want to output different answers according to different variable values. What should I do?
+Situation first: Judge whether the variable has a value. For different answers, please refer to: [reply conditions] (/docs/zh/tutorial/setting/#Configure bot reply conditions) (judge whether the variable has a value or not)
+
+Situation second: different variable values respond to different responses/dynamic responses (accurately judge variable values)
+
+-Webhook: The extracted variable value is retrieved by calling [webhook] (/docs/en/tutorial/webhook/02-webhook/). For example, query the price of stock and stock
+-Action: [Action] (/docs/en/tutorial/action/01-action) can be added to the bot response, and different responses can be realized through Python code.
 ## Other
 
 ### Machine replies are selected from the answer list. Can you cancel?
@@ -79,7 +86,7 @@ Currently, emoticons are not supported. Please follow our version update
 
 ### City extraction cannot be completed, and only annotated
 
-You can try to change **variable extraction entity extraction source** into input text
+You can try to change **Variable value source** into Enter text
 
 ### Does reset variable support multiple?
 

@@ -8,7 +8,7 @@ nav_order: 23
 # Concept description
 {: .no_toc .header }
 ---
-For the concept of information form, please refer to [Information Form](/docs/appendix/appendix/#表单)of Concept description
+For the concept of information form, please refer to [Information Form](/docs/en/appendix/appendix/#表单)of Concept description
 
 ## Use Scenarios
 
@@ -56,7 +56,7 @@ Such scenarios are suitable for processing with information forms.
      ![13-form](/assets/images/tutorial/form/13-form.png)
 
 ### Complete collection succeeded
-  <br/>After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user, and save it in the answer list (refer to [Create Answer List](/docs/tutorial/node-template/bot-global/)）
+  <br/>After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user, and save it in the answer list (refer to [Create Answer List](/docs/en/tutorial/node-template/bot-global/)）
 ![14-form](/assets/images/tutorial/form/14-form.png)
 
 ### The complete flow diagram is as follows:
