@@ -58,7 +58,7 @@ illustrate：
 - uniqueid： unique `Bot Response` id
 - index: Position in `Bot Response`, calculated from 0。
 
-####stories.yml
+#### stories.yml
 
 ```yaml
 version: '3.1'
