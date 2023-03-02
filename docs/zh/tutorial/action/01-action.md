@@ -23,7 +23,7 @@ nav_order: 40
 
 这⾥输出了⼀句简单的打招呼⽂本。
 
-![action-02](/assets/images/tutorial/action/action-03.png)
+![action-03](/assets/images/tutorial/action/action-03.png)
 
 Action成功执⾏并输出了对应的⽂本内容。
 
@@ -59,7 +59,7 @@ class BotCustomaction_cp_ce1atgfk53b4_0(Action):
 - uniqueid： 机器回复节点唯⼀的id
 - index: 处于机器回复中的位置，从0开始计算。
 
-####stories.yml
+#### stories.yml
 
 ```yaml
 version: '3.1'
