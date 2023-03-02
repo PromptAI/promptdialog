@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: en
 title: Bot-Action
 parent: Developer's guide
 nav_order: 40
