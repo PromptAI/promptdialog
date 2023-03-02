@@ -35,9 +35,18 @@ has_children: true
 ### 机器回复附件支持
 请参考教程[创建对话流图-添加回复节点](/docs/zh/tutorial/flow/01-create-flow/#回复节点添加附件)
 
-## 如何在一句话中提取多个变量？比如 “我想要五斤苹果”
+### 如何在一句话中提取多个变量？比如 “我想要五斤苹果”
 
 请参考教程[创建表单-完善信息列表（Slots）](/docs/zh/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+
+### 在对话过程中，我想根据不同的变量值输出不同回答应该怎么做？
+
+情况⼀：判断变量有没有值，得到不同回答可参考：[回复条件](/docs/zh/tutorial/setting/#配置机器人回复条件)（判断变量有⽆值）
+
+情况⼆：不同的变量值回复不同回答/动态回答（精确判断变量值）
+
+- Webhook：将提取的变量值通过调⽤[webhook](/docs/zh/tutorial/webhook/02-webhook/)获取回答。⽐如：查询天⽓、股票价格
+- Action : 在机器回复中可以添加[Action](/docs/zh/tutorial/action/01-action)，通过Python 代码实现不同的回答。
 
 ## 其他
 
