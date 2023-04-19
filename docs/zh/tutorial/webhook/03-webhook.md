@@ -22,7 +22,7 @@ Webhook支持通过变量的方式获取到最新的用户输入和对话id。
 
 接下来将演示如何将默认回复接入Webhook
 
-#### API准备
+### API准备
 
 Webhook需要调用一个外部的API来获取回复。 假设我们有这样一个API：
 
@@ -36,17 +36,20 @@ curl http://localhost/chat?input=PromptAI可以做什么？&chatId=xxx
 
 通过Http Get请求将问题、会话Id作为输入，响应返回JSON格式的数据，其中message字段即为回复。
 
-#### Webhook配置
+### Webhook配置
+
 ![03-1-webhook.png](/assets/images/tutorial/webhook/03-1-webhook.jpg)
 ![03-2-webhook.jpg](/assets/images/tutorial/webhook/03-2-webhook.jpg)
 
 首先，我们配置了名称、请求地址，在请求地址中按照API要求通过使用内置变量`{latest_message}`、`{send_id}`将默认回复的用户输入及对话id传递给API。
 最后，在响应处理部分提取`message`到`relpy`,在响应成功时输出`{reply}`
 
-#### 默认回复配置默认回复
+### 默认回复配置默认回复
+
 在项目的"对话概览"-"默认回复"切换为配置好的默认回复 webhook:
 ![03-3-webhook.jpg](/assets/images/tutorial/webhook/03-3-webhook.jpg)
 
-#### 测试
+### 测试
+
 通过Webhook对该输入进行回答。
 ![03-4-webhook.jpg](/assets/images/tutorial/webhook/03-4-webhook.jpg)
