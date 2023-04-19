@@ -16,7 +16,7 @@ has_children: true
 ## 默认回复配置Talk2Bits
 
 针对一些文本、文件及Web的资料可以通过Talk2Bits快读构建知识库，通过接入类Talk2Bits的平台可以和PromptAI进行相互补充。
-本文将介绍如何将Talk2Bits接入Fallback。
+本文将介绍如何将Talk2Bits接入默认回复。
 
 * 注：其他平台可以通过Webhook进行接入，有任何疑问或需要请联系我们。
 
@@ -31,7 +31,7 @@ Talk2Bits在添加内容后可自动生成配置代码，不仅导入Web页面�
 
 ### 实例
 
-接下来将演示如何将Fallback接入Talk2Bits
+接下来将演示如何将默认回复接入Talk2Bits
 
 ### Talk2Bits 代码准备
 
