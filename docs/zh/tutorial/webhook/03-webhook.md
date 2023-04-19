@@ -44,7 +44,7 @@ curl http://localhost/chat?input=PromptAI可以做什么？&chatId=xxx
 首先，我们配置了名称、请求地址，在请求地址中按照API要求通过使用内置变量`{latest_message}`、`{send_id}`将默认回复的用户输入及对话id传递给API。
 最后，在响应处理部分提取`message`到`relpy`,在响应成功时输出`{reply}`
 
-### 默认回复配置默认回复
+### 默认回复配置Webhook
 
 在项目的"对话概览"-"默认回复"切换为配置好的默认回复 webhook:
 ![03-3-webhook.jpg](/assets/images/tutorial/webhook/03-3-webhook.jpg)
