@@ -12,9 +12,6 @@ has_children: true
 默认回复又称为未知问题回复，即当匹配不上用户输入时给出的回答。
 
 ---
-## 默认回复配置Webhook
-
-请参考教程[webhook-默认回复](/docs/zh/tutorial/webhook/03-webhook/)
 
 ## 默认回复配置Talk2Bits
 
@@ -51,3 +48,7 @@ Talk2Bits在添加内容后可自动生成配置代码，不仅导入Web页面�
 
 通过Talk2Bits对用户输入进行回答。
 ![04-default-reply.jpg](/assets/images/default_reply/04-default-reply.jpg)
+
+## 默认回复配置Webhook
+
+请参考教程 [webhook-默认回复](/docs/zh/tutorial/webhook/03-webhook/)
