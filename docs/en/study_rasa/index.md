@@ -1,13 +1,15 @@
 ---
 layout: en
-title: RASA Learning
+title: RASA
 nav_order: 19
 ---
 
-# RASA Learning
+# RASA
 {: .no_toc .header }
 
 ----
+
+We are a group of RASA talk open source system enthusiasts. RASA is used to realize the dialogue robot in various scenes of finance, auto industry and government affairs. Thanks to the open architecture of RASA, our system can easily surpass similar closed source systems. In view of RASA engineering experience, we to simplify, contribute to the community, the world exclusive release based on RASA brain map no code programming tools, whether you are familiar with RASA, can be a minimalist dialogue system, within half an hour to complete a dialogue design, and online. You can also download the generated RASA file for free, private deployment.
 
 ## Visual design tools
 [https://www.promptai.cn/](https://www.promptai.cn/)
