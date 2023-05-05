@@ -18,7 +18,7 @@ Default reply, the answer given when there is no match for the user's input.
 For some texts, documents and Web materials, you can build a knowledge base through Talk2Bits quick reading, and you can complement each other with PromptAI by connecting to a platform like Talk2Bits.
 This article will explain how to integrate Talk2Bits into the Fallback.
 
-* Tips: Other platforms can be accessed through Webhook, please contact us if you have any questions or needs.
+* Tips: Other platforms can be accessed through Webhook, please contact us if you have any questions or requests.
 
 ### Talk2Bits
 
@@ -26,11 +26,11 @@ Talk2Bits can automatically generate configuration codes after adding content, n
 ![01-defalut-reply.jpg](/assets/images/default_reply/01-defalut-reply.jpg)
 
 * For more details, please visit: https://talk2bits.com/
-* Chatbot: https://talk2bits.com/app/publish
+* Chatbot introduction: https://talk2bits.com/app/publish
 
 ### Example
 
-Next, I will demonstrate how to connect the Fallback to Talk2Bits
+Next, we will demonstrate how to connect the Fallback to Talk2Bits.
 
 ### Talk2Bits Code
 
