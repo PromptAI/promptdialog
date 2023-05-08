@@ -67,7 +67,7 @@ The bot reply node can set the reply delay time. When the robot replies, it will
 When the user enters the intention to hit the bot reply with the set delay time, the bot will reply after the reset delay time. As shown in the figure：
 ![10-setting-project-conversion-delay](/assets/images/tutorial/setting/10-setting-project-conversion-delay.png)
 
-##Configure bot reply conditions
+## Configure bot reply conditions
 
 When the bot reply condition is set, it will go through the blocked branches according to whether the value of the corresponding variable is extracted. When there are multiple conditions, they need to be met at the same time
 As shown in the figure, we can continue the following selection when the `city` is not empty

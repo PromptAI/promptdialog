@@ -10,6 +10,6 @@ nav_order: 3
 
 ## Video
 
-You can quickly learn how to create a session flow graph with variable extraction through the following video.
+You can quickly learn how to create a dialogue flow graph with variable extraction through the following video.
 
 <video src="/assets/images/example/video/slot.mov" width="100%" height="520px" controls="controls"></video>

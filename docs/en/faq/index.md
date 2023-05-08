@@ -18,7 +18,7 @@ The following is a list of common problem solving methods in our system
 
 Please refer to the tutorial[webhook](/docs/en/tutorial/webhook/01-webhook/)
 
-### How to write in case of multiple replies?
+### How to create consecutive multiple responses?
 
 Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/en/tutorial/flow/01-create-flow/#添加回复节点)
 
@@ -26,7 +26,7 @@ Please refer to the tutorial[Create conversation flow graph - add reply node](/d
 
 Please refer to the tutorial[Debugging Project - Cancel Training](/docs/en/tutorial/flow/03-train-project/#取消训练)
 
-### Do not know the function of intention template
+### Do not know the function of intents template
 
 Please refer to the tutorial[Create Intent List](/docs/en/tutorial/node-template/user-global/)
 
@@ -42,15 +42,22 @@ Please refer to the tutorial[Undo/Redo](/docs/en/tutorial/setting/#对话流图�
 
 Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/en/tutorial/flow/01-create-flow/#回复节点添加附件)
 
-## How to extract multiple variables in a sentence? For example, "I want five jin of apples"
+### How to extract multiple variables in a sentence? For example, "I want five jin of apples"
 
-Please refer to the tutorial[Create Form-Improve Slots）](/docs/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+Please refer to the tutorial[Create Form-Improve Slots）](/docs/en/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
 
+### During the conversation, I want to output different responses according to different variable values. What should I do?
+Situation 1: Judge whether the variable has a value. For different responses, please refer to: [reply conditions] (/docs/zh/tutorial/setting/#Configure bot reply conditions) (judge whether the variable has a value or not)
+
+Situation 2: different variable values respond to different responses/dynamic responses (accurately judge variable values)
+
+- Webhook: The extracted variable value is retrieved by calling [webhook] (/docs/en/tutorial/webhook/02-webhook/). For example, query the price of stock and stock
+- Action: [Action] (/docs/en/tutorial/action/01-action) can be added to the bot response, and different responses can be realized through Python code.
 ## Other
 
-### Machine replies are selected from the answer list. Can you cancel?
+### Machine replies are selected from the response list. Can you cancel?
 
-If the machine replies that it has selected from the answer list but has not saved it, you can select **Close**, and then select **Don't Save in the prompt box**
+If the machine replies that it has selected from the response list but has not saved it, you can select **Close**, and then select **Don't Save in the prompt box**
 
 ### Can we add our own projects to the Project Templates?
 
@@ -73,13 +80,13 @@ If there is an error in a node, click **Save** when editing the node, and an err
 
 Currently, it is not supported due to limited server resources
 
-### Can't recognize facial expressions
+### Can't recognize emoticons
 
 Currently, emoticons are not supported. Please follow our version update
 
 ### City extraction cannot be completed, and only annotated
 
-You can try to change **variable extraction entity extraction source** into input text
+You can try to change **Variable value source** into Enter text
 
 ### Does reset variable support multiple?
 

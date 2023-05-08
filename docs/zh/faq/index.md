@@ -15,29 +15,38 @@ has_children: true
 
 ### 请问自定义webhook的时候，URL是怎么得到的？
 
-请参考教程[webhook](/docs/tutorial/webhook/01-webhook/)
+请参考教程[webhook](/docs/zh/tutorial/webhook/01-webhook/)
 
 ### 续出现多个回复怎么写？
-请参考教程[创建对话流图-添加回复节点](/docs/tutorial/flow/01-create-flow/#添加回复节点)
+请参考教程[创建对话流图-添加回复节点](/docs/zh/tutorial/flow/01-create-flow/#添加回复节点)
 
 ### 如何停止训练？
-请参考教程[调试项目-取消训练](/docs/tutorial/flow/03-train-project/#取消训练)
+请参考教程[调试项目-取消训练](/docs/zh/tutorial/flow/03-train-project/#取消训练)
 
 ### 不知道意图模板这个功能
-请参考教程[创建意图列表](/docs/tutorial/node-template/user-global/)
+请参考教程[创建意图列表](/docs/zh/tutorial/node-template/user-global/)
 
 ### 请问他这个流程图的初始节点是默认有一个用户选项吗？
-请参考教程[对话流图设置](/docs/tutorial/setting/#对话流图设置)
+请参考教程[对话流图设置](/docs/zh/tutorial/setting/#对话流图设置)
 
 ### 这个添加一个节点，然后删除，有撤销功能吗？
-支持，请参考教程[撤销/重做](/docs/tutorial/setting/#对话流图设置)
+支持，请参考教程[撤销/重做](/docs/zh/tutorial/setting/#对话流图设置)
 
 ### 机器回复附件支持
-请参考教程[创建对话流图-添加回复节点](/docs/tutorial/flow/01-create-flow/#回复节点添加附件)
+请参考教程[创建对话流图-添加回复节点](/docs/zh/tutorial/flow/01-create-flow/#回复节点添加附件)
 
-## 如何在一句话中提取多个变量？比如 “我想要五斤苹果”
+### 如何在一句话中提取多个变量？比如 “我想要五斤苹果”
 
-请参考教程[创建表单-完善信息列表（Slots）](/docs/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+请参考教程[创建表单-完善信息列表（Slots）](/docs/zh/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+
+### 在对话过程中，我想根据不同的变量值输出不同回答应该怎么做？
+
+情况⼀：判断变量有没有值，得到不同回答可参考：[回复条件](/docs/zh/tutorial/setting/#配置机器人回复条件)（判断变量有⽆值）
+
+情况⼆：不同的变量值回复不同回答/动态回答（精确判断变量值）
+
+- Webhook：将提取的变量值通过调⽤[webhook](/docs/zh/tutorial/webhook/02-webhook/)获取回答。⽐如：查询天⽓、股票价格
+- Action : 在机器回复中可以添加[Action](/docs/zh/tutorial/action/01-action)，通过Python 代码实现不同的回答。
 
 ## 其他
 
@@ -64,7 +73,7 @@ has_children: true
 目前暂不支持表情，请关注我们的版本更新
 
 ### 城市提取不能提取完，只能提取标注的
-你可以尝试将**变量提取-实体提取来源**改成输入文本
+你可以尝试将**变量值来源**改成输入文本
 
 ### 重置变量是否支持多个？
 支持，添加一个重置变量后可以继续点下面的添加按钮

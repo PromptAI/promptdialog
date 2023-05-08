@@ -7,43 +7,43 @@ nav_order: 2
 {: .no_toc .header }
 ---
 
-## Intention
-Intent refers to the meaning of user input. We believe that the user's input implies a certain meaning, and assign this kind of statements containing the same meaning with an intention tag.
+## Intent
+Intent refers to the meaning of user input. We believe that the user's input implies a certain meaning, so we assign this kind of statements containing the same meaning with an intention tag.
 
 ### Example
-In order to support multiple user inputs and reduce the possibility of robot answering incorrectly, multiple example sentences are supported for each intention. Example sentences will be used as training samples and put into the intention classification model for training. Therefore, the number and quality of example sentences determine the accuracy of robot replies to a large extent. In the editing of examples, we hope that the distinction between different intentions is as high as possible, that is, examples with different intentions should not overlap as much as possible; At the same time, the expression of example sentences in similar intentions can be as rich as possible, for example:
-- Intention 1: Greet
+In order to reply different user inputs and reduce the possibility of robot answering incorrectly, multiple example sentences are supported for each intent. Example sentences will be used as training samples and put into the intent classification model for training. Therefore, the number and quality of example sentences determine the accuracy of robot replies to a large extent. In the editing of examples, we hope that the diversity between different intents is as high as possible, that is, examples with different intents should not overlap. At the same time, the expression of example sentences in the same intent can be as rich as possible, for example:
+- intent 1: Greet
   - Hello!
   - Hello.
-- Intention 2: Goodbye
+- intent 2: Goodbye
   - See you tomorrow.
   - Bye
-From the perspective of model training, the generalization ability of Intent 1 is weaker than that of Intent 2. Therefore, if you can provide more and more unique examples, the effect of the model will be better.
+From the perspective of model training, intent 1 will be harder to classify than intent 2. Therefore, if you can provide more unique examples for each intents, the intent classification effect will be better.
 
-### Intention List
-The intention list exists for the purpose of reusing intention. We often encounter repeated intentions in the dialogue, such as confirmation, denial and thanks. This kind of intention often appears in different positions of the dialogue process, while repeatedly constructing repeated intentions is tedious and error prone. The concept of intention list is to solve this problem. We can save the intention to be reused as an intention template and add it to the intention list. When we need to use this intention elsewhere in the project, we can directly reference the saved intention. Another advantage of this design is that we only need to operate once when we need to add, modify, or delete samples in a certain intention.
+### Intent List
+The intent list exists for the purpose of reusing intent. There are some specific intentions in conversation design, such as confirmation, denial and thanks. This kind of intent often appears in different positions of the dialogue process, while repeatedly constructing repeated intents is tedious and error prone. The concept of intent list is to solve this problem. We can save the intent to be reused as a template and add it to the intent list. When we need to use this intent elsewhere in the project, we can directly reference the saved intent. Another advantage of this design is that we only need to operate once when we need to add, modify, or delete examples in a certain intent.
 
-We strongly recommend that you use the intention list as much as possible. On the one hand, the reuse of intention can make the design easier; On the other hand, the combination of similar intentions can greatly improve the recognition accuracy of the model.
+We strongly recommend that you use the intent list as much as possible. On the one hand, the reuse of intent can make the design easier; On the other hand, the combination of similar intents can greatly improve the recognition accuracy of the model.
 
-### Assurance of accuracy of intent classification
+### Ensure the accuracy of intent classification
 Due to the diversity of languages, more data are often required for model training to obtain better recognition performance. As the generalization ability of the machine increases with the increase of data, if you find that the recognition accuracy of the intention is not high enough, please confirm in turn:
-1. Whether there are similar unconsolidated intentions. If yes, please merge the intention and save it in the intention list for reuse.
-2. Whether there are too few examples in the intention. If the number of examples with different intentions is less than 3, or the number of examples with different intentions is unbalanced, please add more examples as appropriate.
-3. Whether the sample used for testing exists in two or more intentions. If it exists, please reorganize your intentions. If possible, please do not put the same sample into more different intentions, which will confuse the model.
+1. Whether there are similar unconsolidated intents. If there are, please merge the intent and save it in the intent list for reuse.
+2. Whether there are too few examples in the intent. If the number of examples with different intents is less than 3, or the number of examples with different intents is unbalanced, please add more examples as appropriate.
+3. Whether the example used for testing exists in two or more intentions. If it exists, please reorganize your intentions. If possible, please do not put the same example into different intents, which will confuse the model.
 
-## Answer
-The answer refers to the bot's reply. The system will reply different information according to different input of users.
+## Response
+The response refers to the bot's reply. The system will reply different information according to different input of users.
 
-The answer supports three forms:
+The response supports three forms:
 1. Text
 2. Image
 3. Webhook
-The answer must include a text message.
+The response must include a text message.
 
-### Answer List
-The answer list exists for the reuse of answers. We often encounter repeated answers in conversations, such as goodbye, calling the same webhook, and thanks. Such answers often appear in different positions of the dialogue process, and it is tedious and error prone to repeatedly construct repeated answers. The concept of answer list is to solve this problem. We can save the answer to be reused as an answer template and add it to the answer list. When we need to use this answer elsewhere in the project, we can directly reference the saved answer. Another advantage of this design is that when we need to add, modify, or delete an answer, we only need to operate once.
+### Response List
+The response list exists for the reuse of responses. We often encounter repeated responses in conversations, such as goodbye, calling the same webhook, and thanks. Such responses often appear in different positions of the dialogue process, and it is tedious and error prone to repeatedly construct repeated responses. The concept of response list is to solve this problem. We can save the response to be reused as an response template and add it to the response list. When we need to use this response elsewhere in the project, we can directly reference the saved response. Another advantage of this design is that when we need to add, modify, or delete an response, we only need to operate once.
 
-We strongly recommend that you use the answer list as much as possible. Reuse of answers can make the design easier and save a lot of time in building your flow diagram.
+We strongly recommend that you use the response list as much as possible. Reuse of responses can make the design easier and save a lot of time in building your flow diagram.
 
 ## Variable
 Variables are the memory of the bot. Declared variables represent what information the bot needs to remember. For example, in the scenario of booking a train ticket, the user provides the required information, such as destination, departure time, and seat requirements, during the multi round conversation with the machine. This kind of information needs to be recorded until the end of the dialogue, and then determine the final destination of these variables according to the actual situation. Without variables, the bot cannot remember any information during the conversation.

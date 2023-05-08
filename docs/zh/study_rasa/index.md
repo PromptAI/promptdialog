@@ -1,14 +1,16 @@
 ---
 layout: default
-title: RASA学习
+title: RASA
 nav_order: 19
 has_children: true
 ---
 
-# RASA学习
+# RASA
 {: .no_toc .header }
 
 ----
+
+我们是一群RASA 对话开源系统的爱好者。使用RASA 实现在金融， 车企和政务各种场景的对话机器人，得益于RASA的开放架构， 使得我们的系统能够轻易超越同类闭源系统。 鉴于RASA工程化经验， 我们去繁化简，贡献社区，全球独家发布基于RASA的脑图无代码编程工具， 无论您是否熟悉RASA, 都可极简实现对话系统， 在几分钟内完成一个对话设计， 并上线。 您也可免费下载生成的RASA文件， 私有部署。
 
 ## 一 可视化设计工具
 [https://www.promptai.cn/](https://www.promptai.cn/)
@@ -58,3 +60,9 @@ Rasa官方博客链接。在博客中，Rasa的开发人员会介绍相应的技
 https://github.com/Chinese-NLP-book/rasa_chinese_book_code
 
 该书基于Rasa v3.0版本，系统地讲解了Rasa框架的原理，以及如何搭建各种不同场景的bot，也讲解了Rasa的高并发支持，有助于Rasa的工业界使用。
+
+5. Rasa3 安装及入门教程
+
+https://mp.weixin.qq.com/s/hyXp_fgu5FJ0q1cBERGXFw
+
+该作者详细介绍了如何安装（包含docker）以及Rasa的一些入门的基本概念
