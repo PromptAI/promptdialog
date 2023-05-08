@@ -13,10 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-change_language: open
 lang: en
-title: Prompt AI帮助文档
-head: 帮助文档
+title: Prompt AI Document
+head: Document
 description: How to use Prompt AI to solve and promote  your business
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -66,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Prompt AI":
-    - "https://www.promptai.cn"
+    - "https://www.promptai.us"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -80,9 +79,9 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "回到顶部"
+back_to_top_text: "Top"
 
-footer_content: "Copyright &copy; 2022 <a href=\"https://www.promptai.cn\">Prompt AI</a>"
+footer_content: "Copyright &copy; 2022 <a href=\"https://www.promptai.us\">Prompt AI</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
