@@ -98,7 +98,9 @@ layout: table_wrappers
           </ul>
         </nav>
       {% endif %}
-      {% include change_language.html language="default" %}
+      {% if site.change_language %}
+        {% include change_language.html language="default" %}
+      {% endif %}
     </div>
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
