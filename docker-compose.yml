@@ -8,9 +8,8 @@ services:
       - 4000:4000
     volumes:
       - .:/usr/src/app
-      - ../resource/docs:/usr/src/app/docs
-      - ../resource/assets/images:/usr/src/app/assets/images
+      - ./docs:/usr/src/app/docs
+      - ./assets/images:/usr/src/app/assets/images
     stdin_open: true
     tty: true
     command: bundle exec jekyll serve -H 0.0.0.0 -t
-
