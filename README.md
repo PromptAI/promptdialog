@@ -13,3 +13,8 @@ docker-compose up jekyll
 ```
 docker-compose run --rm jekyll jekyll build
 ```
+
+## Build without language selector
+```
+docker-compose run --rm jekyll jekyll build --config _noLanguageSelector.yml
+```
