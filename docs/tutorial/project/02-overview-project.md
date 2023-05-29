@@ -14,21 +14,21 @@ The user can overview the overview information of the selected project in this i
 
 Click the current project XXX in the overview map, and continue to click the pop-up editing node to quickly edit the project information.
 
-![project-overview-1](/assets/images/tutorial/project/project-overview-1.png)
+![project-overview-1](/assets/images/tutorial/project/p-overview-1.png)
 
 ## Shortcut Jump/Edit
 
 - Click the FAQ in the overview map, and continue to click the pop-up View Details to jump to FAQ homepage.
 
-![project-overview-2](/assets/images/tutorial/project/project-overview-2.png)
+![project-overview-2](/assets/images/tutorial/project/p-overview-2.png)
 
 - Click the Planned View Process sub node under the dialog flow diagram in the overview diagram, and continue to click the pop-up View Details to jump to the dialog flow diagram home page you selected.
 
-![project-overview-3](/assets/images/tutorial/project/project-overview-3.png)
+![project-overview-3](/assets/images/tutorial/project/p-overview-3.png)
 
 - Click the dialog flow diagram in the overview diagram, and continue to click the pop-up editing node, where you can edit the dialog flow diagram branch prompt.
 
-![project-overview-5](/assets/images/tutorial/project/project-overview-5.png)
+![project-overview-5](/assets/images/tutorial/project/p-overview-5.png)
 
 - When the user checks  **All** after **child present as button** , after publishing the project, all dialogue processes under the project will be displayed with buttons under the branch prompt. Check **Check only**
 
@@ -36,8 +36,8 @@ After the project is published, the dialog process in which only the **Branch Pr
 
 After the project is published, all the dialog processes of the project will not be displayed with buttons under the branch prompt.
 
-![project-overview-6](/assets/images/tutorial/project/project-overview-6.png)
+![project-overview-6](/assets/images/tutorial/project/p-overview-6.png)
 
 - Click the default reply of the overview map: XXX. Continue to click the pop-up editing node, where you can edit the fallback reply prompt of the project.
 
-![project-overview-7](/assets/images/tutorial/project/project-overview-7.png)
+![project-overview-7](/assets/images/tutorial/project/p-overview-7.png)

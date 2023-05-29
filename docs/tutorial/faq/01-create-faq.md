@@ -15,13 +15,13 @@ After the project is created, there will be a default user question and answer (
 As shown in the figure, you can click the user question and answer (FAQ) on the left navigation bar or click the view details link that appears after the user question and answer (FAQ) to jump to the user question and answer (FAQ) home page. In this interface, you can add, modify, delete, and train FAQs.
 
 
-![project-main-view](/assets/images/tutorial/project/project-main-view.png)
+![faq-main-view](/assets/images/tutorial/faq/f-main-view.png)
 
 ## New FAQ
 
 On the user question and answer (FAQ) homepage, click the Add User Question button in the upper right corner to pop up the FAQ creation interface.
 
-![faq-create-button](/assets/images/tutorial/faq/faq-create-button.png)
+![faq-create-button](/assets/images/tutorial/faq/f-create-button.png)
 
 ## Fill in the specific information of the FAQ
 Please pay attention to the following items when filling in the user question and answer (FAQ) details:
@@ -30,8 +30,8 @@ Please pay attention to the following items when filling in the user question an
 -User questions cannot be repeated
 
 
-![faq-create-detail.png](/assets/images/tutorial/faq/faq-create-detail.png)
+![faq-create-detail.png](/assets/images/tutorial/faq/f-create-detail.png)
 
 ## Created successfully
 
-![faq-create-detail.png](/assets/images/tutorial/faq/faq-main-view.png)
+![faq-create-detail.png](/assets/images/tutorial/faq/f-main-view-data.png)

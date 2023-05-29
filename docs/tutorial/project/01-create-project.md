@@ -13,7 +13,7 @@ The user must first create a project before creating FAQ or conversion flow diag
 
 After logging in, click the Create Project button in the upper right corner to fill in the project related information in the pop-up dialog box.
 
-![project-create](/assets/images/tutorial/project/project-create.png)
+![project-create](/assets/images/tutorial/project/p-create.png)
 
 ## Fill in relevant information
    - name：project name
@@ -23,9 +23,9 @@ After logging in, click the Create Project button in the upper right corner to f
    - fallback：The default reply sent to the user when the intelligent assistant cannot recognize the user's intention
    - image：Project image displayed in the project list
    
-![project-create-detail](/assets/images/tutorial/project/project-create-detail.png))
+![project-create-detail](/assets/images/tutorial/project/p-create-detail.png))
 
 
 ### Create completed
 After successful creation, select the project just created to enter the project overview interface
-![project-main-view](/assets/images/tutorial/project/project-main-view.png)
+![project-main-view](/assets/images/tutorial/project/p-main-view.png)

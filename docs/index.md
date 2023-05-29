@@ -16,7 +16,7 @@ This article will guide you to quickly start using the intelligent conversation 
 
 ---
 
-Prompt AI is the next generation cloud based professional intelligent session design cloud platform built by Feiyu for SMEs. In addition to covering the functions of traditional intelligent sessions, Prompt AI, based on the concept of * * visualization * *, combined with new technologies and professional intelligent dialogue experience, can fully meet the comprehensive intelligent session design needs of SMEs customers, allowing customers to integrate intelligent sessions into their own business systems more quickly and easily.
+Prompt AI is the next generation cloud based professional intelligent session design cloud platform built by Prompt AI for SMEs. In addition to covering the functions of traditional intelligent sessions, Prompt AI, based on the concept of * * visualization * *, combined with new technologies and professional intelligent dialogue experience, can fully meet the comprehensive intelligent session design needs of SMEs customers, allowing customers to integrate intelligent sessions into their own business systems more quickly and easily.
 
 Compared with other intelligent session schemes, Prompt AI has the following characteristics:
 
