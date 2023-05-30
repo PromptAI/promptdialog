@@ -2,7 +2,7 @@
 layout: en
 title: Fallback
 nav_order: 5
-has_children: true
+has_children: false
 ---
 
 # Fallback
@@ -23,7 +23,7 @@ This article will explain how to integrate Talk2Bits into the Fallback.
 ### Talk2Bits
 
 Talk2Bits can automatically generate configuration codes after adding content, not only importing the web page to generate Chatbot directly in the lower right corner, but also enabling direct conversations by scanning codes with mobile phones.
-![01-defalut-reply.jpg](/assets/images/default_reply/01-defalut-reply.jpg)
+![01-defalut-reply.jpg](/assets/images/default_reply/01-default-reply.jpg)
 
 * For more details, please visit: https://talk2bits.com/
 * Chatbot introduction: https://talk2bits.com/app/publish

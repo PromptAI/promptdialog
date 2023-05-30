@@ -49,10 +49,10 @@ The dialogue effect pictures of the two methods are as follows:
 
 ### Reply node to add an attachment
 Open the editing interface of the reply node as shown in the figure, click **Attachment**, and upload the attachment according to the prompts.
-![30-bot-extras](/assets/images/tutorial/flow/30-bot-extras.png)
+![30-bot-extras](/assets/images/tutorial/flow/6.png)
 
 After uploading:
-![31-bot-extras](/assets/images/tutorial/flow/31-bot-extras.png)
+![31-bot-extras](/assets/images/tutorial/flow/6.1.png)
 
 The dialogue effect is shown below. You can directly click **Attachment** to download it:
 ![32-bot-extras](/assets/images/tutorial/flow/32-bot-extras.png)
@@ -60,4 +60,4 @@ The dialogue effect is shown below. You can directly click **Attachment** to dow
 ## Completed
 
 So far, the simplest conversation flow diagram is complete.
-![05-create-flow](/assets/images/tutorial/flow/05-create-flow.png)
+![05-create-flow](/assets/images/tutorial/flow/5.1.png)

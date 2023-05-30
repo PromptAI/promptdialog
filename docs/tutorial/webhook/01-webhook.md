@@ -18,17 +18,15 @@ Learn about the relevant concepts in our system webhook through the following co
 
 ## HTTP GET Request brief introduction
 
-1. The URL is what we normally input in the address bar when we open Baidu: https://www.baidu.com, as shown in the following figure. This is the simplest URL address and opens Baidu's homepage
-   ![40-webhook](/assets/images/tutorial/webhook/40-webhook.png)
-2. Look at a slightly more complicated URL. Enter `Shanghai Youyou` Blog Park in the Baidu input box
-   ![41-webhook](/assets/images/tutorial/webhook/41-webhook.png)
-3. Check the URL address bar. Compared with the previous Baidu homepage URL, there are many more parameters. Of course, the most important parameter is: `wd=Shanghai Youyou Blog Park` (the following string can be temporarily ignored).
+1. The URL is what we normally input in the address bar when we open Google: https://www.google.com, as shown in the following figure. This is the simplest URL address and opens Google's homepage
+2. Look at a slightly more complicated URL. Enter `anything` Blog Park in the Google input box
+3. Check the URL address bar. Compared with the previous Google homepage URL, there are many more parameters. Of course, the most important parameter is: `wd=anything` (the following string can be temporarily ignored).
 
 4. The question is, what are the functions of these parameters? A simple comparison can be made by entering:
 
-   - https://www.baidu.com ;
-   - https://www.baidu.com/s?wd=Shanghai Youyou
-     <br/>What's the difference between the opened pages? Now you know the role. That is to say, the `/s? Wd=Shanghai Youyou Blog Park` is the search result page
+   - https://www.google.com ;
+   - https://www.google.com/s?wd=anything
+     <br/>What's the difference between the opened pages? Now you know the role. That is to say, the `/s? wd=anything Youyou Blog Park` is the search result page
 
 5. The basic format of a complete URL address is as follows:
 
@@ -54,8 +52,7 @@ Learn about the relevant concepts in our system webhook through the following co
 
 Through webhook, we can interact with external interfaces (APIs) in specific steps.
 Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
-![50-webhook](/assets/images/tutorial/webhook/50-webhook.png)
-![51-webhook](/assets/images/tutorial/webhook/51-webhook.png)
+![50-webhook](/assets/images/tutorial/webhook/webhook1.png)
 
 1. name
    <br/>When creating a new webhook, we can give each one a name related to the webhook function, which is easy to distinguish when referring to a flow
@@ -63,7 +60,7 @@ Submit the collected input information to the API through webhook and display th
    <br/>The url here has the same meaning as the http url mentioned above, which can be understood with reference to the above. Please pay attention to the 'http/https' protocol when filling in here.
    In addition, the URL address also supports variable transmission. When calling the hit webhook, the corresponding variable placeholder will be replaced with the variable value.
    As shown in the figure, if we define a variable `city` in the flow diagram, we need to use `{city}` to transfer when configuring here   ```
-   app.promptai.cn/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&city={city}
+   app.promptai.us/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&city={city}
    ```
 3. Request Settings - Request Method
    <br/>The request method represents the http request method, which currently supports: get、post、put、delete
@@ -87,10 +84,10 @@ Submit the collected input information to the API through webhook and display th
    {
      "lives": [
        {
-         "province": "四川",
-         "city": "成都市",
-         "adcode": "510100",
-         "weather": "多云",
+         "province": "any",
+         "city": "any",
+         "adcode": "51010xx",
+         "weather": "any",
          "temperature": "19"
        }
      ],
@@ -98,10 +95,10 @@ Submit the collected input information to the API through webhook and display th
    }
    ```
    We can define two variables through the following diagram: `weather`、`temperature` to extract and query the temperature and weather of the city.
-   ![52-webhook](/assets/images/tutorial/webhook/52-webhook.png)
+   ![52-webhook](/assets/images/tutorial/webhook/webhook2.png)
 8. Response Settings - Response Success
    <br/>When the response is successful, we can extract the response data, or we can not process it or display it according to the original response content. The previously extracted variables are also supported here, as shown in the figure:
-   <br/>![52-webhook](/assets/images/tutorial/webhook/52-webhook.png)
+   <br/>![52-webhook](/assets/images/tutorial/webhook/webhook3.png)
 
 9. Response Settings - Response Failed
    <br/>The reply content after the response fails
