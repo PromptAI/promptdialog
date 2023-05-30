@@ -16,21 +16,40 @@ When we use variable extraction, sometimes the extracted variable values are wor
 Here we add hot words to the variable **fruit name**. The hot words are as follows:
 
 ```text
-Apple
-tangerine
-Banana
-plum
-Durian
-Sugar cane
-grapefruit
-strawberry
-Blueberry
-Mulberry
-Peach
-tomato
-watermelon
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
 ```
-Click the **Upload** button behind the **fruit name**, and upload the hot words according to the prompts, with the format reference to click**Download Sample**.
+Click the **Upload** button behind the **Area Name**, and upload the hot words according to the prompts, with the format reference to click**Download Sample**.
 ![dict-01](/assets/images/tutorial/dict/dict-01.png)
 ![dict-02](/assets/images/tutorial/dict/dict-02.png)
 
@@ -39,21 +58,18 @@ After uploading successfully, you can click **Details** to check which hot words
 
 ## Create Flow Diagram
 
-Here we create a dialog flow diagram **Fruit name price query**.
+Here we create a dialog flow diagram **Where are you**.
 
 1. Add user input nodes as follows:
    ![dict-04](/assets/images/tutorial/dict/dict-04.png)
    **Note**: In order to improve the recognition rate of hot words, at least two hot words need to be marked here
-2. When the fruit name is added and extracted successfully, the machine replies as follows:
+2. When the dict_demo name is added and extracted successfully, the machine replies as follows:
    ![dict-05](/assets/images/tutorial/dict/dict-05.png)
-   The webhook settings of the machine reply node are as follows:
-   ![dict-06](/assets/images/tutorial/dict/dict-06.png)
-   ![dict-07](/assets/images/tutorial/dict/dict-07.png)
 
 3. When adding fruit name extraction fails, the machine replies to the following nodes:
-   ![dict-08](/assets/images/tutorial/dict/dict-08.png)
+   ![dict-08](/assets/images/tutorial/dict/dict-06.png)
 
 ## Train and verify the effect
 
 As shown in the figure, the fruit names in our hot words can also be accurately identified and queried.
-![dict-09](/assets/images/tutorial/dict/dict-09.png)
+![dict-09](/assets/images/tutorial/dict/dict-07.png)
