@@ -68,36 +68,15 @@ stories:
   - intent: init
   - action: utter_project_welcome
   - intent: intent_Hello
-  - action: utter_Hi___我是⼩维_很⾼兴⻅到你_
-  - intent: intent_⼩维你好！
+  - action: utter_Hi
+  - intent: intent_Hello
   - action: action_cp_ce1atgfk53b4_0
 ```
 
-there `setps` in `story_0`  indicates that when user input `⼩维你好！` will call `action_cp_ce1atgfk53b4_0`
+there `setps` in `story_0`  indicates that when user input `Action me` will call `action_cp_ce1atgfk53b4_0`
 
 ### Action.run function
 
 In addition to a simple call to Rasa to reply，Action also holds other function by use [dispatcher](https://rasa.com/docs/rasa/action-server/sdk-dispatcher/) and [tracker](https://rasa.com/docs/rasa/action-server/sdk-tracker) 
 - dispatcher : control Rasa output by call `dispatcher.utter_message()`
 - tracker ：current user's tracker。by using `tracker.get_slot(slot_name)` access to slot value(that is, the value corresponding to the variable) ，latest user's message `tracker.latest_message`
-
-## Action example：Reply according to variable value
-Suppose that in the scenario of "helping to buy tickets for amusement park", there are 100 tickets for adults and 50 tickets for children. We try to use Action to realize the price calculation.
-<br/>In this scenario, we need to ask each household the number of tickets purchased by children and adults, which we can complete through Form. At this time, we create two variables: `number of children` and `number of adults`
-
-![action-04](/assets/images/tutorial/action/action-04.png)
-
-After the collection is completed, we create a bot response node with Action to calculate the price
-
-![action-05](/assets/images/tutorial/action/action-05.png)
-
-Action code illustrate ：
-- 5~6 : by call  tracker.get_slot() to get the variable value，the variable needs to use ${} to complete the quotation
-- 8～9 : Define the price of a single ticket
-- 11 : Calculate total price
-- 12～14 ：Output the number of tickets and total price in sequence
-`attention：The above code is only for demonstration`
-  
-### Result
-
-![action-06](/assets/images/tutorial/action/action-06.png)

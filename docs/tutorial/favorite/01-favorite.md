@@ -12,9 +12,6 @@ Favorites can facilitate you to copy the nodes of the dialog flow graph between 
 
 ## Favorite single node
 
-We select Query Weather Flow Chart in the Help Document project, click the Chengdu Weather node, and then select Collect Current Node.
-![project-main-view](/assets/images/tutorial/project/project-main-view.png)
-
 At this time, open the `Favorites` to see that the collection has been successful. Click the `Details` to see the details of the favorite node
 ![04-favorite](/assets/images/tutorial/favorite/04-favorite.png)
 ![05-favorite](/assets/images/tutorial/favorite/05-favorite.png)
