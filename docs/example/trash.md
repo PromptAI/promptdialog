@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Recycle Bin
+title: Edit Skills
 parent: Example
 nav_order: 4
 ---
@@ -13,4 +13,4 @@ nav_order: 4
 
 You can learn how to use the recycle bin to insert nodes between two nodes, and use the recycle bin to delete intermediate nodes of two intermediate nodes through the following video.
 
-<video src="/assets/images/example/video/trash.mp4" width="100%" height="520px" controls="controls"></video>
+<video src="/assets/images/example/video/edit_skills.mp4" width="100%" height="520px" controls="controls"></video>
