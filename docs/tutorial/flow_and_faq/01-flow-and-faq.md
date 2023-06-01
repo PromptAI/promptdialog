@@ -21,5 +21,3 @@ We combine a conversation flow diagram with user question and answer (FAQ) train
 ![02](/assets/images/tutorial/flow_and_faq/2.png)
 
 In the dialogue process, we first conduct flow chart dialogue, and then conduct user question and answer dialogue.
-
-![02](/assets/images/tutorial/flow_and_faq/03-flow-and-faq.png)
