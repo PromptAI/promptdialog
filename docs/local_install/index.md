@@ -49,22 +49,19 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
 
 ## RASA file debugging verification
 
-Here we take the `Project Templates`->`Help Document` ->`Collection of User Information` as an example
+Login to your account and download any flow/faq rasa file
 
-1. Move the first downloaded rasa file to`/Users/admin/dev/flow/rasa/data/`and unzip to`rasa, As shown in the figure after decompression:
+1. Unzip the downloaded Project file and enter the dir:
 
-![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.png)
+![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.jpg)
 
 2. Training debugging
 
    ```shell
-   # Enter directory
-   cd /Users/admin/dev/flow/rasa/data/rasa
-
    # training
    rasa train
    
-   # Start actions
+   # Start actions if necessary
    rasa run actions
    
    # Open another command line window for Debug Dialog
@@ -75,12 +72,11 @@ Here we take the `Project Templates`->`Help Document` ->`Collection of User Info
 
 3. Validation results
    Perform debugging verification as shown in the figure
-   ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.png)
+   ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
 
 <br/>Note:
 
-1. The current version does not support Chinese variables. Docker image will be added in subsequent versions
-2. The current version does not support built-in variables
+1、The current version does not support built-in variables
 
 
 ## Get help

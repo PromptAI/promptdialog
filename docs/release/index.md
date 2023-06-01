@@ -13,14 +13,12 @@ When the intelligent session we have trained has been debugged, it can be publis
 
 ## QR code release (mobile terminal)
 When you need to access the mobile terminal, you can experience it by accessing the mobile terminal link or scanning the QR code.
-![chat-release-07](/assets/images/release/chat-release-07.png)
+![chat-release-07](/assets/images/release/chat-release-07.jpg)
 
 * Embed the QR code into the website, and users can experience the published projects through mobile browser scanning or WeChat scanning
 
-   ![chat-release-05](/assets/images/release/chat-release-05.png)
+   ![chat-release-05](/assets/images/release/chat-release-05.jpg)
 
-* Embed **mobile link** into the website, and users can open the link to experience the published project
-  ![chat-release-06](/assets/images/release/chat-release-06.png)
 
 ## Web page embedded publishing
 
@@ -90,7 +88,7 @@ When you need to access the mobile terminal, you can experience it by accessing 
      ```
    
 4. When we open the website again, we can see that there are more chat boxes in the lower right corner of the website. Click Open to start an intelligent session. So far, our intelligent session has been published.
-   ![chat-release-03](/assets/images/release/chat-release-03.png)
-   ![chat-release-04](/assets/images/release/chat-release-04.png)
+   ![chat-release-03](/assets/images/release/chat-release-03.jpg)
+ 
    
 
