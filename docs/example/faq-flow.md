@@ -1,10 +1,10 @@
 ---
 layout: en
-title: Base Example
+title: Basic Example
 parent: Example
 nav_order: 1
 ---
-# Basice Example
+# Basic Example
 {: .no_toc .header }
 ---
 
