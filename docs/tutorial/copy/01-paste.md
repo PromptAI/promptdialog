@@ -20,3 +20,4 @@ At this time, the node has been successfully copied to the Paste Board, as shown
 ## Paste
 Select the Chengdu Weather node of the Paste Board and drag it to the node to be linked. When the **+** icon appears, release it.
 ![02-copy](/assets/images/tutorial/copy/02-copy.png)
+![03-copy](/assets/images/tutorial/copy/03-copy.png)

@@ -58,13 +58,7 @@ Such scenarios are suitable for processing with information forms.
 ### Complete collection succeeded
   <br/>After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user, and save it in the answer list (refer to [Create Answer List](/docs/tutorial/node-template/bot-global/)）
 ![14-form](/assets/images/tutorial/form/14-form.png)
+![15-form](/assets/images/tutorial/form/15-form.png)
 
 ### The complete flow diagram is as follows:
-  ![20-form](/assets/images/tutorial/form/20-form.png)
-  ![21-form](/assets/images/tutorial/form/21-form.png)
-
-
-## Training and verification results
-  Click **Debug Run - Current Module** in the upper right corner to wait for the training to complete the verification effect
-  ![22-form](/assets/images/tutorial/form/22-form.png)
-  ![23-form](/assets/images/tutorial/form/23-form.png)
+  ![20-form](/assets/images/tutorial/form/15-form.png)
