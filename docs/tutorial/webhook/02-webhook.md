@@ -20,7 +20,7 @@ Through the following examples, you can quickly understand the use of webhook.
 
 1. Here we have prepared the interface for querying weather:
 
-   url:https://app.promptai.cnF/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&city=xxxx  
+   url:https://app.promptai.cn/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&city=xxxx  
 
    Request header:Authorization=9f480349b1474c8a9f0d48c80e8e9ca8
 

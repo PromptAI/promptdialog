@@ -37,7 +37,6 @@ The question and session ID are used as input through the Http Get request, and 
 ### Webhook configuration
 
 ![03-1-webhook.png](/assets/images/tutorial/webhook/03-1-webhook.jpg)
-![03-2-webhook.jpg](/assets/images/tutorial/webhook/03-2-webhook.jpg)
 
 First, we configure the name and request address, and use the built-in variables `{latest_message}` and `{send_id}` in the request address to pass the Fallback user input and dialog id to the API according to the API requirements.
 Finally, extract `message` to `relpy` in the response processing part, and output `{reply}` when the response is successful

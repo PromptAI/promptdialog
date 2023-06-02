@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Concept description of webhook
+title: Concept of webhook
 parent: Developer's guide
 nav_order: 9
 ---
