@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Create Intent List
+title: Create Intent list
 parent: Developer's guide
 nav_order: 22
 ---
