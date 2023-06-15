@@ -21,12 +21,6 @@ In the flow chart above, in the last `Bot Response` node, we added action type r
 
 ![action-02](/assets/images/tutorial/action/action-02.png)
 
-This is a simple greeting text.
-
-![action-02](/assets/images/tutorial/action/action-03.png)
-
-Action successfully executed and output the corresponding content.
-
 ### Action convert
 
 Among them, there are probably two positions related to the Action code:

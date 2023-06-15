@@ -20,11 +20,7 @@ Please refer to the tutorial[webhook](/docs/tutorial/webhook/01-webhook/)
 
 ### How to create consecutive multiple responses?
 
-Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/tutorial/flow/01-create-flow/#添加回复节点)
-
-### How do I stop training?
-
-Please refer to the tutorial[Debugging Project - Cancel Training](/docs/tutorial/flow/03-train-project/#取消训练)
+Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/tutorial/flow/01-create-flow/#add-reply-node)
 
 ### Do not know the function of intents template
 
@@ -32,19 +28,19 @@ Please refer to the tutorial[Create Intent List](/docs/tutorial/node-template/us
 
 ### Does the initial node of the flow chart have a user option by default?
 
-Please refer to the tutorial[Dialog Flow Graph Settings](/docs/tutorial/setting/#对话流图设置)
+Please refer to the tutorial[Dialog Flow Graph Settings](/docs/tutorial/setting/)
 
 ### Add a node and then delete it. Is there an undo function?
 
-Please refer to the tutorial[Undo/Redo](/docs/tutorial/setting/#对话流图设置)
+Please refer to the tutorial[Undo/Redo](/docs/tutorial/setting/)
 
 ### Machine reply attachment support
 
-Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/tutorial/flow/01-create-flow/#回复节点添加附件)
+Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/tutorial/flow/01-create-flow/)
 
 ### How to extract multiple variables in a sentence? For example, "I want five jin of apples"
 
-Please refer to the tutorial[Create Form-Improve Slots）](/docs/tutorial/flow/01-create-flow/#完善信息列表（Slots）)
+Please refer to the tutorial[Create Form-Improve Slots）](/docs/tutorial/flow/01-create-flow/)
 
 ### During the conversation, I want to output different responses according to different variable values. What should I do?
 Situation 1: Judge whether the variable has a value. For different responses, please refer to: [reply conditions] (/docs/zh/tutorial/setting/#Configure bot reply conditions) (judge whether the variable has a value or not)

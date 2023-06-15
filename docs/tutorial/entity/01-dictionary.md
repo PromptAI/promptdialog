@@ -6,14 +6,14 @@ nav_order: 28
 ---
 
 # Variables - Hot Words
-
-## {: .no_toc .header }
+{: .no_toc .header }
+---
 
 When we use variable extraction, sometimes the extracted variable values are words in specific scenarios. In this case, we can add hot words to variables to improve the recognition accuracy.
 
 ## Add hot words to variables
 
-Here we add hot words to the variable **fruit name**. The hot words are as follows:
+Here we add hot words to the variable **area name**. The hot words are as follows:
 
 ```text
 Alabama
@@ -69,7 +69,3 @@ Here we create a dialog flow diagram **Where are you**.
 3. When adding fruit name extraction fails, the machine replies to the following nodes:
    ![dict-08](/assets/images/tutorial/dict/dict-06.png)
 
-## Train and verify the effect
-
-As shown in the figure, the fruit names in our hot words can also be accurately identified and queried.
-![dict-09](/assets/images/tutorial/dict/dict-07.png)
