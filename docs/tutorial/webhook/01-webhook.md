@@ -53,6 +53,7 @@ Learn about the relevant concepts in our system webhook through the following co
 Through webhook, we can interact with external interfaces (APIs) in specific steps.
 Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
 ![50-webhook](/assets/images/tutorial/webhook/webhook1.png)
+![50-webhook](/assets/images/tutorial/webhook/webhook2.png)
 
 1. name
    <br/>When creating a new webhook, we can give each one a name related to the webhook function, which is easy to distinguish when referring to a flow
