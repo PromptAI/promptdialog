@@ -34,14 +34,14 @@ When editing a dialog flow diagram, you can set whether to present branch prompt
 
 ![project-overview-5](/assets/images/tutorial/setting/04-setting.png)
 
-### Branch welcome
+### Branch prompt
 
 When the user checks whether ** Subordinates present ** All ** after ** as an option here, after publishing the project, all dialogue processes under the project will be displayed with buttons under the branch prompt. Check ** Check only**
 
 After the project is published, the dialog process in which only the **child presented as button** is enabled under the project will be displayed with the button below the branch prompt. Check **No**
 
 , after the project is published, all the dialog processes of the project will not be displayed with buttons under the branch prompt
-<br/>Note: **Branch welcome**, **child presented as button** will take effect immediately after modification. Downloading Rasa readable files is not supported.
+<br/>Note: **Branch prompt**, **child presented as button** will take effect immediately after modification. Downloading Rasa readable files is not supported.
 
 ![project-overview-6](/assets/images/tutorial/setting/05-setting.png)
 
