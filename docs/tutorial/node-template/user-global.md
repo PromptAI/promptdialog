@@ -12,10 +12,10 @@ Please refer to the concept description of [Intents](/docs/appendix/appendix)
 
 ## Create Intents
 
-If it is shown in the figure, click **Project View - Intents - Add** in order to create a general intent template for extracting birthdays. After filling in the figure, click OK to save,
+If it is shown in the figure, click **Project View - Intents - Add** in order to create a general intent template for extracting test. After filling in the figure, click OK to save,
 ![01-user-global](/assets/images/tutorial/template/01-user-global.png)
 ## Use in conversation flow diagrams
-1. As shown in the figure, first create a flow graph to ask for birthdays, then create a machine reply node to ask for birthdays and a user input node in turn.
+1. As shown in the figure, first create a flow graph to ask for test, then create a machine reply node to ask for test and a user input node in turn.
    ![02-user-global](/assets/images/tutorial/template/02-user-global.png)
 
 2. Select the user input node to edit the node, click **Select from the intents** as shown in the figure, and then select the intention template we just created

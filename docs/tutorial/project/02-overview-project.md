@@ -12,7 +12,7 @@ nav_order: 3
 The user can overview the overview information of the selected project in this interface, and can also quickly edit the project details from this interface to jump to the user question and answer (FAQ) and session branch.
 ## Edit Project
 
-Click the current project XXX in the overview map, and continue to click the pop-up editing node to quickly edit the project information.
+Click the current project IT Helpdesk in the overview map, and continue to click the pop-up editing node to quickly edit the project information.
 
 ![project-overview-1](/assets/images/tutorial/project/p-overview-1.png)
 
@@ -38,6 +38,6 @@ After the project is published, all the dialog processes of the project will not
 
 ![project-overview-6](/assets/images/tutorial/project/p-overview-6.png)
 
-- Click the default reply of the overview map: XXX. Continue to click the pop-up editing node, where you can edit the fallback reply prompt of the project.
+- Click the default reply of the overview map: IT Helpdesk. Continue to click the pop-up editing node, where you can edit the fallback reply prompt of the project.
 
 ![project-overview-7](/assets/images/tutorial/project/p-overview-7.png)
