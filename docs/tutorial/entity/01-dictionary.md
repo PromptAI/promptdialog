@@ -63,9 +63,9 @@ Here we create a dialog flow diagram **Where are you**.
 1. Add user input nodes as follows:
    ![dict-04](/assets/images/tutorial/dict/dict-04.png)
    **Note**: In order to improve the recognition rate of hot words, at least two hot words need to be marked here
-2. When the dict_demo name is added and extracted successfully, the machine replies as follows:
+2. When the area name is added and extracted successfully, the bot replies as follows:
    ![dict-05](/assets/images/tutorial/dict/dict-05.png)
 
-3. When adding fruit name extraction fails, the machine replies to the following nodes:
+3. When adding fruit name extraction fails, the bot replies to the following nodes:
    ![dict-08](/assets/images/tutorial/dict/dict-06.png)
 
