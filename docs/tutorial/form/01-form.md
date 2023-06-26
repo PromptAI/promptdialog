@@ -56,7 +56,7 @@ Such scenarios are suitable for processing with information forms.
      ![11-form](/assets/images/tutorial/form/11-form.png)
 
 ### Complete collection succeeded
-  <br/>After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user, and save it in the answer list (refer to [Create Answer List](/docs/tutorial/node-template/bot-global/)）
+  <br/>After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user
 ![12-form](/assets/images/tutorial/form/12-form.png)
 
 ### The complete flow diagram is as follows:
