@@ -10,8 +10,7 @@ nav_order: 26
 ---
 Sometimes we delete a node or multiple nodes by mistake. If we need to go back to the previous step to restore the node that was deleted by mistake,
 
-This is the usage scenario of undo/redo .
-<br/>The undo/redo in the current version does not support cross device and cross browser
+This is the usage scenario of undo/redo.
 
 
 ## Examples
