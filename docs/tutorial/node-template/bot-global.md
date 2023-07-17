@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Create Responses
+title: Response Template
 parent: Developer's Guide
 nav_order: 21
 ---
@@ -8,14 +8,15 @@ nav_order: 21
 # Concept description
 {: .no_toc .header }
 ---
-When you have many nodes that need to use the same reply, it is strongly recommended that you use the responses, which can save you a lot of repeated operation time.
-For the concept of responses, please refer to[Responses](/docs/appendix/appendix/#回答列表)Concept description
+When you have many bot response nodes that need to use the same response, it is strongly recommended to use a common response template, which can save you a lot of building time.
 
-## Create responses
+## Create a response template
 
-If it is shown in the figure, click **Item View - Responses - Add** in order to create a general answer template for extracting answers to the birthday. After filling in the figure, click OK to save,
+If it is shown in the figure, click **Project View - Responses - Add** in order to create a response template.
+
 ![11-bot-global](/assets/images/tutorial/template/01-bot-global.png)
-## Use in conversation flow diagrams
+
+## Use the template in dialog flows
 1. Here we use the flow diagram to create the intention list. Please refer to the [Create Bot List](/docs/tutorial/node-template/bot-global/)tutorial for the creation process:
    ![05-user-global](/assets/images/tutorial/template/02-bot-global.png)
 
