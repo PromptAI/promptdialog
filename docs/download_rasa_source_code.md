@@ -1,11 +1,11 @@
 ---
 layout: en
-title: Running Rasa Code
+title: Running Chatbots
 nav_order: 4
 has_children: false
 ---
 
-When developers need to debug and verify the flow diagram, You can use the **Download Rasa Files** function to download the generated RASA code in your local running environment and test the chaobto locally.  If you prefer running the code on the cloud without setting up local environment, please contact us [info@promptai.us].
+When developers need to debug and verify the flow diagram, they can use the **Download Rasa Files** function to download the generated RASA code in their local running environment and test the chaobot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us].
 
 ## Rasa file download
 
