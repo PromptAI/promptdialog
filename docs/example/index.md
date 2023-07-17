@@ -1,11 +1,10 @@
 ---
 layout: en
-title: Example
+title: Video Tutorials
 nav_order: 4
 has_children: true
-show: false
 ---
-# Example
+# Video Tutorials
 {: .no_toc .header }
 ----
 We provide the following examples to guide you to quickly understand and use the dialogue services provided by Prompt AI.

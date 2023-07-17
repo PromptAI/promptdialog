@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Information Form
-parent: Example
+parent: Video Tutorials
 nav_order: 2
 ---
 # Information Form

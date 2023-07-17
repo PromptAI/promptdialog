@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Basic Example
-parent: Example
+parent: Video Tutorials
 nav_order: 1
 ---
 # Basic Example

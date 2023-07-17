@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Variable extraction
-parent: Example
+parent: Video Tutorials
 nav_order: 3
 ---
 # Variable extraction
