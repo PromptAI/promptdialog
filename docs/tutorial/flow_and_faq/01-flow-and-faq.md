@@ -1,23 +1,15 @@
 ---
 layout: en
-title: Conversation flow diagram and user question and answer (FAQ)
+title: Dialog Flow + FAQ
 parent: Developer's Guide
 nav_order: 5
 ---
-
-# Conversation flow diagram and user question and answer (FAQ)
-{: .no_toc .header }
----
-
-## Mixed debugging or release
-
-User question answering (FAQ) and dialog flow diagram are checked during debugging or publishing, and cross answering is allowed during the dialogue. That is, when entering a flow diagram, the user enters the intention in the user's question and answer,
-At this time, the machine corresponding to the intention will reply.
+A typical application often has a dialog flow and FAQ mixed together: When a user is filling a form, she might ask a few questions.  By default, PromptDialog can interleave these two processes together.  During the stage of debugging or publishing, the designer can select both modules and compile them together.  
 
 ![01](/assets/images/tutorial/flow_and_faq/1.png)
 
-We combine a conversation flow diagram with user question and answer (FAQ) training:
+We combine a dialog flow with FAQ and train them together:
 
 ![02](/assets/images/tutorial/flow_and_faq/2.png)
 
-In the dialogue process, we first conduct flow chart dialogue, and then conduct user question and answer dialogue.
+When this bot runs,  it follows the dialog flow.  Meanwhile, it can answer questions in FAQ.
