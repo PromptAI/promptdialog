@@ -1,6 +1,6 @@
 ---
 layout: en
-title: About
+title: Welcome to Prompt AI
 nav_order: 1
 has_children: false
 ---

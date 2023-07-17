@@ -1,14 +1,11 @@
 ---
 layout: en
-title: Local installation
-nav_order: 8
-show: false
+title: Download Rasa Souce code
+nav_order: 3
+has_children: false
 ---
-
-# Local installation
-
+# Deploy
 {: .no_toc .header }
-
 ---
 
 When RASA developers need to use the editing function of the system flow diagram or need to debug and verify the flow diagram,
