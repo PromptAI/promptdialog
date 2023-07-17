@@ -23,4 +23,4 @@ Let our platform be your ideal choice for building unique chatbots, unleashing y
 
 Please refer to the detailed tutorials for FAQ construction and dialog flow design
 - [FAQ](/docs/tutorial/faq/01-create-faq/)
-- [Flow](/docs/tutorial/flow/01-create-flow/)
+- [Conversation Flow Design](/docs/tutorial/flow/01-create-flow/)
