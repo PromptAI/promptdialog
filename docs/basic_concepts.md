@@ -57,7 +57,7 @@ PromtpDialog supports FAQs in three ways:
 * Customized BERT model with contrastive learning.  PromptDialog also provides its own model that can be deployed locally with performance between RASA FAQ and ChatGPT (closer to ChatGPT).  It needs training examples. 
 
 ## Knowledge Base
-In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDFs, Docs, Text, and HTMLs into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents. This function is supported by talk2bits.com and can be integrated with RASA quickly. 
+In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDF, Doc, Text, and HTML into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents. This function is supported by [talk2bits.com] and can be integrated with RASA quicklyin PromptDialog. 
 
 ## Form
 Form is used to collect multiple pieces of information in tasks like ticket booking, hotel reservation, purchase order, etc.  In PromptDialog, only a few configurations are needed to complete the design of a form, which was once quite complex: 
