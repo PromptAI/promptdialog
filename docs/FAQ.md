@@ -1,11 +1,11 @@
 ---
 layout: en
-title: FAQ
+title: Common Questions
 nav_order: 6
 spliter: true
 ---
 
-# FAQ
+# Common Questions
 
 {: .no_toc .header }
 
