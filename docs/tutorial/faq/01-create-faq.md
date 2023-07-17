@@ -6,7 +6,7 @@ nav_order: 4
 ---
 After the project is created, there will be a default frequently answered questions (FAQ).  The beta version only allows one FAQ for each project. 
 
-## FAQ edition window  
+## FAQ window  
 
 Click FAQ in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
 
