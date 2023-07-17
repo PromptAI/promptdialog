@@ -1,10 +1,10 @@
 ---
 layout: en
-title: Download Rasa Souce code
+title: Download Rasa Source code
 nav_order: 3
 has_children: false
 ---
-# Deploy
+# Download Rasa Source code
 {: .no_toc .header }
 ---
 
