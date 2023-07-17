@@ -1,17 +1,16 @@
 ---
 layout: en
-title: Create Project
+title: Create A Project
 parent: Developer's Guide
 nav_order: 2
 ---
 
-# Create Project
+# Create A Project
 {: .no_toc .header }
 ---
-The user must first create a project before creating FAQ or conversion flow diagram under the project
-## Create Project
 
-After logging in, click the Create Project button in the upper right corner to fill in the project related information in the pop-up dialog box.
+## Create A Project
+The user must first create a project before creating FAQ or conversation flow diagram under the project. After logging in, click the Create Project button in the upper right corner to fill in the project related information in a pop-up dialog box.
 
 ![project-create](/assets/images/tutorial/project/p-create.png)
 
