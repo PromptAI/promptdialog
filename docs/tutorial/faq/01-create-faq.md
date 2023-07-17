@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Create a user question and answer (FAQ)
+title: FAQ
 parent: Developer's Guide
 nav_order: 4
 ---
