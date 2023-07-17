@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Conversation flow diagram and user question and answer (FAQ)
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 5
 ---
 

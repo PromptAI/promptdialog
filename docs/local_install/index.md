@@ -2,6 +2,7 @@
 layout: en
 title: Local installation
 nav_order: 8
+show: false
 ---
 
 # Local installation

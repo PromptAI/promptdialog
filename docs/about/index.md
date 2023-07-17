@@ -4,21 +4,18 @@ title: About
 nav_order: 1
 has_children: false
 ---
-
-# About Prompt AI
+# Welcome to Prompt AI
 {: .no_toc .header }
-
-This article will guide you to quickly start using the intelligent conversation service provided by Prompt AI.
-
 ---
 
-Prompt AI is the next generation cloud based professional intelligent conversation design cloud platform built by Prompt AI for SMEs. In addition to covering the functions of traditional intelligent conversations, Prompt AI, based on the concept of **visualization**, combined with new technologies and professional experience of intelligent dialogue, can fully meet the comprehensive intelligent dialogue design needs of SMEs customers, allowing customers to integrate intelligent dialogs into their own business systems more quickly and easily.
+We present PromptDialog, an integrated development and operation environment to enable rapid prototyping and delivery of conversational assistants, aka,chatbots. 
 
-Compared with other intelligent dialogue schemes, Prompt AI has the following characteristics:
-- **Easy to use**：Based on application scenarios, professional graphical user interface design functions are exposed to customers in a simple and easy to understand way, so that customers can quickly get started. When meeting special or complex scenarios, it can be quickly customized or extended through standard interfaces.
-- **Fast and convenient**：AI integrates the conversations of common scenarios professionally without the need for customers to build from scratch.
-- **Multi scene switching**：Multi scenario switching is an important concept of Prompt AI. As a true "package" of intelligent dialogue services, users do not need to build different dialogue schemes for different needs to fully save costs and make the dialogue system play a greater role.
-- **Go online quickly**：Rapid design and construction of an intelligent dialogue system is also an important concept of Prompt AI. Rapid design, rapid construction,rapid packaging, and rapid deployment reduce the complexity of users deploying a complete dialogue system from zero, and make deployment simple, fast, and stable.
+PromptDialog supports RASA and GPT4, together with a design/testing/deployment environment (an alternative of RASA-X and RASA-Pro).  With PromptDialog, we aim to bring you an AI experience with the latest LLM technology and significant reduction (90%) of development cost.
+When you are using RASA Open Source, you might be disappointed by the lack of Large Language Models’ support (LLMs) and the missing of RASA-X that provides low code user interface for data annotation and model training.  When you are using GPT4, you might be concerned on how to embed your own business logic.  This is exactly what we experienced when building chatbots for financial institutes and car manufacturers.   PromptDialog solves both problems by enabling GPT4 in RASA Open Source.    And most important, it is free!  Here are a few highlights:
+* Turn enterprise documents of various forms (FAQ, CSV, PDF, Doc, Text, HTML) into one knowledge base powered by GPT ([talk2bits.com](https://talk2bits.com)).  It can be easily integrated with your RASA code. 
+* Business logic visualization.  The conversational flow is drawn explicitly, not as vague as annotated conversations or python programs any more.  It can be displayed and shared with your team members
+* All-in-one platform: Design, develop and operate conversations, on premise and in the cloud, in one platform.
+* Zero shot intent classification and entity recognition, less or even no annotation required (coming soon). 
 
-The following figure shows the usage overview of Prompt AI：
-![flow.png](/assets/images/about/flow.jpg)
+[@Xifeng Yan](https://abc.com)
+PromptAI

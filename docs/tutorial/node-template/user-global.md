@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Create Intents
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 22
 ---
 

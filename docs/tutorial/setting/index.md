@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Settings illustration
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 20
 ---
 
