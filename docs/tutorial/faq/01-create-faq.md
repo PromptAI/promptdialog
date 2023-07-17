@@ -6,7 +6,7 @@ nav_order: 4
 ---
 After the project is created, there will be a default frequently answered questions (FAQ).  The beta version only allows one FAQ for each project. 
 
-## Go to the FAQ window 
+## FAQ edition window  
 
 Click FAQ in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
 
@@ -33,8 +33,8 @@ Please fill multiple examples for the same question, which is required for RASA 
 ## Unstructured content
 If you have unstructred content available in files like CSV, Word Doc, PDF, Text, HTML etc.,  you can upload these files to [talk2bits.com], which provides service to directly answer your question using ChatGPT/GPT4.  PromptDialog has integrated this function. Please check the knowledgebase section [link here]. 
 
-## Train options
+## Training options
 When you train your model, we provide three training options (please give the interface picture and the location of that interface):
 - RASA native:  It uses RASA’s own routine to train FAQ classifier.  In this case, a user is required to give a few similar questions.
-- ChatGPT/GPT4: It employes ChatGPT/GPT4 to do querestion comparison and retrieve answer.  This is an approach we recommend as the designer need no tprovide many similar questions. However, it needs to be done through an account at [talk2bits.com].
-- Customized BERT model: It can be trained and deployed locally and has performnace between RASA FAQ and ChatGPT. For this option, please contact us [info@promptai.us]
+- ChatGPT/GPT4: It employes ChatGPT/GPT4 to do querestion comparison and retrieve answer.  This is an approach we recommend as the designer need not provide many similar questions.  This needs to be done through [talk2bits.com]. Please check the knowledgebase section [link here]. 
+- Customized BERT model: It can be trained and deployed locally to best protect privacy and has performnace between RASA FAQ and ChatGPT. For this option, please contact us [info@promptai.us].
