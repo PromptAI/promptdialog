@@ -4,21 +4,16 @@ title: Project Overview
 parent: Developer's Guide
 nav_order: 3
 ---
-
-# Project Overview
-{: .no_toc .header }
----
-
-The user can overview the overview information of the selected project in this interface, and can also quickly edit the project details from this interface to jump to the user question and answer (FAQ) and session branch.
+Click Overview, the designer can review the modules in the project.  Clicking these modules will bring the designer to the corresponding module such as FAQ and Flows. 
 ## Edit Project
 
-Click the current project IT Helpdesk in the overview map, and continue to click the pop-up editing node to quickly edit the project information.
+Click the current project IT Helpdesk in the overview map, and continue to click the pop-up editing node to edit the project information.
 
 ![project-overview-1](/assets/images/tutorial/project/p-overview-1.png)
 
 ## Shortcut Jump/Edit
 
-- Click the FAQ in the overview map, and continue to click the pop-up View Details to jump to FAQ homepage.
+- Click the FAQ in the overview map, and continue to click the pop-up View Details to jump to the FAQ page.
 
 ![project-overview-2](/assets/images/tutorial/project/p-overview-2.png)
 
