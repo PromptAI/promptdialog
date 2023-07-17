@@ -41,7 +41,7 @@ In this case, a specific value is selected to fill slots.  For example, when boo
 Sometimes a slot value needs to be reset.   For example, a user might want to clear the previously entered information, or assign the slot an initial value at the beginning of a conversation.  It can also be used when filling different slots of the same entity type, such as numbers: Fill in the order number when an order identifier is given, and fill in the phone number when a phone number is provided. 
 
 ## Bot Response
-The system will send different responses according to user utterance. PromptDialog currently supports three kinds of responses:
+The system will send different responses according to user utterance. PromptDialog currently supports five kinds of responses:
 1. Text
 2. Image
 3. Attachment
