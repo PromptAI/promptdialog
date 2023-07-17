@@ -5,11 +5,7 @@ parent: Developer's Guide
 nav_order: 2
 ---
 
-# Create A Project
-{: .no_toc .header }
----
-
-## Create A Project
+## Create Project
 The user must first create a project before creating FAQ or conversation flow diagram under the project. After logging in, click the Create Project button in the upper right corner to fill in the project related information in a pop-up dialog box.
 
 ![project-create](/assets/images/tutorial/project/p-create.png)
