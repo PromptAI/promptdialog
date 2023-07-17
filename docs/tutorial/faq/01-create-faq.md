@@ -4,30 +4,24 @@ title: Create a user question and answer (FAQ)
 parent: Developer's Guide
 nav_order: 4
 ---
+After the project is created, there will be a default frequently answered questions (FAQ).  The beta version only allows one FAQ for each project. 
 
-# User question and answer (FAQ)
-{: .no_toc .header }
----
-After the project is created, there will be a default user question and answer (FAQ) based on the project. A project has and only has one user question and answer (FAQ).
+## Go to the FAQ window 
 
-## Go to the FAQ homepage
-
-As shown in the figure, you can click the user question and answer (FAQ) on the left navigation bar or click the view details link that appears after the user question and answer (FAQ) to jump to the user question and answer (FAQ) home page. In this interface, you can add, modify, delete, and train FAQs.
-
+Click FAQ in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
 
 ![faq-main-view](/assets/images/tutorial/faq/f-main-view.png)
 
-## New FAQ
+## Add a new question
 
-On the user question and answer (FAQ) homepage, click the Add User Question button in the upper right corner to pop up the FAQ creation interface.
+Click the Add User Question button on the upper right corner to pop up the FAQ creation interface.
 
 ![faq-create-button](/assets/images/tutorial/faq/f-create-button.png)
 
-## Fill in the specific information of the FAQ
-Please pay attention to the following items when filling in the user question and answer (FAQ) details:
--After the FAQ training is released, the conversation between the user and the intelligent assistant is in the form of one question and one answer.
--When creating a FAQ, it must include the user's question and the reply of the intelligent assistant.
--User questions cannot be repeated
+## Fill in question/answer information
+Please fill multiple examples for the same question, which is required for RASA Training. Please make sure: 
+-Each question can only be listed once. 
+-Each question shall have multiple examples: They are the same question, but asked differently. 
 
 
 ![faq-create-detail.png](/assets/images/tutorial/faq/f-create-detail.png)
@@ -35,3 +29,12 @@ Please pay attention to the following items when filling in the user question an
 ## Created successfully
 
 ![faq-create-detail.png](/assets/images/tutorial/faq/f-main-view-data.png)
+
+## Unstructured content
+If you have unstructred content available in files like CSV, Word Doc, PDF, Text, HTML etc.,  you can upload these files to [talk2bits.com], which provides service to directly answer your question using ChatGPT/GPT4.  PromptDialog has integrated this function. Please check the knowledgebase section [link here]. 
+
+## Train options
+When you train your model, we provide three training options (please give the interface picture and the location of that interface):
+- RASA native:  It uses RASA’s own routine to train FAQ classifier.  In this case, a user is required to give a few similar questions.
+- ChatGPT/GPT4: It employes ChatGPT/GPT4 to do querestion comparison and retrieve answer.  This is an approach we recommend as the designer need no tprovide many similar questions. However, it needs to be done through an account at [talk2bits.com].
+- Customized BERT model: It can be trained and deployed locally and has performnace between RASA FAQ and ChatGPT. For this option, please contact us [info@promptai.us]
