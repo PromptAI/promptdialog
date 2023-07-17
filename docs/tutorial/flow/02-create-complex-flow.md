@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create a complex dialog flow diagram
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 6
 ---
 

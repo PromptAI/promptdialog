@@ -1,10 +1,11 @@
 ---
 layout: en
-title: Common Problem
-nav_order: 5
+title: FAQ
+nav_order: 4
+spliter: true
 ---
 
-# Common Problem
+# FAQ
 
 {: .no_toc .header }
 
@@ -12,7 +13,7 @@ nav_order: 5
 
 The following is a list of common problem solving methods in our system
 
-## Common problems that can be solved by reference to the tutorial
+## FAQ that can be solved by reference to the tutorial
 
 ### How do I get the URL when I customize the webhook?
 

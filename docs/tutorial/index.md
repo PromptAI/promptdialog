@@ -1,7 +1,7 @@
 ---
 layout: en
-title: Developer's guide
-nav_order: 3
+title: Developer's Guide
+nav_order: 6
 has_children: true
 ---
 

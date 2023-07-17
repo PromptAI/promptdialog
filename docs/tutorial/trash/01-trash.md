@@ -1,7 +1,7 @@
 ---
 layout: en
 title: trash
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 25
 ---
 

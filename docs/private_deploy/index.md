@@ -2,6 +2,7 @@
 layout: en
 title: Localized Deployment
 nav_order: 9
+show: false
 ---
 
 # Localized Deployment

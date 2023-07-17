@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Debug Dialog Flow Diagram
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 7
 ---
 

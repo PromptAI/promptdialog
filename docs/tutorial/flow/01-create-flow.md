@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Create a conversation flow diagram
-parent: Developer's guide
+parent: Developer's Guide
 nav_order: 5
 ---
 

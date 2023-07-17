@@ -3,6 +3,7 @@ layout: en
 title: Example
 nav_order: 4
 has_children: true
+show: false
 ---
 # Example
 {: .no_toc .header }
