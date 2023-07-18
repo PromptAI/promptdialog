@@ -1,8 +1,8 @@
 ---
 layout: en
 title: Examples of webhook 
-parent: Developer's Guide
-nav_order: 10
+parent: Webhook
+nav_order: 2
 ---
 
 # Webhook

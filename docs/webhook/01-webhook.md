@@ -1,8 +1,8 @@
 ---
 layout: en
 title: Concept of webhook
-parent: Developer's Guide
-nav_order: 9
+parent: Webhook
+nav_order: 1
 ---
 
 # Webhook
