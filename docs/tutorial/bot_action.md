@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Bot-Action
+title: Customized Action
 parent: Developer's Guide
 nav_order: 6
 spliter: true
