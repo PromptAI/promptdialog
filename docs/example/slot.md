@@ -1,14 +1,9 @@
 ---
 layout: en
-title: Variable extraction
+title: Fill Slots
 parent: Video Tutorials
 nav_order: 3
 ---
-# Variable extraction
-{: .no_toc .header }
-
-## Video
-
-You can quickly learn how to create a dialogue flow graph with variable extraction through the following video.
+There are multiple ways to extract values and entities from user utterance.  The following video shows how to provide a few slot filling examples in PromptDialog so that value extraction and/or entity recognition models can be learned in RASA.  
 
 <video src="/assets/images/example/video/slot.mp4" width="100%" height="520px" controls="controls"></video>
