@@ -5,27 +5,19 @@ parent: Developer's Guide
 nav_order: 5
 ---
 
-# Concept description
-{: .no_toc .header }
-For the concept of information form, please refer to [Information Form](/docs/appendix/appendix/#form) of Concept description
+Form is used to collect multiple pieces of information in tasks like ticket booking, hotel reservation, order status checking, etc.  The following example shows how to build a dialog flow of ordering fruits that has a form inside. 
 
-## Use Scenarios
-
-There are many scenarios for using information forms. For example, users need to know their identity information when booking hotels and their order number when querying orders,
-Such scenarios are suitable for processing with information forms.
-
-## create form
-
-### Create a conversation flow diagram **Buy fruit**
+## Create a dialog flow
    ![01-form](/assets/images/tutorial/form/01-form.png)
 
-### New user input node
+## Add a user utterance node
    ![02-form](/assets/images/tutorial/form/02-form.png)
 
-### Create an Information Collection (Form) node
+## Add a form (Information Collection) node
   ![03-form](/assets/images/tutorial/form/03-form.png)
   ![04-form](/assets/images/tutorial/form/04-form.png)
-### Improve information list (Slots)
+  
+## Add slots
   1. Collect fruit type
     <br/> 
     Click **Information Collection List (Slots)** Add **Information Collection Item** Node (a variable node and a machine query node will be added by default), as shown in the figure
@@ -54,11 +46,11 @@ Such scenarios are suitable for processing with information forms.
      Continue to add the machine reply node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure
      ![11-form](/assets/images/tutorial/form/11-form.png)
 
-### Complete collection succeeded
+## Complete collection succeeded
   <br/>After successful collection, we will confirm the collected information with the user. After the successful collection node, we will add a machine reply, confirm the order information with the user
 ![12-form](/assets/images/tutorial/form/12-form.png)
 
-### The complete flow diagram is as follows:
+## The complete flow diagram is as follows:
   ![16-form](/assets/images/tutorial/form/16-form.png)
   ![17-form](/assets/images/tutorial/form/17-form.png)
   ![18-form](/assets/images/tutorial/form/18-form.png)
