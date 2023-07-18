@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Trash
+title: Recycle Bin
 parent: Developer's Guide
 nav_order: 11
 ---
