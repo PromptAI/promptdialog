@@ -8,6 +8,19 @@ nav_order: 1
 # Webhook
 {: .no_toc .header }
 
+## Why webhook?
+Webhook functionality is a crucial component of conversational systems, allowing them to communicate in real-time with external systems, access up-to-date data, and personalize interactions. This enables more efficient and real-time user experiences while handling complex business logic, integrating multiple services, and improving overall system performance.
+
+- Real-time data updates: Webhook enables the conversational system to communicate in real-time with external systems and fetch the latest data. This is essential for users to access real-time information such as weather forecasts, stock statuses, news updates, and more.
+- Personalization and context: Webhook allows the conversational system to associate previous user interactions and behavior with the current conversation, leading to a better understanding of user intent and context. By retrieving and analyzing user activities in other systems, the conversational system can provide more accurate and personalized responses and services.
+- Complex business logic: Some conversational system tasks involve complex business logic in external systems. Through webhooks, the conversational system can directly invoke external system APIs to handle such tasks, avoiding the need to centralize all the logic within the conversational system and ensuring a streamlined and efficient process.
+- Collaboration and integration: Webhook enables the conversational system to collaborate and integrate with multiple external systems. As a central controller, the conversational system can interact with various services, offering more comprehensive functionalities and services.
+- Improved efficiency and performance: By utilizing webhooks, the conversational system can delegate some tasks to external systems, reducing the burden on the conversational system itself and enhancing response speed and overall performance.
+- Event triggering: Webhooks allow external systems to notify the conversational system when specific events occur, leading to triggered actions or responses. This real-time event triggering is particularly valuable for interactive applications and real-time tasks.
+
+Webhook functionality is a crucial component of conversational systems, allowing them to communicate in real-time with external systems, access up-to-date data, and personalize interactions. This enables more efficient and real-time user experiences while handling complex business logic, integrating multiple services, and improving overall system performance.
+
+## Concept
 Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
 
 Learn about the relevant concepts in our system webhook through the following concept descriptions.
