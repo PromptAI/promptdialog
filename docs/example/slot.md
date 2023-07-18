@@ -6,7 +6,6 @@ nav_order: 3
 ---
 # Variable extraction
 {: .no_toc .header }
----
 
 ## Video
 

@@ -7,7 +7,6 @@ nav_order: 2
 
 # Create Project
 {: .no_toc .header }
----
 The user must first create a project before creating FAQ or conversion flow diagram under the project
 ## Create Project
 

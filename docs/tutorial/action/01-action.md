@@ -7,7 +7,6 @@ nav_order: 40
 
 # Action
 {: .no_toc .header }
----
 In `Bot Response`, we hold the "Action" function, that is, we define the Action code held by Rasa. We will merge the Action code in the machine reply into the `Actions. py` file, and call this part of the code when Rasa triggers the bot reply.
 
 ## Rasa conversion

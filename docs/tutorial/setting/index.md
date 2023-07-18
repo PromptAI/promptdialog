@@ -7,7 +7,6 @@ nav_order: 20
 
 # Settings illustration
 {: .no_toc .header }
----
 
 This tutorial will explain the various settings in the system and their use scene effects.
 

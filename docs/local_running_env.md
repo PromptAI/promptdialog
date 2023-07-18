@@ -6,7 +6,7 @@ has_children: false
 ---
 # Local Running Environment
 {: .no_toc .header }
----
+
 Initialize the local operating environment. After successfully creating an account, you can start designing your chatbot immediately. If you need to run chatbot, you need to initialize the local operating environment.
 
 

@@ -7,7 +7,6 @@ nav_order: 3
 
 # Project Overview
 {: .no_toc .header }
----
 
 The user can overview the overview information of the selected project in this interface, and can also quickly edit the project details from this interface to jump to the user question and answer (FAQ) and session branch.
 ## Edit Project

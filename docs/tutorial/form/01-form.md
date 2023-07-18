@@ -7,7 +7,6 @@ nav_order: 23
 
 # Concept description
 {: .no_toc .header }
----
 For the concept of information form, please refer to [Information Form](/docs/appendix/appendix/#form) of Concept description
 
 ## Use Scenarios

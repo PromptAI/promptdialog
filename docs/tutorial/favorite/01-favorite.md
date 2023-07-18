@@ -7,7 +7,6 @@ nav_order: 29
 
 # Favorites
 {: .no_toc .header }
----
 Favorites can facilitate you to copy the nodes of the dialog flow graph between different projects
 
 ## Favorite single node

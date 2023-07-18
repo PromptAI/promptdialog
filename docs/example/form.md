@@ -6,7 +6,6 @@ nav_order: 2
 ---
 # Information Form
 {: .no_toc .header }
----
 
 ## Video
 You can quickly learn how to create a dialogue flow diagram with information form collection through the following video.

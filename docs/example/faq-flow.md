@@ -6,7 +6,6 @@ nav_order: 1
 ---
 # Basic Example
 {: .no_toc .header }
----
 
 ## Video
 

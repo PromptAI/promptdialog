@@ -6,7 +6,7 @@ has_children: false
 ---
 # Cloud Design
 {: .no_toc .header }
----
+
 PromptAI provides full editing function in the cloud, can upload/add FAQ and flow diagram. Run the RASA model and save the associated data in the user's environment.
 
 ![cloud_design.png](/assets/images/cloud_design/01-cloud_design.png)

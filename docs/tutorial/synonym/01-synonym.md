@@ -7,7 +7,6 @@ nav_order: 29
 
 # Synonyms
 {: .no_toc .header }
----
 Use synonyms to replace synonyms with original words
 
 ## Add Synonyms

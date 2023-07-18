@@ -7,7 +7,6 @@ nav_order: 7
 
 # Debug Dialog Flow Diagram
 {: .no_toc .header }
----
 
 This tutorial will guide you through debugging the completed dialog flow diagram.
 

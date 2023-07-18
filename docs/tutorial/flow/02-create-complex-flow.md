@@ -7,7 +7,6 @@ nav_order: 6
 
 # Create a complex dialog flow diagram
 {: .no_toc .header }
----
 
 This tutorial will guide you to create a complex dialog flow diagram, which will contain the following node types:
 

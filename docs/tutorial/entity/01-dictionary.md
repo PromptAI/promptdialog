@@ -7,7 +7,6 @@ nav_order: 28
 
 # Variables - Hot Words
 {: .no_toc .header }
----
 
 When we use variable extraction, sometimes the extracted variable values are words in specific scenarios. In this case, we can add hot words to variables to improve the recognition accuracy.
 

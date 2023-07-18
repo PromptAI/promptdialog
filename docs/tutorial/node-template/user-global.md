@@ -7,7 +7,6 @@ nav_order: 22
 
 # Intents Concept
 {: .no_toc .header }
----
 Please refer to the concept description of [Intents](/docs/appendix/appendix)
 
 ## Create Intents

@@ -7,7 +7,6 @@ nav_order: 25
 
 # Effect
 {: .no_toc .header }
----
 When we delete one or more nodes in the flow graph, the system just moves it to the trash, and users can recover from the trash again. If it needs to be completely deleted, it needs to be cleaned again from the trash.
 
 ## Supported node types for moving to the trash

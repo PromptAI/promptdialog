@@ -7,7 +7,6 @@ nav_order: 21
 
 # Concept description
 {: .no_toc .header }
----
 When you have many nodes that need to use the same reply, it is strongly recommended that you use the responses, which can save you a lot of repeated operation time.
 For the concept of responses, please refer to[Responses](/docs/appendix/appendix/#回答列表)Concept description
 

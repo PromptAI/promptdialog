@@ -7,7 +7,6 @@ nav_order: 9
 
 # Webhook
 {: .no_toc .header }
----
 
 Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
 

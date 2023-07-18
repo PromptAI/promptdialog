@@ -7,7 +7,6 @@ nav_order: 5
 
 # Conversation flow diagram
 {: .no_toc .header }
----
 
 ## Create a conversation flow diagram
 Click the dialog flow diagram under the dialog overview to add a new one. Enter the node name and description information of the new dialog flow diagram in the pop-up dialog box, and click OK to create a new branch.

@@ -13,8 +13,23 @@
     background: $purple-000;
     z-index: -1;
   }
+  display: none;
 }
 .language {
   display: flex;
   align-items: center;
+}
+.custom-header {
+  display: flex;
+  align-items: center;
+  @include container;
+  &>h2 {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  flex: 1;
 }

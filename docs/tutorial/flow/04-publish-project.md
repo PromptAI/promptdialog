@@ -7,7 +7,6 @@ nav_order: 8
 
 # Create a complex dialog flow diagram
 {: .no_toc .header }
----
 
 This tutorial will lead you to publish a conversation flow diagram
 

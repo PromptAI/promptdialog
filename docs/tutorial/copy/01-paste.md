@@ -7,7 +7,6 @@ nav_order: 31
 
 # Copy Node
 {: .no_toc .header }
----
 Copy Node allows you to quickly copy/paste the same nodes
 
 ## Copy Node

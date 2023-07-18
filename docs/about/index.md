@@ -6,7 +6,6 @@ has_children: false
 ---
 # Welcome to Prompt AI
 {: .no_toc .header }
----
 
 We present PromptDialog, an integrated development and operation environment to enable rapid prototyping and delivery of conversational assistants, aka,chatbots. 
 

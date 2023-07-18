@@ -7,7 +7,6 @@ nav_order: 4
 
 # User question and answer (FAQ)
 {: .no_toc .header }
----
 After the project is created, there will be a default user question and answer (FAQ) based on the project. A project has and only has one user question and answer (FAQ).
 
 ## Go to the FAQ homepage

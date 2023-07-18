@@ -6,10 +6,8 @@ spliter: true
 ---
 
 # FAQ
-
 {: .no_toc .header }
 
----
 
 The following is a list of common problem solving methods in our system
 
