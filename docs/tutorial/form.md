@@ -20,9 +20,9 @@ Form is used to collect multiple pieces of information in tasks like ticket book
 ## Add slots
   1. Collect fruit type
     <br/> 
-    Click **Information Collection List (Slots)** Add **Information Collection Item** Node (a variable node and a machine query node will be added by default), as shown in the figure
+     Click **Add Slot** (a slot node and a bot response node will be added by default), as shown in the figure
      ![05-form](/assets/images/tutorial/form/05-form.png)
-     Here we first click the variable node (**{}** node is not defined in the figure), add the variable **fruit type**, and modify the query content of the query node later.
+     Then click the **{}** node, add the slot name **fruit_type**, and modify how bot will ask for this piece of information later.
      ![06-form](/assets/images/tutorial/form/06-form.png)
      ![07-form](/assets/images/tutorial/form/07-form.png)
      Click the query node to add a user input node to extract and collect information. Here we **variable name** , **fruit type**, **variable value source** , **entity extraction**,
