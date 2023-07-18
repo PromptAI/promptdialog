@@ -10,7 +10,9 @@ nav_order: 7
 
 **User**:  I want to book a ticket to Boston on July 4th. 
 
-**Intent**: Booking Ticket.  There are various ways to express a user’s intent to book a ticket from one place to another.  They can be classified as intent declared by a conversation designer as “Booking Ticket.”  In order to help RASA or LLMs to understand “Booking Ticket,” it was suggested to give a few examples.  Certainly the more (diverse), the better. 
+**Intent**: Booking Ticket.  
+
+There are various ways to express a user’s intent to book a ticket from one place to another.  They can be classified as intent declared by a conversation designer as “Booking Ticket.”  In order to help RASA or LLMs to understand “Booking Ticket,” it was suggested to give a few examples.  Certainly the more (diverse), the better. 
 Intent Example: 
 * I plan to fly to Boston on Independence Day
 * Could you help me check the flights from Los Angeles to Boston in July? 
