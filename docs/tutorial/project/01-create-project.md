@@ -5,26 +5,22 @@ parent: Developer's Guide
 nav_order: 2
 ---
 
-# Create Project
-{: .no_toc .header }
-The user must first create a project before creating FAQ or conversion flow diagram under the project
-## Create Project
-
-After logging in, click the Create Project button in the upper right corner to fill in the project related information in the pop-up dialog box.
+## Create a project
+The user must first create a project before creating FAQ or conversation flow diagram. After logging in, click the Create Project button in the upper right corner to fill in the project related information in a pop-up dialog box.
 
 ![project-create](/assets/images/tutorial/project/p-create.png)
 
 ## Fill in relevant information
-   - name：project name
-   - language：language
-   - description：Description information related to the project
-   - welcome：Welcome message sent by the intelligent assistant to the user after the training is released successfully
-   - fallback：The default reply sent to the user when the intelligent assistant cannot recognize the user's intention
-   - image：Project image displayed in the project list
+   - name：the project name
+   - language：the language used in the project
+   - description：describe what the project is
+   - welcome：the first message sent by your bot to the customer
+   - fallback：the default reply sent to the user when the bot cannot recognize the user's intention or question
+   - image：project image displayed in the project list
    
 ![project-create-detail](/assets/images/tutorial/project/p-create-detail.png))
 
 
-### Create completed
-After successful creation, select the project just created to enter the project overview interface
+### Complete
+After the completion of creating the project, select the project just created to enter the project overview interface
 ![project-main-view](/assets/images/tutorial/project/p-main-view.png)

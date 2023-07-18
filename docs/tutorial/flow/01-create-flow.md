@@ -1,43 +1,45 @@
 ---
 layout: en
-title: Create a conversation flow diagram
+title: Dialog Flow
 parent: Developer's Guide
 nav_order: 5
 ---
 
-# Conversation flow diagram
-{: .no_toc .header }
-
-## Create a conversation flow diagram
-Click the dialog flow diagram under the dialog overview to add a new one. Enter the node name and description information of the new dialog flow diagram in the pop-up dialog box, and click OK to create a new branch.
+## Create a conversation flow
+Click Flows in the left navigation pane to add a new flow.  Enter the flow name and description in the pop-up dialog box.
 ![01-create-flow](/assets/images/tutorial/flow/01-flow.png)
 
-## Create a dialog flow graph user input node
-After creating a new dialog flow diagram, it will automatically jump to the editing home page of the created dialog flow diagram. At this time, click the root node of the dialog flow graph and select the node type to be created from the pop-up dialog box.
-Here we select the node type as user input.
+## Add a user utterance node
+After creating a new dialog flow, it will display the flow window. Click the root node of the flow and select the node type to be added. Here we select the node type as user utterance.
 
 ![02-create-flow-node](/assets/images/tutorial/flow/02-flow.png)
 
-## Edit User Input Node
+## Edit a user utterance node
 
-After selecting the user input node to be created, the user input node editing interface will pop up on the right, where we can edit the user's intention. It is expected that user input and more training examples below will be converted into user intent.
+After selecting the user utterance node, the editing interface will pop up on the right, where we can edit the user's intention. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
 
 ![03-edit-flow-node](/assets/images/tutorial/flow/03-flow.png)
 
-## Add reply node
+[I believe we need to explain all the items in the edition pane.]
 
-Continue to click the user input node and select machine reply from the pop-up box. If the user enters a match with the user node in front of this node, this information will be returned to the user.
+## Add a bot response node
+
+Continue to click the user utterance node and select bot response from the pop-up menu. [no idea what it is] If the user enters a match with the user node in front of this node, this information will be returned to the user.
 
 ![04-edit-flow-bot](/assets/images/tutorial/flow/04-flow.png)
 
-### Reply to multiple contents
-When we need to reply to multiple contents, we can add multiple texts to the reply node or continue to add reply nodes after the nodes that need to reply to multiple contents
+[I believe we need to explain all the items in the edition pane.]
 
-- The reply node adds multiple text implementations, as shown in the figure
+### Multiple responses
+We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
+
+- The bot response node adds multiple text replies, as shown in the figure
   ![08-create-multi-bot-replay](/assets/images/tutorial/flow/05-flow.png)
 
 - The implementation method of adding a reply node after the node that needs to reply to multiple contents is shown in the figure
   ![09-create-multi-bot-replay](/assets/images/tutorial/flow/06-flow.png)
+
+<!--
 When the machine replies to multiple content, you need to adjust the reply order of each content. You can refer to the following methods
 - To adjust the order of multiple texts in the reply node, you can click the icon button, drag it to the desired order, and then release it
 ![20-bot-text-order.png](/assets/images/tutorial/flow/07-flow.png)
@@ -45,9 +47,10 @@ When the machine replies to multiple content, you need to adjust the reply order
 
 The dialogue effect pictures of the two methods are as follows:
 ![10-create-multi-bot-replay](/assets/images/tutorial/flow/08-flow.png)
+-->
 
-### Reply node to add an attachment
-Open the editing interface of the reply node as shown in the figure, click **Attachment**, and upload the attachment according to the prompts.
+### Add an attachment to the bot response
+Open the editing interface of the bot response node as shown in the figure, click **Attachment**, and upload the attachment.
 ![30-bot-extras](/assets/images/tutorial/flow/09-flow.png)
 
 After uploading:
@@ -56,6 +59,6 @@ After uploading:
 The dialogue effect is shown below. You can directly click **Attachment** to download it:
 ![32-bot-extras](/assets/images/tutorial/flow/11-flow.png)
 
-## Completed
+## Done
 
-So far, the simplest conversation flow diagram is complete.
+So far, a simple dialog flow diagram is completed.

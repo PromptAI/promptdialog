@@ -16,5 +16,6 @@ When you are using RASA Open Source, you might be disappointed by the lack of La
 * All-in-one platform: Design, develop and operate conversations, on premise and in the cloud, in one platform.
 * Zero shot intent classification and entity recognition, less or even no annotation required (coming soon). 
 
-[@Xifeng Yan](https://abc.com)
+[Xifeng Yan](https://sites.cs.ucsb.edu/~xyan/)
+
 PromptAI

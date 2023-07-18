@@ -4,24 +4,20 @@ title: Project Overview
 parent: Developer's Guide
 nav_order: 3
 ---
+Click Overview, the designer can review the modules in the project.  Clicking these modules will bring the designer to the corresponding module such as FAQ and Flows. 
+## Edit a project
 
-# Project Overview
-{: .no_toc .header }
-
-The user can overview the overview information of the selected project in this interface, and can also quickly edit the project details from this interface to jump to the user question and answer (FAQ) and session branch.
-## Edit Project
-
-Click the current project IT Helpdesk in the overview map, and continue to click the pop-up editing node to quickly edit the project information.
+Click the current project IT Helpdesk in the overview window, and then click the pop-up editing node to edit the project information.
 
 ![project-overview-1](/assets/images/tutorial/project/p-overview-1.png)
 
-## Shortcut Jump/Edit
+## Shortcut Jump/Edit  (this part is confusing)
 
-- Click the FAQ in the overview map, and continue to click the pop-up View Details to jump to FAQ homepage.
+- Click the FAQ in the overview map, and then click the pop-up View Details to visit the FAQ page.
 
 ![project-overview-2](/assets/images/tutorial/project/p-overview-2.png)
 
-- Click the Planned View Process sub node under the dialog flow diagram in the overview diagram, and continue to click the pop-up View Details to jump to the dialog flow diagram home page you selected.
+- Click the Planned View Process sub node under the dialog flow diagram in the overview diagram, and then click the pop-up View Details to visit the dialog flow diagram you selected.
 
 ![project-overview-3](/assets/images/tutorial/project/p-overview-3.png)
 
@@ -37,6 +33,8 @@ After the project is published, all the dialog processes of the project will not
 
 ![project-overview-6](/assets/images/tutorial/project/p-overview-6.png)
 
-- Click the default reply of the overview map: IT Helpdesk. Continue to click the pop-up editing node, where you can edit the fallback reply prompt of the project.
+
+## Fallback
+- Click the fallback of the project overview.  Continue to click the pop-up editing node, where you can edit the default actions of the project. If none of the action returns a response, the default text response will be sent. 
 
 ![project-overview-7](/assets/images/tutorial/project/p-overview-7.png)

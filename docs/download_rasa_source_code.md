@@ -1,15 +1,11 @@
 ---
 layout: en
-title: Download Rasa Source code
+title: Running Chatbots
 nav_order: 4
 has_children: false
 ---
-# Download Rasa Source code
-{: .no_toc .header }
 
-
-When RASA developers need to use the editing function of the system flow diagram or need to debug and verify the flow diagram,
-You can use the **Download Rasa Files** function of the system to debug and verify the downloaded RASA files locally.
+When developers need to debug and verify the flow diagram, they can use the **Download Rasa Files** function to download the generated RASA code in their local running environment and test the chaobot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us].
 
 ## Rasa file download
 

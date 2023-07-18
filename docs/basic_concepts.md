@@ -41,12 +41,21 @@ In this case, a specific value is selected to fill slots.  For example, when boo
 Sometimes a slot value needs to be reset.   For example, a user might want to clear the previously entered information, or assign the slot an initial value at the beginning of a conversation.  It can also be used when filling different slots of the same entity type, such as numbers: Fill in the order number when an order identifier is given, and fill in the phone number when a phone number is provided. 
 
 ## Bot Response
-The system will send different responses according to user utterance. PromptDialog currently supports three kinds of responses:
+The system will send different responses according to user utterance. PromptDialog currently supports five kinds of responses:
 1. Text
 2. Image
 3. Attachment
 4. Webhook
 5. Action
+
+
+## Template 
+
+###Intent Template
+The intent template exists for the purpose of reusing intent. There are a few standard intents in conversation design, such as confirmation, denial and appreciation. Repeatedly constructing the same kind of intents is time consuming and error prone. Intent template is here to solve this problem. We can save the intent to be reused as a template and add it to the intent list. 
+
+###Entity Template
+For the same reason, there are standard entities that are commonly used accross different projects.  A set of predefined entities are stored in the system for quick references.  
 
 ## Frequently Asked Questions (FAQ) 
 A list of typical questions that users might ask regarding a particular subject.  Each FAQ tuple has three components: (question, similar questions, answer)
@@ -57,7 +66,7 @@ PromtpDialog supports FAQs in three ways:
 * Customized BERT model with contrastive learning.  PromptDialog also provides its own model that can be deployed locally with performance between RASA FAQ and ChatGPT (closer to ChatGPT).  It needs training examples. 
 
 ## Knowledge Base
-In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDFs, Docs, Text, and HTMLs into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents. This function is supported by talk2bits.com and can be integrated with RASA quickly. 
+In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDF, Doc, Text, and HTML into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents. This function is supported by [talk2bits.com] and can be integrated with RASA quicklyin PromptDialog. 
 
 ## Form
 Form is used to collect multiple pieces of information in tasks like ticket booking, hotel reservation, purchase order, etc.  In PromptDialog, only a few configurations are needed to complete the design of a form, which was once quite complex: 
@@ -65,19 +74,10 @@ Form is used to collect multiple pieces of information in tasks like ticket book
 * **Interrupts**: Users may not answer in the way we expect. If the user asks “I don’t want to continue ”, we hope to exit the form properly.
 * **Confirm**: When all the slots are filled out, the form will ask for a confirm and then complete.  
 
-## Example
-In order to reply different user inputs and reduce the possibility of robot answering incorrectly, multiple example sentences are supported for each intent. Example sentences will be used as training samples and put into the intent classification model for training. Therefore, the number and quality of example sentences determine the accuracy of robot replies to a large extent. In the editing of examples, we hope that the diversity between different intents is as high as possible, that is, examples with different intents should not overlap. At the same time, the expression of example sentences in the same intent can be as rich as possible, for example:
-* intent 1: Greet
-  * Hello!
-  * Hello.
-* intent 2: Goodbye
-  * See you tomorrow.
-  * Bye From the perspective of model training, intent 1 will be harder to classify than intent 2. Therefore, if you can provide more unique examples for each intents, the intent classification effect will be better.
 
-## Intent List
-The intent list exists for the purpose of reusing intent. There are some specific intentions in conversation design, such as confirmation, denial and thanks. This kind of intent often appears in different positions of the dialogue process, while repeatedly constructing repeated intents is tedious and error prone. The concept of intent list is to solve this problem. We can save the intent to be reused as a template and add it to the intent list. When we need to use this intent elsewhere in the project, we can directly reference the saved intent. Another advantage of this design is that we only need to operate once when we need to add, modify, or delete examples in a certain intent.
-
-We strongly recommend that you use the intent list as much as possible. On the one hand, the reuse of intent can make the design easier; On the other hand, the combination of similar intents can greatly improve the recognition accuracy of the model.
+The following shall be in RASA Design FAQ 
+## How to improve the intent classification accuracy?
+In order to improve the intent classification accuracy, multiple example sentences are needed for each intent as these examples will be used to train intent classification model.  The variance of example utterances also play an important role.  Furthermore, examples with different intents should not overlap. A typical example is transaction number vs phone number.  If a customer provides a number, it is difficult to determine it is a transaction number or a phone number.  It is better to have a number as an intent and then assign this number to slot transaction number or phone number, depending on the context. 
 
 ## Ensure the accuracy of intent 
 
@@ -86,6 +86,12 @@ Due to the diversity of languages, more data are often required for model traini
 1. Whether there are similar unconsolidated intents. If there are, please merge the intent and save it in the intent list for reuse.
 2. Whether there are too few examples in the intent. If the number of examples with different intents is less than 3, or the number of examples with different intents is unbalanced, please add more examples as appropriate.
 3. Whether the example used for testing exists in two or more intentions. If it exists, please reorganize your intentions. If possible, please do not put the same example into different intents, which will confuse the model.
+
+## How to tell the difference between a question or a general sentence like user feedback?
+
+
+
+
 
 ### Response
 The response refers to the bot’s reply. The system will reply different information according to different input of users.
