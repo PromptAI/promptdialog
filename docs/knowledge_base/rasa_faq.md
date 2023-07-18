@@ -4,4 +4,4 @@ title: Rasa Faq
 parent: Knowledge Base
 nav_order: 1
 ---
-Rasa Faq ...
+[Rasa Faq](https://doc.promptai.us/docs/tutorial/faq/)
