@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Debug
+title: Dialog Flow + FAQ
 parent: Developer's Guide
 nav_order: 15
 ---
