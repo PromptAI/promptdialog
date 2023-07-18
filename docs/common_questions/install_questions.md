@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Design Questions
+title: Install Questions
 parent: Common Questions
 nav_order: 1
 ---

@@ -1,11 +1,11 @@
 ---
 layout: en
-title: Settings illustration
+title: Settings
 parent: Developer's Guide
-nav_order: 20
+nav_order: 17
 ---
 
-# Settings illustration
+# Settings
 {: .no_toc .header }
 
 This tutorial will explain the various settings in the system and their use scene effects.

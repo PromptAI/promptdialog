@@ -1,8 +1,8 @@
 ---
 layout: en
-title: Create Information Collection (Form)
+title: Form
 parent: Developer's Guide
-nav_order: 23
+nav_order: 5
 ---
 
 # Concept description

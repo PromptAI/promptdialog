@@ -1,8 +1,8 @@
 ---
 layout: en
-title: trash
+title: Trash
 parent: Developer's Guide
-nav_order: 25
+nav_order: 11
 ---
 
 # Effect

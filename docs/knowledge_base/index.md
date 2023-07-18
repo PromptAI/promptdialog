@@ -4,4 +4,4 @@ title: Knowledge Base
 nav_order: 3
 has_children: true
 ---
-knowledge base ...
+Here are the articles in this section:

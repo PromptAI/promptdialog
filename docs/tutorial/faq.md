@@ -2,7 +2,7 @@
 layout: en
 title: FAQ
 parent: Developer's Guide
-nav_order: 4
+nav_order: 3
 ---
 After the project is created, there will be a default frequently answered questions (FAQ).  The beta version only allows one FAQ for each project. 
 
@@ -38,3 +38,8 @@ When you train your model, we provide three training options (please give the in
 - RASA native:  It uses RASA’s own routine to train FAQ classifier.  In this case, a user is required to give a few similar questions.
 - ChatGPT/GPT4: It employes ChatGPT/GPT4 to do querestion comparison and retrieve answer.  This is an approach we recommend as the designer need not provide many similar questions.  This needs to be done through [talk2bits.com]. Please check the knowledgebase section [link here]. 
 - Customized BERT model: It can be trained and deployed locally to best protect privacy and has performnace between RASA FAQ and ChatGPT. For this option, please contact us [info@promptai.us].
+
+## Use LLM
+We provide the feature to use LLM.
+
+![faq-use-llm.png](/assets/images/tutorial/faq/faq-use-llm.jpg)

@@ -2,7 +2,8 @@
 layout: en
 title: Favorites
 parent: Developer's Guide
-nav_order: 29
+nav_order: 14
+spliter: true
 ---
 
 # Favorites

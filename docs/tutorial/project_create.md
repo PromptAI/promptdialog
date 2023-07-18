@@ -1,8 +1,8 @@
 ---
 layout: en
-title: Create Project
+title: Project Create
 parent: Developer's Guide
-nav_order: 2
+nav_order: 1
 ---
 
 ## Create a project

@@ -2,7 +2,8 @@
 layout: en
 title: Synonyms
 parent: Developer's Guide
-nav_order: 29
+nav_order: 10
+spliter: true
 ---
 
 # Synonyms

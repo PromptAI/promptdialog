@@ -2,7 +2,7 @@
 layout: en
 title: Dialog Flow
 parent: Developer's Guide
-nav_order: 5
+nav_order: 4
 ---
 
 ## Create a conversation flow

@@ -2,7 +2,8 @@
 layout: en
 title: Bot-Action
 parent: Developer's Guide
-nav_order: 40
+nav_order: 6
+spliter: true
 ---
 
 # Action

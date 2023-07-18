@@ -1,15 +1,15 @@
 ---
 layout: en
-title: undo/redo
+title: Redo/Undo
 parent: Developer's Guide
-nav_order: 26
+nav_order: 12
 ---
 
 # Effect
 {: .no_toc .header }
 Sometimes we delete a node or multiple nodes by mistake. If we need to go back to the previous step to restore the node that was deleted by mistake,
 
-This is the usage scenario of undo/redo.
+This is the usage scenario of redo/undo.
 
 
 ## Examples

@@ -5,4 +5,4 @@ nav_order: 6
 spliter: true
 has_children: true
 ---
-Common Questions
+Here are the articles in this section:

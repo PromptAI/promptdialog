@@ -2,7 +2,7 @@
 layout: en
 title: Response Template
 parent: Developer's Guide
-nav_order: 21
+nav_order: 8
 ---
 
 # Concept description
