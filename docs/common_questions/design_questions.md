@@ -1,8 +1,8 @@
 ---
 layout: en
-title: Common Questions
-nav_order: 6
-spliter: true
+title: Design Questions
+parent: Common Questions
+nav_order: 2
 ---
 
 The following is a list of common problem solving methods in our system
