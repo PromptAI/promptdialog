@@ -5,7 +5,7 @@ nav_order: 10
 ---
 ### Case: Conflicting Entity Recognition  (phone number vs transaction id)
 
-### Case; Conflicting Intent (faq vs feedback)
+### Case: Conflicting Intent (faq vs feedback)
 
 ### Case: Slot Value Reset
 
