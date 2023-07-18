@@ -1,13 +1,10 @@
 ---
 layout: en
-title: Information Form
+title: Create Form
 parent: Video Tutorials
 nav_order: 2
 ---
-# Information Form
-{: .no_toc .header }
 
-## Video
-You can quickly learn how to create a dialogue flow diagram with information form collection through the following video.
+Suppose we would like to collect order information of purching fruit: the type of fruits and the pounds of fruits a customer want to purchase.  This information collection process can be acheived by Form in RASA.  PromptDialog provides a visual tool to build thhis form without programming. 
 
 <video src="/assets/images/example/video/form.mp4" width="100%" height="520px" controls="controls"></video>
