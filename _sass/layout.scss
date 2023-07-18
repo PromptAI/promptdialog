@@ -91,9 +91,6 @@
   &> .nav-list> .nav-list-item:first-child {
     margin-bottom: $sp-6;
   }
-  &> .nav-list> .nav-list-spilter {
-    margin-bottom: $sp-6;
-  }
 
   @include mq(md) {
     display: block;
