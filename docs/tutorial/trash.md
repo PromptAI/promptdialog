@@ -5,26 +5,26 @@ parent: Developer's Guide
 nav_order: 14
 ---
 
-# Effect
-{: .no_toc .header }
-When we delete one or more nodes in the flow graph, the system just moves it to the trash, and users can recover from the trash again. If it needs to be completely deleted, it needs to be cleaned again from the trash.
+When a designer deletes one component in dialog flows, the system will move it to the recycle bin.  The designer can recover it from the recycle bin. If it needs to be completely deleted, it needs to be cleaned again from the bin.
 
-## Supported node types for moving to the trash
+## Supported component types
 
-- user
-- bot
+- User node
+- Bot node
 - Form
-- Form-Field
+- Slots
 - Interrupts
 - Goto
-- Condition
 
-## Recover node from trash
-* Select `What can i do for you today?` bot node in the trash and drag it to the node to be linked. When the **+** icon appears, release it.
-  <br/>The recover node will be used as a child node behind the node you dragged to
+
+## Insert a component 
+* Select `What can i do for you today?` bot node in the recycle bin and drag it to the node to be linked. When the **+** icon appears, release it.
+  <br/>The node will be inserted behind the node you dragged to
   ![01-trash](/assets/images/tutorial/trash/01-trash.png)
 
-## Insert node using trash
+ [It seems the following is just the repeat of the insertion operation?  If so , probably we can delete it.] 
+
+## Insert node
 * The preparation is shown in the lower flow chart. We add a user input node between the bot reply nodes
   ![02-trash](/assets/images/tutorial/trash/02-trash.png)
 * Move the later `What can i do for you today?` bot node to the trash
