@@ -31,12 +31,12 @@ After uploading successfully, you can click **Details** to check which dictionar
 
 ## An example
 
-Suppose we create a dialog flow diagram **Where are you from**.
+Suppose we create a dialog flow diagram **where are you from?**.
 
 1. Add user utterance nodes as follows:
    ![dict-04](/assets/images/tutorial/dict/dict-04.png)
-   **Note**: In order to improve the recognition accuracy of dictionary, at least two examples need to be marked here
-2. When the state name is added and extracted successfully, the bot replies as follows:
+   **Note**: In order to improve the recognition accuracy of dictionary, at least two examples need to be marked here.
+2. When the state name is mentioned by the user and extracted successfully, the bot replies as follows:
    ![dict-05](/assets/images/tutorial/dict/dict-05.png)
 
 
