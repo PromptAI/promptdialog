@@ -1,27 +1,19 @@
 ---
 layout: en
-title: Redo/Undo
+title: Undo/Redo
 parent: Developer's Guide
 nav_order: 15
 ---
 
-# Effect
-{: .no_toc .header }
-Sometimes we delete a node or multiple nodes by mistake. If we need to go back to the previous step to restore the node that was deleted by mistake,
-
-This is the usage scenario of redo/undo.
-
-
-## Examples
-We prepare the following conversation flow diagram
+Sometimes we delete a node or multiple nodes by mistake.  Undo/Redo will will help us go back to the previous step.  Suppose we have the following conversation flow
 
 ![001-redo_undo](/assets/images/tutorial/redo_undo/01-redo_undo.png)
 
-We delete the last bot reply node as shown in the figure
+We delete the last bot response node as shown in the figure
 ![02-redo_undo](/assets/images/tutorial/redo_undo/02-redo_undo.png)
 
-We click **undo** to restore the deleted bot to the node
+We click **undo** to restore the deleted bot node
 ![03-redo_undo](/assets/images/tutorial/redo_undo/03-redo_undo.png)
 
-We click **Redo** to delete the recovered bot recovery node again
+We click **Redo** to delete the recovered bot node again
 ![04-redo_undo](/assets/images/tutorial/redo_undo/04-redo_undo.png)
