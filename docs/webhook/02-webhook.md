@@ -7,14 +7,24 @@ nav_order: 2
 
 # Webhook
 {: .no_toc .header }
-Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
+Through webhook, We can communicate with other systems:
+- submit information to other system
+- get information from other system
+- exchange information from other system
 
 Examples:
 
-- Get weather information through get request
-- Submit information through post request
-- Query stock or other information
-- Connect with LLM
+- Create business orders: 
+- Get flights, weather, bank statements, etc
+- Handle fallback via LLM
 - ...
 
 Welcome to explore Webhook-based usage scenarios and share with us.
+
+## Create business orders
+
+## Get flights
+
+## Handle fallback via LLM
+
+See [Fallback with Talk2Bits](/docs/defalut_reply)
