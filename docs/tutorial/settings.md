@@ -2,7 +2,8 @@
 layout: en
 title: Settings
 parent: Developer's Guide
-nav_order: 17
+nav_order: 13
+spliter: true
 ---
 
 # Settings

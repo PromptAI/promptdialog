@@ -2,7 +2,7 @@
 layout: en
 title: Favorites
 parent: Developer's Guide
-nav_order: 16
+nav_order: 17
 ---
 
 # Favorites
