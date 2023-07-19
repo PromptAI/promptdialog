@@ -8,59 +8,45 @@ nav_order: 1
 # Webhook
 {: .no_toc .header }
 
-## Why webhook?
-Webhook functionality is a crucial component of conversational systems, allowing them to communicate in real-time with external systems, access up-to-date data, and personalize interactions. This enables more efficient and real-time user experiences while handling complex business logic, integrating multiple services, and improving overall system performance.
+## Why Webhook?
+In actual scenarios, the following problems may be encountered:
+- How to query information in real time? For example, a user asks about the weather
+- How is the information collected through the form used?
+-...
 
-- Real-time data updates: Webhook enables the conversational system to communicate in real-time with external systems and fetch the latest data. This is essential for users to access real-time information such as weather forecasts, stock statuses, news updates, and more.
-- Personalization and context: Webhook allows the conversational system to associate previous user interactions and behavior with the current conversation, leading to a better understanding of user intent and context. By retrieving and analyzing user activities in other systems, the conversational system can provide more accurate and personalized responses and services.
-- Complex business logic: Some conversational system tasks involve complex business logic in external systems. Through webhooks, the conversational system can directly invoke external system APIs to handle such tasks, avoiding the need to centralize all the logic within the conversational system and ensuring a streamlined and efficient process.
-- Collaboration and integration: Webhook enables the conversational system to collaborate and integrate with multiple external systems. As a central controller, the conversational system can interact with various services, offering more comprehensive functionalities and services.
-- Improved efficiency and performance: By utilizing webhooks, the conversational system can delegate some tasks to external systems, reducing the burden on the conversational system itself and enhancing response speed and overall performance.
-- Event triggering: Webhooks allow external systems to notify the conversational system when specific events occur, leading to triggered actions or responses. This real-time event triggering is particularly valuable for interactive applications and real-time tasks.
+In PromptAI, we can use Webhook to complete tasks.
 
-Webhook functionality is a crucial component of conversational systems, allowing them to communicate in real-time with external systems, access up-to-date data, and personalize interactions. This enables more efficient and real-time user experiences while handling complex business logic, integrating multiple services, and improving overall system performance.
+### Example: Query realtime weather
+In PromptAI, you can complete the weather query task by creating Flow and Webhook
 
-## Concept
-Through webhook, we can interact with external interfaces (APIs) in specific steps. Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
+Steps:
+- Create a flow for weather queries
+- Create a Webhook to call the weather API
 
-Learn about the relevant concepts in our system webhook through the following concept descriptions.
+Create a flow for weather queries
+![5-webhook](/assets/images/tutorial/webhook/webhook5.png)
 
-- HTTP GET Request brief introduction
-- Introduction to the concept of webhook editing page
+Create a Webhook to call the weather API
+![4-webhook](/assets/images/tutorial/webhook/webhook4.png)
 
-## HTTP GET Request brief introduction
+Chat with bot
+```text
+User: Hi, can you please tell me the weather in New York?
 
-1. The URL is what we normally input in the address bar when we open Google: https://www.google.com, as shown in the following figure. This is the simplest URL address and opens Google's homepage
-2. Look at a slightly more complicated URL. Enter `anything` Blog Park in the Google input box
-3. Check the URL address bar. Compared with the previous Google homepage URL, there are many more parameters. Of course, the most important parameter is: `wd=anything` (the following string can be temporarily ignored).
+Assistant: Sure! Let me check the current weather conditions for you. Just a moment, please.
 
-4. The question is, what are the functions of these parameters? A simple comparison can be made by entering:
 
-   - https://www.google.com ;
-   - https://www.google.com/s?wd=anything
-     <br/>What's the difference between the opened pages? Now you know the role. That is to say, the `/s? wd=anything Youyou Blog Park` is the search result page
+Assistant: The current weather in New York is 82°F (28°C) with mostly sunny conditions. The wind is blowing at a speed of 5 mph (8 km/h), and the humidity is around 60%. Is there anything else you would like to know?
 
-5. The basic format of a complete URL address is as follows:
+User: Thank you for the forecast! That's helpful.
 
-   ```text
-      https://host:port/path?xxx=aaa&ooo=bbb
-   
-      --http/https: This is the protocol type
-   
-      --host: IP address or domain name of the server
-   
-      --port: The default port of the HTTP server is 80. In this case, the port number can be omitted.If other ports are used, it must be specified, for example: 192.168.3.111:8080, where 8080 is the port
-   
-      --path: Path to access resources, as shown in Figure 2/s (In Figure 2, the path and request parameters are put together)
-   
-      --?: In the URL? This symbol is a split line, which is used to distinguish the path in front of the question mark and the parameter behind the question mark
-   
-      --url-params: After the question mark is the request parameter, format: xxx=aaa, as shown in Figure 2, the area is the request parameter
-   
-      --&: Multiple parameters are connected with the & symbol
-   ```
+Assistant: You're welcome! I'm glad I could assist you. If you have any more questions or need further information, feel free to ask.
+```
 
-## Introduction to the concept of webhook editing page
+More example [click here](/docs/webhook/02-webhook/)
+
+
+## How do I create a webhook in PromptAI?
 
 Through webhook, we can interact with external interfaces (APIs) in specific steps.
 Submit the collected input information to the API through webhook and display the Api processing results according to the customized rules.
