@@ -12,7 +12,7 @@ nav_order: 1
 In actual scenarios, the following problems may be encountered:
 - How to query information in real time? For example, a user asks about the weather
 - How is the information collected through the form used?
--...
+- ...
 
 In PromptAI, we can use Webhook to complete tasks.
 
