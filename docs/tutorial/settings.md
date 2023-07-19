@@ -1,34 +1,28 @@
 ---
 layout: en
-title: Settings
+title: Project Settings
 parent: Developer's Guide
 nav_order: 13
 spliter: true
 ---
+Project Settings is located under the menu of Project Tool in the left navigation bar. 
 
-# Settings
-{: .no_toc .header }
-
-This tutorial will explain the various settings in the system and their use scene effects.
-
-## project settings
-
-Welcome and fallback in project settings will affect the chat robot after training and release
+Welcome and fallback in project settings will affect the behavior of chatbot. 
 ![01-setting-project](/assets/images/tutorial/setting/01-setting.png)
 
-### project welcome
+## Welcome message
 
-As shown in the figure, after setting the welcome , open the robot chat window and send it to the user as the first message.
+Welcome message is the first message sent to the user.  [the following is confusing!!!]
 <br/>Note: The welcome in project settings takes effect immediately after modification. Downloading Rasa readable files is not supported.
 ![02-setting-project-welcome](/assets/images/tutorial/setting/02-setting.png)
 
-### project fallback
+## Fallback handling
 
-As shown in the figure, when the chat robot cannot recognize the user's intention, it will send the Fallback set by the project to the user as a message.
+When the chatbot cannot recognize a user's intent, it will send the Fallback set by the project to the user as a message. [the following is confusing!!!]
 <br/>Note: The fallback in project settings takes effect immediately after modification. Downloading Rasa readable files is not supported.
 ![03-setting-project-fallback](/assets/images/tutorial/setting/03-setting.png)
 
-## Flow Graph Settings
+## Disply flows in the first message
 
 When editing a dialog flow diagram, you can set whether to present branch prompts and subordinates as options
 
