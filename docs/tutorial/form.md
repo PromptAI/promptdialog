@@ -15,6 +15,7 @@ Form is used to collect multiple pieces of information in tasks like ticket book
 
 ## Add a form (Information Collection) node
   ![03-form](/assets/images/tutorial/form/03-form.png)
+  Add the name of form.
   ![04-form](/assets/images/tutorial/form/04-form.png)
   
 ## Add slots
