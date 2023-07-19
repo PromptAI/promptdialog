@@ -22,5 +22,5 @@ Upon completion of editing, our system allows you to deploy the model to run in 
 Let our platform be your ideal choice for building unique chatbots, unleashing your creativity, and delivering exceptional user experiences.
 
 Please refer to the detailed tutorials for FAQ construction and dialog flow design
-- [FAQ](/docs/tutorial/faq/01-create-faq/)
+- [FAQ](/docs/tutorial/faq/)
 - [Conversation Flow Design](/docs/tutorial/flow/01-create-flow/)
