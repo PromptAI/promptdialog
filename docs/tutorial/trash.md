@@ -2,7 +2,7 @@
 layout: en
 title: Recycle Bin
 parent: Developer's Guide
-nav_order: 11
+nav_order: 13
 ---
 
 # Effect

@@ -2,7 +2,7 @@
 layout: en
 title: Form
 parent: Developer's Guide
-nav_order: 5
+nav_order: 7
 ---
 
 Form is used to collect multiple pieces of information in tasks like ticket booking, hotel reservation, order status checking, etc.  The following example shows how to build a dialog flow of ordering fruits that has a form inside. 

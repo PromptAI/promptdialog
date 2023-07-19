@@ -2,7 +2,7 @@
 layout: en
 title: Copy
 parent: Developer's Guide
-nav_order: 13
+nav_order: 15
 ---
 
 # Copy Node

@@ -2,8 +2,7 @@
 layout: en
 title: Release
 parent: Developer's Guide
-nav_order: 16
-spliter: true
+nav_order: 6
 ---
 
 # Create a complex dialog flow diagram

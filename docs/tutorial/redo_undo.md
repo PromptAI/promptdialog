@@ -2,7 +2,7 @@
 layout: en
 title: Redo/Undo
 parent: Developer's Guide
-nav_order: 12
+nav_order: 14
 ---
 
 # Effect

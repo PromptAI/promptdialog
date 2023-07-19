@@ -2,7 +2,7 @@
 layout: en
 title: Synonyms
 parent: Developer's Guide
-nav_order: 10
+nav_order: 12
 spliter: true
 ---
 
