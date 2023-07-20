@@ -23,8 +23,6 @@ By following these steps, we can improve the accuracy of intent recognition and 
 
 By implementing this approach, the chatbot can provide answers to user questions, and return to the form after addressing the interruption.
 
-### Case: Conflicting Entity Recognition  (phone number vs transaction id)
-
 ### Case: Slot Value Reset
 
 ### Case: RASA FAQ vs. GPT-based FAQ
