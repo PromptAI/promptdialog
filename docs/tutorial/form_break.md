@@ -1,14 +1,12 @@
 ---
 layout: en
-title: Form Break
+title: Form Interrupts
 parent: Developer's Guide
 nav_order: 9
 ---
-在Form场景下,用户可能中断我们Form的收集过程,比如:
-In the Form scenario, the user may interrupt the collection process of our Form, such as:
-- User Interrupt Utterance: Can I ask something else?
-- [Expect]Bot Reply: Yes you can.
+A user might interrupt in the middle of information collection process, 
+- User Utterance: I am not interested any more.
+- Bot Reply: Sorry to hear that.
 
-对于上面的场景，我们可以这么做：
-For the above scenario, we can do something like this:
+For this scenario, we can do as follows.  The dialog will jump out of the information collect process. 
 ![break](/assets/images/tutorial/break.jpg)
