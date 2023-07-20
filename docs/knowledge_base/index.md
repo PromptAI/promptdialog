@@ -2,9 +2,8 @@
 layout: en
 title: Knowledge Base
 nav_order: 3
-has_children: false
 ---
-There are two kinds of knowledge base in PromptDialog: FAQ and Unstructured Content storted in text, word, pdf, html, etc.. For FAQ, please refer to [link]. For unstructured content, PromptDialog integrates the service provided by [talk2bits.com] where a user can upload their documents and get an API to query these documents for question answering. 
+There are two kinds of knowledge base in PromptDialog: [Faq](https://doc.promptai.us/docs/tutorial/faq/) and Unstructured Content storted in text, word, pdf, html, etc.. For [Faq](https://doc.promptai.us/docs/tutorial/faq/), please refer to [link]. For unstructured content, PromptDialog integrates the service provided by [talk2bits.com] where a user can upload their documents and get an API to query these documents for question answering. 
 
 ## FAQ
 [Rasa Faq](https://doc.promptai.us/docs/tutorial/faq/)
