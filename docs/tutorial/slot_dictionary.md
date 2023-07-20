@@ -2,7 +2,7 @@
 layout: en
 title: Dictionary
 parent: Developer's Guide
-nav_order: 11
+nav_order: 16
 ---
 When we are doing entity recognition to fill slots, sometimes the name of entities are predefined. In this case, we can add dictionary to facilitate entity recognition. 
 

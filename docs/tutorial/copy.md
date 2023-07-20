@@ -2,7 +2,7 @@
 layout: en
 title: Copy
 parent: Developer's Guide
-nav_order: 16
+nav_order: 21
 ---
 Copy nodes allows you to quickly copy/paste the same nodes. 
 

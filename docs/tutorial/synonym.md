@@ -2,7 +2,7 @@
 layout: en
 title: Synonyms
 parent: Developer's Guide
-nav_order: 12
+nav_order: 17
 ---
 
 Some entities have synonyms, which could be used to argument the training data to improve intent classification and entity recognition.  
