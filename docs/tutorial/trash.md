@@ -2,7 +2,7 @@
 layout: en
 title: Recycle Bin
 parent: Developer's Guide
-nav_order: 19
+nav_order: 21
 ---
 
 When a designer deletes one component in dialog flows, the system will move it to the recycle bin.  The designer can recover it from the recycle bin. If it needs to be completely deleted, it needs to be cleaned again from the bin.

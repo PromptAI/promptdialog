@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Slot Reply List
+title: Bot Reply List
 parent: Developer's Guide
 nav_order: 11
 ---

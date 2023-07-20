@@ -1,11 +1,11 @@
 ---
 layout: en
-title: Favorites
+title: Bot Reply Slots
 parent: Developer's Guide
-nav_order: 19
+nav_order: 13
 ---
 
-# Favorites
+# Reply Slots
 {: .no_toc .header }
 Favorites can facilitate you to copy the nodes of the dialog flow graph between different projects
 

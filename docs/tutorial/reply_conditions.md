@@ -1,11 +1,11 @@
 ---
 layout: en
-title: Favorites
+title: Bot Reply Conditions
 parent: Developer's Guide
-nav_order: 18
+nav_order: 12
 ---
 
-# Favorites
+# Reply Conditions
 {: .no_toc .header }
 Before the bot reply, The content of the bot reply can be determined by whether the slot saved in the context has a value
 

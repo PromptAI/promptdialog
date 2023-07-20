@@ -2,7 +2,7 @@
 layout: en
 title: Project Settings
 parent: Developer's Guide
-nav_order: 18
+nav_order: 20
 spliter: true
 ---
 Project Settings is located under the menu of Project Tool in the left navigation bar. 

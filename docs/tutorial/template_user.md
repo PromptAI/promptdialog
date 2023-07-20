@@ -2,7 +2,7 @@
 layout: en
 title: Intent Template
 parent: Developer's Guide
-nav_order: 14
+nav_order: 16
 ---
 
 ## Create an intent template

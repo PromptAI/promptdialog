@@ -2,7 +2,7 @@
 layout: en
 title: Undo/Redo
 parent: Developer's Guide
-nav_order: 20
+nav_order: 22
 ---
 
 Sometimes we delete a node or multiple nodes by mistake.  Undo/Redo will will help us go back to the previous step.  Suppose we have the following conversation flow
