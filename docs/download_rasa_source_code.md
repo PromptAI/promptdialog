@@ -5,17 +5,14 @@ nav_order: 4
 has_children: false
 ---
 
-When developers need to debug and verify the flow diagram, they can use the **Download Rasa Files** function to download the generated RASA code in their local running environment and test the chaobot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us].
+When developers need to debug and verify the designed flows, they can use the **Download Rasa Files** function to download the generated RASA code in their local running environment and test the bot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
 
 ## Rasa file download
 
-The function of downloading RASA files is mainly to facilitate developers to use the convenient and fast flow graph editing function of the system, and then use the system to help generate RASA files,
-Then debug and verify the model.
+Click **Download RASA File** at the top right corner.  The download box will pop up with the following options:
 
-- As shown in the figure, click **Download RASA File** at the top right corner of the selected flow graph to pop up a selection box, where you can click the corresponding dialog flow graph, and then click **OK** to download the RASA file. The selection box has the following combinations:
-
-* Current download, download the current dialog flow diagram
-* Combined download, free check the dialog flow diagram under the current project
+* Current download, download the current dialog flow
+* Combined download, free check multiple dialog flows under the current project
 * Download all, check all dialog flow diagrams under the current project
 
 ![download-rasa](/assets/images/dev_guide/download-rasa.png)
