@@ -69,7 +69,3 @@ Login to your account and download any flow/faq rasa file
 
 1、The current version does not support built-in variables
 
-
-## Get help
-Please scan the code to join the WeChat group for help. The WeChat QR code can be viewed in the upper right corner after login the system.
-Website: https://www.promptai.us
