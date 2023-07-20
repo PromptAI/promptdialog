@@ -3,7 +3,6 @@ layout: en
 title: Project Overview
 parent: Developer's Guide
 nav_order: 2
-spliter: true
 ---
 Click Overview, the designer can review the modules in the project.  Clicking these modules will bring the designer to the corresponding module such as FAQ and Flows. 
 ## Edit a project
