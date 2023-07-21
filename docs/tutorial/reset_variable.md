@@ -24,5 +24,5 @@ Pizzas of different sizes can be selected according to needs, and finally the si
 - Set `Slot Value` to `10 inches`
 ![02-reset-slot-value.png](assets/images/tutorial/reset_slot_value/02-reset-slot-value.png)
 
-
-
+## Chat
+![03-reset-slot-value.png](assets/images/tutorial/reset_slot_value/03-reset-slot-value.png)
