@@ -38,7 +38,7 @@ The area extracted:
 This means that the Bot will be executed when `area` has a value
 ![03-reply-condition.png](/assets/images/tutorial/reply_condition/03-reply-condition.png)
 
-The region is not recognized, ask the city to be queried:
+The `city` is not extracted, ask the city to be queried:
 - Double click to ask Bot Reply for a city
 - Click `Reply Conditions`
 - Select `Slot Name` with `area`
