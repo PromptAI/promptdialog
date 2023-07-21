@@ -9,8 +9,7 @@ spliter: true
 # Slot Reply  [RASA Incompatible]
 {: .no_toc .header }
 
-我们来创建一个水果营养专家的chatbot，可给出常见水果的每日摄入量：
-
+Let's create a chatbot of a fruit nutrition expert, which can give the daily intake of common fruits:
 ```text
 Chatbot: Welcome to the Fruit Nutrition Expert! I can help you learn about the daily intake recommendations for various common fruits. Please tell me which fruit you'd like to know about.
 
@@ -32,7 +31,7 @@ Chatbot: Watermelon is a refreshing fruit for the summer! Consuming a small slic
 
 ```
 
-## 实现
+## Example
 Create a dialog flow, get the type input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`![01-slot-reply-list.png](/assets/images/tutorial/slot_reply_list/01-slot-reply-list.png)
 
 Double-click "Please try another fruit!" 
