@@ -20,7 +20,7 @@ At the User Utterance may not extract 'area':
 - Hi, can you please tell me the weather?
 - Will it rain soon?
 
-![img.png](assets/images/tutorial/reply_condition/02-reply-condition.png)
+![02-reply-condition.png](/assets/images/tutorial/reply_condition/02-reply-condition.png)
 
 Asking in a similar fashion, you need to ask the user where:
 - Please tell me your city?
@@ -36,7 +36,7 @@ The area extracted:
 - Enter `Not Null` to `Conditional value`
 
 This means that the Bot will be executed when `area` has a value
-![img.png](assets/images/tutorial/reply_condition/03-reply-condition.png)
+![03-reply-condition.png](/assets/images/tutorial/reply_condition/03-reply-condition.png)
 
 The region is not recognized, ask the city to be queried:
 - Double click to ask Bot Reply for a city
@@ -44,7 +44,7 @@ The region is not recognized, ask the city to be queried:
 - Select `Slot Name` with `area`
 
 This Bot will be executed when there is no value for `area`
-![img.png](assets/images/tutorial/reply_condition/04-reply-condition.png)
+![04-reply-condition.png](/assets/images/tutorial/reply_condition/04-reply-condition.png)
 
 ## Summarize
 1. The bot that can be executed can be determined according to the slot value.
