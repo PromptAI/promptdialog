@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Bot Reply Slots
+title: Reset Slot Value
 parent: Developer's Guide
 nav_order: 13
 spliter: true
