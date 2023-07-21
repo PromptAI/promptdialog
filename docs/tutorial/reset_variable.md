@@ -3,7 +3,6 @@ layout: en
 title: Reset Slot Value
 parent: Developer's Guide
 nav_order: 13
-spliter: true
 ---
 
 # Reset Slot Value

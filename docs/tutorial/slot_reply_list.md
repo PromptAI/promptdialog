@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Slot Reply
+title: Slot Reply List
 parent: Developer's Guide
 nav_order: 13
 spliter: true
