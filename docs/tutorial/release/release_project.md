@@ -1,8 +1,9 @@
 ---
 layout: en
-title: Release
-parent: Developer's Guide
-nav_order: 6
+title: Project Release
+nav_order: 2
+parent: Release
+grand_parent: Developer's Guide
 ---
 
 # Create a complex dialog flow diagram

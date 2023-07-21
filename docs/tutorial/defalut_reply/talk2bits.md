@@ -2,8 +2,8 @@
 layout: en
 title: Talk2Bits
 nav_order: 4
-has_children: false
-show: true
+parent: Fallback
+grand_parent: Developer's Guide
 ---
 
 # Talk2Bits

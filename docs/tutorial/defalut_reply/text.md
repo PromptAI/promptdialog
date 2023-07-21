@@ -2,8 +2,8 @@
 layout: en
 title: Text
 nav_order: 1
-has_children: false
-show: true
+parent: Fallback
+grand_parent: Developer's Guide
 ---
 
 # Text

@@ -1,8 +1,8 @@
 ---
 layout: en
 title: Fallback
-nav_order: 1
-spliter: true
+nav_order: 10
+parent: Developer's Guide
 has_children: true
 ---
 

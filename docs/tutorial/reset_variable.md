@@ -3,6 +3,7 @@ layout: en
 title: Bot Reply Slots
 parent: Developer's Guide
 nav_order: 13
+spliter: true
 ---
 
 # Reply Slots
