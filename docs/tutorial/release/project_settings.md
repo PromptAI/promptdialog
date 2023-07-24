@@ -37,6 +37,6 @@ Other effects are:
 1. ![as_button_2](/assets/images/tutorial/as_button_2.jpg)
 2. ![as_button_3](/assets/images/tutorial/as_button_3.jpg)
 
-## Guide Words
+## First Message
 As shown in the figure below, you can configure the first message of the subflow flows.
 ![guide_word_1](/assets/images/tutorial/guide_word_1.jpg)
