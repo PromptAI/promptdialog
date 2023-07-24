@@ -89,7 +89,7 @@
   }
 
   &> .nav-list> .nav-list-item:first-child {
-    margin-bottom: $sp-6;
+    margin-bottom: $sp-4;
   }
 
   @include mq(md) {

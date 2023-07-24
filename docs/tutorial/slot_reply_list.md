@@ -1,13 +1,10 @@
 ---
 layout: en
-title: Slot Reply List
+title: Conditional Response Variations
 parent: Developer's Guide
 nav_order: 13
 spliter: true
 ---
-
-# Slot Reply  [RASA Incompatible]
-{: .no_toc .header }
 
 Let's create a chatbot of a fruit nutrition expert, which can give the daily intake of common fruits:
 ```text

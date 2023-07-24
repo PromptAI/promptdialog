@@ -3,9 +3,6 @@ layout: en
 title: Basic Concepts
 nav_order: 7
 ---
-# Basic Concepts
-{: .no_toc .header }
-
 ## Intent
 
 **User**:  I want to book a ticket to Boston on July 4th. 

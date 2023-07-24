@@ -41,11 +41,10 @@ Form is used to collect multiple pieces of information in tasks like ticket book
     ![15-form](/assets/images/tutorial/form/15-form.png)
 
 ## Interrupts
-     <br/>
-     If the user changes her mind and would like to quit ordering fruits, you can exit conversation here.  Click Users' Other Requests and add user input points, as shown in the figure.  [need to speak clearly the relation of all these break points]
-     ![10-form](/assets/images/tutorial/form/10-form.png)
-     Continue to add the bot response reply node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure。  After the interruption, the flow is going to jump out of the form to the breakpoint, where the designer can add interupt processing flow. 
-     ![11-form](/assets/images/tutorial/form/11-form.png)
+If the user changes her mind and would like to quit ordering fruits, you can exit conversation here.  Click Users' Other Requests and add user input points, as shown in the figure.  [need to speak clearly the relation of all these break points]
+![10-form](/assets/images/tutorial/form/10-form.png)
+Continue to add the bot response reply node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure. After the interruption, the flow is going to jump out of the form to the breakpoint, where the designer can add interupt processing flow. 
+![11-form](/assets/images/tutorial/form/11-form.png)
 
 ## Form completion 
   <br/>After the form is completed successfully, the customer can continue the flow design after the completion node where the value of the slots will be available.  For example, the designer can add a bot response node to confirm the order with the customer. 

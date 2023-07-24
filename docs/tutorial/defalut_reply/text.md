@@ -5,11 +5,6 @@ nav_order: 1
 parent: Fallback
 grand_parent: Developer's Guide
 ---
-
-# Text
-{: .no_toc .header }
-
-----
 Text is the most common fallback processing way
 
 ## How to set a text Fallback ?

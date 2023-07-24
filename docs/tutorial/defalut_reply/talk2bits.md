@@ -5,11 +5,6 @@ nav_order: 4
 parent: Fallback
 grand_parent: Developer's Guide
 ---
-
-# Talk2Bits
-{: .no_toc .header }
-
-----
 PrompDialog supports one-click access to Talk2bits to process default replies, making the conversation experience more streamlined
 - [Knowledge of Talk2bits](/docs/knowledge_base/)
 

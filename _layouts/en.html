@@ -42,7 +42,7 @@ layout: table_wrappers
 
   <div class="side-bar">
     <div class="site-header">
-      <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">Document</a>
+      <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">Documents</a>
       <a href="#" id="menu-button" class="site-button">
         <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
       </a>
@@ -120,7 +120,7 @@ layout: table_wrappers
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
-          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+          <!-- <nav aria-label="Breadcrumb" class="breadcrumb-nav">
             <ol class="breadcrumb-nav-list">
               {% if page.grand_parent %}
                 <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
@@ -130,7 +130,7 @@ layout: table_wrappers
               {% endif %}
               <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
             </ol>
-          </nav>
+          </nav> -->
         {% endif %}
       {% endunless %}
       <div id="main-content" class="main-content" role="main">
