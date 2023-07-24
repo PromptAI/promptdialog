@@ -42,11 +42,6 @@
   @include container;
   padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
-
-  @include mq(md) {
-    padding-top: $gutter-spacing;
-    padding-bottom: $gutter-spacing;
-  }
 }
 
 .main-header {
@@ -94,7 +89,7 @@
 
   @include mq(md) {
     display: block;
-    padding-top: $sp-6;
+    padding-top: $sp-4;
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;

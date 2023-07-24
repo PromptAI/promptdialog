@@ -1,8 +1,8 @@
 ---
 layout: en
 title: Bot Reply Conditions
-parent: Developer's Guide
-nav_order: 12
+parent: Advance Control
+nav_order: 2
 ---
 
 # Reply Conditions

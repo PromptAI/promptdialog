@@ -1,8 +1,8 @@
 ---
 layout: en
 title: User Defined Slot Value
-parent: Developer's Guide
-nav_order: 12
+parent: Advance Control
+nav_order: 1
 ---
 <!-- 如果您想实现定义Form中Slot的多样性,我们强烈推荐您使用`Form Define Slot Code`该功能! -->
 If you want to fill user defined value in slot, we strongly recommend you to use the `User Defined Slot Value` feature!

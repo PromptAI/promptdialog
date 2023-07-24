@@ -1,8 +1,8 @@
 ---
 layout: en
 title: Conditional Response Variations
-parent: Developer's Guide
-nav_order: 13
+parent: Advance Control
+nav_order: 4
 spliter: true
 ---
 

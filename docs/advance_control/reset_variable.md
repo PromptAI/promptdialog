@@ -1,8 +1,8 @@
 ---
 layout: en
 title: Reset Slot Value
-parent: Developer's Guide
-nav_order: 13
+parent: Advance Control
+nav_order: 3
 ---
 
 # Reset Slot Value
