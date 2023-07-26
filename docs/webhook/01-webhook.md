@@ -95,7 +95,7 @@ Submit the collected input information to the API through webhook and display th
 
 ---
 
-### Response Settings - Response Handle
+### Response Settings - Handle Response 
 Handle the result of the request here
 
 ---
