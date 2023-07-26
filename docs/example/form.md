@@ -5,6 +5,6 @@ parent: Video Tutorials
 nav_order: 2
 ---
 
-Suppose we would like to collect order information of purching fruit: the type of fruits and the pounds of fruits a customer want to purchase.  This information collection process can be acheived by Form in RASA.  PromptDialog provides a visual tool to build thhis form without programming. 
+Suppose we would like to collect order information of purchasing fruits: The type of fruits and the pounds of fruits.  This information collection process can be implement by a RASA form.  PromptDialog provides a visual tool to build this form without programming. 
 
 <video src="/assets/images/example/video/form.mp4" width="100%" height="520px" controls="controls"></video>
