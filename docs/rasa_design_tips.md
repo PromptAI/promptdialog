@@ -3,6 +3,14 @@ layout: en
 title: Rasa Design Tips
 nav_order: 10
 ---
+### Case: How to improve the intent classification and entity recognition accuracy?
+In order to improve the intent classification accuracy, multiple example utterances are needed for each intent as these examples will be used to train the intent classification model. Examples with different intents should not overlap. A typical example is shipping number vs order number.  If a customer provides a number, it is difficult to determine it is a shipping number or an order number.  It is better to have a number as an intent and then assign this number to slot shipping number or phone number, depending on the context. 
+
+Due to the diversity of languages, more data are often required to obtain better entity recognition performance. If you find that the recognition accuracy of the intention is not high enough, please confirm in turn:
+1. Whether there are similar unconsolidated intents. If there are, please merge the intents and save it in the intent list for reuse.
+2. Whether there are too few examples in the intent. If the number of examples with different intents is less than 3, or the number of examples for different intents is unbalanced, please add more examples as appropriate.
+3. Whether the example used for testing exists in two or more intents. If it exists, please reorganize your intents. If possible, please do not put the same example into different intents, which will confuse the model.
+
 ### Case: Extraction of Similar Variables in a Form
 **Scenario**: In a user information collection form, it is necessary to collect the user's last name, middle name, and first name through three rounds of conversation.
 
@@ -25,4 +33,6 @@ By implementing this approach, the chatbot can provide answers to user questions
 
 ### Case: RASA FAQ vs. GPT-based FAQ
 RASA FAQ is a classification model.  LLM-based FAQ is an embedding based ranking model + retrieval model.  The ranking model can work on a large number of questions, thus more scalable.  It also does not require many training examples.  
+
+
 
