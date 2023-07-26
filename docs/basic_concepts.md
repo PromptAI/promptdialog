@@ -28,7 +28,7 @@ Entity recognition is the most common method in slot filling.  PromptDialog has 
 
 * A set of predefined entities are included, such as date, number, telephone, and ordinal words, eliminating the need of annotation, training and recognition.  
 * PromptDialog supports entity recognition models like DIET form RASA which requires a designer to provide a set of training examples to recognize the entities.  The accuracy of entity recognition can be improved by providing a variety of utterances and displaying different entity words in example sentences. It is well known that the accuracy varies as there might not be enough training data available.
-* PromptDialog is going to soon introduce a large language model based (e.g., chatGPT) one/few shot entity recognition method to improve intent classification and entity recognition. 
+* PromptDialog is going to soon introduce a large language model based (e.g., chatGPT) entity recognition method to improve intent classification and entity recognition. 
 
 ### 2. Whole Utterance
 The entire user utterance is used to fill a slot.   A common scenario is to collect user feedback which requires using the whole utterance, rather than extracting a specific phrase from it. It should be noted that although we do not care about the specific values extracted, we still need to add different examples to ensure that the model performs intent classification accurately and understands that the current utterance is going to be used for slot filling. 
@@ -50,10 +50,10 @@ The system will send different responses according to user utterance. PromptDial
 
 ## Template 
 
-###Intent Template
-The intent template exists for the purpose of reusing intent. There are a few standard intents in conversation design, such as confirmation, denial and appreciation. Repeatedly constructing the same kind of intents is time consuming and error prone. Intent template is here to solve this problem. We can save the intent to be reused as a template and add it to the intent list. 
+### Intent Template 
+The intent template exists for the purpose of reusing intents. There are a few standard intents in conversation design, such as confirmation, denial and appreciation. Repeatedly constructing the same kind of intents is time consuming and error prone. Intent template is here to solve this problem. We can save an intent to be reused as a template and add it to the intent list. 
 
-###Entity Template
+### Entity Template
 For the same reason, there are standard entities that are commonly used accross different projects.  A set of predefined entities are stored in the system for quick references.  
 
 ## Frequently Asked Questions (FAQ) 
