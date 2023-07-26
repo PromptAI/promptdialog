@@ -89,7 +89,7 @@ Optional Settings:
 - Cron Expression:
 
 ```text
-`Custom (Corn)` need to be sed
+`Custom (Corn)` need to be set
 
 - a valid cron expression
 ```
