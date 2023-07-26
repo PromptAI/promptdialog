@@ -18,4 +18,4 @@ When you are using RASA Open Source, you might be disappointed by the lack of La
 
 [Xifeng Yan](https://sites.cs.ucsb.edu/~xyan/),  PromptAI
 
-Prof. Xifeng Yan and his teams have participated in all three Amazon Alexa Chatbot Challenges during 2022-2023 including TaskBot, SimBot, and Socialbot Challenges. All of his teams entered the final event with the highest rate given by Amazon Alexa users. All of them!
+Prof. Xifeng Yan has participated in building all kinds of conversational bots including three Amazon Alexa Chatbot Challenges in 2022-2023, [TaskBot](https://www.amazon.science/academic-engagements/amazon-launches-new-alexa-prize-taskbot-challenge), [SimBot](https://www.amazon.science/alexa-prize/simbot-challenge), and [Socialbot](https://www.amazon.science/alexa-prize/socialbot-grand-challenge/2022). All of his teams entered the final event with the highest rate given by Amazon Alexa users. 
