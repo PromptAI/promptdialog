@@ -23,8 +23,6 @@ By following these steps, we can improve the accuracy of intent recognition and 
 
 By implementing this approach, the chatbot can provide answers to user questions, and return to the form after addressing the interruption.
 
-### Case: Slot Value Reset
-
 ### Case: RASA FAQ vs. GPT-based FAQ
 RASA FAQ is a classification model.  LLM-based FAQ is an embedding based ranking model + retrieval model.  The ranking model can work on a large number of questions, thus more scalable.  It also does not require many training examples.  
 
