@@ -14,7 +14,7 @@ A screenshot of Talk2bits where it answers a user question in its own interface.
 
 Talk2bits generates a link that can be put into PromptDialog.
 ![03-index.png](/assets/images/knowledge_base/03-index.png)
-Paste the link into the Fallback setting. 
+Paste the link into the Fallback setting so that a user question can be handled as a last resort. 
 ![04-index.png](/assets/images/knowledge_base/04-index.png)
 
 Now the bot can use this link to answer the same question.
