@@ -19,12 +19,12 @@ In the project settings, you could choose what to display below the first welcom
 
 ![project-overview-2](/assets/images/tutorial/project/p-overview-2.png)
 
-- Select a flow, and then click the pop-up Edit Node to visit the dialog flow diagram you selected.
+- Click a flow. Then click the pop-up Edit Node to visit the dialog flow diagram you selected.
 
 ![project-overview-3](/assets/images/tutorial/project/p-overview-3.png)
 
 
 ## Fallback
-- Click the fallback of the project overview.  Continue to click the pop-up editing node, where you can edit the default actions of the project. If none of the action returns a response, the default text response will be sent. 
+- Click Fallback of the project overview.  Then click the pop-up Edit Node, where you can edit the fallback actions that the bot will take if it does not understand what the user wants to do.  If none of the action returns a response, the default text will be sent to the user. 
 
 ![project-overview-7](/assets/images/tutorial/project/p-overview-7.png)
