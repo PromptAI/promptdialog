@@ -9,13 +9,13 @@ nav_order: 7
 
 **Intent**: Booking Ticket.  
 
-There are various ways to express a user’s intent to book a ticket from one place to another.  They can be classified as intent declared by a conversation designer as “Booking Ticket.”  In order to help RASA or LLMs to understand “Booking Ticket,” it was suggested to give a few examples.  Certainly the more (diverse), the better. 
+There are various ways to express a user’s intent to book a ticket from one place to another.  They can be classified as intent declared by a designer as “Booking Ticket.”  In order to help RASA or LLMs to understand “Booking Ticket,” it was suggested to give a few examples.  Certainly the more (diverse), the better. 
 Intent Example: 
-* I plan to fly to Boston on Independence Day
+* I plan to fly to Boston on Independence Day.
 * Could you help me check the flights from Los Angeles to Boston in July? 
 
 ## Slot
-In order to query the flight database, it is necessary to extract the flight information that a user is checking.  The information is called slots, each consisting of type, name and value. For example, at least three slots are needed for checking flights, date, departure city, arrival city.  Slot filling is looking for specific pieces of information that can be named entities (e.g., the city name) or other things (e.g., a piece of text).  Slot is also referred as variable in PromptDialog.  
+In order to query the flight database, it is necessary to extract the flight information that a user is checking.  The information is called slots, each consisting of type, name and value. For example, at least three slots are needed for checking flights: Date, Departure city, Arrival city.  Slot filling is looking for specific pieces of information that can be named entities (e.g., the city name) or other things (e.g., a piece of text).  Slot is also referred as variable in PromptDialog.  
 
 ## Entity
 Entity is a 'thing' that has names, like people, places, products etc.  These things can be used to fill slots or just left alone. 
