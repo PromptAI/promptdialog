@@ -6,7 +6,18 @@ has_children: false
 ---
 
 <!-- ![01-overview.png](/assets/images/overview/01-overview.png) -->
-In order to build and run a dialog flow in a local machine, there are four steps: design a dialog flow, create the local running environment (you only need to do it once), download the generated code from your design, and run. 
+PromptAI provides an all-in-one platform of building, running and deploying a chatbot.  The architecture of PromptDialog actually supports all of four settings: The chatbot design environment and running environment could either be on premises or cloud. 
+
+-Design bots on cloud, run locally (current public release) 
+-Design bots on cloud, run on cloud
+-Design bots locally, run locally 
+-Design bots locally, run on cloud
+
+The current release supports cloud-based chatbot design and local testing/running/release. For users who are interested in the other three settings, please contact [info@promptai.us](info@promptai.us).
+
+PromptAI emphasize the protection of user data security and privacy. Your data is stored in secure cloud AWS/US servers and is subject to strict encryption and access controls. It employs state-of-the-art security technologies and measures to ensure the ongoing protection of your data during transmission and storage processes.
+
+There are four steps: Design a dialog flow, create the local running environment (you only need to do it once), download the generated code of your design, and run the bot. 
 
 ## Step 1 - Create a Dialog flow
 Create your first Dialog flow via PromptDialog
