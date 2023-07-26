@@ -21,7 +21,7 @@ Examples:
 Welcome to explore Webhook-based usage scenarios and share with us.
 
 ## Create business orders
-Suppose a customer places an order for five apples at a fruit store, and the user's order information is synchronized to the order system. Here we focus on how to synchronize information to the order system.
+Suppose a customer places an order for three apples at a fruit store, and the user's order information is synchronized to the order system. Here we focus on how to synchronize information to the order system.
 
 
 API of place fruit order:

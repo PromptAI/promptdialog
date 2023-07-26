@@ -37,7 +37,6 @@ User: Hi, can you please tell me the weather in New York?
 
 Assistant: Sure! Let me check the current weather conditions for you. Just a moment, please.
 
-
 Assistant: The current weather in New York is 82°F (28°C) with mostly sunny conditions. The wind is blowing at a speed of 5 mph (8 km/h), and the humidity is around 60%. Is there anything else you would like to know?
 
 User: Thank you for the forecast! That's helpful.
