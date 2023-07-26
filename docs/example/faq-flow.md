@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Create Dialog Flows
+title: Create FAQ and Dialog Flow
 parent: Video Tutorials
 nav_order: 1
 ---
