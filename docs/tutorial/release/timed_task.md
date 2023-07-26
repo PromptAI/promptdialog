@@ -99,7 +99,7 @@ Optional Settings:
 ------
 
 ### Release at 00:00 every day
-![01-timed-task.png](assets/images/tutorial/release/01-timed-task.png)
+![01-timed-task.png](/assets/images/tutorial/release/01-timed-task.png)
 
 ### Release every 72 hours
-![02-timed-task.png](assets/images/tutorial/release/02-timed-task.png)
+![02-timed-task.png](/assets/images/tutorial/release/02-timed-task.png)
