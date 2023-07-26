@@ -77,15 +77,17 @@ Common Settings:
 
 Optional Settings:
 
-- Fixed time interval : 
+- Fixed time interval :
+
 ```text
 `Fixed time interval (Second)` need to be set
 
 - Positive integer
 - Mix: 100
-
 ```
+
 - Cron Expression:
+
 ```text
 `Custom (Corn)` need to be sed
 
