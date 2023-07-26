@@ -21,13 +21,13 @@ In order to query the flight database, it is necessary to extract the flight inf
 Entity is a 'thing' that has names, like people, places, products etc.  These things can be used to fill slots or just left alone. 
 
 ## Slot Filling
-The value of a slot (variable) can be filled anywhere during a conversation. It can be extracted from user input or set manually. The following are several ways to do slot filling.
+The value of a slot (variable) can be filled anywhere during a conversation. It can be extracted from user input or set manually. The followings are several ways to do slot filling.
 
 ### 1. Entity Recognition
-Entity recognition is the most common method in slot filling.  PromptDialog has the following three approaches to do entity recognition
+Entity recognition is the most common method in slot filling.  PromptDialog has the following three approaches to do entity recognition:
 
-* A set of predefined entities are included, such as date, number, telephone, and ordinal words, eliminating the trouble of manual annotation, training and recognition.  
-* PromptDialog supports the entity recognition model like DIET form RASA which requires a designer to provide a set of training examples to recognize the entities.  The accuracy of entity recognition can be improved by providing a variety of expressions and displaying different entity words in example sentences as many as possible. However, it is well known the accuracy is problematic as there might not be enough training data available
+* A set of predefined entities are included, such as date, number, telephone, and ordinal words, eliminating the need of annotation, training and recognition.  
+* PromptDialog supports entity recognition models like DIET form RASA which requires a designer to provide a set of training examples to recognize the entities.  The accuracy of entity recognition can be improved by providing a variety of utterances and displaying different entity words in example sentences. It is well known that the accuracy varies as there might not be enough training data available.
 * PromptDialog is going to soon introduce a large language model based (e.g., chatGPT) one/few shot entity recognition method to improve intent classification and entity recognition. 
 
 ### 2. Whole Utterance
