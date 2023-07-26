@@ -17,4 +17,4 @@ Upon the completion of editing, PromptDialog allows you to deploy the model to r
 
 Please refer to the detailed tutorials for FAQ construction and dialog flow design
 - [FAQ](/docs/tutorial/faq/)
-- [Conversation Flow Design](/docs/tutorial/flow)
+- [Conversation Flow Design](/docs/tutorial/flow/)
