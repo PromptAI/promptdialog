@@ -57,21 +57,21 @@ The intent template exists for the purpose of reusing intents. There are a few s
 For the same reason, there are standard entities that are commonly used accross different projects.  A set of predefined entities are stored in the system for quick references.  
 
 ## Frequently Asked Questions (FAQ) 
-A list of typical questions that users might ask regarding a particular subject.  Each FAQ tuple has three components: (question, similar questions, answer)
+A list of typical questions that users might ask regarding a particular subject.  Each faq tuple has three components: (question, similar questions, answer).
 
 PromtpDialog supports FAQs in three ways:
-* RASA native FAQs that use RASA’s own routine to answer question.  In this case, a user is required to give a few similar questions (the more the better) for each question so that RASA can correctly identify the correct one through learning. 
-* ChatGPT/GPT4 enabled retrieval augmented generation (RAG) to answer questions.  PromptDialog employed an embedding and retrieval approach to dramatically improve accuracy.  This is an approach we recommend if users do not have many similar questions. However, there is some cost associated. 
-* Customized BERT model with contrastive learning.  PromptDialog also provides its own model that can be deployed locally with performance between RASA FAQ and ChatGPT (closer to ChatGPT).  It needs training examples. 
+* RASA native FAQs that use RASA’s own routine to answer questions.  In this case, a user is required to give a few similar questions (the more the better) for each question so that RASA can correctly identify the correct one through learning. 
+* ChatGPT/GPT4 enabled retrieval augmented generation (RAG) to answer questions.  PromptDialog employed an embedding and retrieval approach to dramatically improve accuracy.  This is an approach we recommend if users do not provie similar questions. However, there is small cost associated as the users need to access OpenAI/ChatGPT. 
+* Customized BERT model with contrastive learning.  PromptDialog also provides its own model that can be deployed locally whose performance is between RASA FAQ and ChatGPT (close to ChatGPT).  It needs training examples. 
 
 ## Knowledge Base
-In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDF, Doc, Text, and HTML into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents. This function is supported by [talk2bits.com] and can be integrated with RASA quicklyin PromptDialog. 
+In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDF, Doc, Text, and HTML into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents. This function is supported by [talk2bits.com](talk2bits.com) and can be integrated with RASA via PromptDialog. 
 
 ## Form
-Form is used to collect multiple pieces of information in tasks like ticket booking, hotel reservation, purchase order, etc.  In PromptDialog, only a few configurations are needed to complete the design of a form, which was once quite complex: 
-* **Slots**:  The slot list declares several slots that the form needs to collect, how the bot asks about these slots’ value, and how to fill slots from the user reply. When there are multiple extraction methods, they can be written in turn. The robot will ask the user in sequence until all slots are filled. 
-* **Interrupts**: Users may not answer in the way we expect. If the user asks “I don’t want to continue ”, we hope to exit the form properly.
-* **Confirm**: When all the slots are filled out, the form will ask for a confirm and then complete.  
+Form is used to collect multiple pieces of information like ticket booking, hotel reservation, order query, etc.  In PromptDialog, only a few configurations are needed to complete the design of a form, which was once quite complex: 
+* **Slots**:  The slot list declares several slots that the form needs to collect, how the bot asks about these slots’ value, and how to fill slots from the user reply. The bot will ask the user in sequence until all slots are filled. 
+* **Interrupts**: Users may not answer in the way we expect. If the user says “I don’t want to continue ”, the form filling will exit.
+* **Confirm**: When all the slots are filled out, the form will ask for a confirmation and then complete.  
 
 
 The following shall be in RASA Design FAQ 
