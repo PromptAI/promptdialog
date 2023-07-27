@@ -9,16 +9,16 @@ A user must first create a project before creating FAQ or flow diagram. After lo
 ![project-create](/assets/images/tutorial/project/p-create.png)
 
 ## Fill in relevant information
-   - name：the project name
-   - language：the language used in the project
-   - description：describe what the project is
-   - welcome：the first message sent by your bot to the customer
-   - fallback：the default reply sent to the user when the bot cannot recognize the user's intention or question
-   - image：the project image displayed in the project list
+   - name：The project name,
+   - language：The language used in the project,
+   - description：Describe what the project is,
+   - welcome：The first message sent by your bot to the customer,
+   - fallback：The default reply sent to the user when the bot cannot understand the user utterance,
+   - image：The project image displayed in the project list.
    
-![project-create-detail](/assets/images/tutorial/project/p-create-detail.png))
+![project-create-detail](/assets/images/tutorial/project/p-create-detail.png)
 
 
 ## Complete
-After the completion of creating the project, click the project just created to enter the project overview interface
+After the completion of creating the project, click the project to enter the overview interface
 ![project-main-view](/assets/images/tutorial/project/p-main-view.png)
