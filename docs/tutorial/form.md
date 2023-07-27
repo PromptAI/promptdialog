@@ -15,11 +15,11 @@ Form is used to collect multiple pieces of information in tasks like ticket book
 
 ## Add a form (Information Collection) node
   ![03-form](/assets/images/tutorial/form/03-form.png)
-  Add the name of form.
+  Add the name of the form.
   ![04-form](/assets/images/tutorial/form/04-form.png)
   
 ## Add slots
-  1. Collect fruit type
+  1. Collect the fruit type
     <br/> 
      Click **Add Slot** (a slot node and a bot response node will be added by default), as shown in the figure
      ![05-form](/assets/images/tutorial/form/05-form.png)
@@ -41,9 +41,9 @@ Form is used to collect multiple pieces of information in tasks like ticket book
     ![15-form](/assets/images/tutorial/form/15-form.png)
 
 ## Interrupts
-If the user changes her mind and would like to quit ordering fruits, you can exit conversation here.  Click Users' Other Requests and add user input points, as shown in the figure.  [need to speak clearly the relation of all these break points]
+If the user changes her mind and would like to quit ordering fruits, you can exit conversation here.  Click Add User Node as shown in the figure.  [TBD: need to speak clearly the relation of all these break points]
 ![10-form](/assets/images/tutorial/form/10-form.png)
-Continue to add the bot response reply node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure. After the interruption, the flow is going to jump out of the form to the breakpoint, where the designer can add interupt processing flow. 
+Continue to add the bot response node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure. After the interruption, the flow is going to jump out of the form to the breakpoint, where the designer can add interupt processing flow. 
 ![11-form](/assets/images/tutorial/form/11-form.png)
 
 ## Form completion 
