@@ -5,11 +5,12 @@ parent: Developer's Guide
 nav_order: 9
 ---
 
-In `Bot Response`, the designer could click "+Action" to add an Action functions written in Python, which will give the designer the tool of writing customization code.  The Action python code will be placed to the `Actions. py` file in Rasa and will be triggered when the bot gives the current response. 
+In `Bot Response`, the designer could click "+Action" to add an Action function written in Python, which will give the designer the tool of writing python code.  The Action python code will be placed to the `Actions. py` file in Rasa and will be triggered when the bot gives the current response. 
 
 ![action-02](/assets/images/tutorial/action/action-02.png)
 
 In the pop up window, the designer can write python code of the Action function. 
+
 ![action-01](/assets/images/tutorial/action/action-01.png)
 
 
