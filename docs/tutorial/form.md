@@ -31,23 +31,23 @@ Form is used to collect multiple pieces of information in tasks like ticket book
      At the same time, mark the fruit type of the example sentences entered by the user for training.  Please provide a few examples. The more, the better. 
      ![08-form](/assets/images/tutorial/form/08-form.png)
 
-  2. Collect fruit weight
+  2. Collect the fruit weight
      <br/>
      Continue to add **slot** - **fruit weight**, as shown in the figure.
      ![09-form](/assets/images/tutorial/form/09-form.png)
   
-  3.Collect fruit weight and fruit type together
-    Sometimes the customer might input fruit type and weight in the same utterance.  We need to extract 'fruit type' and 'fruit weight.' Click ** Slots **, add the training example sentence shown in the figure, and extract 'fruit type' and 'fruit weight' from the training example sentences.
+  3.Collect the fruit weight and the fruit type together
+    Sometimes the customer might input fruit type and weight in the same utterance.  We need to extract 'fruit type' and 'fruit weight.' Click ** Slots **, add the training example sentence shown in the figure, and extract 'fruit type' and 'fruit weight' from these examples.
     ![15-form](/assets/images/tutorial/form/15-form.png)
 
 ## Interrupts
-If the user changes her mind and would like to quit ordering fruits, you can exit conversation here.  Click Add User Node as shown in the figure.  [TBD: need to speak clearly the relation of all these break points]
+If the user changes her mind and would like to quit ordering fruits, she can exit conversation here.  Click Add User Node as shown in the figure.  
 ![10-form](/assets/images/tutorial/form/10-form.png)
-Continue to add the bot response node and the interrupt collection node in order to handle user exit more friendly, as shown in the figure. After the interruption, the flow is going to jump out of the form to the breakpoint, where the designer can add interupt processing flow. 
+Continue to add the bot response node and the interrupt collection node in order to handle user exit smoothly, as shown in the figure. After the interruption, the flow is going to jump out of the form to the breakpoint, where the designer can continue processing the interuption. 
 ![11-form](/assets/images/tutorial/form/11-form.png)
 
 ## Form completion 
-  <br/>After the form is completed successfully, the customer can continue the flow design after the completion node where the value of the slots will be available.  For example, the designer can add a bot response node to confirm the order with the customer. 
+  <br/>After the form is completed successfully, the customer can continue the flow after the completion node where the value of the slots will be available.  For example, the designer can add a bot response node to confirm the order with the customer. 
 ![12-form](/assets/images/tutorial/form/12-form.png)
 
 ## The complete flow diagram is as follows:
