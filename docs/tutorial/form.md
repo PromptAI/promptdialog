@@ -48,6 +48,7 @@ Continue to add the bot response node and the interrupt collection node in order
 
 ## Form completion 
   <br/>After the form is completed successfully, the customer can continue the flow after the completion node where the value of the slots will be available.  For example, the designer can add a bot response node to confirm the order with the customer. 
+  
 ![12-form](/assets/images/tutorial/form/12-form.png)
 
 ## The complete flow diagram is as follows:
