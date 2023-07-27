@@ -65,4 +65,4 @@ stories:
 [no idea what it is talking about, need more details]
 In addition to a simple call to Rasa to reply，Action also holds other function by use [dispatcher](https://rasa.com/docs/rasa/action-server/sdk-dispatcher/) and [tracker](https://rasa.com/docs/rasa/action-server/sdk-tracker) 
 - dispatcher : control Rasa output by call `dispatcher.utter_message()`
-- tracker ：current user's tracker。by using `tracker.get_slot(slot_name)` access to slot value(that is, the value corresponding to the variable) ，latest user's message `tracker.latest_message`
+- tracker ：current user's tracker. by using `tracker.get_slot(slot_name)` access to slot value(that is, the value corresponding to the variable) ，latest user's message `tracker.latest_message`
