@@ -15,10 +15,10 @@ In PromptAI, Agent builds a "communication bridge" between the cloud and the use
 
 ### 工作内容
 
-- 接受训练任务
+- 接收训练/部署任务
 - 上传任务执行步骤、结果
-- 上传训练好的模型，便于负载均衡时不用重复训练模型
-- 接受和响应对话请求
+- 上传训练好的模型，便于负载均衡时不用重复训练
+- 接收和响应对话请求
 - 创建、停止和升级AI容器
 
 ### 目录
@@ -112,6 +112,7 @@ GPU        :CUDA 11.7 or newer(Optional)
 Disk       :Space: At least 20GB available
 Docker Env :20.10.6 or newer
 ```
+
 - 在安装过程和使用过程中，需要保持网络畅通。
 - Allow access: https://app.promptai.cn at port: 443
 
