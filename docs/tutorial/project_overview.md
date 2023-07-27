@@ -25,6 +25,6 @@ In the project settings, you could choose what to display below the first welcom
 
 
 ## Fallback
-- Click Fallback of the project overview.  Then click the pop-up Edit Node, where you can edit the fallback actions that the bot will take if it does not understand what the user wants to do.  If none of the action returns a response, the default text will be sent to the user. 
+- Click the Fallback of the project overview.  Then click the pop-up Edit Node, where you can edit the fallback actions that the bot will take if it does not understand the user utterance.  If none of the action returns a response, the default text message will be sent to the user. 
 
 ![project-overview-7](/assets/images/tutorial/project/p-overview-7.png)
