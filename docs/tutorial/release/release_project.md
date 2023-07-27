@@ -6,14 +6,11 @@ parent: Release
 grand_parent: Developer's Guide
 ---
 
-# Create a complex dialog flow diagram
-{: .no_toc .header }
+## Select modules to release
+Click the project tool on the left navigation pane, click Release, select which modules to release, and then click Release Button. 
 
-This tutorial will lead you to release a Dialog flow 
-
-## Select dialog flow graph to release
-
-Click to enter the project to be released, first click the project tool- release Run on the left, check the user question and answer (FAQ) and session flow diagram to be released in the interface, and then click release in the upper right corner. Note: Wrong conversation.
+[TBD: Clear this part up]
+Note: Wrong conversation.
 The flow graph must be modified correctly before running check releasing.
 
 ![01-publish.png](/assets/images/tutorial/flow/publish/01-publish.png)
