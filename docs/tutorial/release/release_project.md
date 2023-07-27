@@ -15,21 +15,19 @@ The flow graph must be modified correctly before running check releasing.
 
 ![01-publish.png](/assets/images/tutorial/flow/publish/01-publish.png)
 
-## releasing
-
+## Releasing
 As shown in the figure, after the module to be released is currently selected, an icon will prompt the task status on the left side of the release button, and the text of the release button will change to being released. At this time, users can jump to other pages to operate, or stay here to wait for the completion of training,
 Or click Stop to stop releasing.
 
 ![02-publishing.png](/assets/images/tutorial/flow/publish/02-publish.png)
 
-## releasing completed
+## Releasing completed
 
 As shown in the figure, after the releasing is completed, the icon next to the releasing will change, and the mouse will be placed on the icon to prompt the completion of the releasing.
 
 ![03-publish-success.png](/assets/images/tutorial/flow/publish/03-publish.png)
 
-## Validation results
-
+## Testing
 As shown in the figure, enter the chat information in the robot dialog window to verify whether the robot replies as expected.
 What we verify here is that the user asks whether the fruit price can correctly obtain the fruit price information from the webhook, and the result meets the expectation.
 
