@@ -17,7 +17,7 @@ The current release supports cloud-based chatbot design and local testing/runnin
 
 PromptAI emphasizes the protection of user data. Your data is stored in secure cloud AWS/US servers and is subject to strict encryption and access controls. It employs state-of-the-art security technologies and measures to ensure the ongoing protection of your data during transmission and storage processes.
 
-There are four steps: Design a dialog flow, create the local running environment (you only need to do it once), download the generated code of your design, and run the bot. 
+There are two ways to train and run your bot.  If you have your own RASA environment set up, please feel free to downlad the generated RASA code of your design and test your bot.  Or you could create the local running enviroment as illustrated below, which packaged everything for you. There are four steps: Design a dialog flow, create the local running environment (you only need to do it once), download the generated code of your design, and run the bot. 
 
 ## Step 1 - Create a dialog flow
 Create your first dialog flow via PromptDialog
