@@ -114,7 +114,7 @@ Docker Env :20.10.6 or newer
 ```
 
 - 在安装过程和使用过程中，需要保持网络畅通。
-- Allow access: https://app.promptai.cn at port: 443
+- Allow access: https://app.promptai.us at port: 443
 
 When everything is ready, you can execute different installation commands according to the corresponding operating system type:
 ```shell
