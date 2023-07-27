@@ -30,7 +30,9 @@ In PromptAI, Agent builds a "communication bridge" between the cloud and the use
 | 系统  | 目录              |
 |-------|------------------|
 | Linux | /usr/local/zbot  |
-| MacOS | /$HOME/zbot       |
+| MacOS | /$HOME/zbot      |
+
+Example:
 
 ```shell
 .
@@ -88,7 +90,7 @@ Agent 运行依赖Docker环境，包括两个Image和多个Containers
 |  AI   | zbot_a1_xxx  | "xxx"为调试的模型或具体的项目，可能有多个，与发布的项目数量有关       |
 | Agent | zbot_agent   | Agent服务，管理AI模型 ，有且仅有一个                             |
 
--Diagram
+- Diagram
 
 ![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
@@ -103,13 +105,16 @@ After clicking, you will see the following content.
 
 Before installation, you need to check whether your environment meets the installation requirements:
 ### System Requirements
-```text![img.png](img.png)
+```text
 OS         :Linux/Mac OS
 RAM        :At least 8GB
 GPU        :CUDA 11.7 or newer(Optional)
 Disk       :Space: At least 20GB available
 Docker Env :20.10.6 or newer
 ```
+- 在安装过程和使用过程中，需要保持网络畅通。
+- Allow access: https://app.promptai.cn at port: 443
+
 When everything is ready, you can execute different installation commands according to the corresponding operating system type:
 ```shell
 curl -o install_agent.sh 'https://app.promptai.us/rpc/install/install_agent.sh?key=your_config' && chmod +x install_agent.sh && ./install_agent.sh install
