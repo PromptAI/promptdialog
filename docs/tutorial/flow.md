@@ -5,38 +5,38 @@ parent: Developer's Guide
 nav_order: 4
 ---
 
-## Create a conversation flow
+## Create a dialog flow
 Click Flows in the left navigation pane to add a new flow.  Enter the flow name and description in the pop-up dialog box.
 ![01-create-flow](/assets/images/tutorial/flow/01-flow.png)
 
 ## Add a user utterance node
-After creating a new dialog flow, it will display the flow window. Click the root node of the flow and select the node type to be added. Here we select the node type as user utterance.
+After creating a new dialog flow, it will display the flow window. Click the root node of the flow and select the type of node to add. Here we click Edit User Node.
 
 ![02-create-flow-node](/assets/images/tutorial/flow/02-flow.png)
 
 ## Edit a user utterance node
 
-After selecting the user utterance node, the editing interface will pop up on the right, where we can edit the user's intention. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
+The user node editing pane will pop up on the right, where we can edit the user's intention. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
 
 ![03-edit-flow-node](/assets/images/tutorial/flow/03-flow.png)
 
-[I believe we need to explain all the items in the edition pane.]
+[TBD:  Explain all the items in the edition pane or give links.]
 
 ## Add a bot response node
 
-Continue to click the user utterance node and select bot response from the pop-up menu. [no idea what it is] If the user enters a match with the user node in front of this node, this information will be returned to the user.
+Continue to the user utterance node and select Add Bot Node from the pop-up menu. 
 
 ![04-edit-flow-bot](/assets/images/tutorial/flow/04-flow.png)
 
-[I believe we need to explain all the items in the edition pane.]
+[TBD:  Explain all the items in the edition pane or give links.]
 
 ### Multiple responses
 We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
 
-- The bot response node adds multiple text replies, as shown in the figure
+- The bot response node adds multiple text responses, as shown in the figure.
   ![08-create-multi-bot-replay](/assets/images/tutorial/flow/05-flow.png)
 
-- The implementation method of adding a reply node after the node that needs to reply to multiple contents is shown in the figure
+- The implementation method of adding another bot response node after the current one is shown in the figure.
   ![09-create-multi-bot-replay](/assets/images/tutorial/flow/06-flow.png)
 
 <!--
@@ -50,15 +50,15 @@ The dialogue effect pictures of the two methods are as follows:
 -->
 
 ### Add an attachment to the bot response
-Open the editing interface of the bot response node as shown in the figure, click **Attachment**, and upload the attachment.
+Open the editing interface of the bot response node as shown in the figure, click **Attachment**, and upload the attachment, promptai.png.
 ![30-bot-extras](/assets/images/tutorial/flow/09-flow.png)
 
-After uploading:
+After uploading: 
 ![31-bot-extras](/assets/images/tutorial/flow/10-flow.png)
 
-The dialogue effect is shown below. You can directly click **Attachment** to download it:
+The dialogue effect is shown below where the file will be displayed in conversation. You can directly click the file name to download it:
 ![32-bot-extras](/assets/images/tutorial/flow/11-flow.png)
 
 ## Done
 
-So far, a simple dialog flow diagram is completed.
+So far, a simple dialog flow diagram was completed.
