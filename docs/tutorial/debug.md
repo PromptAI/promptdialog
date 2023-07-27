@@ -12,4 +12,4 @@ We combine a dialog flow with FAQ and train them together:
 
 ![02](/assets/images/tutorial/flow_and_faq/2.png)
 
-When this bot runs,  it follows the dialog flow.  Meanwhile, it can answer questions in FAQ.
+When the bot runs,  it follows the dialog flow.  Meanwhile, it can answer questions in FAQ.
