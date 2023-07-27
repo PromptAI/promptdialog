@@ -34,11 +34,11 @@ class BotCustomaction_cp_ce1atgfk53b4_0(Action):
                 domain: Dict[Text, Any],) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text=" Action ") return []
 ```
-After editing code in an Action function, the designer will create a standard Class.  In order to ensure that the details can be correctly adjusted, we hide the editing of `class` and `name` and only expose the implementation of `run` function, which is the Action function.
+After editing code in an Action function, the designer will create a standard class.  We hide the editing of `class` and `name`, and only expose the implementation of the `run` function, which is the Action function.
 
 - `BotCustomaction_uniqueid_index(Action)` Action class。
 - `def name(self) -> Text` Name returned `action_uniqueid_index`
-- `async def run`E dited by user
+- `async def run` edited by user
 
 illustrate：
 - uniqueid： unique `Bot Response` id
