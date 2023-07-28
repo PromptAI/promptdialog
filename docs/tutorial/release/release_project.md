@@ -9,9 +9,7 @@ grand_parent: Developer's Guide
 ## Select modules to release
 Click the project tool on the left navigation pane, click Release, select which modules to release, and then click Release Button. 
 
-[TBD: Clear this part up]
-Note: Wrong conversation.
-The flow graph must be modified correctly before running check releasing.
+- If there is an update after publishing, you need to click Release again to make the update take effect.
 
 ![01-publish.png](/assets/images/tutorial/flow/publish/01-publish.png)
 
