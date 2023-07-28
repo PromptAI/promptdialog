@@ -14,8 +14,8 @@ can be obtained by following steps:
 ![01-install-questions.png](/assets/images/common_questions/01-install-questions.png)
 
 ### Can it be installed on different machines?
-1、一个Agent只能被安装一次，不支持重复安装;
-2、一台机器只能安装一个Agent;
+- 一个Agent只能被安装一次，不支持重复安装;
+- 一台机器只能安装一个Agent;
 
 ### 删除时提示执行命令？
 ![02-install-questions.png](/assets/images/common_questions/02-install-questions.png)
@@ -26,12 +26,12 @@ can be obtained by following steps:
 
 ### How to upgrade?
 - 登录安装Agent的机器
-- 在shell中执行'promptai upgrade'
+- 在shell中执行'~/zbot/install_agent.sh upgrade'
 - 输入`y`确认升级 [升级期间将会导致服务短暂不可使用]
 - 等待升级完成
 
 ```shell
-# ./usr/local/promptai/install_agent.sh  upgrade
+# ~/zbot/install_agent.sh upgrade
 Nvidia GPU found.
 start upgrade PromptAI Agent...
 This action will cause the service to be unavailable, continue (y/n)? y
@@ -50,7 +50,7 @@ xxxxx
 
 注意：此过程需要保持网络通畅，否则将导致无法成功卸载.
 ```shell
-# ./usr/local/promptai/install_agent.sh uninstall
+# ~/zbot/install_agent.sh uninstall
 start uninstall PromptAI Agent...
 This action will remove PromptAI Agent, continue (y/n)? y
 finish uninstall PromptAI Agent
