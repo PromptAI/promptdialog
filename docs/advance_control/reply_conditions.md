@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Bot Reply Conditions
-parent: Advance Control
+parent: Advanced Control
 nav_order: 2
 ---
 

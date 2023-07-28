@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Conditional Response
-parent: Advance Control
+parent: Advanced Control
 nav_order: 4
 spliter: true
 ---

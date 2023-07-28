@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Reset Slot Value
-parent: Advance Control
+parent: Advanced Control
 nav_order: 3
 ---
 

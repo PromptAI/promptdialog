@@ -1,7 +1,7 @@
 ---
 layout: en
 title: User Defined Slot Value
-parent: Advance Control
+parent: Advanced Control
 nav_order: 1
 ---
 <!-- 如果您想实现定义Form中Slot的多样性,我们强烈推荐您使用`Form Define Slot Code`该功能! -->
