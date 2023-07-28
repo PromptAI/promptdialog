@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Conditional Response
+title: Conditional Responses
 parent: Advanced Control
 nav_order: 4
 spliter: true
