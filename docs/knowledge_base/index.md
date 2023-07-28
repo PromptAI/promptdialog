@@ -7,15 +7,21 @@ There are two kinds of knowledge bases in PromptDialog: [FAQ](https://doc.prompt
 
 ## Talk2Bits
 A screenshot of Talk2bits where a user is uploading a document.
+
 ![01-index.png](/assets/images/knowledge_base/01-index.png)
 
 A screenshot of Talk2bits where it answers a user question in its own interface.
+
 ![02-index.png](/assets/images/knowledge_base/02-index.png)
 
 Talk2bits generates a link that can be put into PromptDialog.
+
 ![03-index.png](/assets/images/knowledge_base/03-index.png)
+
 Paste the link into the Fallback setting so that a user question can be handled as a last resort. 
+
 ![04-index.png](/assets/images/knowledge_base/04-index.png)
 
 Now the bot can use this link to answer the same question.
+
 ![05-index.png](/assets/images/knowledge_base/05-index.png)
