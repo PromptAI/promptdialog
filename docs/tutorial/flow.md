@@ -6,21 +6,28 @@ nav_order: 4
 ---
 
 ## Create a dialog flow
-Click Flows in the left navigation pane to add a new flow.  Enter the flow name and description in the pop-up dialog box.
+Click Flows in the left navigation pane to add a dialog new flow.  Enter the flow name and description in the pop-up dialog box.
 ![01-create-flow](/assets/images/tutorial/flow/01-flow.png)
 
 ## Add a user utterance node
-After creating a new dialog flow, it will display the flow window. Click the root node of the flow and select the type of node to add. Here we click Edit User Node.
-
+After creating a new dialog flow, it will display the flow window. Click the root node of the flow and here we click 'User Utterance'.
 ![02-create-flow-node](/assets/images/tutorial/flow/02-flow.png)
 
 ## Edit a user utterance node
-
-The user node editing pane will pop up on the right, where we can edit the user's intention. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
+Click the user utterance and the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
 
 ![03-edit-flow-node](/assets/images/tutorial/flow/03-flow.png)
 
 [TBD:  Explain all the items in the edition pane or give links.]
+| Name                  | Usage            |
+|------------------------|-------------------|
+| Expect User Utterance   | 用户可能会说的话    |
+| Select from intent list | 从[意图列表](/docs/tutorial/template_user/)中选择    |
+| Save to intent list | 将改用户输入保存到意图列表[意图列表](/docs/tutorial/template_user/)    |
+| Are slots expected? | 从用户输入中提取slot   |
+| Description       | 备注信息   |
+| After the user message arrives      | [Click here](/docs/advance_control/reset_slot/)    |
+
 
 ## Add a bot response node
 
