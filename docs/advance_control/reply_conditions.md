@@ -22,25 +22,22 @@ If the user utterance doesn't contain the location inforamtion (At this point we
 
 In this case, we can extract 'city' to determine the location.  
 
-## Set Reply Conditions for Bot Reply
-
-The area extracted:
-- Double-click the Bot Reply to check the weather
+## Set Reply Conditions
 - Click `Reply Conditions`
 - Select `Slot Name` with `area`
 - Enter `Not Null` to `Conditional value`
 
-This means that the Bot will be executed when `area` has a value
+This means that the bot will reply when `area` has a value
 ![03-reply-condition.png](/assets/images/tutorial/reply_condition/03-reply-condition.png)
 
-The `city` is not extracted, ask the city to be queried:
-- Double click to ask Bot Reply for a city
+You can set the condition of asking for the location:
 - Click `Reply Conditions`
 - Select `Slot Name` with `area`
+- Enter `Null` to `Conditional value`
 
-This Bot will be executed when there is no value for `area`
+This reply will be delivered when there is no value for `area`.
+
 ![04-reply-condition.png](/assets/images/tutorial/reply_condition/04-reply-condition.png)
 
 ## Summarize
-1. The bot that can be executed can be determined according to the slot value.
-2. One Bot Reply can set multiple Slots.
+The slot value can be used to guide the flow to different branches. 
