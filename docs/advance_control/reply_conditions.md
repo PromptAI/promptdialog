@@ -39,5 +39,5 @@ This reply will be delivered when there is no value for `area`.
 
 ![04-reply-condition.png](/assets/images/tutorial/reply_condition/04-reply-condition.png)
 
-## Summarize
-The slot value can be used to guide the flow to different branches. 
+## Tips
+The slot value can be used to guide the dialog flow to different branches. 
