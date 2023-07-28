@@ -18,24 +18,38 @@ Click the user utterance and the editing pane will pop up on the right. It is ex
 
 ![03-edit-flow-node](/assets/images/tutorial/flow/03-flow.png)
 
-[TBD:  Explain all the items in the edition pane or give links.]
-| Name                  | Usage            |
-|------------------------|-------------------|
-| Expect User Utterance   | 用户可能会说的话    |
-| Select from intent list | 从[意图列表](/docs/tutorial/template_user/)中选择    |
-| Save to intent list | 将改用户输入保存到意图列表[意图列表](/docs/tutorial/template_user/)    |
-| Are slots expected? | 从用户输入中提取slot   |
-| Description       | 备注信息   |
-| After the user message arrives      | [Click here](/docs/advance_control/reset_slot/)    |
-
+| Name                           | Usage            |
+|--------------------------------|-------------------|
+| Expect User Utterance          | 用户可能会说的话    |
+| Select from intent list        | 从[意图列表](/docs/tutorial/template_user/)中选择    |
+| Save to intent list            | 将当前用户输入保存到意图列表[意图列表](/docs/tutorial/template_user/)    |
+| Are slots expected?            | 从用户输入中提取slot   |
+| Description                    | 备注信息   |
+| After the user message arrives | [Click here](/docs/advance_control/reset_slot/)    |
 
 ## Add a bot response node
-
 Continue to the user utterance node and select Add Bot Node from the pop-up menu. 
 
 ![04-edit-flow-bot](/assets/images/tutorial/flow/04-flow.png)
 
-[TBD:  Explain all the items in the edition pane or give links.]
+
+| Name                          | Usage            |
+|-------------------------------|-------------------|
+| Expect User Utterance         | 用户可能会说的话    |
+| Select from responses         | 从[Response Template](/docs/tutorial/template_bot/)中选择      |
+| Save to responses             | 将当前机器回复保存到回复列表[意图列表](/docs/tutorial/template_bot/)|
+| Bot Reply                     | 支持五种回答                                                    |
+| Before the bot replies        | [Click here](/docs/advance_control/reply_conditions/)         |
+| After the user message arrives| [Click here](/docs/advance_control/reset_slot/)               |
+| Conditional Response          | [Click here](/docs/advance_control/conditional_response/)     |
+
+Bot Replies
+
+- Text       : Utterance a text message
+- Image      : Utterance a text message with images
+- Attachment : Reply an attachment 
+- Webhook    : Call a webhook 
+- Action     : Call a rasa action code
 
 ### Multiple responses
 We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
