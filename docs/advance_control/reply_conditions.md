@@ -4,28 +4,23 @@ title: Bot Reply Conditions
 parent: Advanced Control
 nav_order: 2
 ---
-
 # Reply Conditions
 {: .no_toc .header }
-Before the bot reply, The content of the bot reply can be determined by whether the slot saved in the context has a value
+Before the bot replies, the content of the reply can be determined by whether the slot has a value or not. You can use this mechanism to implement the  basic logic of if-then-else. 
 
 ## Query weather 
+Depending on the user utterance, there are two possible replies:
+- Reply with the weather information or
+- Ask the user for the location
+  
 ![01-reply-condition.png](/assets/images/tutorial/reply_condition/01-reply-condition.png)
 
-There are two parallel bot replies following User Utterance:
-- Reply to weather results
-- Ask user for City
-
-At the User Utterance may not extract 'area':
-- Hi, can you please tell me the weather?
-- Will it rain soon?
-
+If the user utterance doesn't contain the location inforamtion (At this point we can use `Reply Conditions` to detect), the bot needs to ask the user:
+- Please tell me your city?
+- 
 ![02-reply-condition.png](/assets/images/tutorial/reply_condition/02-reply-condition.png)
 
-Asking in a similar fashion, you need to ask the user where:
-- Please tell me your city?
-
-In this case, we can extract 'city' to determine what the bot answers. At this point we can use `Reply Conditions` to control.
+In this case, we can extract 'city' to determine the location.  
 
 ## Set Reply Conditions for Bot Reply
 
