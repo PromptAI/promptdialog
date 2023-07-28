@@ -12,6 +12,7 @@ User: Apple
 Chatbot: Great! For adults, consuming 1-2 apples per day is a good choice. Apples are rich in dietary fiber, vitamins, and minerals, which can help maintain a healthy digestive system and immune function.
 User: Banana
 Chatbot: For adults, consuming 1-2 bananas per day is moderate. Bananas are an excellent source of energy and are rich in potassium, vitamin B6, and dietary fiber, which can help maintain normal heart and muscle function.
+...
 ```
 <!---
 User: Grapes
@@ -22,14 +23,17 @@ User: Watermelon
 
 Chatbot: Watermelon is a refreshing fruit for the summer! Consuming a small slice of watermelon (about 200 grams) per day is a good choice. It has a high water content, helping to maintain body hydration, and is also rich in vitamins A and C.
 --->
+This task requires us to respond differently according to the type of fruits. 
 
 ## Example
-Create a dialog flow, get the type input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`![01-slot-reply-list.png](/assets/images/tutorial/conditional_response/01-slot-reply-list.png)
+Create a dialog flow, get the fruit input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`.
+
+![01-slot-reply-list.png](/assets/images/tutorial/conditional_response/01-slot-reply-list.png)
 
 Double-click "Please try another fruit!" 
-- If there is no match to the last known fruit type, bot will utterance:'Please try another fruit!'
+- If there is no match to the last known fruit type, the bot will reply:'Please try another fruit!'
 
-Click 'Slot reply list' enter edit page
+Click 'Slot reply list' enter the editing pane
 ![img_5.png](/assets/images/tutorial/conditional_response/02-slot-reply-list.png)
 
 Select the slot to be processed, here we enter `fruit_type`
