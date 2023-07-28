@@ -31,25 +31,32 @@ Create a dialog flow, get the fruit input by the user and put it in `fruit_type`
 ![01-slot-reply-list.png](/assets/images/tutorial/conditional_response/01-slot-reply-list.png)
 
 Double-click "Please try another fruit!" 
-- If there is no match to the last known fruit type, the bot will reply:'Please try another fruit!'
+- If there is no match to the fruit type, the bot will reply:'Please try another fruit!'
 
-Click 'Slot reply list' enter the editing pane
+Click 'Conditonal Response Variantions' enter the editing pane.
+
 ![img_5.png](/assets/images/tutorial/conditional_response/02-slot-reply-list.png)
 
-Select the slot to be processed, here we enter `fruit_type`
+Select the slot to be matched, here we enter `fruit_type`.
+
 ![img_3.png](/assets/images/tutorial/conditional_response/03-slot-reply-list.png)
 
-Click `Add a new line`
+Click `Add a new line`. 
+
 ![img_1.png](/assets/images/tutorial/conditional_response/04-slot-reply-list.png)
 
-Edit this slot value
+Add a slot value.
+
 ![img_2.png](/assets/images/tutorial/conditional_response/05-slot-reply-list.png)
 
-Enter the slot value that needs to be processed, here is `apple`. `Reply` can increase the content that needs to be replied.
+Enter the slot value that needs to be matched, here is `apple`. `Reply` is the response the bot will send. 
+
 ![img.png](/assets/images/tutorial/conditional_response/06-slot-reply-list.png)
 
-Add Bot replies
+Add bot replies.
+
 ![img_4.png](/assets/images/tutorial/conditional_response/07-slot-reply-list.png)
 
 ## Chat
+
 ![img.png](/assets/images/tutorial/conditional_response/08-slot-reply-list.png)
