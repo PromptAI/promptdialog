@@ -71,7 +71,7 @@ Example:
 -->
 
 ### 文件
-- 如果需要下载Rasa代码 [Click here](/docs/download_rasa_source_code/)
+- 如果需要下载Rasa代码 [Click here](/docs/run_bots/)
 
 1、Agent控制脚本
 安装agent成功后，会在`$HOME/zbot`目录创建`install_agent.sh`脚本，用于升级、卸载Agent。

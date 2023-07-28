@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Conditional Response Variations
+title: Conditional Response
 parent: Advance Control
 nav_order: 4
 spliter: true
@@ -29,28 +29,28 @@ Chatbot: Watermelon is a refreshing fruit for the summer! Consuming a small slic
 ```
 
 ## Example
-Create a dialog flow, get the type input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`![01-slot-reply-list.png](/assets/images/tutorial/slot_reply_list/01-slot-reply-list.png)
+Create a dialog flow, get the type input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`![01-slot-reply-list.png](/assets/images/tutorial/conditional_response/01-slot-reply-list.png)
 
 Double-click "Please try another fruit!" 
 - If there is no match to the last known fruit type, bot will utterance:'Please try another fruit!'
 
 Click 'Slot reply list' enter edit page
-![img_5.png](/assets/images/tutorial/slot_reply_list/02-slot-reply-list.png)
+![img_5.png](/assets/images/tutorial/conditional_response/02-slot-reply-list.png)
 
 Select the slot to be processed, here we enter `fruit_type`
-![img_3.png](/assets/images/tutorial/slot_reply_list/03-slot-reply-list.png)
+![img_3.png](/assets/images/tutorial/conditional_response/03-slot-reply-list.png)
 
 Click `Add a new line`
-![img_1.png](/assets/images/tutorial/slot_reply_list/04-slot-reply-list.png)
+![img_1.png](/assets/images/tutorial/conditional_response/04-slot-reply-list.png)
 
 Edit this slot value
-![img_2.png](/assets/images/tutorial/slot_reply_list/05-slot-reply-list.png)
+![img_2.png](/assets/images/tutorial/conditional_response/05-slot-reply-list.png)
 
 Enter the slot value that needs to be processed, here is `apple`. `Reply` can increase the content that needs to be replied.
-![img.png](/assets/images/tutorial/slot_reply_list/06-slot-reply-list.png)
+![img.png](/assets/images/tutorial/conditional_response/06-slot-reply-list.png)
 
 Add Bot replies
-![img_4.png](/assets/images/tutorial/slot_reply_list/07-slot-reply-list.png)
+![img_4.png](/assets/images/tutorial/conditional_response/07-slot-reply-list.png)
 
 ## Chat
-![img.png](/assets/images/tutorial/slot_reply_list/08-slot-reply-list.png)
+![img.png](/assets/images/tutorial/conditional_response/08-slot-reply-list.png)

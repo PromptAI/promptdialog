@@ -18,7 +18,7 @@ When a designer deletes one component in dialog flows, the system will move it t
 * Select `What can i do for you today?` bot node in the recycle bin and drag it to the node to be linked. When the **+** icon appears, release it.
   <br/>The node will be inserted behind the node you dragged to.
   
-  ![01-trash](/assets/images/tutorial/trash/01-trash.png)
+  ![01-trash](/assets/images/tutorial/recycle_bin/01-trash.png)
 
 
 <!---  
