@@ -31,7 +31,7 @@ can be obtained by following steps:
 - 等待升级完成
 
 ```shell
-# promptai upgrade
+# ./usr/local/promptai/install_agent.sh  upgrade
 Nvidia GPU found.
 start upgrade PromptAI Agent...
 This action will cause the service to be unavailable, continue (y/n)? y
@@ -50,7 +50,7 @@ xxxxx
 
 注意：此过程需要保持网络通畅，否则将导致无法成功卸载.
 ```shell
-# promptai uninstall
+# ./usr/local/promptai/install_agent.sh uninstall
 start uninstall PromptAI Agent...
 This action will remove PromptAI Agent, continue (y/n)? y
 finish uninstall PromptAI Agent

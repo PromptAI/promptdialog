@@ -13,6 +13,9 @@ Initialize the local operating environment. After successfully creating an accou
 ## What is Agent？
 In PromptAI, Agent builds a "communication bridge" between the cloud and the user environment, assisting the cloud in managing models, data, and conversations.
 
+
+![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
+
 ### 工作内容
 
 - 接收训练/部署任务
@@ -22,16 +25,16 @@ In PromptAI, Agent builds a "communication bridge" between the cloud and the use
 - 创建、停止和升级AI容器
 
 ### 目录
-不同的操作系统使用目录不同，Agent对该目录下文件和目录有读写权限。
+Agent所有操作只会在该目录下进行:
+
+| 系统           | 目录             |
+|---------------|-----------------|
+| Linux / MacOS | $HOME/zbot     |
 
 - 数据与系统运行有关，请勿操作。否则可能导致系统无法正常工作。
 - 数据、目录结构可能会变化，同时里面的数据可能会被服务端使用。
 
-| 系统  | 目录              |
-|-------|------------------|
-| Linux | /usr/local/zbot  |
-| MacOS | /$HOME/zbot      |
-
+<!--
 Example:
 
 ```shell
@@ -65,12 +68,15 @@ Example:
                 ├── p_cm6j0rozjncw
                 └── p_cmaamgq4bsao
 ```
+-->
 
 ### 文件
+- 如果需要下载Rasa代码 [Click here](/docs/download_rasa_source_code/)
+
 1、Agent控制脚本
-安装agent成功后，会在`/usr/local/bin`目录创建`install_agent.sh`脚本，用于升级、卸载Agent。
+安装agent成功后，会在`$HOME/zbot`目录创建`install_agent.sh`脚本，用于升级、卸载Agent。
 ```shell
-/usr/local/bin/install_agent.sh
+$HOME/zbot/install_agent.sh
 ```
 
 2、Docker 
@@ -90,9 +96,6 @@ Agent 运行依赖Docker环境，包括两个Image和多个Containers
 |  AI   | zbot_a1_xxx  | "xxx"为调试的模型或具体的项目，可能有多个，与发布的项目数量有关       |
 | Agent | zbot_agent   | Agent服务，管理AI模型 ，有且仅有一个                             |
 
-- Diagram
-
-![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
 ## Create first Agent
 After logging in to the system, you will see a prompt above the system before creating the first Agent: "You need install your own Agent to access all functions."
@@ -113,7 +116,7 @@ Disk       :Space: At least 20GB available
 Docker Env :20.10.6 or newer
 ```
 
-- 在安装过程和使用过程中，需要保持网络畅通。
+- 在安装过程和使用过程中需确保可访问到Prompt Dialog服务。
 - Allow access: https://app.promptai.us at port: 443
 
 When everything is ready, you can execute different installation commands according to the corresponding operating system type:
