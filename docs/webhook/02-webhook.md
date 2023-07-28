@@ -55,4 +55,4 @@ Webhook Settings:
 
 ## Handle fallback via LLM
 
-See [Fallback with Talk2Bits](/docs/defalut_reply)
+See [Fallback with Talk2Bits](/docs/default_reply)
