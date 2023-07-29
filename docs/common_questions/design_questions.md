@@ -36,6 +36,7 @@ Please refer to the tutorial [Create Form-Improve Slots）](/docs/tutorial/flow/
 
 ### During a conversation, I want to output different responses according to different user inputs. What should I do?
 There are several ways to do it. 
+
 Solution 1: Branching a dialog flow, and add a condition in each branch.  The condition could be whether a slot value is null. Please refer to [Bot Reply Conditions](/docs/zh/tutorial/advance_control/reply_conditions/). 
 
 Solution 2: Different slot values trigger different responses. Please refer to [Conditional Responses](/docs/zh/tutorial/advance_control/Conditional Responses).  This solution can reduce the number of branches displayed in your flow. 
