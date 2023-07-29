@@ -33,7 +33,16 @@ All dialog flows and faqs can be downloaded as generated RASA code for free to b
 
 ![04-overview.png](/assets/images/overview/04-overview.png)
 
-## Step 4 - Train and run
-After downloading the code, you can train your model in your local running environment, and debug/run your new chatbot in PromptDialog.  
+## Step 4 - Train
+After downloading the code, you can train your model in your local running environment.  
 
 ![05-overview.png](/assets/images/overview/05-overview.png)
+
+## Step 5 - Debug and Release
+Now you can debug/run your new chatbot in PromptDialog.
+
+[add the running bot image here]
+
+Once you are satisified with the result, it is ready to release.  We provide multiple ways to [release](/docs/tutorial/release/release_project/) and will add more. 
+
+[add a release page and its web application image there]
