@@ -79,6 +79,7 @@ The dialogue effect pictures of the two methods are as follows:
 
 ### Add an attachment to the bot response
 Open the editing interface of the bot response node as shown in the figure, click `Attachment`, and upload the attachment, promptai.png.
+
 ![30-bot-extras](/assets/images/tutorial/flow/09-flow.png)
 
 After uploading: 
