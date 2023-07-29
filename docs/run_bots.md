@@ -5,11 +5,11 @@ nav_order: 4
 has_children: false
 ---
 
-When developers need to debug and verify the designed flows, they can use the **Download Rasa Files** function to download the generated RASA code in their local running environment and test the bot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
+When developers need to debug and verify the designed flows, they can use the `Download Rasa File` function to download the generated RASA code in their local running environment and test the bot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
 
 ## Rasa file download
 
-Click **Download RASA File** at the top right corner.  The download box will pop up with the following options:
+Click `Download RASA File` on the top right corner.  The download box will pop up with the following options:
 
 * Current download, download the current dialog flow
 * Combined download, free check multiple dialog flows under the current project
