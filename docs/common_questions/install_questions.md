@@ -4,11 +4,11 @@ title: Install Questions
 parent: Common Questions
 nav_order: 1
 ---
-### Where do I get the installation command?
-can be obtained by following steps:
+### Where can I download the local running environment installer? 
+The local running environment can be installed by following steps:
 - log in system
-- Click on "Manage Agents" in the upper right corner
-- Click "Install Command" in the pop-up window
+- Click on "Manage Agents" on the upper right corner
+- Click "Install" in the pop-up window
 - You can see the installation command under "Install"
 
 ![01-install-questions.png](/assets/images/common_questions/01-install-questions.png)
