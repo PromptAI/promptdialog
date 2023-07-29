@@ -8,21 +8,21 @@ Each project has a default FAQ (frequently answered questions) module.  The beta
 
 ## FAQ window  
 
-Click FAQ in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
+Click `FAQ` in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
 
 ![faq-main-view](/assets/images/tutorial/faq/f-main-view.png)
 
 ## Add a new question
 
-Click the Add User Question button on the upper right corner to pop up the question addition interface.
+Click the `+Add` button on the upper right corner to pop up the question addition interface.
 
 ![faq-create-button](/assets/images/tutorial/faq/f-create-button.png)
 
 ## Fill in question/answer information
 Please fill multiple examples for the same question, which is required for RASA Training. Please make sure: 
--Each question can only be listed once,
--Each question shall have multiple examples: They are the same question, but asked differently. 
 
+- Each question can only be listed once,
+- Each question shall have multiple examples: They are the same question, but asked differently. 
 
 ![faq-create-detail.png](/assets/images/tutorial/faq/f-create-detail.png)
 
