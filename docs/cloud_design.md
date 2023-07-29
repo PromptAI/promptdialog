@@ -15,6 +15,6 @@ The editing environment offers a low-code user interface, enabling you to quickl
 
 Upon the completion of editing, PromptDialog allows you to deploy the model to run in your own environment. This provides you with greater flexibility and control, enabling customization and integration of the chatbot with your existing systems. You can run the model in a local environment, achieving faster response times and maintaining data privacy.
 
-Please refer to the detailed tutorials for FAQ construction and dialog flow design
+Please refer to the detailed tutorials for FAQ construction and dialog flow design.
 - [FAQ](/docs/tutorial/faq/)
 - [Dialog Flow Design](/docs/tutorial/flow/)
