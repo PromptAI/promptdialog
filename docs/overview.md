@@ -24,7 +24,7 @@ Create your first dialog flow.
 ![02-overview.png](/assets/images/overview/02-overview.png)
 
 ## Step 2 - Create the local environment
-You can build a local running environment with one line of command. For details, please check [local running environement](/docs/local_running_env) and check [install question] (/docs/common_questions/install_questions) if you have any question. 
+You can build a local running environment with one line of command. For details, please check [local running environement](/docs/local_running_env) and check [install question](/docs/common_questions/install_questions) if you have any question. 
 
 ![03-overview.png](/assets/images/overview/03-overview.png)
 
@@ -34,6 +34,6 @@ All dialog flows and faqs can be downloaded as generated RASA code for free to b
 ![04-overview.png](/assets/images/overview/04-overview.png)
 
 ## Step 4 - Train and run
-After downloading the code, you can train your model in your local running environment, and chat with your new model. 
+After downloading the code, you can train your model in your local running environment, and debug/run your new chatbot in PromptDialog.  
 
 ![05-overview.png](/assets/images/overview/05-overview.png)
