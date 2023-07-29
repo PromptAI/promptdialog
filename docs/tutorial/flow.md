@@ -20,38 +20,41 @@ Click the user utterance; the editing pane will pop up on the right. It is expec
 
 ![03-edit-flow-node](/assets/images/tutorial/flow/03-flow.png)
 
+The followings are a few options you can make for user utterance. 
+
 | Name                           | Usage            |
 |--------------------------------|-------------------|
-| Expect User Utterance          | 用户可能会说的话    |
-| Select from intent list        | 从[意图列表](/docs/tutorial/template_user/)中选择    |
-| Save to intent list            | 将当前用户输入保存到意图列表[意图列表](/docs/tutorial/template_user/)    |
-| Are slots expected?            | 从用户输入中提取slot   |
-| Description                    | 备注信息   |
-| After the user message arrives | [Click here](/docs/advance_control/reset_slot/)    |
+| Expect User Utterance          | The expected user utterance in this node     |
+| Select from intent list        | Select from an [intent template](/docs/tutorial/template_user/)   |
+| Save to intent list            | Save the current intent as an [intent template](/docs/tutorial/template_user/)    |
+| Are slots expected?            | Are we going to extract a slot value(s) from the user utterance?   |
+| Description                    | Some comments about this intent (optional)|
+| After the user message arrives | If needed, [reset slot value](/docs/advance_control/reset_slot/) based on the user utterance   |
 
 ## Add a bot response node
 Continue to the user utterance node and select `Add Bot Node` from the pop-up menu. 
 
 ![04-edit-flow-bot](/assets/images/tutorial/flow/04-flow.png)
 
+The followings are a few options you can make for bot reply. 
 
 | Name                          | Usage            |
 |-------------------------------|-------------------|
-| Expect User Utterance         | 用户可能会说的话    |
-| Select from responses         | 从[Response Template](/docs/tutorial/template_bot/)中选择      |
-| Save to responses             | 将当前机器回复保存到回复列表[意图列表](/docs/tutorial/template_bot/)|
-| Bot Reply                     | 支持五种回答                                                    |
-| Before the bot replies        | [Click here](/docs/advance_control/reply_conditions/)         |
-| After the user message arrives| [Click here](/docs/advance_control/reset_slot/)               |
-| Conditional Response          | [Click here](/docs/advance_control/conditional_response/)     |
+| Bot Reply                     | What the bot will say|
+| Select from responses         | Select a response from [response template](/docs/tutorial/template_bot/)     |
+| Save to responses             | Save the response as [response template](/docs/tutorial/template_bot/)|
+| Bot Reply                     | Five different kinds of replies the bot can make. Please choose one.  |
+| Before the bot replies        | The [reply condition](/docs/advance_control/reply_conditions/) that needs to be met before the bot replies.         |
+| After the user message arrives| If needed, [reset slot value](/docs/advance_control/reset_slot/)               |
+| Conditional Response          | Give different responses according to [conditions](/docs/advance_control/conditional_response/)     |
 
-Bot Replies
+There are five different kinds of replies a bot can make:
 
-- Text       : Utterance a text message
-- Image      : Utterance a text message with images
-- Attachment : Reply an attachment 
+- Text       : Send a text message to the user
+- Image      : Send a text message with images
+- Attachment : Append an attachment 
 - Webhook    : Call a webhook 
-- Action     : Call a rasa action code
+- Action     : Run an action Python code
 
 ### Multiple responses
 We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
