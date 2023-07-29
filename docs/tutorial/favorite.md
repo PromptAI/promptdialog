@@ -20,11 +20,12 @@ You can also click `Favorites` -`Flows `on the left pane to check.
 --->
 
 ## Collect favorites 
-Click a bot nodem "can I help you ?" node, and then click Select `Favorite` - `Collect the current node and its subsequent nodes`.
+Click a bot node "can I help you?" node, and then click `Favorite` - `Collect the current node and its subsequent nodes`.
 
 ![01-favorite](/assets/images/tutorial/favorite/01-favorite.png)
 
 At this time, open the `Favorites` to see that the flow has been collected successfully. Click the `Detail` to see the details of the favorite component. 
+
 ![02-favorite](/assets/images/tutorial/favorite/02-favorite.png)
 
 ![03-favorite](/assets/images/tutorial/favorite/03-favorite.png)
@@ -34,7 +35,7 @@ You can also select `Favorites` -`Flows` on the left navigation pane to view.
 ![06-favorite](/assets/images/tutorial/favorite/06-favorite.png)
 
 ## Favorite FAQ
-Click FAQ in the left navigation pane, here we choose to collect the first user question `Where do you come from?`. Click the yellow star, the favorite icon in Operations. 
+Click `FAQ` in the left navigation pane, here we choose to collect the first user question "Where do you come from?" Click `yellow star`, the favorite icon in Operations. 
 
 ![09-favorite](/assets/images/tutorial/favorite/09-favorite.png)
 
