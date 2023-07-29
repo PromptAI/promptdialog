@@ -4,8 +4,6 @@ title: Design Questions
 parent: Common Questions
 nav_order: 2
 ---
-The following is a list of common problem solving methods in our system
-
 <!---
 ### How do I get the URL when I customize the webhook?
 
