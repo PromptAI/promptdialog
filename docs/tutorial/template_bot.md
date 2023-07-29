@@ -7,7 +7,7 @@ nav_order: 17
 When you have many bot response nodes that need to use the same response, it is strongly recommended to use a common response template, which can save you some building time.
 
 ## Create a response template
-As shown in the figure, click **Project View - Responses - Add** to create a response template.
+As shown in the figure, click `Project View` - `Responses` - `Add` to create a response template.
 
 ![11-bot-global](/assets/images/tutorial/template/01-bot-global.png)
 
@@ -16,7 +16,7 @@ As shown in the figure, click **Project View - Responses - Add** to create a res
 
    ![05-user-global](/assets/images/tutorial/template/02-bot-global.png)
 
-2. Select a bot node of the flow graph, click **Edit Node**, and then select **Select from responses**:
+2. Select a bot node of the flow graph, click `Edit Node`, and then select `Select from responses`:
    
    ![12-bot-global](/assets/images/tutorial/template/03-bot-global.png)
    
