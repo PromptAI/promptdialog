@@ -4,30 +4,15 @@ title: Concept of webhook
 parent: Webhook
 nav_order: 1
 ---
-
-## What is a webhook?
-Webhooks are one of a few ways web applications can communicate with each other.
-It allows you to send real-time data from one application to another whenever a given event occurs.
-```
-For example, suppose you create a PromptAI application that tracks when people start business transactions.
-Ideally, you hope that your PromptAI application needs to obtain some additional information about current customers before starting to handle business, so as to better carry out subsequent business processes.
-The function of the webhook is to notify you before someone starts the transaction and send you the real-time data.
-The following is a schematic process:
-Prompt AI                              System B
-Event trigger for business a --data--> received
-Event trigger for business b --data--> received
-Event trigger for business c --data--> received
-...
-```
-[Here is the wikipedia explanation](https://en.wikipedia.org/wiki/Webhook)
-
 ## How to set up webhooks?
 Here is an example of querying weather for your reference.
 ```text
 User: Hi, can you please tell me the weather in New York?
 
 Assistant: Sure! Let me check the current weather conditions for you. Just a moment, please.
+# We will trigger your webhook with parameter "New york".
 
+# We will reply with the response you defined.
 Assistant: The current weather in New York is 82°F (28°C) with mostly sunny conditions. The wind is blowing at a speed of 5 mph (8 km/h), and the humidity is around 60%. Is there anything else you would like to know?
 
 User: Thank you for the forecast! That's helpful.

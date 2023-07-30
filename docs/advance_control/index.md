@@ -1,6 +1,6 @@
 ---
 layout: en
 title: Advanced Control
-nav_order: 99999
+nav_order: 9
 has_children: true
 ---
