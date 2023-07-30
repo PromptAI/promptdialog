@@ -19,6 +19,7 @@ The local running environment can be installed by following steps:
 
 ### How to uninstall the agent
 The agent not in use can be uninstalled through the "Manage Agents" management panel.
+
 ![02-install-questions.png](/assets/images/common_questions/02-install-questions.png)
 
 <!--- 正在使用的Agent不能通过"Manage Agents"管理面板删除，需要在安装机器中执行卸载命令。 当卸载命令执行完成后，"Manage Agents"中的Agent将会被删除。
