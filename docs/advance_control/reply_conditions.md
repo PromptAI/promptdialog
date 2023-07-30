@@ -15,7 +15,7 @@ Depending on the user utterance, there are two possible replies:
   
 ![01-reply-condition.png](/assets/images/tutorial/reply_condition/01-reply-condition.png)
 
-If the user utterance doesn't contain the location inforamtion (At this point we can use `Reply Conditions` to detect), the bot needs to ask the user:
+If the user utterance doesn't contain the location information (At this point we can use `Reply Conditions` to detect), the bot needs to ask the user:
 - Please tell me your city?
 - 
 ![02-reply-condition.png](/assets/images/tutorial/reply_condition/02-reply-condition.png)
