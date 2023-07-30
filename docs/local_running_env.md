@@ -6,6 +6,7 @@ has_children: false
 ---
 # Local Running Environment
 {: .no_toc .header }
+There are two ways to train and run your bot. You could create the local running enviroment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to dynamically run and test your bot.  We prefer this option as it supports additional fetures.  You could also download the generated RASA code and run it in your own RASA environment. 
 
 Initialize the local operating environment. After successfully creating an account, you can start designing your chatbot immediately. If you need to run chatbot, you need to initialize the local operating environment.
 
