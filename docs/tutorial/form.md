@@ -32,7 +32,7 @@ Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 - 其他需要收集一组信息的场场景。
 
 ---
-## Create a dialog flow with order fruit form
+# 如何使用Form？
 接下来将介绍如何创建上面提到的用户预定水果的例子.
 
 ### 创建`Fruit`Dialog flow
