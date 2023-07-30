@@ -17,18 +17,30 @@ The local running environment can be installed by following steps:
 - 一个Agent只能被安装一次，不支持重复安装;
 - 一台机器只能安装一个Agent;
 
-### 删除时提示执行命令？
+### How to uninstall the agent
+The agent not in use can be uninstalled through the "Manage Agents" management panel.
 ![02-install-questions.png](/assets/images/common_questions/02-install-questions.png)
 
-正在使用的Agent不能通过"Manage Agents"管理面板删除，需要在安装机器中执行卸载命令。 当卸载命令执行完成后，"Manage Agents"中的Agent将会被删除。
+<!--- 正在使用的Agent不能通过"Manage Agents"管理面板删除，需要在安装机器中执行卸载命令。 当卸载命令执行完成后，"Manage Agents"中的Agent将会被删除。
+--->
 
-- Note: You need to keep the network unobstructed when executing the command
+The agent in use cannot be deleted through the "Manage Agents" management panel.  The uninstall command needs to be executed on the machine where the agent is installed.  When the uninstallation command is executed, the agent in "Manage Agents" will be deleted.
 
-### How to upgrade?
+- Note: You need to keep the network unobstructed when executing the uninstall command。 
+
+### How to upgrade the agent?
+<!---
 - 登录安装Agent的机器
 - 在shell中执行'~/zbot/install_agent.sh upgrade'
 - 输入`y`确认升级 [升级期间将会导致服务短暂不可使用]
 - 等待升级完成
+--->
+
+- Log in to the machine where the agent is installed
+- Execute '~/zbot/install_agent.sh upgrade' in the shell
+- Enter `y` to confirm the upgrade [the service will be temporarily unavailable during the update]
+- Wait for the upgrade to complete
+
 
 ```shell
 # ~/zbot/install_agent.sh upgrade
@@ -42,13 +54,23 @@ docker.io/promptai/zbot-agent:latest
 xxxxx
 ```
 
-### How to uninstall?
+### How to uninstall the agent locally?
+<!---
 - 登录安装Agent的机器
 - 在shell中执行'promptai uninstall'
 - 输入`y`确认卸载
 - 等待卸载完成
 
 注意：此过程需要保持网络通畅，否则将导致无法成功卸载.
+--->
+
+- Log in to the machine where the agent is installed
+- Execute 'promptai uninstall' in the shell
+- Enter `y` to confirm uninstallation
+- Wait for the uninstall to complete
+
+Note: This process needs to keep the network unobstructed, otherwise it will lead to failure.
+
 ```shell
 # ~/zbot/install_agent.sh uninstall
 start uninstall PromptAI Agent...
