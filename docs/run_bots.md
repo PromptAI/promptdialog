@@ -131,6 +131,7 @@ After the installation is successful, enter the "Manage Agents" page to see the 
 ![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)
 
 Enjoy
+
 ___
 
 # Run in Rasa
@@ -140,17 +141,17 @@ When developers need to debug and verify the designed flows, they can use the `D
 ## 云版本与Run In Rasa 区别
 | 功能                      | Prompt Dialog | Run In Rasa |
 |---------------------------|--------------|-------------|
-| Debug chatbot             |         ✅   |       ❌    |
-| Release                   |         ✅   |       ❌    |
-| Condition reply           |         ✅   |       ❌    |
 | Attachment bot reply      |         ✅   |       ❌    |
-| Image bot reply           |         ✅   |       ❌    |
+| Chat history              |         ✅   |       ❌    |
+| Condition reply           |         ✅   |       ❌    |
+| Dashboard                 |         ✅   |       ❌    |        
+| Debug chatbot             |         ✅   |       ❌    |
 | FAQ:First message to user |         ✅   |       ❌    |
 | FAQ:Last message to user  |         ✅   |       ❌    |
 | FAQ:Multi bot replies     |         ✅   |       ❌    |
+| Image bot reply           |         ✅   |       ❌    |
+| Release                   |         ✅   |       ❌    |
 | User Feedback             |         ✅   |       ❌    |
-| Chat history              |         ✅   |       ❌    |
-| Dashboard                 |         ✅   |       ❌    |        
 
 ## Rasa file download
 
