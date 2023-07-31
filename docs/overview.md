@@ -21,17 +21,17 @@ There are two ways to train and run your bot.  If you have your own RASA environ
 ## Step 1 - Create a dialog flow
 Create your first dialog flow.
 
-![02-overview.png](/assets/images/overview/02-overview.png)
+![overview_create_dialog_flow.jpg](/assets/images/overview/overview_create_dialog_flow.jpg)
 
 ## Step 2 - Create the local environment
 You can build a local running environment with one line of command. For details, please check [local running environement](/docs/local_running_env) and check [install question](/docs/common_questions/install_questions) if you have any question. 
 
-![03-overview.png](/assets/images/overview/03-overview.png)
+![overview_create_agent.jpg](/assets/images/overview/overview_create_agent.jpg)
 
 ## Step 3 - Download RASA code
 All dialog flows and faqs can be downloaded as generated RASA code for free to build your chatbot in a RASA environment (RASA 3.2).
 
-![04-overview.png](/assets/images/overview/04-overview.png)
+![overview_download_rasa_file.jpg](/assets/images/overview/overview_download_rasa_file.jpg)
 
 ## Step 4 - Train
 After downloading the code, you can train your model in your local running environment.  
