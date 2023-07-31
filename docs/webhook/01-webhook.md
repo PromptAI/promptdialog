@@ -4,58 +4,49 @@ title: Concept of webhook
 parent: Webhook
 nav_order: 1
 ---
-## How to set up webhooks?
 Here is an example of querying weather for your reference.
 ```text
 User: Hi, can you please tell me the weather in New York?
+Bot: Sure! Let me check the current weather conditions for you. Just a moment, please.
+# It needs to trigger a webhook that communicates with a third party weather server to query the weather in "New york."
 
-Assistant: Sure! Let me check the current weather conditions for you. Just a moment, please.
-# We will trigger your webhook with parameter "New york".
-
-# We will reply with the response you defined.
-Assistant: The current weather in New York is 82°F (28°C) with mostly sunny conditions. The wind is blowing at a speed of 5 mph (8 km/h), and the humidity is around 60%. Is there anything else you would like to know?
-
+# Once the query result recieved, it can be packaged in a response and sent to the user.
+Bot: The current weather in New York is 82°F (28°C) with mostly sunny conditions. The wind is blowing at a speed of 5 mph (8 km/h), and the humidity is around 60%. Is there anything else you would like to know?
 User: Thank you for the forecast! That's helpful.
-
-Assistant: You're welcome! I'm glad I could assist you. If you have any more questions or need further information, feel free to ask.
 ```
-### Setup 1. 
-Create a flow for weather queries
-![5-webhook](/assets/images/tutorial/webhook_1e1.jpg)
+---
+There are two steps to call a webhook. 
 
-### Steup 2.
-Create a Webhook to call the weather API
+### Step 1.
+Click `Project View` - `Webhooks`. Click `+ Add` on the upper right corner.  Create a webhook to call the weather API (more details later). 
+
 ![6-webhook](/assets/images/tutorial/webhook_1e2.jpg)
 
-The following is the setting instructions in step 2.
+### Step 2. 
+Create a flow for querying weather and select a webhook in a bot reply node. 
+
+![5-webhook](/assets/images/tutorial/webhook_1e1.jpg)
+
+The following is the detailed setting instruction for Step 1.
 ### Basic Settings
-1. name
-   <br/>When creating a new webhook, we can give each one a name related to the webhook function, which is easy to distinguish when referring to a flow
-2. URL
-   <br/>The url here has the same meaning as the http url mentioned above, which can be understood with reference to the above. Please pay attention to the 'http/https' protocol when filling in here.
-   In addition, the URL address also supports variable transmission. When calling the hit webhook, the corresponding variable placeholder will be replaced with the variable value.
-   As shown in the figure, if we define a variable `city` in the flow diagram, we need to use `{city}` to transfer when configuring here   
+- name : The name to refer the new webhook.
+- URL : The url here has the same meaning as http url. Please pay attention to the 'http/https' protocol when filling in here. It is the access link that the third party service provides to you.  In addition, the URL address also supports the transmission of variable value. When calling the webhook, the corresponding variable placeholder will be replaced with its corresponding value.  As shown in the figure, if we define a slot `city` in the flow diagram, we can use `{city}` to send the value to the third party service provider. 
    ```
    app.promptai.us/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&city={city}
    ```
-
----
-   
+  
 ### Request Settings
-- Request Method
-   <br/>The request method represents the http request method, which currently supports: 
+- Request Method: Represents the http request method, which upports the following. 
    * get
    * post
    * put
    * delete
 
-- Request Header
-   <br/>The request header represents the http request header, which can be added here when the external interface needs a specific request header
+- Request Header: Represents the http request header, which can be added here when the external interface needs a specific request header.
    * No header     : nothing
    * Custom header : key-value pairs
 
-- Request Body
-   <br/>Four formats support in request body
+- Request Body: Supports four formats. 
 
 | Type | Content-Type                      | Format            | Comment                      |
 |------|-----------------------------------|-------------------|:-----------------------------|
@@ -65,28 +56,18 @@ The following is the setting instructions in step 2.
 | Text | text/plain                        | text string       |                              |
 
 
- * Notice: Same with Url, we also support use slot value in request body like '{city}'
+ * Notice: Same as URL, we also support the use of slot value in the request body, e.g., '{city}'.
 
----
-
-### Response Settings - Handle Response 
-Handle the result of the request here
-
----
-
-- If the request is successful
+### Response Settings
+These settings handle the result received from the third party service and package it as a response to the user.  If the result does arrive, we could take one of the following actions. 
 
 | Name                    |  processing                                                          | Response Data Requirement |
 |-------------------------|----------------------------------------------------------------------|---------------------------|
-| Ignore Response         | Ignore the returned result and output nothing                        | -                         |
-| Sample Display          | Ignore the returned result and output the content of the setting     | -                         |
-| Direct Display          | Display the returned results directly                                | -                         |
-| Custom Display          | Extract fields from the response through jsonpath, and dynamically display the extracted values   | json         |
+| No Response             | Ignore the returned result and output nothing                        | -                         |
+| Original Response       | Display the returned results directly                                | -                         |
+| Customized Response     | Extract fields from the result through JsonPath, and package them in a customized response   | json         |
 
-
-Example
-
-If there has a weather api, response with:
+Take the weather query as an example.  Suppose there is a weather service that responds with:
 ```json
 {
   "temperature": "82°F (28°C)",
@@ -96,18 +77,18 @@ If there has a weather api, response with:
 }
 ```
 
-Now we will show you four handle results:
+Now we can show you the four types of outputs: 
 ```text
-// - Ignore Response 【Bot will not reply any message】
-User: Hi, can you please tell me the weather in New York?
-
 // - Ignore the status code  【Bot will reply what you set】
-// for some reason, the weather service not available. we set text:
+//  for some reason, the weather service does not respond, we set text:
 // "The service is unavailable, please try again later" at "Returning message if the call is completed successfully"】
 User: Hi, can you please tell me the weather in New York?
 Bot : The service is unavailable, please try again later
 
-//  - Original response 【Bot will reply what the api return】
+// - Ignore Response 【Bot will not reply any message】
+User: Hi, can you please tell me the weather in New York?
+
+//  - Original response 【Bot will reply whatever the api return】
 User: Hi, can you please tell me the weather in New York?
 Bot : {"temperature":"82°F (28°C)","conditions":"Mostly sunny","wind":"5 mph (8 km/h)","humidity":"60%"}
 
