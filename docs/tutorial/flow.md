@@ -8,17 +8,17 @@ nav_order: 4
 ## Create a dialog flow
 Click `Flows` in the left navigation pane to add a dialog new flow.  Enter the flow name and description in the pop-up dialog box.
 
-![01-create-flow](/assets/images/tutorial/flow/01-flow.png)
+![flow_create.jpg](/assets/images/tutorial/flow_create.jpg)
 
 ## Add a user utterance node
 After creating a new dialog flow, it will display the flow window. Click the root node of the flow and here we click `Add User Node`.
 
-![02-create-flow-node](/assets/images/tutorial/flow/02-flow.png)
+![flow_add_user_node.jpg](/assets/images/tutorial/flow_add_user_node.jpg)
 
 ## Edit a user utterance node
 Click the user utterance; the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
 
-![03-edit-flow-node](/assets/images/tutorial/flow/03-flow.png)
+![flow_edit_user_node.jpg](/assets/images/tutorial/flow_edit_user_node.jpg)
 
 The followings are a few options you can make for user utterance. 
 
@@ -34,7 +34,7 @@ The followings are a few options you can make for user utterance.
 ## Add a bot response node
 Continue to the user utterance node and select `Add Bot Node` from the pop-up menu. 
 
-![04-edit-flow-bot](/assets/images/tutorial/flow/04-flow.png)
+![flow_edit_bot_node.jpg](/assets/images/tutorial/flow_edit_bot_node.jpg)
 
 The followings are a few options you can make for bot reply. 
 
@@ -61,11 +61,11 @@ We can add multiple lines of texts to the bot response node or add another bot r
 
 - The bot response node adds multiple text responses, as shown in the figure.
   
-  ![08-create-multi-bot-replay](/assets/images/tutorial/flow/05-flow.png)
+  ![flow_edit_bot_node_mutilp.jpg](/assets/images/tutorial/flow_edit_bot_node_mutilp.jpg)
 
 - The implementation method of adding another bot response node after the current one is shown in the figure.
   
-  ![09-create-multi-bot-replay](/assets/images/tutorial/flow/06-flow.png)
+  ![flow_edit_bot_node_mutilp2.jpg](/assets/images/tutorial/flow_edit_bot_node_mutilp2.jpg)
 
 <!--
 When the machine replies to multiple content, you need to adjust the reply order of each content. You can refer to the following methods
@@ -77,18 +77,9 @@ The dialogue effect pictures of the two methods are as follows:
 ![10-create-multi-bot-replay](/assets/images/tutorial/flow/08-flow.png)
 -->
 
-### Add an attachment to the bot response
-Open the editing interface of the bot response node as shown in the figure, click `Attachment`, and upload the attachment, promptai.png.
-
-![30-bot-extras](/assets/images/tutorial/flow/09-flow.png)
-
-After uploading: 
-
-![31-bot-extras](/assets/images/tutorial/flow/10-flow.png)
-
 The dialogue effect is shown below where the file will be displayed in conversation. You can directly click the file name to download it:
 
-![32-bot-extras](/assets/images/tutorial/flow/11-flow.png)
+![flow_dialog_result.jpg](/assets/images/tutorial/flow_dialog_result.jpg)
 
 ## Done
 
