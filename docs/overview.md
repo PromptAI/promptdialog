@@ -52,3 +52,9 @@ Once you are satisfied with the result, it is ready to release.  We provide mult
 * web application
 
 ![chat-release-03](/assets/images/release/chat-release-03.jpg)
+
+* Chat History & Dashboard
+
+![overview_chat_history.png](/assets/images/overview/overview_chat_history.png)
+
+![overview_dashboard.png](/assets/images/overview/overview_dashboard.png)
