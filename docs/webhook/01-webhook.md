@@ -59,13 +59,17 @@ The following is the detailed setting instruction for Step 1.
  * Notice: Same as URL, we also support the use of slot value in the request body, e.g., '{city}'.
 
 ### Response Settings
-These settings handle the result received from the third party service and package it as a response to the user.  If the result does arrive, we could take one of the following actions. 
+These settings handle the result received from the third party API call and package it as a response to the user.  If the result does arrive, we could take one of the following actions. 
 
 | Name                    |  processing                                                          | Response Data Requirement |
 |-------------------------|----------------------------------------------------------------------|---------------------------|
 | No Response             | Ignore the returned result and output nothing                        | -                         |
 | Original Response       | Display the returned results directly                                | -                         |
 | Customized Response     | Extract fields from the result through JsonPath, and package them in a customized response   | json         |
+
+Due to many factors, sometimes the API call fails.  We need to send a hint to the user when the webhook request fails. Note that this situation is different from an empty result returned by the API call.  Set a short message at `Returning message if the call fails or does not receive any result`.
+
+![webhook6.png](/assets/images/tutorial/webhook/webhook6.png)
 
 Take the weather query as an example.  Suppose there is a weather service that responds with:
 ```json
@@ -76,8 +80,7 @@ Take the weather query as an example.  Suppose there is a weather service that r
   "humidity": "60%"
 }
 ```
-
-Now we can show you the four types of outputs: 
+There are four types of responses we can generate: 
 ```text
 // - Ignore the status code  【Bot will reply what you set】
 //  for some reason, the weather service does not respond, we set text:
@@ -102,8 +105,9 @@ Bot : Sure! I can provide you with the weather information for New York.
       Here is the current weather forecast for New York: temperature:82°F (28°C) 、wind:5 mph (8 km/h) 、conditions:Mostly sunny and humidity:60%
 ```
 
-### Insert returned value to slots in Rasa
-Extract `city` and `temperature` from the reponse
+### Insert value to slots in Rasa
+The above process needs a step to extract values from the API call and fill them in slots.  Suppose we have the following result sent by the weather service API. 
+
 ```json
 {
   "temperature": "82°F (28°C)",
@@ -113,28 +117,25 @@ Extract `city` and `temperature` from the reponse
   "city": "New York"
 }
 ```
+We shall do the following JsonPath refernece and map the value to the slots in Rasa. 
 
+![52-webhook](/assets/images/tutorial/webhook/webhook3.png)
+
+
+<!---
 1、Choose 'Custom Display'
 
 ![52-webhook](/assets/images/tutorial/webhook/webhook2.png)
 
-2、Extract value 
 
-![52-webhook](/assets/images/tutorial/webhook/webhook3.png)
 
 Chat
 ```text
 User: Hi, can you please tell me the weather in New York?
 Bot : The current temperature in New York is 82°F (28°C)
 ```
----
-- If the request is failed
 
-Due to network and service factors, we need to give users some hints when the webhook request fails.
-
-Set a shor message at "Returning message if the call fails or does not receive any result"
-
-![webhook6.png](/assets/images/tutorial/webhook/webhook6.png)
+--->
 
 ---
 
