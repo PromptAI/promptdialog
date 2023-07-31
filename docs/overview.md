@@ -27,8 +27,9 @@ Create your first dialog flow.
 You can build a local running environment with one line of command. For details, please check [local running environement](/docs/local_running_env) and check [install question](/docs/common_questions/install_questions) if you have any question. 
 
 ![overview_create_agent.jpg](/assets/images/overview/overview_create_agent.jpg)
-<!--
 
+<!-- 
+```text
 ## Step 3 - Download RASA code
 All dialog flows and faqs can be downloaded as generated RASA code for free to build your chatbot in a RASA environment (RASA 3.2).
 
@@ -36,8 +37,10 @@ All dialog flows and faqs can be downloaded as generated RASA code for free to b
 
 ## Step 4 - Train
 After downloading the code, you can train your model in your local running environment.  
-
+```
 -->
+
+
 ![05-overview.png](/assets/images/overview/05-overview.png)
 
 ## Step 3 - Debug and Release
