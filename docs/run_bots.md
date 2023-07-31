@@ -6,7 +6,7 @@ has_children: false
 ---
 {: .no_toc .header }
 
-After successfully creating an account, you can start designing your chatbot immediately. There are two ways to train and test your design. You could create the local running environment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to run and test your bot.  This is a preferred option as it supports many new features that RASA does not have.  You could also download the generated RASA code and run it in your own RASA environment.  If you prefer a complete cloud solution, designing/training/running the bot all on cloud, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
+After successfully creating an account, you can start designing your chatbot immediately. There are two ways to train and test your design. You could create the local running environment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to run and test your bot.  This is a preferred option as it supports many new features that RASA does not have.  You could also download the generated RASA code and run it in your own RASA environment.  If you prefer a complete cloud solution that design, train, and run the bot all on cloud, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
 
 
 ## Local Running Environment (LRE)
@@ -14,25 +14,26 @@ The local running environment uses a docker implementation that packages RASA 3.
 
 ![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
+### Create the first Agent
+The local machine shall meet the minimum system requirements:
 
-## Create first Agent
-After logging in to the system, you will see a prompt above the system before creating the first Agent: "You need install your own Agent to access all functions."
-After clicking, you will see the following content.
-
-![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
-
-- Why install an Agent?
-- How to install an Agent?
-
-Before installation, you need to check whether your environment meets the installation requirements:
-### System Requirements
 ```text
 OS         :Linux/Mac OS
 RAM        :At least 8GB
 GPU        :CUDA 11.7 or newer(Optional)
-Disk       :Space: At least 20GB available
+Disk       :Space: At least 32GB available
 Docker Env :20.10.6 or newer
 ```
+
+[Please describe how to install docker]
+
+Click `Manage Agents` on the upper right corner.  It will pop up a window where you can add your agent.  Click `+Agent` and then `install agent`.  You  will see the following content.
+
+After logging in to the system, you will see a prompt above the system before creating the first Agent: "You need install your own Agent to access all functions." [what does it mean]
+ 
+
+![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
+
 
 - 在安装过程和使用过程中需确保可访问到Prompt Dialog服务。
 - Allow access: https://app.promptai.us at port: 443
@@ -46,9 +47,12 @@ curl -o install_agent.sh 'https://app.promptai.us/rpc/install/install_agent.sh?k
 After the installation is successful, enter the "Manage Agents" page to see the installed Agent
 ![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)
 
-Enjoy
+Then you are done, now you can use all the features in PromptDialog Cloud, debugging/running your bots. 
 
-## 工作内容
+Enjoy!
+
+### More on agents
+The following section introduces more details of agents. You need not to read this part to run chatbots in PromptDialog successfully. 
 
 - 接收训练/部署任务
 - 上传任务执行步骤、结果
