@@ -14,8 +14,7 @@ The local running environment can be installed by following steps:
 ![01-install-questions.png](/assets/images/common_questions/01-install-questions.png)
 
 ### Can it be installed on different machines?
-- 一个Agent只能被安装一次，不支持重复安装;
-- 一台机器只能安装一个Agent;
+An agent can only be installed on one computer. If you have multiple computers, you will need to create a corresponding number of agents and install them separately on each computer.
 
 ### How to uninstall the agent
 The agent not in use can be uninstalled through the "Manage Agents" management panel.
