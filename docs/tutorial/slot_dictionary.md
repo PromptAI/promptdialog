@@ -7,7 +7,7 @@ nav_order: 18
 When we are doing entity recognition to fill slots, sometimes the name of entities can be predefined. In this case, a dictionary can facilitate entity recognition. 
 
 ## Add a dictionary
-Here we add a dictionary to the slot **State Name**. The dictionary of US states can be described as follows:
+Here we add a dictionary to the slot `State Name`. The dictionary of US states can be described as follows:
 
 ```text
 Alabama
@@ -22,7 +22,7 @@ Florida
 Georgia
 ...
 ```
-Click the `Upload` button behind the **State Name**, and upload the dictionary.
+Click the `Upload` button behind the `State Name`, and upload the dictionary.
 
 ![dict-01](/assets/images/tutorial/dict/dict-01.png)
 
@@ -37,7 +37,7 @@ Suppose we create a dialog flow diagram ''where are you from?''.
    
    ![dict-04](/assets/images/tutorial/dict/dict-04.png)
    
-   **Note**: In order to improve the recognition accuracy of a dictionary, at least two examples need to be marked here.
+   `Note`: In order to improve the recognition accuracy of a dictionary, at least two examples need to be marked here.
 2. When the state name is mentioned by the user and extracted successfully, the bot can reply as follows:
    
    ![dict-05](/assets/images/tutorial/dict/dict-05.png)

@@ -8,6 +8,6 @@ Click a node and select 'Copy' from the pop-up box. You can also use the shortcu
 
 ![01-copy](/assets/images/tutorial/copy/01-copy.png)
 
-Select the 'got it' node from the Paste Board and drag it to the node to be linked. When the **+** icon appears, release it.
+Select the 'got it' node from the Paste Board and drag it to the node to be linked. When the `+` icon appears, release it.
 
 ![02-copy](/assets/images/tutorial/copy/02-copy.png)

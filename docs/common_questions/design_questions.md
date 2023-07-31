@@ -60,7 +60,7 @@ You can use control c to quickly copy nodes to the pasteboard, and control z to 
 
 ### The node has errors and cannot be saved
 
-If there is an error in a node, click **Save** when editing the node, and an error message will appear. If you want to use a node first, you can click **Close**
+If there is an error in a node, click `Save` when editing the node, and an error message will appear. If you want to use a node first, you can click `Close`
 --->
 
 ### Can I debug modules in parallel?

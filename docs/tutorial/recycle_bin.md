@@ -15,7 +15,7 @@ When a designer deletes one component in dialog flows, the system will move it t
 - Goto
 
 ## Insert a component 
-* Select `What can i do for you today?` bot node in the recycle bin and drag it to the node to be linked. When the **+** icon appears, release it.
+* Select `What can i do for you today?` bot node in the recycle bin and drag it to the node to be linked. When the `+` icon appears, release it.
   <br/>The node will be inserted behind the node you dragged to.
   
   ![01-trash](/assets/images/tutorial/recycle_bin/01-trash.png)
@@ -32,7 +32,7 @@ When a designer deletes one component in dialog flows, the system will move it t
   ![03-trash](/assets/images/tutorial/trash/03-trash.png)
 * Add new bot input node
   ![04-trash](/assets/images/tutorial/trash/04-trash.png)
-* Select the `What can i do for you today?` bot node in the trash and drag it to the bot node just created. When the **+** icon appears, release it
+* Select the `What can i do for you today?` bot node in the trash and drag it to the bot node just created. When the `+` icon appears, release it
   ![05-trash](/assets/images/tutorial/trash/05-trash.png)
 * Finish
 
@@ -46,7 +46,7 @@ When a designer deletes one component in dialog flows, the system will move it t
 * Delete user input node`Nice to meet you too`
   ![08-trash](/assets/images/tutorial/trash/08-trash.png)
 
-* Select the `What can i do for you today?` bot reply node in the trash and drag it to the bot reply node `What is your name?`, Release the **+** icon when it appears
+* Select the `What can i do for you today?` bot reply node in the trash and drag it to the bot reply node `What is your name?`, Release the `+` icon when it appears
   ![09-trash](/assets/images/tutorial/trash/09-trash.png)
 
 --->

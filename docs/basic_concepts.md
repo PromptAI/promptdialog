@@ -5,9 +5,9 @@ nav_order: 7
 ---
 ## Intent
 
-**User**:  I want to book a ticket to Boston on July 4th. 
+`User`:  I want to book a ticket to Boston on July 4th. 
 
-**Intent**: Booking Ticket.  
+`Intent`: Booking Ticket.  
 
 There are various ways to express a user’s intent to book a ticket from one place to another.  They can be classified as intent declared by a designer as “Booking Ticket.”  In order to help RASA or LLMs to understand “Booking Ticket,” it was suggested to give a few examples.  Certainly the more (diverse), the better. 
 Intent Example: 
@@ -72,6 +72,6 @@ In addition to FAQs, PromptAI can turn enterprise documents of various forms inc
 
 ## Form
 Form is used to collect multiple pieces of information like ticket booking, hotel reservation, order query, etc.  In PromptDialog, only a few configurations are needed to complete the design of a form, which was once quite complex: 
-* **Slots**:  The slot list declares several slots that the form needs to collect, how the bot asks about these slots’ value, and how to fill slots from the user reply. The bot will ask the user in sequence until all slots are filled. 
-* **Interrupts**: Users may not answer in the way we expect. If the user says “I don’t want to continue ”, the form filling will exit.
-* **Confirm**: When all the slots are filled out, the form will ask for a confirmation and then complete.  
+* `Slots`  The slot list declares several slots that the form needs to collect, how the bot asks about these slots’ value, and how to fill slots from the user reply. The bot will ask the user in sequence until all slots are filled. 
+* `Interrupts` Users may not answer in the way we expect. If the user says “I don’t want to continue ”, the form filling will exit.
+* `Confirm` When all the slots are filled out, the form will ask for a confirmation and then complete.  

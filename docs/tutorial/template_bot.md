@@ -23,5 +23,5 @@ As shown in the figure, click `Project View` - `Responses` - `Add` to create a r
 
 <!---
  4. Training and verification results
-   Click **Debug Run - Current Module** in the upper right corner to wait for the training to complete the verification effect
+   Click `Debug Run - Current Module` in the upper right corner to wait for the training to complete the verification effect
 --->
