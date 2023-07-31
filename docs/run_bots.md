@@ -215,9 +215,8 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
 2. Train models.
 
    ```shell
-   # training
-   rasa train
-   
+    rasa train
+ 
    # Start actions if necessary
    rasa run actions
    
