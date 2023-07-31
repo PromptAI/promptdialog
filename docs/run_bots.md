@@ -34,22 +34,20 @@ After logging in to the system, you will see a prompt above the system before cr
 
 ![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
 
+During installation and the following use, please make sure the local machine has network access to the Prompt Dialog service.
 
-- 在安装过程和使用过程中需确保可访问到Prompt Dialog服务。
-- Allow access: https://app.promptai.us at port: 443
+- Allow network access to https://app.promptai.us at port: 443
 
-When everything is ready, you can execute different installation commands according to the corresponding operating system type:
+Please execute the installation command shown in the pop-up window according to the operating system of your local machine:
 ```shell
 curl -o install_agent.sh 'https://app.promptai.us/rpc/install/install_agent.sh?key=your_config' && chmod +x install_agent.sh && ./install_agent.sh install
 ```
-`The installation is often related to your network environment and equipment, please be patient. If you need help, please contact us`
+Note: The installation is often related to the network and firewall set up, please be patient. If you need help, please contact us at [info@promptai.us](info@promptai.us).`
 
 After the installation is successful, enter the "Manage Agents" page to see the installed Agent
 ![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)
 
-Then you are done, now you can use all the features in PromptDialog Cloud, debugging/running your bots. 
-
-Enjoy!
+All set! Enjoy all the features in PromptDialog Cloud!
 
 ### More on agents
 The following section introduces more details of agents. You need not to read this part to run chatbots in PromptDialog successfully. 
