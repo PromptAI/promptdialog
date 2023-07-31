@@ -6,19 +6,49 @@ has_children: false
 ---
 {: .no_toc .header }
 
-# Local Running Environment
+After successfully creating an account, you can start designing your chatbot immediately. There are two ways to train and test your design. You could create the local running environment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to run and test your bot.  This is a preferred option as it supports many new features that RASA does not have.  You could also download the generated RASA code and run it in your own RASA environment.  If you prefer a complete cloud solution, designing/training/running the bot all on cloud, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
 
-There are two ways to train and run your bot. You could create the local running environment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to dynamically run and test your bot.  We prefer this option as it supports additional features.  You could also download the generated RASA code and run it in your own RASA environment.
 
-Initialize the local operating environment. After successfully creating an account, you can start designing your chatbot immediately. If you need to run chatbot, you need to initialize the local operating environment.
-
-## What is Agent？
-In PromptAI, Agent builds a "communication bridge" between the cloud and the user environment, assisting the cloud in managing models, data, and conversations.
-
+## Local Running Environment (LRE)
+The local running environment uses a docker implementation that packages RASA 3.2.0 and an agent that communicates between PromptDialog Cloud and the local RASA environment.   PromptDialog Cloud manages all aspects of your designs and the local RASA environment is in charge of training the model. 
 
 ![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
-### 工作内容
+
+## Create first Agent
+After logging in to the system, you will see a prompt above the system before creating the first Agent: "You need install your own Agent to access all functions."
+After clicking, you will see the following content.
+
+![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
+
+- Why install an Agent?
+- How to install an Agent?
+
+Before installation, you need to check whether your environment meets the installation requirements:
+### System Requirements
+```text
+OS         :Linux/Mac OS
+RAM        :At least 8GB
+GPU        :CUDA 11.7 or newer(Optional)
+Disk       :Space: At least 20GB available
+Docker Env :20.10.6 or newer
+```
+
+- 在安装过程和使用过程中需确保可访问到Prompt Dialog服务。
+- Allow access: https://app.promptai.us at port: 443
+
+When everything is ready, you can execute different installation commands according to the corresponding operating system type:
+```shell
+curl -o install_agent.sh 'https://app.promptai.us/rpc/install/install_agent.sh?key=your_config' && chmod +x install_agent.sh && ./install_agent.sh install
+```
+`The installation is often related to your network environment and equipment, please be patient. If you need help, please contact us`
+
+After the installation is successful, enter the "Manage Agents" page to see the installed Agent
+![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)
+
+Enjoy
+
+## 工作内容
 
 - 接收训练/部署任务
 - 上传任务执行步骤、结果
@@ -99,48 +129,14 @@ Agent 运行依赖Docker环境，包括两个Image和多个Containers
 | Agent | zbot_agent   | Agent服务，管理AI模型 ，有且仅有一个                             |
 
 
-## Create first Agent
-After logging in to the system, you will see a prompt above the system before creating the first Agent: "You need install your own Agent to access all functions."
-After clicking, you will see the following content.
+## Run in Rasa
 
-![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
+When developers need to debug and verify the designed flows, they can also use the `Download Rasa File` function to download the generated RASA code in their own RASA set up.  However, a few useful features from PromptDialog Cloud will be missing.  
 
-- Why install an Agent?
-- How to install an Agent?
+### Features only available in PromptDialog Cloud
 
-Before installation, you need to check whether your environment meets the installation requirements:
-### System Requirements
-```text
-OS         :Linux/Mac OS
-RAM        :At least 8GB
-GPU        :CUDA 11.7 or newer(Optional)
-Disk       :Space: At least 20GB available
-Docker Env :20.10.6 or newer
-```
-
-- 在安装过程和使用过程中需确保可访问到Prompt Dialog服务。
-- Allow access: https://app.promptai.us at port: 443
-
-When everything is ready, you can execute different installation commands according to the corresponding operating system type:
-```shell
-curl -o install_agent.sh 'https://app.promptai.us/rpc/install/install_agent.sh?key=your_config' && chmod +x install_agent.sh && ./install_agent.sh install
-```
-`The installation is often related to your network environment and equipment, please be patient. If you need help, please contact us`
-
-After the installation is successful, enter the "Manage Agents" page to see the installed Agent
-![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)
-
-Enjoy
-
-___
-
-# Run in Rasa
-
-When developers need to debug and verify the designed flows, they can use the `Download Rasa File` function to download the generated RASA code in their local running environment and test the bot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
-
-## 云版本与Run In Rasa 区别
-
-| 功能                      | Prompt Dialog | Run In Rasa |
+<!---
+| Features                  | Prompt Dialog | Run In Rasa |
 |---------------------------|--------------|-------------|
 | Attachment bot reply      |         ✅   |       ❌    |
 | Chat history              |         ✅   |       ❌    |
@@ -154,22 +150,34 @@ When developers need to debug and verify the designed flows, they can use the `D
 | Release                   |         ✅   |       ❌    |
 | User Feedback             |         ✅   |       ❌    |
 
-## Rasa file download
+--->
+
+| Features                  | Prompt Dialog | Run In Rasa |
+|---------------------------|--------------|-------------|
+| Chat history              |         ✅   |       ❌    |
+| Dashboard                 |         ✅   |       ❌    |        
+| Debug chatbot             |         ✅   |       ❌    |
+| Multimodal response       |         ✅   |       ❌    |
+| Release                   |         ✅   |       ❌    |
+| User feedback             |         ✅   |       ❌    |
+
+### Rasa file download
 
 Click `Download RASA File` on the top right corner.  The download box will pop up with the following options:
 
-* Current download, download the current dialog flow
-* Combined download, free check multiple dialog flows under the current project
-* Download all, check all dialog flow diagrams under the current project
+* Download current module, download the current dialog flow,
+* Download selected modules, select a collection of multiple dialog flows under the current project,
+* Download all, check all dialog flow diagrams under the current project.
 
 ![download-rasa](/assets/images/dev_guide/download-rasa.png)
 
-- When the current project has a flow diagram containing error nodes, it will be classified into `Unavailable Modules` in the pop-up box. Click the mouse on the flow diagram to see the number of error messages. The link behind the point flow diagram can quickly jump to the corresponding flow diagram for modification.
+- When the current project has a flow diagram containing error nodes, it will be classified into `Unavailable Modules` in the pop-up box.  Move the mouse over the module to see the number of error messages. The link next to the module name can lead to the corresponding flow diagram for modification.
+  
   ![download-rasa-1.png](/assets/images/dev_guide/download-rasa-1.png)
 
-<br/>Note: welcome message, Fallback, branch prompt, jump to the node, and question prompt again (FAQ) takes effect only with the support of the system
+<br/>Note: welcome message, Fallback, branch prompt, jump to the node, and question prompt again (FAQ) takes effect only with the support of the system. [what does it mean]
 
-## Rasa environmental preparation
+### Rasa environmental preparation
 
 Local installation requires your local python version 3.8 or above (3.8.10 is recommended), and the following dependent packages need to be installed through pip
 
@@ -185,15 +193,13 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
 ![rasa-env](/assets/images/dev_guide/download-rasa-env.png)
 ![rasa-env-1](/assets/images/dev_guide/download-rasa-env-1.png)
 
-## RASA file debugging verification
+### Run Rasa
 
-Login to your account and download any flow/faq rasa file
-
-1. Unzip the downloaded Project file and enter the dir:
+1. Unzip the downloaded Rasa file in your Rasa environment:
 
 ![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.jpg)
 
-2. Training debugging
+2. Train 
 
    ```shell
    # training
@@ -202,17 +208,16 @@ Login to your account and download any flow/faq rasa file
    # Start actions if necessary
    rasa run actions
    
-   # Open another command line window for Debug Dialog
+   # Open another command window for run the bot 
    rasa shell
    ```
 
-   Note:If there are installation problems, please contact us in time. For contact information, please refer to "Get Help" below`
-
-3. Validation results
-   Perform debugging verification as shown in the figure
+3. Verify
+   Observe the output of the bot and verify, as shown in the figure.
+   
    ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
 
-<br/>Note:
-
+<!---
 1、The current version does not support built-in variables
+-->
 
