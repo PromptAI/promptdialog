@@ -49,26 +49,34 @@ After the installation is successful, enter the "Manage Agents" page to see the 
 
 All set! Enjoy all the features in PromptDialog Cloud!
 
-### More on agents
-The following section introduces more details of agents. You need not to read this part to run chatbots in PromptDialog successfully. 
+## What does an agent do?
+The following section introduces the details of agents. You need not to read this part to run chatbots in PromptDialog successfully. 
 
+<!---
 - 接收训练/部署任务
 - 上传任务执行步骤、结果
 - 上传训练好的模型，便于负载均衡时不用重复训练
 - 接收和响应对话请求
 - 创建、停止和升级AI容器
+--->
 
-### 目录
-Agent所有操作只会在该目录下进行:
+- Receive training tasks
+- Train Rasa models
+- Start, run, and stop bots
+- Receive and respond to conversation requests
+- Bookkeep trained models so that there is no need to repeat training
 
-| 系统           | 目录             |
-|---------------|-----------------|
-| Linux / MacOS | $HOME/zbot     |
+Agents will only create and operate in the following directory of your machine. 
 
+- OS:  Linux / MacOS
+- location: $HOME/zbot
+
+Please do not modify any file in the above drectory. 
+
+<!--
 - 数据与系统运行有关，请勿操作。否则可能导致系统无法正常工作。
 - 数据、目录结构可能会变化，同时里面的数据可能会被服务端使用。
 
-<!--
 Example:
 
 ```shell
@@ -104,31 +112,34 @@ Example:
 ```
 -->
 
-### 文件
-- 如果需要下载Rasa代码 [Click here](/docs/run_bots/)
+After the agent is successfully installed, the `install_agent.sh` script will be created in the `$HOME/zbot` directory to upgrade and uninstall the Agent.
 
-1、Agent控制脚本
-安装agent成功后，会在`$HOME/zbot`目录创建`install_agent.sh`脚本，用于升级、卸载Agent。
 ```shell
 $HOME/zbot/install_agent.sh
 ```
 
-2、Docker
+The agent implementation is done by Docker, including two images and multiple containers.
 
-Agent 运行依赖Docker环境，包括两个Image和多个Containers
 - Docker Images
 
-| 名称   | Image                        | 说明                            |
-|:------|:-----------------------------|---------------------------------|
-|  AI   | promptai/zbotai:release      | AI模型                          |
-| Agent | promptai/zbot-agent:latest   | Agent服务，管理AI容器             |
+| Name  | Image                        | Description                             |
+|:------|:-----------------------------|-----------------------------------------|
+|  AI   | promptai/zbotai:release      | AI model                                |
+| Agent | promptai/zbot-agent:latest   | Agent service，AI container management  |
 
 - Docker Containers
 
-| 名称   | Container    | 说明                                                        |
+| Name  | Container    | Description                                                              |
+|:------|:-------------|--------------------------------------------------------------------------|
+|  AI   | zbot_a1_xxxx  | "xxxx" is the selected models for debugging. There may be more than one |
+| Agent | zbot_agent   | Agent service, manage AI models, there is only one                       |
+
+<!---
+| Name  | Container    | Description                                                      |
 |:------|:-------------|-------------------------------------------------------------|
 |  AI   | zbot_a1_xxx  | "xxx"为调试的模型或具体的项目，可能有多个，与发布的项目数量有关       |
 | Agent | zbot_agent   | Agent服务，管理AI模型 ，有且仅有一个                             |
+--->
 
 
 ## Run in Rasa
