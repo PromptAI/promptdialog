@@ -81,29 +81,28 @@ Now we can show you the four types of outputs:
 ```text
 // - Ignore the status code  【Bot will reply what you set】
 //  for some reason, the weather service does not respond, we set text:
-// "The service is unavailable, please try again later" at "Returning message if the call is completed successfully"】
+// "The service is unavailable, please try again later" at `Returning message if the call is completed successfully`
 User: Hi, can you please tell me the weather in New York?
 Bot : The service is unavailable, please try again later
 
-// - Ignore Response 【Bot will not reply any message】
+// - Ignore Bot will not reply any message】
 User: Hi, can you please tell me the weather in New York?
 
 //  - Original response 【Bot will reply whatever the api return】
 User: Hi, can you please tell me the weather in New York?
 Bot : {"temperature":"82°F (28°C)","conditions":"Mostly sunny","wind":"5 mph (8 km/h)","humidity":"60%"}
 
-// - User defined Processing 【Bot will reply what you set with dynamic value extracted from response 】
-// we set text:
-// Sure! I can provide you with the weather information for New York. Here is the current weather forecast for New York: temperature:82°F (28°C) 、wind:5 mph (8 km/h) 、conditions:Mostly sunny and humidity:60%
-// at "Returning message if the call is completed successfully"】
+// - User customized response 【Bot will reply what you set with value extracted from the response】
+// For example, we can set text:
+// Sure! I can provide you with the weather information for New York. Here is the current weather forecast for New York: temperature:{temperature} 、wind:{wind} 、conditions: {conditions} and humidity: {humidity}
+// at `Returning message if the call is completed successfully`
 
 User: Hi, can you please tell me the weather in New York?
 Bot : Sure! I can provide you with the weather information for New York.
-      Here is the current weather forecast for New York:    temperature:82°F (28°C) 、wind:5 mph (8 km/h) 、conditions:Mostly sunny and humidity:60%
+      Here is the current weather forecast for New York: temperature:82°F (28°C) 、wind:5 mph (8 km/h) 、conditions:Mostly sunny and humidity:60%
 ```
 
-How to extract value in Custom Display？
-
+### Insert returned value to slots in Rasa
 Extract `city` and `temperature` from the reponse
 ```json
 {
