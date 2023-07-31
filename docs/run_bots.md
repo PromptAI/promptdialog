@@ -131,11 +131,26 @@ After the installation is successful, enter the "Manage Agents" page to see the 
 ![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)
 
 Enjoy
-
+___
 
 # Run in Rasa
 
 When developers need to debug and verify the designed flows, they can use the `Download Rasa File` function to download the generated RASA code in their local running environment and test the bot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
+
+## 云版本与Run In Rasa 区别
+| 功能                      | Prompt Dialog | Run In Rasa |
+|---------------------------|--------------|-------------|
+| Debug chatbot             |         ✅   |       ❌    |
+| Release                   |         ✅   |       ❌    |
+| Condition reply           |         ✅   |       ❌    |
+| Attachment bot reply      |         ✅   |       ❌    |
+| Image bot reply           |         ✅   |       ❌    |
+| FAQ:First message to user |         ✅   |       ❌    |
+| FAQ:Last message to user  |         ✅   |       ❌    |
+| FAQ:Multi bot replies     |         ✅   |       ❌    |
+| User Feedback             |         ✅   |       ❌    |
+| Chat history              |         ✅   |       ❌    |
+| Dashboard                 |         ✅   |       ❌    |        
 
 ## Rasa file download
 
