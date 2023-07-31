@@ -139,6 +139,7 @@ ___
 When developers need to debug and verify the designed flows, they can use the `Download Rasa File` function to download the generated RASA code in their local running environment and test the bot locally.  If you prefer testing/running the chatbot on the cloud without setting up local environment, please contact us [info@promptai.us](info@promptai.us).  We have a complete cloud solution. 
 
 ## 云版本与Run In Rasa 区别
+
 | 功能                      | Prompt Dialog | Run In Rasa |
 |---------------------------|--------------|-------------|
 | Attachment bot reply      |         ✅   |       ❌    |
