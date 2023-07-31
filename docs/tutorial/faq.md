@@ -10,13 +10,13 @@ Each project has a default FAQ (frequently answered questions) module.  The beta
 
 Click `FAQ` in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
 
-![faq-main-view](/assets/images/tutorial/faq/f-main-view.png)
+![faq_list.jpg](/assets/images/tutorial/faq_list.jpg)
 
 ## Add a new question
 
 Click the `+Add` button on the upper right corner to pop up the question addition interface.
 
-![faq-create-button](/assets/images/tutorial/faq/f-create-button.png)
+![faq_create.jpg](/assets/images/tutorial/faq_create.jpg)
 
 ## Fill in question/answer information
 Please fill multiple examples for the same question, which is required for RASA Training. Please make sure: 
@@ -24,11 +24,11 @@ Please fill multiple examples for the same question, which is required for RASA 
 - Each question can only be listed once,
 - Each question shall have multiple examples: They are the same question, but asked differently. 
 
-![faq-create-detail.png](/assets/images/tutorial/faq/f-create-detail.png)
+![faq_create_info.jpg](/assets/images/tutorial/faq_create_info.jpg)
 
 ## Created successfully
 
-![faq-create-detail.png](/assets/images/tutorial/faq/f-main-view-data.png)
+![faq_create_success.jpg](/assets/images/tutorial/faq_create_success.jpg)
 
 ## Unstructured content
 If you have unstructred content available in files like CSV, Word Doc, PDF, Text, HTML etc.,  you can upload these files to [talk2bits.com], which provides service to directly answer your question using ChatGPT/GPT4.  PromptDialog has integrated this function. Please check [the knowledgebase section](https://doc.promptai.us/docs/knowledge_base/).
