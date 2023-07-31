@@ -14,7 +14,7 @@ The local running environment uses a docker implementation that packages RASA 3.
 
 ![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
-### Create the first Agent
+### Create the first agent
 The local machine shall meet the minimum system requirements:
 
 ```text
@@ -212,7 +212,7 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
 
 ![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.jpg)
 
-2. Train 
+2. Train models.
 
    ```shell
    # training
@@ -225,12 +225,10 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
    rasa shell
    ```
 
-3. Verify
-   Observe the output of the bot and verify, as shown in the figure.
+3. Observe the output and verify, as shown in the figure.
    
    ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
 
 <!---
 1、The current version does not support built-in variables
 -->
-
