@@ -28,6 +28,7 @@ You can build a local running environment with one line of command. For details,
 
 ![overview_create_agent.jpg](/assets/images/overview/overview_create_agent.jpg)
 <!--
+
 ## Step 3 - Download RASA code
 All dialog flows and faqs can be downloaded as generated RASA code for free to build your chatbot in a RASA environment (RASA 3.2).
 
@@ -49,7 +50,7 @@ Once you are satisfied with the result, it is ready to release.  We provide mult
 
 ![overview_release_page.png](/assets/images/overview/overview_release_page.png)
 
-* web application
+* Web Application
 
 ![chat-release-03](/assets/images/release/chat-release-03.jpg)
 
