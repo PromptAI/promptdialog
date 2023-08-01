@@ -44,4 +44,4 @@ after the order information is confirmed by the user, we call a webhook to place
 ![webhook7.png](/assets/images/webhook_fruit_2.jpg)
 
 ### Handle fallback via Webhook
-Webhook can also be used to handle fallback.  See [Fallback](/docs/tutorial/fallback/).
+Webhook can also be used to handle fallback.  See [Fallback](/docs/webhook/03-webhook).
