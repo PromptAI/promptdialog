@@ -59,7 +59,7 @@ After editing code in an Action function, the designer will create a standard cl
 
 illustrate：
 - uniqueid： unique `Bot Response` id
-- index: Position in `Bot Response`, calculated from 0。
+- index: Position in `Bot Response`, calculated from 0
 
 
 ### stories.yml
@@ -116,7 +116,7 @@ In the `run` method, you can get all the chatbot information by parameters [disp
     ```
     This action means:
     ```text
-    User: I am 170cm.
-    Chatbot: you said: I am 170cm.
-    Chatbot: This is the slot value of height: 170
+    user: I am 170cm.
+    bot: you said: I am 170cm.
+    bot: This is the slot value of height: 170
     ```
