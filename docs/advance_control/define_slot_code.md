@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Dynamic Form Slot Define
+title: Dynamic Slots
 parent: Advanced Control
 nav_order: 1
 ---
@@ -8,15 +8,14 @@ nav_order: 1
 <!-- 该功能可以最大可能的定义您Form中那些Slot,比如:-->
 <!-- 根据用户输入`age_slot_name`的值,是否等于18的数据来条件获取的相应Slot定义 -->
  
-If fixed slot collection can not meet your needs, we strongly recommend using the `Form Define Slot Code` feature, which allows dynamic changes to the slots based on the user's input within the form. This is an example. 
+If a fixed set of slots cannot meet your needs in a form, we strongly recommend using the `Required Slots` feature, which allows dynamic changes to the slots required in a form according to the user's input within the form.  Here is an example. 
 ```text
-User: I'd like to book a chinese restaurant.
-Chatbot: Do you want to sit outside?
-User: Yes / No
-Chatbot: Do you want to sit in the shade or in the sun? / Please provide additional preferences
+user: I'd like to book a chinese restaurant.
+bot: Do you want to sit outside?
+user: Yes / No
+bot: Do you want to sit in the shade or in the sun? / Please provide additional preferences
 ```
-This is a conversation between a user and a restaurant booking chatbot. The chatbot asks the user to fill the slot `seat`. If the user responds 'yes', the chatbot needs to inquire about the details. However, if the user replies 'no', the chatbot will not collect the seat preference slot. 
-We can realize this conversation by writing code below.
+This is a conversation between a user and a restaurant booking assistant. The assistant asks the user to fill the slot `seat`. If the user responds 'yes', the bot needs to inquire about the details. However, if the user replies 'no', the bot will not collect the seat preference slot. We can realize this conversation by writing code below.
 
 
 ```python
@@ -40,3 +39,5 @@ class ValidateRestaurantForm(FormValidationAction):
         return additional_slots + domain_slots
 ```
 `required_slots` function returns a list of slots that the form needs to collect. Before the chatbot ask for filling any slots, rasa will execute `required_slots` function to determine the order in which slots should be collected. Consequently, we can use the `tracker.get_slot` function to obtain previously filled slots, and then return the slots that need to be collected.  
+
+The feature is available when you click the **Slots** node and then choose Edit Node.  It will be displayed on the right panel. 
