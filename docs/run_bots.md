@@ -207,12 +207,11 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
 ![rasa-env-1](/assets/images/dev_guide/download-rasa-env-1.png)
 
 ### Run Rasa
-
-step 1: Unzip the downloaded Rasa file in your Rasa environment:
+Step 1: Unzip the downloaded Rasa file in your Rasa environment:
 
 ![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.jpg)
 
-step 2: Train models.
+Step 2: Train models.
 
    ```shell
     rasa train
@@ -224,7 +223,7 @@ step 2: Train models.
    rasa shell
    ```
 
-step 3: Observe the output and verify, as shown in the figure.
+Step 3: Observe the output and verify, as shown in the figure.
    
    ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
 
