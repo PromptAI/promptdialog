@@ -5,7 +5,7 @@ parent: Developer's Guide
 nav_order: 9
 ---
 
-In `Bot Response`, the designer could click "+Action" to add an Action function written in Python, which will give the designer the tool of writing python code.  The Action python code will be placed to the `Actions. py` file in Rasa and will be triggered when the bot gives the current response.  
+In the bot response panel, the designer could click "+Action" to add an Action function written in Python, which will give the designer the tool of inserting python code with more complex logic.  The Action python code will be placed to the `Actions. py` file in Rasa and will be triggered when the bot gives the current response.  
 
 ![action-02](/assets/images/tutorial/action/action-02.png)
 
@@ -31,7 +31,7 @@ Chatbot: Great. What about your weight?
 User: Maybe 60kg.                                                    [intent: intent_weight, {"weight": "60"}]
 Chatbot: {action: calculate_BMI}
 ```
-In order to complete the conversation, we can use Action Function to do the calculation.
+In order to complete the conversation, we can use the Action Function to do the calculation.
 
 ```python
 
@@ -51,11 +51,11 @@ class BotCustomaction_cp_ce1atgfk53b4_0(Action):
 
 After editing code in an Action function, the designer will create a standard class.  
 
+[The following is not clear]
 
 - `BotCustomaction_uniqueid_index(Action)` Action class。
-- `def name(self) -> Text` Name returned `action_uniqueid_index`
-- `async def run` edited by user
-
+- `def name(self) -> Text` Name returns `action_uniqueid_index`
+- `async def run` edited by the developer
 
 illustrate：
 - uniqueid： unique `Bot Response` id
@@ -77,9 +77,7 @@ stories:
   - action: action_cp_ce1atgfk53b4_0
 ```
 
-
-`Steps` in `story_0`  indicates that when a user tell the height and weight, the bot will call `action_cp_ce1atgfk53b4_0` to give the result. 
-
+`steps` in `story_0`  indicates that when a user tells the height and weight, the bot will call `action_cp_ce1atgfk53b4_0` to give the result. 
 
 ### Action.run function
 In the `run` method, you can get all the chatbot information by parameters [dispatcher](https://rasa.com/docs/rasa/action-server/sdk-dispatcher/) and [tracker](https://rasa.com/docs/rasa/action-server/sdk-tracker) 
@@ -101,7 +99,7 @@ In the `run` method, you can get all the chatbot information by parameters [disp
   Chatbot: This is a text response
   Chatbot: The second response
   ```
-- tracker ：current user's tracker. By using `tracker.get_slot(slot_name)` access to slot value(that is, the value corresponding to the variable) ，latest user's message `tracker.latest_message`
+- tracker ：the current user's tracker. By using `tracker.get_slot(slot_name)` access to the slot value(that is, the value corresponding to the variable) ，the latest user's message `tracker.latest_message`
     ```python
       class BotCustomaction_test_tracker(Action):
           def name(self) -> Text:
