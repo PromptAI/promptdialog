@@ -35,7 +35,7 @@ curl http://localhost/chat?input=What can PromptAI do?&chatId=xxx
 The question and session ID are used as input through the Http Get request, and the response returns data in JSON format, where the message field is the reply.
 ### Webhook configuration
 
-![03-1-webhook.png](/assets/images/tutorial/webhook/03-1-webhook.jpg)
+![03-1-webhook.png](/assets/images/webhook_fallback.jpg)
 
 First, we configure the name and request address, and use the built-in variables `{latest_message}` and `{send_id}` in the request address to pass the Fallback user input and dialog id to the API according to the API requirements.
 Finally, extract `message` to `relpy` in the response processing part, and output `{reply}` when the response is successful
@@ -44,7 +44,7 @@ Finally, extract `message` to `relpy` in the response processing part, and outpu
 
 Switch to the configured Fallback webhook in the project's "Dialogue Overview" - "Fallback":
 
-![03-3-webhook.jpg](/assets/images/tutorial/webhook/03-3-webhook.jpg)
+![03-3-webhook.jpg](/assets/images/webhook_falllbak_use.jpg)
 
 ### Test
 

@@ -48,10 +48,9 @@ Bot  : An order has been successfully placed for you
 ```
 after order confirmed, we will call a webhook to place the order.
 
-Webhook Settings:
-![webhook7.png](/assets/images/tutorial/webhook/webhook7.png)
-![webhook8.png](/assets/images/tutorial/webhook/webhook8.png)
----
+## Webhook Settings:
+![webhook7.png](/assets/images/webhook_fruit_1.jpg)
+![webhook7.png](/assets/images/webhook_fruit_2.jpg)
 
 ## Handle fallback via LLM
 
