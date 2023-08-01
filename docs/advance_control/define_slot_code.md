@@ -38,6 +38,6 @@ class ValidateRestaurantForm(FormValidationAction):
 
         return additional_slots + domain_slots
 ```
-The `required_slots` function returns a list of slots that the form needs to collect. Before the chatbot asks for filling any slot, rasa will execute the `required_slots` function to determine which slots should be collected. Consequently, we can use the `tracker.get_slot` function to obtain previously filled slots, and then return the slots that need to be collected.  
+The `required_slots` function returns a list of slots that the form needs to collect. Before the chatbot asks for filling any slot, rasa will execute the `required_slots` function to determine which slots should be collected. Consequently, we can use the `tracker.get_slot` function to obtain previously filled slots, and then return the slots that need to be collected.   Note that if you need not change required slots dynamically, you need not touch this function. PromptDialog will automatically generate the required slots based on the form diagram. 
 
-The feature is available when you click the **Slots** node and then choose Edit Node.  It will be displayed on the right panel. 
+The feature is available when you click the **Slots** node and then choose Edit Node.  It will be displayed on the right panel.
