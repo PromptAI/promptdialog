@@ -6,8 +6,11 @@ nav_order: 23
 ---
 Click a node and select 'Copy' from the pop-up box. You can also use the shortcut key 'control c' to copy.  At this moment, the node has been successfully copied to the Paste Board, as shown in the figure:
 
-![01-copy](/assets/images/tutorial/copy/01-copy.png)
+![copy_node.jpg](/assets/images/tutorial/copy_node.jpg)
 
 Select the 'got it' node from the Paste Board and drag it to the node to be linked. When the `+` icon appears, release it.
 
-![02-copy](/assets/images/tutorial/copy/02-copy.png)
+![copy_node_parse.jpg](/assets/images/tutorial/copy_node_parse.jpg)
+
+Result
+![copy_node_result.jpg](/assets/images/tutorial/copy_node_result.jpg)
