@@ -24,11 +24,11 @@ Georgia
 ```
 Click the `Upload` button behind the `State Name`, and upload the dictionary.
 
-![dict-01](/assets/images/tutorial/dict/dict-01.png)
+![slot_upload_dictionary.jpg](/assets/images/tutorial/slot_upload_dictionary.jpg)
 
 After uploading successfully, you can click `detail` to check which dictionary has been uploaded successfully, or you can `download` to check the dictionary.
 
-![dict-03](/assets/images/tutorial/dict/dict-03.png)
+![slot_upload_dictionary_success.jpg](/assets/images/tutorial/slot_upload_dictionary_success.jpg)
 
 ## An example
 Suppose we create a dialog flow diagram ''where are you from?''.
