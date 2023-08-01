@@ -208,11 +208,11 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
 
 ### Run Rasa
 
-1. Unzip the downloaded Rasa file in your Rasa environment:
+step 1: Unzip the downloaded Rasa file in your Rasa environment:
 
 ![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.jpg)
 
-2. Train models.
+step 2: Train models.
 
    ```shell
     rasa train
@@ -224,7 +224,7 @@ After installation, enter 'rasa init' on the command line to verify as shown in 
    rasa shell
    ```
 
-3. Observe the output and verify, as shown in the figure.
+step 3: Observe the output and verify, as shown in the figure.
    
    ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
 
