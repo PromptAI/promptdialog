@@ -13,7 +13,7 @@ In the pop up window, the designer can write python code of the Action function.
 
 ![action-01](/assets/images/tutorial/action/action-01.png)
 
-[TBD: the following part needs to be carefully revised]
+
 ## Rasa conversion
 Now let's look at an example that shows how we add the Action code into Rasa files:  
 
