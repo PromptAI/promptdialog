@@ -19,7 +19,7 @@ Talk2bits generates a link that can be put into PromptDialog.
 
 Paste the link into the Fallback setting so that a user question can be handled as a last resort. 
 
-![04-index.png](/assets/images/knowledge_base/04-index.png)
+![04-index.png](/assets/images/knowledge_base.jpg)
 
 Now the bot can use this link to answer the same question.
 

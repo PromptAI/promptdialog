@@ -22,27 +22,27 @@ You can also click `Favorites` -`Flows `on the left pane to check.
 ## Collect favorites 
 Click a bot node "can I help you?" node, and then click `Favorite` - `Collect the current node and its subsequent nodes`.
 
-![01-favorite](/assets/images/tutorial/favorite/01-favorite.png)
+![01-favorite](/assets/images/tutorial/favorite_do_favorite.jpg)
 
 At this time, open the `Favorites` to see that the flow has been collected successfully. Click the `Detail` to see the details of the favorite component. 
 
-![02-favorite](/assets/images/tutorial/favorite/02-favorite.png)
+![02-favorite](/assets/images/tutorial/favorites_do_favorite_success.jpg)
 
-![03-favorite](/assets/images/tutorial/favorite/03-favorite.png)
+![03-favorite](/assets/images/tutorial/favorites_do_favorite_success_info.jpg)
 
 You can also select `Favorites` -`Flows` on the left navigation pane to view. 
 
-![06-favorite](/assets/images/tutorial/favorite/06-favorite.png)
+![06-favorite](/assets/images/tutorial/favorites_flow_list.jpg)
 
 ## Favorite FAQ
 Click `FAQ` in the left navigation pane, here we choose to collect the first user question "Where do you come from?" Click `yellow star`, the favorite icon in Operations. 
 
-![09-favorite](/assets/images/tutorial/favorite/09-favorite.png)
+![09-favorite](/assets/images/tutorial/favorites_faq_list.jpg)
 
 ## Delete a favorite component
 Click `Favorites` -`Flows` on the left navigation pane, select the flow you want to delete, and click the `delete` icon in Operations. 
 
-![07-favorite](/assets/images/tutorial/favorite/07-favorite.png)
+![07-favorite](/assets/images/tutorial/favorites_delete.jpg)
 
 <!--- 
 ## Cancel Favorite FAQ

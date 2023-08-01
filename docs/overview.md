@@ -51,11 +51,11 @@ Once you are satisfied with the result, it is ready to release.  We provide mult
 
 * Release
 
-![overview_release_page.png](/assets/images/overview/overview_release_page.png)
+![overview_release_page.png](/assets/images/tutorial/release_released.jpg)
 
 * Web Application
 
-![chat-release-03](/assets/images/release/chat-release-03.jpg)
+![chat-release-03](/assets/images/tutorial/release_web_script_demo_1.jpg)
 
 * Chat History & Dashboard
 
