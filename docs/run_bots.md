@@ -182,11 +182,11 @@ Click `Download RASA File` on the top right corner.  The download box will pop u
 * Download selected modules, select a collection of multiple dialog flows under the current project,
 * Download all, check all dialog flow diagrams under the current project.
 
-![download-rasa](/assets/images/dev_guide/download-rasa.png)
+![download-rasa](/assets/images/download_rasa_file_current.jpg)
 
 - When the current project has a flow diagram containing error nodes, it will be classified into `Unavailable Modules` in the pop-up box.  Move the mouse over the module to see the number of error messages. The link next to the module name can lead to the corresponding flow diagram for modification.
   
-  ![download-rasa-1.png](/assets/images/dev_guide/download-rasa-1.png)
+![download-rasa-1.png](/assets/images/download_rasa_file_selected.jpg)
 
 <br/>Note: welcome message, Fallback, branch prompt, jump to the node, and question prompt again (FAQ) takes effect only with the support of the system. [what does it mean]
 
