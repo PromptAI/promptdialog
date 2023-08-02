@@ -49,39 +49,15 @@ class BotCustomaction_cp_ce1atgfk53b4_0(Action):
         return []
 ```
 
-After editing code in an Action function, the designer will create a standard class.  
+解释一下上面的代码中的类名/方法名。
+- Line 1: `class BotCustomaction_uniqueid_index(Action)` 这是Action类名。由系统自动生成一个唯一的ID。
+- Line 2: `def name(self) -> Text` 返回这个action的name。来自`domain.yml`中的`actions`字段。也是系统生成的。
+- Line 4: `async def run` edited by the developer. 你的代码应写在这里。
 
-[The following is not clear]
-
-- `BotCustomaction_uniqueid_index(Action)` Action class。
-- `def name(self) -> Text` Name returns `action_uniqueid_index`
-- `async def run` edited by the developer
-
-illustrate：
-- uniqueid： unique `Bot Response` id
-- index: Position in `Bot Response`, calculated from 0
-
-
-### stories.yml
-
-```yaml
-version: '3.2'
-stories:
-- story: story_0
-  steps:
-  - intent: init
-  - action: utter_project_welcome
-  - intent: intent_height
-  - action: utter_ask_weight
-  - intent: intent_weight
-  - action: action_cp_ce1atgfk53b4_0
-```
-
-`steps` in `story_0`  indicates that when a user tells the height and weight, the bot will call `action_cp_ce1atgfk53b4_0` to give the result. 
-
-### Action.run function
+#### Parameters in `run` function
+It is an instruction to some helpful parameters in `run` function.
 In the `run` method, you can get all the chatbot information by parameters [dispatcher](https://rasa.com/docs/rasa/action-server/sdk-dispatcher/) and [tracker](https://rasa.com/docs/rasa/action-server/sdk-tracker) 
-- dispatcher : the same as bot response. You can control Rasa output by calling `dispatcher.utter_message()`
+- dispatcher : the output object. `dispatcher.utter_message()` method can pass a bot response.
   ```python
   class BotCustomaction_test_dispatcher(Action):
       def name(self) -> Text:
@@ -120,3 +96,20 @@ In the `run` method, you can get all the chatbot information by parameters [disp
     bot: you said: I am 170cm.
     bot: This is the slot value of height: 170
     ```
+
+### stories.yml
+action属于一种特殊的bot response，因此也会加入到story中，成为训练数据。
+```yaml
+version: '3.2'
+stories:
+- story: story_0
+  steps:
+  - intent: init
+  - action: utter_project_welcome
+  - intent: intent_height
+  - action: utter_ask_weight
+  - intent: intent_weight
+  - action: action_cp_ce1atgfk53b4_0
+```
+
+`steps` in `story_0`  indicates that when a user tells the height and weight, the bot will call `action_cp_ce1atgfk53b4_0` to give the result. 
