@@ -7,9 +7,10 @@ nav_order: 1
 ### Where can I download the local running environment installer? 
 The local running environment can be installed by following steps:
 - log in system
-- Click on "Manage Agents" on the upper right corner
-- Click "Install" in the pop-up window
-- You can see the installation command under "Install"
+- Click `Local Running Environment` on the upper right corner
+- Click `Manage Agents` in the pop-up window
+- Click `Install Agent` in the pop-up window
+- You can see the installation command under `Install`
 
 ![01-install-questions.png](/assets/images/install_agent.jpg)
 
@@ -37,7 +38,7 @@ The agent in use cannot be deleted through the "Manage Agents" management panel.
 --->
 
 - Log in to the machine where the agent is installed
-- Execute '~/zbot/install_agent.sh upgrade' in the shell
+- Execute `~/zbot/install_agent.sh upgrade` in the shell
 - Enter `y` to confirm the upgrade [the service will be temporarily unavailable during the update]
 - Wait for the upgrade to complete
 
@@ -65,9 +66,9 @@ xxxxx
 --->
 
 - Log in to the machine where the agent is installed
-- Execute 'promptai uninstall' in the shell
+- Execute `~/zbot/install_agent.sh uninstall` in the shell
 - Enter `y` to confirm uninstallation
-- Wait for the uninstall to complete
+- Wait for the uninstallation to complete
 
 Note: This process needs to keep the network unobstructed, otherwise it will lead to failure.
 
