@@ -10,7 +10,7 @@ After successfully creating an account, you can start designing your chatbot imm
 
 
 ## Local Running Environment (LRE)
-The local running environment uses a docker implementation that packages RASA 3.2.0 and an agent that communicates between PromptDialog Cloud and the local RASA environment.   PromptDialog Cloud manages all aspects of your designs and the local RASA environment is in charge of training the model. 
+The local running environment uses a docker implementation that packages RASA 3.2.0 and an agent that communicates between PromptDialog Cloud and the local RASA environment.   PromptDialog Cloud manages all aspects of your designs and the local RASA environment is in charge of training the model.
 
 ![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
