@@ -25,7 +25,8 @@ Disk       :Space: At least 32GB available
 Docker Env :20.10.6 or newer
 ```
 
-[Please describe how to install docker]
+- [What id Docker?](https://www.docker.com/)
+- [Install Docker](https://docs.docker.com/get-docker/)
 
 Click `Manage Agents` on the upper right corner.  It will pop up a window where you can add your agent.  Click `+Agent` and then `install agent`.  You  will see the following content.
 
@@ -188,7 +189,6 @@ Click `Download RASA File` on the top right corner.  The download box will pop u
   
 ![download-rasa-1.png](/assets/images/download_rasa_file_selected.jpg)
 
-<br/>Note: welcome message, Fallback, branch prompt, jump to the node, and question prompt again (FAQ) takes effect only with the support of the system. [what does it mean]
 
 ### Rasa environmental preparation
 
@@ -204,29 +204,28 @@ jsonpath==0.82
 After installation, enter 'rasa init' on the command line to verify as shown in the figure.
 
 ![rasa-env](/assets/images/dev_guide/download-rasa-env.png)
-![rasa-env-1](/assets/images/dev_guide/download-rasa-env-1.png)
 
 ### Run Rasa
-
-1. Unzip the downloaded Rasa file in your Rasa environment:
+Step 1: Unzip the downloaded Rasa file in your Rasa environment:
 
 ![download-rasa-debug-1](/assets/images/dev_guide/download-rasa-debug-1.jpg)
 
-2. Train models.
+Step 2: Train models.
 
-   ```shell
-    rasa train
- 
-   # Start actions if necessary
-   rasa run actions
-   
-   # Open another command window for run the bot 
-   rasa shell
-   ```
+```shell
+# train model 
+rasa train
 
-3. Observe the output and verify, as shown in the figure.
+# Start actions if necessary
+rasa run actions
+
+# Open another command window for run the bot 
+rasa shell
+```
+
+Step 3: Observe the output and verify, as shown in the figure.
    
-   ![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
+![download-rasa-debug-2](/assets/images/dev_guide/download-rasa-debug-2.jpg)
 
 <!---
 1、The current version does not support built-in variables
