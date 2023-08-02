@@ -24,7 +24,7 @@ Create your first dialog flow.
 ![overview_create_dialog_flow.jpg](/assets/images/overview/overview_create_dialog_flow.jpg)
 
 ## Step 2 - Create the local environment
-You can build a local running environment with one line of command. For details, please check [local running environement](/docs/local_running_env) and check [install question](/docs/common_questions/install_questions) if you have any question. 
+You can build a local running environment with one line of command. For details, please check [Run Chatbots:LRE](/docs/run_bots) and check [install question](/docs/common_questions/install_questions) if you have any question. 
 
 ![overview_create_agent.jpg](/assets/images/overview/overview_create_agent.jpg)
 
