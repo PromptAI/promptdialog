@@ -28,14 +28,14 @@ This task requires us to respond differently according to the type of fruits.
 ## Example
 Create a dialog flow, get the fruit input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`.
 
-![01-slot-reply-list.png](/assets/images/tutorial/conditional_response/01-slot-reply-list.png)
+![condition_response_overview.jpg](/assets/images/condition_response_overview.jpg)
 
 Double-click "Please try another fruit!" 
 - If there is no match to the fruit type, the bot will reply:'Please try another fruit!'
 
 Click 'Conditonal Response Variantions' enter the editing pane.
 
-![img_5.png](/assets/images/tutorial/conditional_response/02-slot-reply-list.png)
+![condition_response_bot.jpg](/assets/images/condition_response_bot.jpg)
 
 Select the slot to be matched, here we enter `fruit_type`.
 
