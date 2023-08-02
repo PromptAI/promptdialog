@@ -28,10 +28,10 @@ Docker Env :20.10.6 or newer
 - [What id Docker?](https://www.docker.com/)
 - [Install Docker](https://docs.docker.com/get-docker/)
 
-Click `Manage Agents` on the upper right corner.  It will pop up a window where you can add your agent.  Click `+Agent` and then `install agent`.  You  will see the following content.
+Click `Local Running Environment`-`Manage Agents` on the upper right corner.  It will pop up a window where you can add your agent.  Click `+Agent` and then `Install agent`.  You  will see the following content.
+![00-local-running-env.png](/assets/images/local_running_env/00-local-running-env.png)
 
-After logging in to the system, you will see a prompt above the system before creating the first Agent: "You need install your own Agent to access all functions." [what does it mean]
- 
+Or click `Please install your own local agent to test your bot.` [If you can see this notification]
 
 ![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
 
@@ -182,13 +182,10 @@ Click `Download RASA File` on the top right corner.  The download box will pop u
 * Download current module, download the current dialog flow,
 * Download selected modules, select a collection of multiple dialog flows under the current project,
 * Download all, check all dialog flow diagrams under the current project.
-
-![download-rasa](/assets/images/download_rasa_file_current.jpg)
+![download-rasa](assets/images/download_rasa_file_current.png)
 
 - When the current project has a flow diagram containing error nodes, it will be classified into `Unavailable Modules` in the pop-up box.  Move the mouse over the module to see the number of error messages. The link next to the module name can lead to the corresponding flow diagram for modification.
-  
-![download-rasa-1.png](/assets/images/download_rasa_file_selected.jpg)
-
+![download_rasa_file_selected.png](assets/images/download_rasa_file_selected.png)  
 
 ### Rasa environmental preparation
 
