@@ -9,9 +9,9 @@ Some entities have synonyms, which could be used to argument the training data t
 
 ## Add Synonyms
 Select `Project View` - `Synonyms` in the left navigation bar, click the `Add` button on the upper right corner to add a synonym.
-![01-synonym](/assets/images/tutorial/synonym/01-synonym.png)
+![synonyms_overview.jpg](/assets/images/tutorial/synonyms_overview.jpg)
 
 ## Use synonyms
 Here we add synonyms of pineapple to the training examples. 
 
-![03-synonym](/assets/images/tutorial/synonym/02-synonym.png)
+![synonyms_use.jpg](/assets/images/tutorial/synonyms_use.jpg)
