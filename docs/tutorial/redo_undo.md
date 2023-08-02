@@ -10,7 +10,7 @@ Sometimes we delete a node or multiple nodes by mistake.  Undo/Redo will help us
 
 We delete the last bot response node as shown in the figure. 
 
-![02-redo_undo](/assets/images/tutorial/redounde_example_1_1.jpg)
+![02-redo_undo](/assets/images/tutorial/redoundo_example_1_1.jpg)
 
 We click `undo` to restore the deleted bot node.
 
