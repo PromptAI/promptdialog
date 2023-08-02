@@ -6,7 +6,6 @@ nav_order: 7
 ---
 In PromptDialog, Form is a component that collects a set of information from the user. The information will be stored in slots. In the following example, the bot collects the information of fruit type and quantity from the user, and confirm with the user after completion. This information collection conversation can be implemented by form with two required slots: fruit_type and quantity. 
 
-Order fruit:
 ```text
 Bot : Hello!
       What can i do for you?
