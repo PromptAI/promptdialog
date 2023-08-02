@@ -10,7 +10,7 @@ nav_order: 3
 In a dialog flow, the slot value can be set to a specified value.
 Let's take buying pizza as an example, assuming there are three sizes: Small, Medium, and Large, corresponding to 10, 12, and 14 inches, respectively. 
 
-![01-reset-slot-value.png](/assets/images/tutorial/reset_slot/01-reset-slot-value.png)
+![reset_slot_value_overview.jpg](/assets/images/reset_slot_value_overview.jpg)
 
 The bot provides three buttons for users to click.  The click action will automatically send the text on the button to the bot, which will then be used to set the slot value. 
 
@@ -21,5 +21,5 @@ The bot provides three buttons for users to click.  The click action will automa
 - Select `Slot Name` with `size`,
 - Set `Slot Value` to `10 inches`.
 - 
-![02-reset-slot-value.png](/assets/images/tutorial/reset_slot/02-reset-slot-value.png)
+![reset_slot_value_samll.jpg](/assets/images/reset_slot_value_samll.jpg)
 

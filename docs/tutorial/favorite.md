@@ -22,7 +22,7 @@ You can also click `Favorites` -`Flows `on the left pane to check.
 ## Collect favorites 
 Click a bot node "can I help you?" node, and then click `Favorite` - `Collect the current node and its subsequent nodes`.
 
-![01-favorite](/assets/images/tutorial/favorite_do_favorite.jpg)
+![01-favorite](/assets/images/tutorial/favorites_do_favorite.jpg)
 
 At this time, open the `Favorites` to see that the flow has been collected successfully. Click the `Detail` to see the details of the favorite component. 
 
