@@ -20,13 +20,12 @@ There are two steps to call a webhook.
 ### Step 1.
 Click `Project View` - `Webhooks`. Click `+ Add` on the upper right corner.  Create a webhook to call the weather API (more details later). 
 
-![6-webhook](/assets/images/webhook_weather_setting_1.jpg)
-![6-webhook](/assets/images/webhook_weather_setting_2.jpg)
+![webhook_weather_setting.jpg](/assets/images/webhook_weather_setting.jpg)
 
 ### Step 2. 
 Create a flow for querying weather and select a webhook in a bot reply node. 
 
-![5-webhook](/assets/images/tutorial/webhook_1e1.jpg)
+![webhook_weather_use.jpg](/assets/images/webhook_weather_use.jpg)
 
 The following is the detailed setting instruction for Step 1.
 ### Basic Settings
