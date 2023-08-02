@@ -7,32 +7,33 @@ nav_order: 2
 <!---
 ### How do I get the URL when I customize the webhook?
 
-Please refer to the tutorial[webhook](/docs/tutorial/webhook/01-webhook/)
+Please refer to the tutorial [webhook](/docs/tutorial/webhook/01-webhook/)
 
 ### How to create consecutive multiple responses?
 
-Please refer to the tutorial[Create conversation flow graph - add reply node](/docs/tutorial/flow/01-create-flow/#add-reply-node)
+Please refer to the tutorial [Create conversation flow graph - add reply node](/docs/tutorial/flow/01-create-flow/#add-reply-node)
 
 ### Do not know the function of intents template
 
-Please refer to the tutorial[Create Intent List](/docs/tutorial/node-template/user-global/)
+Please refer to the tutorial [Create Intent List](/docs/tutorial/node-template/user-global/)
 
 ### Does the initial node of the flow chart have a user option by default?
 
-Please refer to the tutorial[Dialog Flow Graph Settings](/docs/tutorial/setting/)
+Please refer to the tutorial [Dialog Flow Graph Settings](/docs/tutorial/setting/)
 
 ### Add a node and then delete it. Is there an undo function?
 
-Please refer to the tutorial[Undo/Redo](/docs/tutorial/setting/)
+Please refer to the tutorial [Undo/Redo](/docs/tutorial/setting/)
 
 -->
-### Can the bot reply with an attachement?
+### Can the bot reply with an attachment?
 Yes. Please refer to the tutorial [Create a dialog flow - Add an attachment to the bot response](/docs/tutorial/flow/).
 
 ### Can I fill multiple slots in one sentence? For example, "I want five pounds of apples"
-Yes. You can annotate multiple entities/values in the training examples of the Bot node.
-[TBD: this following link does not exit] 
-Please refer to the tutorial [Create Form-Improve Slots）](/docs/tutorial/flow/01-create-flow/). 
+Yes. You can annotate multiple slots in the training examples of the Bot node.
+
+Please refer to the tutorial:
+- Form: [Fill-multiple-slots-in-one-sentence](/docs/tutorial/form/#can-i-fill-multiple-slots-in-one-sentence). 
 
 ### During a conversation, I want to output different responses according to different user inputs. What should I do?
 There are several ways to do it. 
@@ -70,4 +71,4 @@ Currently, it is not supported due to potential conflicts.
 Yes. Currently, emoticons are not supported. Please stay tuned. 
 
 ### A user has not been active for a while. Will the bot send an inquiry?
-Currently this feature is not supported.  
+Currently, this feature is not supported.  
