@@ -64,7 +64,7 @@ In the project "Overview" - "Fallback" switch to "Talk2Bits" and paste the code 
 ### Test
 
 Respond to user input via Talk2Bits.
-![04-default-reply.jpg](/assets/images/default_reply/04-default-reply.jpg)
+![04-default-reply.jpg](/assets/images/tutorial/fallback_talk2bits_result.jpg)
 
 ## Fallback with Default
 When the above three methods fail, we will use the default method to handle the fallback, which is the text filled in in the figure below.
