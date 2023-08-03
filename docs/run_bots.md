@@ -182,10 +182,12 @@ Click `Download RASA File` on the top right corner.  The download box will pop u
 * Download current module, download the current dialog flow,
 * Download selected modules, select a collection of multiple dialog flows under the current project,
 * Download all, check all dialog flow diagrams under the current project.
-![download-rasa](assets/images/download_rasa_file_current.png)
+
+![download-rasa](/assets/images/download_rasa_file_current.png)
 
 - When the current project has a flow diagram containing error nodes, it will be classified into `Unavailable Modules` in the pop-up box.  Move the mouse over the module to see the number of error messages. The link next to the module name can lead to the corresponding flow diagram for modification.
-![download_rasa_file_selected.png](assets/images/download_rasa_file_selected.png)  
+
+![download_rasa_file_selected.png](/assets/images/download_rasa_file_selected.png)  
 
 ### Rasa environmental preparation
 

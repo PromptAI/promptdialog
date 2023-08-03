@@ -4,10 +4,8 @@ title: Form
 parent: Developer's Guide
 nav_order: 7
 ---
-# What is a Form?
-In PromptDialog, Form is a component that collects a set of information from the user.
+In PromptDialog, Form is a component that collects a set of information from the user. The information will be stored in slots. In the following example, the bot collects the information of fruit type and quantity from the user, and confirm with the user after completion. This information collection conversation can be implemented by form with two required slots: fruit_type and quantity. 
 
-Order fruit:
 ```text
 Bot : Hello!
       What can i do for you?
@@ -23,15 +21,12 @@ Bot : Perfect! I have your order 5 apples.
 User: Thanks
 Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 ```
-
-In the example of the user ordering fruit, collect two slots of fruit type and quantity from the user, and confirm with the user after completion.
-
-Other similar scenarios can also be handled by Form:
-- Check the weather: Collect the region and time to check the weather conditions in real time.
+There are other similar scenarios that cab be handled by Form:
+- Check the weather: Collect the location and time to check the weather conditions in real time.
 - Book air tickets: Book air tickets by obtaining the user's travel time and departure airport.
-- Other scenarios where a set of information needs to be collected.
+- ...
 ---
-# How to use Form?
+## How to use Form?
 Next, we will introduce how to create the example of user-ordered fruit mentioned above.
 
 ### Create `Fruit`Dialog flow
