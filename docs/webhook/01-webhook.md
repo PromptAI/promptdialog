@@ -69,7 +69,7 @@ These settings handle the result received from the third party API call and pack
 
 Due to many factors, sometimes the API call fails.  We need to send a hint to the user when the webhook request fails. Note that this situation is different from an empty result returned by the API call.  Set a short message at `Returning message if the call fails or does not receive any result`.
 
-![webhook6.png](/assets/images/tutorial/webhook/webhook6.png)
+![webhook6.png](/assets/images/webhook_weather_response_setting.jpg)
 
 Take the weather query as an example.  Suppose there is a weather service that responds with:
 ```json
@@ -119,7 +119,7 @@ The above process needs a step to extract values from the API call and fill them
 ```
 We shall do the following JsonPath refernece and map the value to the slots in Rasa. 
 
-![52-webhook](/assets/images/tutorial/webhook/webhook3.png)
+![52-webhook](/assets/images/webhook_weather_response_overview.jpg)
 
 
 <!---
