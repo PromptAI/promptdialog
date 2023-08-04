@@ -33,7 +33,7 @@ Click `Local Running Environment`-`Manage Agents` on the upper right corner.  It
 
 Or click `Please install your own local agent to test your bot.` [If you can see this notification]
 
-![01-local-running-env.png](/assets/images/local_running_env/01-local-running-env.png)
+![01-local-running-env.png](/assets/images/run_bots_install_agent_2.jpg)
 
 During installation and the following use, please make sure the local machine has network access to the Prompt Dialog service.
 

@@ -25,24 +25,25 @@ There are other similar scenarios that cab be handled by Form:
 - Check the weather: Collect the location and time to check the weather conditions in real time.
 - Book air tickets: Book air tickets by obtaining the user's travel time and departure airport.
 - ...
----
+
+
 ## How to use Form?
 Next, we will introduce how to create the example of user-ordered fruit mentioned above.
 
 ### Create `Fruit`Dialog flow
-![img.png](/assets/images/tutorial/form/form-01.png)
+![img.png](/assets/images/form_fruit_create_flow.jpg)
 
-Next, we create a `Bot` node to say hello:
-![img_1.png](/assets/images/tutorial/form/form-02.png)
+Next, we create a `Bot` node to say hello and a `User` node to show the intent to buy fruit
+![img_1.png](/assets/images/form_fruit_create_hello.jpg)
 
 ## Create fruit form
 Click the `User` node and select `Form` in the pop-up menu
-![img_3.png](/assets/images/tutorial/form/form-03.png)
+![img_3.png](/assets/images/form_fruit_create_form.jpg)
 The name of the Form can be set according to the function, here we fill in `Fruit order`
-![img_2.png](/assets/images/tutorial/form/form-04.png)
+![img_2.png](/assets/images/form_fruit_create_form_info.jpg)
 
 Three pieces of information need to be completed after creating `fruit order`
-![img_4.png](/assets/images/tutorial/form/form-05.png)
+![img_4.png](/assets/images/form_fruit_create_form_success.jpg)
 
 |  Name        | Required | Desc                                                   |
 |--------------|----------|--------------------------------------------------------|
@@ -54,30 +55,28 @@ Three pieces of information need to be completed after creating `fruit order`
 We need to collect `fruit_type` and `count` from users through Slots, and then explain in detail how to add `fruit_type`
 
 Click on the `Slots` node and select `Add Slot` from the pop-up menu
-![img_5.png](/assets/images/tutorial/form/form-06.png)
+![img_5.png](/assets/images/form_fruit_create_slot.jpg)
 
 In the pop-up Slot window, we need to pay attention to the input `Slot Name`, here fill in the name of the Slot `fruit_type` (enter the name and press Enter to create)
-![img_6.png](/assets/images/tutorial/form/form-07.png)
-Click `Save`
-![img_7.png](/assets/images/tutorial/form/form-08.png)
+![img_6.png](/assets/images/form_fruit_create_slot_info.jpg)
 
 The blue part is automatically created after saving the Slot:
 
 - "fruit_type" : Slot name
 - "-"          : `Rhetorical` node. Output a sentence to prompt the user to enter the information.
-![img_8.png](/assets/images/tutorial/form/form-09.png)
+![img_8.png](/assets/images/form_fruit_create_slot_success.jpg)
 Double-click the `Rhetorical` node and fill in`Perfect! What kinds of fruits would you like to order?`. Ask the user what type of fruit they want to buy
-![img_11.png](/assets/images/tutorial/form/form-10.png)
+![img_11.png](/assets/images/form_fruit_create_rhe_info.jpg)
 
 After the `Rhetorical` node, we need to add a user input to get the type of fruit the user needs, and at this time we need to mark the desired fruit type.
-![img_9.png](/assets/images/tutorial/form/form-11.png)
-![img_10.png](/assets/images/tutorial/form/form-12.png)
+![img_9.png](/assets/images/form_fruit_rhe_after_fruitType.jpg)
+![img_10.png](/assets/images/form_fruit_rhe_after_fruitType_info.jpg)
 
 So far, the `fruit_type` slot has been created.
 
-![img_12.png](/assets/images/tutorial/form/form-13.png)
+![img_12.png](/assets/images/form_fruit_rhe_after_fruitType_success.jpg)
 Add `count` slot like this:
-![img_13.png](/assets/images/tutorial/form/form-14.png)
+![img_13.png](/assets/images/form_fruit_rhe_after_count.jpg)
 
 ## Interrupts
 During the ordering process, the user may ask some questions or exit the conversation
@@ -85,20 +84,20 @@ During the ordering process, the user may ask some questions or exit the convers
 - Actually, I've changed my mind. I won't buy any fruits today. (Exit From, stop order)
     
 ### Do apples have a sweet taste?
-![img_14.png](/assets/images/tutorial/form/form-15.png)
+![img_14.png](/assets/images/form_fruit_interrupt_1.jpg)
 
 ### Break Form
 Add user input for user exit in interrupt, and use `break` node to exit Form
-![img_15.png](/assets/images/tutorial/form/form-16.png)
+![img_15.png](/assets/images/form_fruit_interrupt_2.jpg)
 
 ## Confirm
 The `Confirm` node handles the completion of the collection form, here we confirm the order to the user
-![img_16.png](/assets/images/tutorial/form/form-17.png)
+![img_16.png](/assets/images/form_fruit_confirm.jpg)
 
 ## The complete flow diagram is as follows:
-![img_17.png](/assets/images/tutorial/form/form-18.png)
-![img_18.png](/assets/images/tutorial/form/form-19.png)
-![img_19.png](/assets/images/tutorial/form/form-20.png)
+![img_17.png](/assets/images/form_fruit_overview_1.jpg)
+![img_18.png](/assets/images/form_fruit_overview_2.jpg)
+![img_19.png](/assets/images/form_fruit_overview_3.jpg)
 
 ---
 
@@ -122,4 +121,4 @@ Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 ```
 
 Mark multiple slots in the `Slot` node in From
-![form-21](/assets/images/tutorial/form/form-21.png)
+![form-21](/assets/images/form_fruit_required_slots.jpg)

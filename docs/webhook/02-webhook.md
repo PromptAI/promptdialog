@@ -40,8 +40,7 @@ bot  : An order has been successfully placed for you
 after the order information is confirmed by the user, we call a webhook to place the order.
 
 ### Webhook Settings:
-![webhook7.png](/assets/images/webhook_fruit_1.jpg)
-![webhook7.png](/assets/images/webhook_fruit_2.jpg)
+![webhook_fruit.jpg](/assets/images/webhook_fruit.jpg)
 
 ### Handle fallback via Webhook
 Webhook can also be used to handle fallback.  See [Fallback](/docs/webhook/03-webhook).

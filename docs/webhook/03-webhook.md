@@ -38,8 +38,3 @@ First, we configure the name and request address, and use the built-in slots `{l
 Select "Overview" on the left navigation pane and then click "Fallback" in the diagram. 
 
 ![03-3-webhook.jpg](/assets/images/webhook_falllbak_use.jpg)
-
-### Test
-Respond to user input via a webhook.
-
-![03-4-webhook.jpg](/assets/images/tutorial/webhook/03-4-webhook.jpg)
