@@ -25,7 +25,7 @@ Disk       :Space: At least 32GB available
 Docker Env :20.10.6 or newer
 ```
 
-- [What id Docker?](https://www.docker.com/)
+- [What is Docker?](https://www.docker.com/)
 - [Install Docker](https://docs.docker.com/get-docker/)
 
 Click `Local Running Environment`-`Manage Agents` on the upper right corner.  It will pop up a window where you can add your agent.  Click `+Agent` and then `Install agent`.  You  will see the following content.
