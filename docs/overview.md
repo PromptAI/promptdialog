@@ -16,7 +16,7 @@ The current release supports cloud-based chatbot design/testing, local training/
 
 PromptAI emphasizes the protection of user data. Your data is stored in secure cloud AWS/US servers and is subject to strict encryption and access controls. It employs state-of-the-art security technologies and measures to ensure the ongoing protection of your data during transmission and storage processes.
 
-There are two ways to train and run your bot.  If you have your own Rasa environment set up, please feel free to download the generated Rasa code of your design and test your bot.  Or you could create the local running enviroment as illustrated below, which packaged everything for you. There are five steps: Design a dialog flow, create the local running environment (you only need to do it once), download the generated code of your design, train the model, and run the bot using PromptDialog. 
+There are two ways to train and run your bot.  If you have your own Rasa environment set up, please feel free to download the generated Rasa code of your design and test your bot.  Or you could create the local running environment as illustrated below, which packaged everything for you. There are three steps: Design a dialog flow, create the local running environment (you only need to do it once), train the model and run the bot using PromptDialog. 
 
 ## Step 1 - Create a dialog flow
 Create your first dialog flow.
