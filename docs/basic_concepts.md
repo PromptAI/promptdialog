@@ -54,7 +54,7 @@ The system will send different responses according to user utterance. PromptDial
 The intent template exists for the purpose of reusing intents. There are a few standard intents in conversation design, such as confirmation, denial and appreciation. Repeatedly constructing the same kind of intents is time consuming and error prone. Intent template is here to solve this problem. We can save an intent to be reused as a template and add it to the intent list. 
 
 ### Entity Template
-For the same reason, there are standard entities that are commonly used accross different projects.  A set of predefined entities are stored in the system for quick references.  
+For the same reason, there are standard entities that are commonly used across different projects.  A set of predefined entities are stored in the system for quick references.  
 
 ### Response Template
 The response list exists for the reuse of responses. We often encounter repeated responses in conversations, such as goodbye, calling the same webhook, and thanks.  We can save the response to be reused as an response template and add it to the response list. When we need to use this response elsewhere in the project, we can directly refer the saved response.  You are strongly recommended to use the response list as much as possible. 
@@ -62,7 +62,7 @@ The response list exists for the reuse of responses. We often encounter repeated
 ## Frequently Asked Questions (FAQ) 
 A list of typical questions that users might ask regarding a particular subject.  Each faq tuple has three components: (question, similar questions, answer).
 
-PromtpDialog supports FAQs in three ways:
+PromptDialog supports FAQs in three ways:
 * RASA native FAQs that use RASA’s own routine to answer questions.  In this case, a user is required to give a few similar questions (the more the better) for each question so that RASA can correctly identify the correct one through learning. 
 * ChatGPT/GPT4 enabled retrieval augmented generation (RAG) to answer questions.  PromptDialog employed an embedding and retrieval approach to dramatically improve accuracy.  This is an approach we recommend if users do not provie similar questions. However, there is small cost associated as the users need to access OpenAI/ChatGPT. 
 * Customized BERT model with contrastive learning.  PromptDialog also provides its own model that can be deployed locally whose performance is between RASA FAQ and ChatGPT (close to ChatGPT).  It needs training examples. 
