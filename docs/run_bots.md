@@ -43,7 +43,7 @@ Please execute the installation command shown in the pop-up window according to 
 ```shell
 curl -o install_agent.sh 'https://app.promptai.us/rpc/install/install_agent.sh?key=your_config' && chmod +x install_agent.sh && ./install_agent.sh install
 ```
-Note: The installation is often related to the network and firewall set up, please be patient. If you need help, please contact us at [info@promptai.us](info@promptai.us).`
+Note: The installation is often related to the network and firewall set up, please be patient. If you need help, please contact us at [info@promptai.us](info@promptai.us).
 
 After the installation is successful, enter the "Manage Agents" page to see the installed Agent
 ![02-local-running-env.png](/assets/images/local_running_env/02-local-running-env.png)

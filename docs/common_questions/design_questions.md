@@ -30,7 +30,7 @@ Please refer to the tutorial [Undo/Redo](/docs/tutorial/setting/)
 Yes. Please refer to the tutorial [Create a dialog flow - Add an attachment to the bot response](/docs/tutorial/flow/).
 
 ### Can I fill multiple slots in one sentence? For example, "I want five pounds of apples"
-Yes. You can annotate multiple slots in the training examples of the Bot node.
+Yes. You can annotate multiple slots in the training examples of the User node.
 
 Please refer to the tutorial:
 - Form: [Fill-multiple-slots-in-one-sentence](/docs/tutorial/form/#can-i-fill-multiple-slots-in-one-sentence). 
