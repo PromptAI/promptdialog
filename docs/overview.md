@@ -12,7 +12,7 @@ PromptAI provides an all-in-one devops platform of building, running and deployi
 * Design bots locally, run locally 
 * Design bots locally, run on cloud
 
-The current release supports cloud-based chatbot design/testing, local training/running. For users who are interested in the other three settings, please contact [info@promptai.us](info@promptai.us).
+The current release supports cloud-based chatbot design/testing, local training/running. For users who are interested in the other three settings, please contact [info@promptai.us](mailto:info@promptai.us).
 
 PromptAI emphasizes the protection of user data. Your data is stored in secure cloud AWS/US servers and is subject to strict encryption and access controls. It employs state-of-the-art security technologies and measures to ensure the ongoing protection of your data during transmission and storage processes.
 
