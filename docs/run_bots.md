@@ -22,7 +22,7 @@ GPU can accelerate the process of model training. If you meet the following cond
 
 Installation:
 1、Install CUDA Driver
-[cuda-installation-guide-linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+[NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
 2、Gpu Containers Runtime
 [Enabling GPUs in the Container Runtime Ecosystem](https://developer.nvidia.com/blog/gpu-containers-runtime/)
