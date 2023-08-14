@@ -37,7 +37,7 @@ The local machine shall meet the minimum system requirements:
 OS         :Linux/Mac OS
 RAM        :At least 8GB
 GPU        :CUDA 11.7 or newer(Optional)
-Disk       :Space: At least 32GB available
+Disk Space :At least 32GB available
 Docker Env :20.10.6 or newer
 ```
 
