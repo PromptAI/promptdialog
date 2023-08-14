@@ -26,7 +26,7 @@ Installation:
 
 [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
-2、Gpu Containers Runtime
+2、GPU Containers Runtime
 
 [Enabling GPUs in the Container Runtime Ecosystem](https://developer.nvidia.com/blog/gpu-containers-runtime/)
 
