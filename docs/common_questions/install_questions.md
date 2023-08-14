@@ -7,7 +7,7 @@ nav_order: 1
 ### Where can I download the local running environment installer? 
 The local running environment can be installed by following steps:
 - log in system
-- Click `Local Running Environment` on the upper right corner
+  - Click `Local Running Environment` on the upper right corner
 - Click `Manage Agents` in the pop-up window
 - Click `Install Agent` in the pop-up window
 - You can see the installation command under `Install`

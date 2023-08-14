@@ -14,6 +14,19 @@ The local running environment uses a docker implementation that packages RASA 3.
 
 ![03-local-running-env.png](/assets/images/local_running_env/03-local-running-env.png)
 
+### Enable GPU (Optional)
+GPU can accelerate the process of model training. If you meet the following conditions, you can use GPU for acceleration:
+
+- Linux OS 
+- Nvidia GPU
+
+Installation:
+1、Install CUDA Driver
+[cuda-installation-guide-linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+
+2、Gpu Containers Runtime
+[Enabling GPUs in the Container Runtime Ecosystem](https://developer.nvidia.com/blog/gpu-containers-runtime/)
+
 ### Create the first agent
 The local machine shall meet the minimum system requirements:
 
