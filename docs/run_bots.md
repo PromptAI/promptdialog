@@ -88,7 +88,7 @@ Agents will only create and operate in the following directory of your machine.
 - OS:  Linux / MacOS
 - location: $HOME/zbot
 
-Please do not modify any file in the above drectory. 
+Please do not modify any file in the above directory. 
 
 <!--
 - 数据与系统运行有关，请勿操作。否则可能导致系统无法正常工作。
