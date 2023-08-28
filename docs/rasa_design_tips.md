@@ -2,6 +2,7 @@
 layout: en
 title: Rasa Design Tips
 nav_order: 10
+spliter: true
 ---
 ### Case: How to improve the intent classification accuracy?
 In order to improve the intent classification accuracy, multiple example utterances are needed for each intent as these examples will be used to train the intent classification model. Examples with different intents should not overlap. A typical example is shipping number vs. order number.  If a customer provides a number, it might be difficult to determine where it is a shipping or an order number.  It is better to have the number as an intent and then assign this number to the slot of shipping number or phone number, according to the context. 
