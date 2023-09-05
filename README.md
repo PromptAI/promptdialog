@@ -52,4 +52,4 @@ If you have any questions, suggestions, or partnership inquiries, feel free to c
 - Send a message to [there](https://www.promptai.us/en/contact/)
 
 ## Security
-To protect your privacy, please avoid posting security issues on GitHub. Instead, send your questions to security@dify.ai and we will provide you with a more detailed answer.
+To protect your privacy, please avoid posting security issues on GitHub. Instead, send your questions to info@promptai.us and we will provide you with a more detailed answer.
