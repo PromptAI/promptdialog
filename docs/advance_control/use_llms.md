@@ -5,6 +5,7 @@ parent: Advanced Control
 nav_order: 5
 spliter: true
 ---
+
 <!-- 使用LLMs可以减少标注、提高对话准确率。 -->
 Using LLMs can reduce annotations and improve dialogue accuracy.
 
@@ -13,8 +14,11 @@ Using LLMs can reduce annotations and improve dialogue accuracy.
 |      FAQ       | ChatGpt  |      |
 |      Flow      | ChatGpt  |      |
 | Knowledge Base | ChatGpt  |      |
+
 <!--Flow开启LLMs时需要将FAQ的LLMs功能开启-->
+
 *When Flow turns on LLMs, you need to turn on the LLMs function of FAQ.*
+
 ## Pricing
 <!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000.00`Token。-->
 
