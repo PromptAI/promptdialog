@@ -63,6 +63,7 @@ In the project-large language model settings, select to enable `User Questions a
 
 
 1. User Questions and Answers (FAQ) There are two configuration items under this function:
+
 - When answering the FAQ, other related questions are displayed.
 > When hitting FAQ, users can click on questions that may be related to it to view the corresponding answers.
 
