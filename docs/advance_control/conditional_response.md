@@ -3,7 +3,6 @@ layout: en
 title: Conditional Responses
 parent: Advanced Control
 nav_order: 4
-spliter: true
 ---
 Let's create a chatbot of a fruit nutrition expert, which can give the daily intake of common fruits:
 ```text
