@@ -9,7 +9,7 @@ spliter: true
 <!-- 使用LLMs可以减少标注、提高对话准确率。 -->
 
 Using LLMs can improve dialogue quality with fewer example sentence.
-<div align="center">
+
 
 |     Function   | LLMs | Local Model | Remark |
 |----------------|------|----------|:-------|
@@ -17,7 +17,6 @@ Using LLMs can improve dialogue quality with fewer example sentence.
 |      Flow      |  ✅  |  ✅  |      |
 | Knowledge Base |  ✅  |  ❌  | Only support LLMs model, so no option provided.|
 
-</div>
 <!--Flow开启LLMs时需要将FAQ的LLMs功能开启-->
 
 *1、Before you turn on LLMs function of Flow, you need to turn on the LLMs function of FAQ first.*
