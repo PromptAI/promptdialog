@@ -119,7 +119,7 @@ We're sorry, but due to insufficient funds in the merchant's account, we are una
 ### 4. Do I need to retrain after turning off the LLMs mode?
 > Yes. After enabled or disabled the settings, re-train/re-publish your project is required.
 
-### 5.What's a Token?
+### 5. What's a Token?
 > You can think of tokens as pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words. As a point of reference, the collected works of Shakespeare are about 900,000 words or 1.2M tokens.
 > 
 > To learn more about how tokens work:
