@@ -7,22 +7,26 @@ spliter: true
 ---
 
 <!-- 使用LLMs可以减少标注、提高对话准确率。 -->
-Using LLMs can reduce annotations and improve dialogue accuracy.
 
-|     Function   |   LLms   | Remark |
-|----------------|----------|:-----|
-|      FAQ       | ChatGpt  |      |
-|      Flow      | ChatGpt  |      |
-| Knowledge Base | ChatGpt  |      |
+Using LLMs can reduce annotations and improve dialogue quality.
+
+|     Function   | LLms | Local Model | Remark |
+|----------------|------|----------|:-------|
+|      FAQ       |  ✅  |  ✅  |        |
+|      Flow      |  ✅  | ✅  |      |
+| Knowledge Base |  ✅  |  ❌  | Only support LLMs model, so no option provided.|
 
 <!--Flow开启LLMs时需要将FAQ的LLMs功能开启-->
 
-*When Flow turns on LLMs, you need to turn on the LLMs function of FAQ.*
+*1、When Flow turns on LLMs, you need to turn on the LLMs function of FAQ.*
+
+*2、At present,we only support OpenAI. If you have any other needs, please contact us: [info@promptai.us](mailto:info@promptai.us)*
 
 ## Pricing
 <!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000.00`Token。-->
+You can config your OpenAI Token on our platform or use our Token.
 
-After being turned on, Tokens will be consumed during the training/dialogue stage. Currently, the system has given away `100,000.00` Tokens to all users.
+Tokens will be consumed during the training/dialogue stage. Currently, `100,000.00` Tokens free to each registered user by default.
 
 <!--
 token消耗:
@@ -42,13 +46,12 @@ Token consumption:
 
 For more details please visit:[Pricing Page](https://promptai.us/pricing)
 
-## Open LLMs
+
+## Enable LLMs
 <!--在项目-大语言模型设置中选择开启`用户问答(FAQ)`和`对话流图`，开启后点击右上角进行保存。-->
-In the project-large language model settings, select to enable `User Questions and Answers (FAQ)` and `Conversation Flow Graph`. After opening, click on the upper right corner to save.
+In the project-large language model settings, select to enable `FAQ` and `Flows`. After opening, click on the upper right corner to save.
 
 ![use_llms_1.jpg](/assets/images/use_llms_1.png)
-
-### Notice：
 
 <!--
 1、用户问答(FAQ) 该功能下有两个配置小项：
@@ -61,14 +64,18 @@ In the project-large language model settings, select to enable `User Questions a
 *可单独开启/关闭，设置变更后在新创建的会话中生效。*
 -->
 
+### FAQ:
+1. FAQ There are two configuration items under this function:
 
-1. User Questions and Answers (FAQ) There are two configuration items under this function:
-
-- When answering the FAQ, other related questions are displayed.
+- When answering the FAQ, display other related questions.
 > When hitting FAQ, users can click on questions that may be related to it to view the corresponding answers.
 
 - When answering the FAQ, use a large language model to generate answers (which may be different from the original answers).
 > Based on the generation ability of LLMs, summarize and answer the user's questions when matching the FAQ. A button will appear below the answer to get the standard answer.
+
+
+### Flow:
+LLMs improve dialogue quality.
 
 *Can be turned on/off individually. Changes in settings will take effect in newly created sessions.*
 ## Common Questions
@@ -99,8 +106,8 @@ In the project-large language model settings, select to enable `User Questions a
 >
 > We're sorry, but due to insufficient funds in the merchant's account, we are unable to provide our services at this time. Please try again later or contact our customer support for further assistance.
 
-### 2. In addition to ChatGPT, can I choose to use other LLMs?
-> Please contact us: info@promptai.us
+### 2. Can I choose to use other LLMs besides OpenAI?
+> At present,we only support OpenAI. Please contact us: info@promptai.us
 
 ### 3. What should I do if I want to obtain more Tokens?
 > Please contact us: info@promptai.us
@@ -110,3 +117,11 @@ In the project-large language model settings, select to enable `User Questions a
 
 ### 5. Do I need to retrain after turning off the LLMs mode?
 > Yes.
+
+### 6.What's a Token?
+> You can think of tokens as pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words. As a point of reference, the collected works of Shakespeare are about 900,000 words or 1.2M tokens.
+> 
+> To learn more about how tokens work and estimate your usage…
+> 
+> Experiment with our interactive Tokenizer tool.
+> Log in to your account and enter text into the Playground. The counter in the footer will display how many tokens are in your text.
