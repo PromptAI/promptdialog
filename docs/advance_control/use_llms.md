@@ -70,9 +70,12 @@ In the project-large language model settings, select to enable `FAQ` and `Flows`
 - When answering the FAQ, display other related questions.
 > When hitting FAQ, users can click on questions that may be related to it to view the corresponding answers.
 
+![use_llms_2.jpg](/assets/images/use_llms_2.png)
+
 - When answering the FAQ, use a large language model to generate answers (which may be different from the original answers).
 > Based on the generation ability of LLMs, summarize and answer the user's questions when matching the FAQ. A button will appear below the answer to get the standard answer.
 
+![use_llms_3.jpg](/assets/images/use_llms_3.png)
 
 ### Flow:
 LLMs improve dialogue quality.
