@@ -21,13 +21,12 @@ Using LLMs can improve conversation quality with fewer examples.
 
 *1、Before you activate LLMs on Flows, you need to activate LLMs on FAQ first.*
 
-*2、At present, we only support OpenAI API Key. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)*
+*2、You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)*
 
-## LLMs Pricing
+## LLMs Tokens
 <!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000`Token。-->
-You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI.
 
-Tokens will be consumed during the training and conversations. Currently, we give `100,000` free tokens to each registered user to start.
+Tokens will be consumed during the training and conversations. Currently,  `100,000` free tokens will be given to each registered user to start.
 
 <!--
 token消耗:
