@@ -8,26 +8,26 @@ spliter: true
 
 <!-- 使用LLMs可以减少标注、提高对话准确率。 -->
 
-Using LLMs can improve dialogue quality with fewer example sentence.
+Using LLMs can improve conversation quality with fewer examples.
 
 
 |     Function   | LLMs | Local Model | Remark |
 |----------------|------|----------|:-------|
 |      FAQ       |  ✅  |  ✅  |        |
 |      Flow      |  ✅  |  ✅  |      |
-| Knowledge Base |  ✅  |  ❌  | Only support LLMs model, so no option provided.|
+| Knowledge Base |  ✅  |  ❌  | Only support LLMs, using Retrieval-Augmented Generation (RAG)|
 
 <!--Flow开启LLMs时需要将FAQ的LLMs功能开启-->
 
-*1、Before you turn on LLMs function of Flow, you need to turn on the LLMs function of FAQ first.*
+*1、Before you activate LLMs on Flows, you need to activate LLMs on FAQ first.*
 
-*2、At present, we only support OpenAI. If you have any other needs, please contact us: [info@promptai.us](mailto:info@promptai.us)*
+*2、At present, we only support OpenAI API Key. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)*
 
-## Pricing
-<!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000.00`Token。-->
-You can config your OpenAI Token on our platform or use our Token.
+## LLMs Pricing
+<!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000`Token。-->
+You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI.
 
-Tokens will be consumed during the training/dialogue stage. Currently, `100,000.00` Tokens free to each registered user by default.
+Tokens will be consumed during the training and conversations. Currently, we give `100,000` free tokens to each registered user to start.
 
 <!--
 token消耗:
@@ -38,19 +38,17 @@ token消耗:
 - 对话
 -->
 
-Token consumption:
-- FAQ Embedding
-- Embedding of Flow
-- Knowledge Base Embedding
-- Input Embedding during dialogue
-- Dialogue
-
-For more details please visit:[Pricing Page](https://promptai.us/pricing)
-
+Where OpenAI tokens will be used:
+- FAQ embedding
+- Text embedding in Knowledge Bases
+- User utterance embedding in Flows
+- User utterance embedding during conversations
+  
+For more details please visit:[Pricing Page](https://promptai.us/en/pricing)
 
 ## Enable LLMs
 <!--在项目-大语言模型设置中选择开启`用户问答(FAQ)`和`对话流图`，开启后点击右上角进行保存。-->
-In the LLMs setting you can enable LLMs function of `FAQ` and `Flow`. Remind to click the "Save" button and re-build/re-publish your project to make the configuration effective.
+In the LLMs setting, you can activate the use of LLMs on `FAQ` and `Flow`. Please debug/run/re-publish your bot to make the new setting effective.
 
 ![use_llms_1.jpg](/assets/images/use_llms_1.png)
 
@@ -66,20 +64,21 @@ In the LLMs setting you can enable LLMs function of `FAQ` and `Flow`. Remind to 
 -->
 
 ### FAQ:
-1.There are two configuration items under this function:
+1.There are one option when activating LLMs on FAQ:
 
-- When answering the FAQ, display other related questions.
-> Users can click on questions that may be related to it to view the corresponding answers.
+- When answering the FAQ, the bot will display other related questions.
+> Users can click on questions that might be related to view other possible answers.
 
 ![use_llms_2.jpg](/assets/images/use_llms_2.png)
 
-- When answering the FAQ, use a large language model to generate answers (which may be different from the original answers).
-> Based on the generation ability of LLMs, summarize and answer the user's questions when matching the FAQ. A button will appear below the answer to get the standard answer.
+### Knowledge Base:
+- When answering a question not in the FAQ,  the bot could generate answers from the knowledge bases.
+> Based on the generation capability of LLMs, summarize and answer the user's questions. A check source link will appear next to the answer to display the original source content.
 
 ![use_llms_3.jpg](/assets/images/use_llms_3.png)
 
 ### Flow:
-LLMs improve dialogue quality.
+Pretrained LLMs such as ChatGPT and GPT-4 will dramatically improve conversation quality.  In zero or few shot training,  ChatGPT performs much better than the DIET algorithm in RASA in terms of intent classification and entity recognition. 
 
 ## Common Questions
 
@@ -104,22 +103,23 @@ LLMs improve dialogue quality.
 > Yes
 -->
 
-### 1. Can I have a conversation after the Token is used up?
-> No, the dialog will receive a message:
+### 1. Can the bot have a conversation after tokens are used up?
+> No, the conversation will not continue:
 ```text
-We're sorry, but due to insufficient funds in the merchant's account, we are unable to provide our services at this time. Please try again later or contact our customer support for further assistance.
+We're sorry, but due to insufficient funds in the merchant's account, we are unable to provide our services at this time.
 ```
+> Before your tokens run short,  we will send an alert to your registered email account. 
 
-### 2. Can I choose to use other LLMs besides OpenAI?
-> At present,we only support OpenAI. Please contact us: info@promptai.us
+### 2. Can I choose to use other LLMs besides ChatGPT/GPT-4?
+> Yes. Please contact us: info@promptai.us and we will add it. 
 
-### 3. What should I do if I desired to obtain more Tokens?
-> Please contact us: info@promptai.us
+### 3. What should I do if I am interested in obtaining more tokens?
+> Please contact us: info@promptai.us .  We could purchase more with the same price offered by OpenAI. 
 
 ### 4. Do I need to retrain after turning off the LLMs mode?
-> Yes. After enabled or disabled the settings, re-train/re-publish your project is required.
+> Yes. After enabled or disabled LLMs, debug/run/re-publish your project is required.
 
-### 5. What's a Token?
+### 5. What's a token?
 > You can think of tokens as pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words. As a point of reference, the collected works of Shakespeare are about 900,000 words or 1.2M tokens.
 > 
 > To learn more about how tokens work:
