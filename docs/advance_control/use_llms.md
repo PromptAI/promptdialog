@@ -19,7 +19,7 @@ Using LLMs can improve conversation quality with fewer examples.
 
 <!--Flow开启LLMs时需要将FAQ的LLMs功能开启-->
 
-*1、Before you activate LLMs on Flows, you need to activate LLMs on FAQ first.*
+*1、Before you enable LLMs on Flows, you need to enable LLMs on FAQ first.*
 
 *2、You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)*
 
@@ -47,7 +47,7 @@ For more details please visit:[Pricing Page](https://promptai.us/en/pricing)
 
 ## Enable LLMs
 <!--在项目-大语言模型设置中选择开启`用户问答(FAQ)`和`对话流图`，开启后点击右上角进行保存。-->
-In the LLMs setting, you can activate the use of LLMs on `FAQ` and `Flow`. Please debug/run/re-publish your bot to make the new setting effective.
+In the LLMs setting, you can enable the use of LLMs on `FAQ` and `Flow`. Please debug/run/re-publish your bot to make the new setting effective.
 
 ![use_llms_1.jpg](/assets/images/use_llms_1.png)
 
@@ -116,7 +116,7 @@ We're sorry, but due to insufficient funds in the merchant's account, we are una
 > Please contact us: info@promptai.us .  We could purchase more with the same price offered by OpenAI. 
 
 ### 4. Do I need to retrain after turning off the LLMs mode?
-> Yes. After enabled or disabled LLMs, debug/run/re-publish your project is required.
+> Yes. After enabling or disabling LLMs, debug/run/re-publish your project is required.
 
 ### 5. What's a token?
 > You can think of tokens as pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words. As a point of reference, the collected works of Shakespeare are about 900,000 words or 1.2M tokens.
