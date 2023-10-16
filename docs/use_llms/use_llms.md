@@ -1,9 +1,7 @@
 ---
 layout: en
 title: Use LLMs
-parent: Advanced Control
-nav_order: 5
-spliter: true
+nav_order: 3
 ---
 
 <!-- 使用LLMs可以减少标注、提高对话准确率。 -->
