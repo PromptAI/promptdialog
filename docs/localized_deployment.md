@@ -69,5 +69,28 @@ Login: [http://localhost:9000](http://localhost:9000)
 ## Upgrade
 Run installation command again.
 
+## How to get a License?
+After the installation, a licence is required. For now, we provide free license to Local Environment.
+![license_1](/assets/images/license_1.png)
+
+### Get License
+1、You can get License in PromptAI accounts. The first step is register you PromptAI account:
+
+Register a PromptAI account:[https://app.promptai.us/](https://app.promptai.us/)
+
+2、After login to PromptAI, click your head image and click "License"：
+
+![license_2.png](/assets/images/license_2.png)
+
+3、Click the "Create" button you will get a "Starter" license (Free)
+![license_3.png](/assets/images/license_3.png)
+
+4、Paste your License to Local Env
+![license_4.png](/assets/images/license_4.png)
+
+
+
+
+
 ## Need help or any other questions
 Mail to: [info@promptai.us](mailto:info@promptai.us)
