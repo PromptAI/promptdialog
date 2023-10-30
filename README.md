@@ -3,7 +3,7 @@
   <a href="./README.md">English</a> |
   <a href="./README_CN.md">简体中文</a>
 </p>
-
+<a target="_blank" rel="noopener noreferrer" href="https://www.promptai.us"><img src="/PromptAI/promptdialog/raw/main/image/main.png" alt="https://www.promptai.us" style="max-width: 100%;"></a>
 #### [Website](https://www.promptai.us) • [Docs](https://doc.promptai.us) • [FAQ](https://doc.promptai.us/docs/common_questions/) • [Email](mailto:info@promptai.us)
 We present PromptDialog, an integrated development (IDE) and operation environment (DevOps) to enable rapid development and delivery of AI assistants, aka, chatbots. 
 
