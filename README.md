@@ -1,4 +1,4 @@
-![](./image/main.png)
+![https://www.promptai.us](./image/main.png)
 <p align="center">
   <a href="./README.md">English</a> |
   <a href="./README_CN.md">简体中文</a>
@@ -21,7 +21,7 @@ When you are using Rasa Open Source, you might be disappointed by the lack of La
 - [Financial Services](https://www.promptai.us/en/examples/#Financial)
 
 ## Use Cloud Services
-Visit [app.promptai.us](https://app.promptai.us)
+Visit [www.promptai.us](https://www.promptai.us)
 
 ## Localized Deployment
 
