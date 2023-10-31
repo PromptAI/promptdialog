@@ -40,7 +40,7 @@ Optional:
 ### Quick Start
 Run following cmd in your terminal.
 ```bash
-curl -o install.sh 'https://raw.githubusercontent.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
+curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
 After running, you can access the PromptDialog app in your browser at [http://localhost:9000](http://localhost:9000).
 

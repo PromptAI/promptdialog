@@ -37,7 +37,7 @@ PromptDialog支持Rasa和GPT4，以及完整的设计/测试/部署环境（Rasa
 ### 快速开始
 执行以下命令在你的终端中：
 ```bash
-curl -o install.sh 'https://raw.githubusercontent.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
+curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
 等待一段时间运行成功后，访问[http://localhost:9000](http://localhost:9000).
 
