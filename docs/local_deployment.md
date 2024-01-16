@@ -15,11 +15,11 @@ The PromptDialog implementation is done by Docker, including two images .
 
 |  Image |         Description         | 
 |:------|:-----------------------------|
-|  promptai/zbotai:release   |    AI model       | 
+| promptai/zbotai:release    |    AI model       | 
 | promptai/zbot-aio:release  | PromptDialog  service framework     |
 
 
-## Requirement
+## Requirements
 ```text
 OS         :Linux/Mac OS
 RAM        :At least 8GB
@@ -35,8 +35,7 @@ Run following cmd in your terminal.
 ```shell
 curl -o install.sh 'https://raw.githubusercontent.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
-
-Wait a moment.
+*Prompt AI's docker images total 25 GB, and the installation time depends on your network. First-time installation usually takes 10 to 30 minutes.*
 
 ### Finish
 If system is ready you will see the auth info:
@@ -48,31 +47,12 @@ Login: [http://localhost:9000](http://localhost:9000)
 
 ![deploy-02](/assets/images/private_deploy/deploy-02.png)
 
-## Upgrade
-Run installation command again.
 
-## How to get a License?
-After the installation, a licence is required. For now, we provide free license to Local Environment.
+## How to get a Professional License?
+
+Professional licenses are coming soon, please contact us if you need one.
+Mail to: [info@promptai.us](mailto:info@promptai.us)
+
 ![license_1](/assets/images/license_1.png)
 
-### Get License
-1、You can get License in PromptAI accounts. The first step is register you PromptAI account:
 
-Register a PromptAI account:[https://app.promptai.us/](https://app.promptai.us/)
-
-2、After login to PromptAI, click your head image and click "License"：
-
-![license_2.png](/assets/images/license_2.png)
-
-3、Click the "Create" button you will get a "Starter" license (Free)
-![license_3.png](/assets/images/license_3.png)
-
-4、Paste your License to Local Env
-![license_4.png](/assets/images/license_4.png)
-
-
-
-
-
-## Need help or any other questions
-Mail to: [info@promptai.us](mailto:info@promptai.us)
