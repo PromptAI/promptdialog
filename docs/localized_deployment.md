@@ -1,40 +1,22 @@
 ---
 layout: en
-title: Localized Deployment
+title: Local Deployment
 nav_order: 11
 ---
 
 Install full PromptDialog to your own machine.
 
-## What does PromptDialog do?
-The following section introduces the details of PromptDialog. You need not to read this part to run PromptDialog successfully.
-
-- Manage all your data
-- Provide PromptDialog service
-
 PromptDialog will only create and operate in the following directory of your machine.
-
-- OS:  Linux / MacOS
 - location: $HOME/zbot
 
-Please do not modify any file in the above directory.
-
-
-The PromptDialog implementation is done by Docker, including two images and multiple containers.
+The PromptDialog implementation is done by Docker, including two images .
 
 - Docker Images
 
-| Name  | Image                        | Description                             |
-|:------|:-----------------------------|-----------------------------------------|
-|  AI   | promptai/zbotai:release      | AI model                                |
-| Zbot  | promptai/zbot-aio:release     | PromptDialog Core service               |
-
-- Docker Containers
-
-| Name  | Container    | Description                                                              |
-|:------|:-------------|--------------------------------------------------------------------------|
-|  AI   | zbot_a1_xxxx | "xxxx" is the selected models for debugging. There may be more than one |
-| Zbot  | zbot         | PromptDialog Core service                                               |
+|  Image |         Description         | 
+|:------|:-----------------------------|
+|  promptai/zbotai:release   |    AI model       | 
+| promptai/zbot-aio:release  | PromptDialog  service framework     |
 
 
 ## Requirement
