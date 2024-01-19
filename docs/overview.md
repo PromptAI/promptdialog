@@ -9,7 +9,7 @@ PromptAI provides an all-in-one devops platform of building, running and deployi
 
 * Design bots on cloud, run locally (Link to the Cloud version  [https://www.promptai.us/en/pricing/](https://www.promptai.us/en/pricing/)）
 * Design bots on cloud, run on cloud (LLMs-native, no GPU required, coming soon)
-* Design bots locally, run locally (Link to the On Premesis version  [https://www.promptai.us/en/pricing/](https://www.promptai.us/en/pricing/)）
+* Design bots locally, run locally (Link to the On Premesis version  [https://www.promptai.us/en/pricing/premesis](https://www.promptai.us/en/pricing/premesis)）
 * Design bots locally, run on cloud
 
 The current release supports cloud-based chatbot design/testing, local training/running. For users who are interested in the other three settings, please contact [info@promptai.us](mailto:info@promptai.us).
