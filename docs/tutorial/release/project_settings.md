@@ -29,7 +29,7 @@ or configure here.
 ![welcome_config_2](/assets/images/tutorial/welcome_config_2.jpg)
 
 ## Fallback
-You can check the detailed configuration of  `Fallback` [here](https://doc.promptai.us/docs/tutorial/default_reply/)
+You can check the detailed configuration of  `Fallback` [here](https://doc.promptai.us/docs/tutorial/fallback/)
 
 ## Options for FAQ and Flows to be rendered as buttons
 Whether to display each module as a button below the welcome message, you can configure it here, and the image below contains the effect of the `Not Display` option.
