@@ -19,10 +19,9 @@ Suppose a customer places an order for three apples at a fruit store (we like ap
 
 API of place fruit order:
 ```text
-API call URL           : https://fruits.shop/api/place/order
+API call URL  : https://fruits.shop/api/place/order
 Request Method: Post
 Request Body  : {"type":"fruit type", "count": 3}
-
 Response      : {"status":200, "message":"An order has been successfully placed for you"}
 ```
 
