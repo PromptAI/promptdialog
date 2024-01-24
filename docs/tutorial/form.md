@@ -21,7 +21,7 @@ Bot : Perfect! I have your order 5 apples.
 User: Thanks
 Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 ```
-There are other similar scenarios that cab be handled by Form:
+There are other similar scenarios that can be handled by Form:
 - Check the weather: Collect the location and time to check the weather conditions in real time.
 - Book air tickets: Book air tickets by obtaining the user's travel time and departure airport.
 - ...
