@@ -24,7 +24,7 @@ In PromptAI, two methods are supported as shown in the figure below
 ## Fallback with webhook
 PromDialog also support to hand over the default reply to a third-party API for processing
 
-- See [Webhook-Fallback](docs/webhook/03-webhook/)
+- See [Webhook-Fallback](/docs/webhook/03-webhook/)
 
 ## Fallback with action
 Action fallback
