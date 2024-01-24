@@ -36,7 +36,7 @@ The released project can be deployed through QR code and embedded any web pages
 
 Requirement:
  - Internet support
- - Allow access: https://app.promptai.cn  at port: 443
+ - Allow access: https://app.promptai.us  at port: 443
  - Modern browsers: like latest version of Chrome
 
 ###  QR code [Mobile]
