@@ -36,3 +36,23 @@
 .nav-list-spilter {
   margin-bottom: $sp-4 !important;
 }
+
+.nav-hr {
+  margin: 1rem;
+}
+.nav-other {
+  margin: 0;
+  padding: 0 2rem;
+  &:hover {
+    text-decoration: underline;
+  } 
+}
+
+.custom-title-mark {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 8px;
+  border: 1px solid #7253ed;
+  border-radius: 4px;
+  padding: 2px;
+}
