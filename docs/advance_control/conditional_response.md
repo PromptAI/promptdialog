@@ -2,60 +2,46 @@
 layout: en
 title: Conditional Responses
 parent: Advanced Control
-nav_order: 4
+nav_order: 3
 ---
-Let's create a chatbot of a fruit nutrition expert, which can give the daily intake of common fruits:
+Let's create a chatbot of IT Helpdesk, which can give the reason for the error codes.
 ```text
-Chatbot: Welcome to the Fruit Nutrition Expert! I can help you learn about the daily intake recommendations for various common fruits. Please tell me which fruit you'd like to know about.
-User: Apple
-Chatbot: Great! For adults, consuming 1-2 apples per day is a good choice. Apples are rich in dietary fiber, vitamins, and minerals, which can help maintain a healthy digestive system and immune function.
-User: Banana
-Chatbot: For adults, consuming 1-2 bananas per day is moderate. Bananas are an excellent source of energy and are rich in potassium, vitamin B6, and dietary fiber, which can help maintain normal heart and muscle function.
+Bot : Hello! Welcome to help center.
+      What can i do for you?
+User: I get a error code 1001
+Bot : 1001 means your user name or password is wrong. Please check your username and password.
+User: 1011
+Chatbot: 1011 means system is busy, please try again later.
 ...
 ```
-<!---
-User: Grapes
 
-Chatbot: Adults can consume a small bunch of grapes, about 10-15 grapes per day. Grapes contain abundant antioxidants and vitamin C, which can help protect cells from oxidative damage.
-
-User: Watermelon
-
-Chatbot: Watermelon is a refreshing fruit for the summer! Consuming a small slice of watermelon (about 200 grams) per day is a good choice. It has a high water content, helping to maintain body hydration, and is also rich in vitamins A and C.
---->
-This task requires us to respond differently according to the type of fruits. 
+This task requires us to respond differently according to the error code. 
 
 ## Example
-Create a dialog flow, get the fruit input by the user and put it in `fruit_type`, and give suggestions based on `fruit_type`.
+Expand the IT Helpdesk bot, get the error input by the user and put it in `error_code`, and give suggestions based on `error_code`.
 
-![condition_response_overview.jpg](/assets/images/condition_response_overview.jpg)
+![condition-response-01.png](/assets/images/advanced_control/condition_response/condition-response-01.png)
 
-Double-click "Please try another fruit!" 
-- If there is no match to the fruit type, the bot will reply:'Please try another fruit!'
+Click "Please contact our service h..." and then edit node:
+- If there is no match to the error code, the bot will reply:'Please contact our service hotline xxx-xxx'
 
-Click 'Conditonal Response Variantions' enter the editing pane.
+Click 'Conditional Response' enter the editing pane.
 
-![condition_response_bot.jpg](/assets/images/condition_response_bot.jpg)
+![condition-response-02.png](/assets/images/advanced_control/condition_response/condition-response-02.png)
 
-Select the slot to be matched, here we enter `fruit_type`.
+Select the slot to be matched, here we enter `error_code`.
 
-![img_3.png](/assets/images/tutorial/conditional_response/03-slot-reply-list.png)
+![condition-response-03.png](/assets/images/advanced_control/condition_response/condition-response-03.png)
 
 Click `Add a new line`. 
 
-![img_1.png](/assets/images/tutorial/conditional_response/04-slot-reply-list.png)
+![condition-response-04.png](/assets/images/advanced_control/condition_response/condition-response-04.png)
 
-Add a slot value.
+Enter the slot value that needs to be matched, here is `1011`. `Reply` is the response the bot will send.
+![condition-response-05.png](/assets/images/advanced_control/condition_response/condition-response-05.png)
 
-![img_2.png](/assets/images/tutorial/conditional_response/05-slot-reply-list.png)
-
-Enter the slot value that needs to be matched, here is `apple`. `Reply` is the response the bot will send. 
-
-![img.png](/assets/images/tutorial/conditional_response/06-slot-reply-list.png)
-
-Add bot replies.
-
-![img_4.png](/assets/images/tutorial/conditional_response/07-slot-reply-list.png)
+Click 'Ok' to save
+![condition-response-06.png](/assets/images/advanced_control/condition_response/condition-response-06.png)
 
 ## Chat
-
-![img.png](/assets/images/tutorial/conditional_response/08-slot-reply-list.png)
+![condition-response-07.png](/assets/images/advanced_control/condition_response/condition-response-07.png)

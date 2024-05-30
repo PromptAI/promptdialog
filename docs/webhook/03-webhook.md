@@ -29,7 +29,7 @@ curl http://localhost/chat?input=What can PromptAI do?&chatId=xxxx
 The question and session ID are used as input through the Http Get request, and the response returns data in JSON format, where the message field is the reply.
 ### Webhook configuration
 
-![03-1-webhook.png](/assets/images/webhook_fallback.jpg)
+![03-1-webhook.png](/assets/images/webhook/webhook-fallback-01.jpg)
 
 First, we configure the name and request address, and use the built-in slots `{latest_message}` and `{send_id}` in the request address to send the user input and session id to the API according to the API requirements.  After receiving the returned message, we put `message` to `relpy` in the response processing part, and send `{reply}` to the user. 
 
@@ -37,4 +37,4 @@ First, we configure the name and request address, and use the built-in slots `{l
 
 Select "Overview" on the left navigation pane and then click "Fallback" in the diagram. 
 
-![03-3-webhook.jpg](/assets/images/webhook_falllbak_use.jpg)
+![03-3-webhook.jpg](/assets/images/webhook/webhook-fallback-02.png)

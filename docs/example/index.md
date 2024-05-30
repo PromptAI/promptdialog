@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Video Tutorials
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 # Video Tutorials
@@ -9,4 +9,3 @@ has_children: true
 
 We provide the following examples to guide you to quickly understand and use the dialogue services provided by Prompt AI.
 
-This page shall be removed。 Not needed. 

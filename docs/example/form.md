@@ -1,10 +1,9 @@
 ---
 layout: en
-title: Create Form
+title: Create Flow with Form
 parent: Video Tutorials
-nav_order: 2
+nav_order: 1
 ---
+The following video shows how to collect information via a from in PromptDialog 
 
-Suppose we would like to collect order information of purchasing fruits: The type of fruits and the pounds of fruits.  This information collection process can be implement by a RASA form.  PromptDialog provides a visual tool to build this form without programming. 
-
-<video src="/assets/images/example/video/form.mp4" width="100%" height="520px" controls="controls"></video>
+<video src="/assets/images/example/video/doc-create-flow-with-form.mp4" width="100%" height="520px" controls="controls"></video>

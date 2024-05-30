@@ -4,61 +4,42 @@ title: Overview
 nav_order: 1
 has_children: false
 ---
-<!-- ![01-overview.png](/assets/images/overview/01-overview.png) -->
-PromptAI provides an all-in-one devops platform of building, running and deploying a chatbot.  It actually supports all of four settings: The chatbot design environment and running environment could either be on premises or cloud.
+PromptAI provides an all-in-one devops platform of building, running and deploying a chatbot.  It supports both on premises and cloud design and deployment.
 
-* [Design bots on cloud, run locally](https://www.promptai.us/en/pricing/on-cloud/) 
-* Design bots on cloud, run on cloud (LLMs-native, no GPU required, coming soon)
+* [Design bots on cloud, run on cloud](https://www.promptai.us/en/pricing/on-cloud/)
 * [Design bots locally, run locally](https://www.promptai.us/en/pricing/premises/)
-* Design bots locally, run on cloud
 
-The current release supports cloud-based chatbot design/testing, local training/running. For users who are interested in the other three settings, please contact [info@promptai.us](mailto:info@promptai.us).
+PromptAI emphasizes the protection of user data. Your data is stored in secure cloud AWS/US servers and is subject to strict encryption and access controls. You can also run PromptAI locally, keeping the design and conversations on your own machine 
 
-PromptAI emphasizes the protection of user data. Your data is stored in secure cloud AWS/US servers and is subject to strict encryption and access controls. It employs state-of-the-art security technologies and measures to ensure the ongoing protection of your data during transmission and storage processes.
+<!-- PromptAI提供专业的对话机器人设计体验，旨在简化构建过程，使其简单高效。我们提供直观的流图设计工具，让您轻松创建对话机器人。PromptAI包含丰富的预制功能，包括文档、网页链接、文件转换成对话内容等。我们支持简单的问答交互，简单信息的收集，以及复杂多信息的收集。您可以控制丰富的富文本回复内容，并支持Webhook调用、对话历史记录、以及发布为Web内嵌对话机器人和移动端对话机器人。此外，我们还提供预制变量设置，以帮助您快速高效地设计和部署您的对话机器人。 -->
 
-There are two ways to train and run your bot.  If you have your own Rasa environment set up, please feel free to download the generated Rasa code of your design and test your bot.  Or you could create the local running environment as illustrated below, which packaged everything for you. There are three steps: Design a dialog flow, create the local running environment (you only need to do it once), train the model and run the bot using PromptDialog. 
+PromptAI provides an intuitive conversation design tool for fast bot creation. It enable webhook calls, conversation history, as well as publishing as a web-embedded chatbot and a mobile chatbot. You have full control over response content.
+<!-- ## 快速开始  -->
+## Get Start
+<!-- 以下是在云版本中创建第一个对话机器人的例子。（更多例子在[这里](/docs/examples/)可以查看） -->
+Here is an example of creating the first PromptAI chatbot. 
+<!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
-## Step 1 - Create a dialog flow
-Create your first dialog flow.
+1. Create the first project.
+![overview1.png](/assets/images/overview/gpt-flow-01.png)
+2. Create the first GPT Flow.
+![overview2.png](/assets/images/overview/gpt-flow-02.png)
+3. Click to complete the GPT Flow.
+![overview3.png](/assets/images/overview/gpt-flow-03.png)
+4. At this point, we completed the first dialogue flow. Now, let's click the "Debug Run" button on the upper right corner to start debugging.
+![overview4.png](/assets/images/overview/gpt-flow-04.png)
+5. Wait for the connection to complete and test your flow.
+![overview5.png](/assets/images/overview/gpt-flow-05.png)
 
-![overview_create_dialog_flow.jpg](/assets/images/overview/overview_create_dialog_flow.jpg)
+<!-- ## 快速发布 -->
+## Publish
+<!-- 选择我们刚刚测试运行好的流图，进行发布。发布之后，我们可以看见web内嵌链接，和移动端链接。更多发布相关内容请看这里。 -->
+Select the flow that you just tested, then proceed with publishing. After publishing, you can see the web-embedded link and the mobile link. For more information on publishing, please refer to [this section](/docs/tutorial/release/release_project).
+![overview6.png](/assets/images/overview/gpt-flow-06.png)
 
-## Step 2 - Create the local environment
-You can build a local running environment with one line of command. For details, please check [Run Chatbots:LRE](/docs/run_bots) and check [install question](/docs/common_questions/install_questions) if you have any question. 
-
-![overview_create_agent.jpg](/assets/images/overview/overview_create_agent.jpg)
-
-<!-- 
-```text
-## Step 3 - Download RASA code
-All dialog flows and faqs can be downloaded as generated RASA code for free to build your chatbot in a RASA environment (RASA 3.2).
-
-![overview_download_rasa_file.jpg](/assets/images/overview/overview_download_rasa_file.jpg)
-
-## Step 4 - Train
-After downloading the code, you can train your model in your local running environment.  
-```
--->
-
-
-![05-overview.png](/assets/images/overview/05-overview.png)
-
-## Step 3 - Debug and Release
-Now you can debug/run your new chatbot in PromptDialog.
-![overview_running_debug_bot.png](/assets/images/overview/overview_running_debug_bot.png)
-
-Once you are satisfied with the result, it is ready to release.  We provide multiple ways to [release](/docs/tutorial/release/release_project/) and will add more.
-
-* Release
-
-![overview_release_page.png](/assets/images/tutorial/release_released.jpg)
-
-* Web Application
-
-![chat-release-03](/assets/images/tutorial/release_web_script_demo_1.jpg)
-
-* Chat History & Dashboard
-
-![overview_chat_history.png](/assets/images/overview/overview_chat_history.png)
-
-![overview_dashboard.png](/assets/images/overview/overview_dashboard.png)
+<!-- ## 对话历史和Dashboard -->
+## Conversation History and Dashboard
+<!-- 对话历史纪录了，当前项目的所有对话信息。 -->
+The conversation history records the conversation information for the current project.
+![overview7.png](/assets/images/overview/gpt-flow-07.png)
+![overview8.png](/assets/images/overview/gpt-flow-08.png)

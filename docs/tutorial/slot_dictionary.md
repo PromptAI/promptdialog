@@ -1,3 +1,7 @@
+<!--
+
+Out of date
+
 ---
 layout: en
 title: Dictionary
@@ -42,4 +46,5 @@ Suppose we create a dialog flow diagram ''where are you from?''.
    
    ![dict-05](/assets/images/tutorial/dict/dict-05.png)
 
+-->
 
