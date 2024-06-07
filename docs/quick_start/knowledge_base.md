@@ -77,7 +77,7 @@ After a few seconds, the publication is successful and a dialog box pops up:
 ### Run
 
 Next let’s try the dialogue
-- Ask: who are yor?
+- Ask: who are you?
 - Ask: What PromptAI can do?
 
 ![img_13.png](/assets/images/quick_start/kb/kb-12.png)
