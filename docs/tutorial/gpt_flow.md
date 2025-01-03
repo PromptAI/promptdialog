@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: GPT Flow
 parent: Developer's Guide
 nav_order: 4

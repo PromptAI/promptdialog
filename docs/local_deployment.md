@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Local Deployment
 nav_order: 11
 ---

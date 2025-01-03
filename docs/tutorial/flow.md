@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Dialog Flow
 parent: Developer's Guide
 nav_order: 5

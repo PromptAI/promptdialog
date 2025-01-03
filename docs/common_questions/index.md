@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Common Questions
 nav_order: 6
 spliter: true

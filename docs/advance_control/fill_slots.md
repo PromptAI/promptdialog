@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Automatic Fill Slots
 parent: Advanced Control
 nav_order: 4

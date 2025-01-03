@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Conditional Responses
 parent: Advanced Control
 nav_order: 3

@@ -1,6 +1,4 @@
-//
 // The basic two column layout
-//
 
 .side-bar {
   z-index: 0;
@@ -9,11 +7,10 @@
   background-color: $sidebar-color;
 
   @include mq(md) {
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
     position: fixed;
     width: $nav-width-md;
     height: 100%;
-    flex-direction: column;
     border-right: $border $border-color;
     align-items: flex-end;
   }
@@ -32,16 +29,26 @@
   }
 
   @include mq(lg) {
-    margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+    // stylelint-disable function-name-case
+    // disable for Max(), we want to use the CSS max() function
+    margin-left: Max(
+      #{$nav-width},
+      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
     );
+    // stylelint-enable function-name-case
   }
 }
 
 .main-content-wrap {
   @include container;
+
   padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
+
+  @include mq(md) {
+    padding-top: $gutter-spacing;
+    padding-bottom: $gutter-spacing;
+  }
 }
 
 .main-header {
@@ -83,13 +90,9 @@
     display: block;
   }
 
-  &> .nav-list> .nav-list-item:first-child {
-    margin-bottom: $sp-4;
-  }
-
   @include mq(md) {
     display: block;
-    padding-top: $sp-4;
+    padding-top: $sp-8;
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;
@@ -110,6 +113,7 @@
 
 .site-title {
   @include container;
+
   flex-grow: 1;
   display: flex;
   height: 100%;
@@ -149,14 +153,6 @@
   }
 }
 
-.site-title:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 80%,
-    rgba($feedback-color, 0) 100%
-  );
-}
 
 .site-button:hover {
   background-image: linear-gradient(
@@ -183,6 +179,7 @@ body {
 
 .site-footer {
   @include container;
+
   position: absolute;
   bottom: 0;
   left: 0;

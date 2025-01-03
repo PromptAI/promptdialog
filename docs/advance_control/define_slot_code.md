@@ -3,7 +3,7 @@
 Out of date
 
 ---
-layout: en
+layout: default
 title: Dynamic Slots
 parent: Advanced Control
 nav_order: 1

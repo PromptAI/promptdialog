@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Create Flow with Form
 parent: Video Tutorials
 nav_order: 1

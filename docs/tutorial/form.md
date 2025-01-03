@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Form
 parent: Developer's Guide
 nav_order: 7

@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Bot Reply Conditions
 parent: Advanced Control
 nav_order: 1
