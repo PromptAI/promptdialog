@@ -7,9 +7,13 @@ services:
     ports:
       - 4000:4000
     volumes:
-      - .:/usr/src/app
+      - ./_layouts:/usr/src/app/_layouts
+      - ./_includes:/usr/src/app/_includes
+      - ./_sass:/usr/src/app/_sass
+      - ./assets:/usr/src/app/assets
       - ./docs:/usr/src/app/docs
-      - ./assets/images:/usr/src/app/assets/images
+      - ./index.md:/usr/src/app/index.md
+      - ./_site:/usr/src/app/_site
     stdin_open: true
     tty: true
     command: bundle exec jekyll serve -H 0.0.0.0 -t

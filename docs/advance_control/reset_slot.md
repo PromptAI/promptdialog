@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Reset Slot Value
 parent: Advanced Control
 nav_order: 2

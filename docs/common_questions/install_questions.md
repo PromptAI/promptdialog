@@ -1,7 +1,7 @@
 <!--
 
 ---
-layout: en
+layout: default
 title: Install Questions
 parent: Common Questions
 nav_order: 1

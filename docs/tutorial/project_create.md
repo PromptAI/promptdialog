@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Create Project
 parent: Developer's Guide
 nav_order: 1

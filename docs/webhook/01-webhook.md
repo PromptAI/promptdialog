@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Concept of webhook
 parent: Webhook
 nav_order: 1

@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Goto
 parent: Developer's Guide
 nav_order: 8

@@ -1,5 +1,5 @@
 ---
-layout: en 
+layout: default 
 title: IT Helpdesk 
 parent: Quick Start 
 nav_order: 2

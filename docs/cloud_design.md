@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Dialog Flow Design
 nav_order: 3
 has_children: false

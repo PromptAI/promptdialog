@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Basic Concepts
 nav_order: 7
 ---

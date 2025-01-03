@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Localized Deployment
 nav_order: 9
 show: false

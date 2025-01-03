@@ -1,5 +1,6 @@
-.header {
-  color: white;
+// custom SCSS (or CSS) goes here
+h1 {
+  color: black;
   position: relative;
   overflow: hidden;
   &:after {
@@ -10,49 +11,44 @@
     bottom: 0;
     width: 100%;
     transform: translateX(-100%);
-    background: $purple-000;
     z-index: -1;
   }
-  display: none;
-}
-.language {
-  display: flex;
-  align-items: center;
-}
-.custom-header {
-  display: flex;
-  align-items: center;
-  @include container;
-  &>h2 {
-    margin-bottom: 0;
-    display: inline-block;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  flex: 1;
-}
-.nav-list-spilter {
-  margin-bottom: $sp-4 !important;
 }
 
-.nav-hr {
-  margin: 1rem;
-}
-.nav-other {
-  margin: 0;
-  padding: 0 2rem;
-  &:hover {
-    text-decoration: underline;
-  } 
+/* 激活的菜单项样式 */
+.nav-list-link.active {
+  display: block;           /* 确保点击区域覆盖整个宽度 */
+  background-color: #A90202; /* 纯色红色背景 */
+  color: white !important;  /* 强制字体变为白色，避免被其他样式覆盖 */
+  padding: 10px 15px;       /* 内边距，确保内容对齐 */
+  margin: 0 25px;           /* 左右边距，避免顶到菜单边界 */
+  border-radius: 8px;       /* 设置圆角 */
+  text-decoration: none;    /* 去掉下划线 */
+  box-sizing: border-box;   /* 确保宽度计算包含内边距和边框 */
 }
 
-.custom-title-mark {
-  font-size: 14px;
-  margin-top: 4px;
-  margin-left: 8px;
-  border: 1px solid #7253ed;
-  border-radius: 4px;
-  padding: 2px;
+/* 子标题的激活样式 */
+.nav-list .nav-list-item .nav-list-link.active {
+  color: white !important;  /* 子标题字体颜色强制变白 */
+  background-color: #A90202; /* 确保背景颜色一致 */
+}
+
+/* 非激活状态菜单项样式 */
+.nav-list-link {
+  display: block;           /* 确保宽度覆盖整个行 */
+  color: black;             /* 默认字体颜色 */
+  padding: 10px 15px;       /* 与激活项保持一致，防止文字位置变化 */
+  margin: 0 25px;           /* 与激活项保持一致 */
+  border-radius: 8px;       /* 保持圆角一致 */
+  text-decoration: none;    /* 去掉下划线 */
+  background-color: transparent; /* 默认无背景 */
+  box-sizing: border-box;   /* 确保宽度计算一致 */
+}
+
+/* 调整一级标题（如适用） */
+.nav-list-item {
+  margin: 10px 25px;         /* 一级标题外边距，确保整体一致 */
+}
+.nav-list .nav-list-item.active > .nav-list-link.active {
+  color: white !important;
 }

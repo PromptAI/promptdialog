@@ -1,5 +1,5 @@
 ---
-layout: en
+layout: default
 title: Project Release
 nav_order: 2
 parent: Release

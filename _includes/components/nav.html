@@ -1,0 +1,23 @@
+{%- comment -%}
+  Include as: {%- include components/nav.html pages=pages -%}
+  Depends on: include.pages.
+  Results in: HTML for the navigation panel.
+  Includes:
+  sorted_pages.html
+  Overwrites:
+  nav_pages, first_level_pages, second_level_pages, third_level_pages,
+  node, children_list, child, grand_children_list, grand_child.
+{%- endcomment -%}
+
+{%- assign nav_pages = include.pages | where_exp: "item", "item.title != nil" | where_exp: "item", "item.nav_exclude != true" -%}{%- include sorted_pages.html pages = nav_pages -%}
+
+{%- comment -%}
+  It might be more efficient to sort the pages at each level separately.
+{%- endcomment -%}
+
+{%- assign first_level_pages = sorted_pages | where_exp: "item", "item.parent == nil" -%}
+{%- assign second_level_pages = sorted_pages | where_exp: "item", "item.parent != nil" | where_exp: "item", "item.grand_parent == nil" -%}
+{%- assign third_level_pages = sorted_pages | where_exp: "item", "item.grand_parent != nil" -%}
+
+{%- assign root_pages = sorted_pages | where_exp: "item", "item.parent == nil" -%}
+{% include components/nav_item.html pages=root_pages all=sorted_pages %}
