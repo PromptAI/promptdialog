@@ -12,7 +12,6 @@ The installation is done by Docker, including two images.
 
 |  Image |         Description         | 
 |:------|:-----------------------------|
-| promptai/zbotai:release.llm    |    AI model       | 
 | promptai/zbot-aio:release  | PromptDialog  service framework     |
 
 

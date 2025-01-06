@@ -15,7 +15,6 @@ When you are using Rasa Open Source, you might be disappointed by the lack of La
 
 PromptDialog supports LLMs including ChatGPT and GPT4, together with a design/testing/deployment environment.  With PromptDialog, we aim to bring you an AI experience with the latest LLMs technology and significant reduction (90%) of development cost. PromptDialog is an LLMs-native AI assistant development environment, meaning it builds everything on LLMs including dialog flow, knowledge base, and dialog state management.  Using this architecture, your assistant's performance will improve with the latest advancements in LLMs (both proprietary and open source).  And the most important, it is free!  Here are a few highlights:
 
-* Automatically turn enterprise documents of various forms (FAQ, CSV, PDF, Doc, Text, HTML) into one knowledge base that your assistant can rely on, powered by GPT.
 * Intuitive business logic design. The dialog flows can be described in text or drawn explicitly, not as vague as annotated conversations or python programs anymore.  It can be displayed and shared with your team members.
 * All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
 * Zero shot intent classification and entity recognition, less or even no annotation required.
