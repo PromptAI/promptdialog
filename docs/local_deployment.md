@@ -3,10 +3,14 @@ layout: default
 title: Local Deployment
 nav_order: 11
 ---
+# Local Deployment
+
+If you need to deploy the service to your own server or local, you can refer to the following tutorial.
+
 Install PromptDialog in a local machine.  PromptDialog will only create and operate in the following directory of your machine.
 - location: $HOME/zbot
 
-The installation is done by Docker, including two images.
+The installation is done using Docker, including the following images.
 
 - Docker Images
 
