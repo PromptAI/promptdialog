@@ -6,8 +6,8 @@ nav_order: 1
 ---
 After logging in, click the `Create Project` button in the upper right corner to fill in the project related information in a pop-up dialog box.
 
-![create-project-01.png](/assets/images/tutorial/project/create-project-01.png)
+![create-project.png](create-project.png)
 
-Click the project to enter the project overview interface.
+The Chatbot Settings allow you to modify the chatbot profiles.
 
-![create-project-02.png](/assets/images/tutorial/project/create-project-02.png)
+![settings.png](settings.png)

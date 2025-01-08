@@ -6,12 +6,6 @@ spliter: true
 has_children: false
 ---
 
-### Can the bot reply with an attachment?
-Yes. Please refer to the tutorial [Create a dialog flow - There are five different kinds of replies a bot can make](/docs/tutorial/flow/#there-are-five-different-kinds-of-replies-a-bot-can-make).
-
-### Can I fill multiple slots in one sentence? For example, "I want five pounds of apples"
-Yes. You can define multiple slots in a form, and we will automatically recognize multiple slots. For more details, please see [here](/docs/tutorial/form/).
-
 ### During a conversation, I want to output different responses according to different user inputs. What should I do?
 There are several ways to do it.
 

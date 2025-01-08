@@ -24,13 +24,13 @@ Here is an example of creating the first PromptAI chatbot.
 <!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
 1. Create the first project.
-![overview1.png](/assets/images/overview/gpt-flow-01.png)
-2. Create the first GPT Flow.
-![overview2.png](/assets/images/overview/gpt-flow-02.png)
-3. Click to complete the GPT Flow.
-![overview3.png](/assets/images/overview/gpt-flow-03.png)
-4. At this point, we completed the first dialogue flow. Now, let's click the "Debug Run" button on the upper right corner to start debugging.
-![overview4.png](/assets/images/overview/gpt-flow-04.png)
+![overview1.png](create_project.png)
+2. Create the first LLM Agent.
+![create_llm_agent.png](create_llm_agent.png)
+3. Click to complete the LLM Agent.
+![overview3.png](llm_agent.png)
+4. At this point, we completed the first flow agent. Now, let's click the "Debug Run" button on the upper right corner to start debugging.
+![overview4.png](run_debug.png)
 5. Wait for the connection to complete and test your flow.
 ![overview5.png](/assets/images/overview/gpt-flow-05.png)
 
@@ -38,11 +38,10 @@ Here is an example of creating the first PromptAI chatbot.
 ## Publish
 <!-- 选择我们刚刚测试运行好的流图，进行发布。发布之后，我们可以看见web内嵌链接，和移动端链接。更多发布相关内容请看这里。 -->
 Select the flow that you just tested, then proceed with publishing. After publishing, you can see the web-embedded link and the mobile link. For more information on publishing, please refer to [this section](/docs/tutorial/release/release_project).
-![overview6.png](/assets/images/overview/gpt-flow-06.png)
+![overview6.png](release.png)
 
 <!-- ## 对话历史和Dashboard -->
 ## Conversation History and Dashboard
 <!-- 对话历史纪录了，当前项目的所有对话信息。 -->
 The conversation history records the conversation information for the current project.
 ![overview7.png](/assets/images/overview/gpt-flow-07.png)
-![overview8.png](/assets/images/overview/gpt-flow-08.png)

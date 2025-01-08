@@ -40,35 +40,8 @@ Sometimes a slot value needs to be reset.   For example, a user might want to cl
 
 ## Bot Response
 The system will send different responses according to user utterance. PromptDialog currently supports five kinds of responses:
-1. Text
-2. Image
-3. Attachment
-4. Webhook
-5. Action
+1. Text 
+2. Webhook
 
 
-## Template 
 
-### Intent Template 
-The intent template exists for the purpose of reusing intents. There are a few standard intents in conversation design, such as confirmation, denial and appreciation. Repeatedly constructing the same kind of intents is time consuming and error prone. Intent template is here to solve this problem. We can save an intent to be reused as a template and add it to the intent list. 
-
-### Entity Template
-For the same reason, there are standard entities that are commonly used across different projects.  A set of predefined entities are stored in the system for quick references.  
-
-### Response Template
-The response list exists for the reuse of responses. We often encounter repeated responses in conversations, such as goodbye, calling the same webhook, and thanks.  We can save the response to be reused as an response template and add it to the response list. When we need to use this response elsewhere in the project, we can directly refer the saved response.  You are strongly recommended to use the response list as much as possible. 
-
-## Frequently Asked Questions (FAQ) 
-A list of typical questions that users might ask regarding a particular subject.  Each faq tuple has three components: (question, similar questions, answer).
-
-PromptDialog supports FAQs in one way:
-* ChatGPT/GPT4 enabled retrieval augmented generation (RAG) to answer questions.  PromptDialog employed an embedding and retrieval approach to dramatically improve accuracy.  This is an approach we recommend if users do not provie similar questions. However, there is small cost associated as the users need to access OpenAI/ChatGPT. 
-
-## Knowledge Base
-In addition to FAQs, PromptAI can turn enterprise documents of various forms including CSV, PDF, Doc, Text, and HTML into one knowledge base and employ retrieval augmented generation (RAG) to answer questions directly based on these unstructured documents.
-
-## Form
-Form is used to collect multiple pieces of information like ticket booking, hotel reservation, order query, etc.  In PromptDialog, only a few configurations are needed to complete the design of a form, which was once quite complex: 
-* `Slots`  The slot list declares several slots that the form needs to collect, how the bot asks about these slots’ value, and how to fill slots from the user reply. The bot will ask the user in sequence until all slots are filled. 
-* `Abort` Users may not answer in the way we expect. If the user says “I don’t want to continue ”, the form filling will exit.
-* `Complete` When all the slots are filled out, the form will ask for a confirmation and then complete.  
