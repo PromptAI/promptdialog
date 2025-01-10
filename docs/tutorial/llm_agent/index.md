@@ -65,4 +65,4 @@ Click  `Survey` and choose `Edit Node` to view this llm Agent
 ## Run the LLM Agent
 Click the Debug/Run flow to check it. 
 
-![gpt-flow-04.png](/assets/images/tutorial/gpt_flow/gpt-flow-04.png)
+![chat.png](chat.png)

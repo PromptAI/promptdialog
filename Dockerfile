@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM hub2.20240220.xyz/ruby:2.7
 
 ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8

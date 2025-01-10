@@ -32,7 +32,7 @@ Here is an example of creating the first PromptAI chatbot.
 4. At this point, we completed the first flow agent. Now, let's click the "Debug Run" button on the upper right corner to start debugging.
 ![overview4.png](run_debug.png)
 5. Wait for the connection to complete and test your flow.
-![overview5.png](/assets/images/overview/gpt-flow-05.png)
+![chat.png](chat.png)
 
 <!-- ## 快速发布 -->
 ## Publish
@@ -41,7 +41,7 @@ Select the flow that you just tested, then proceed with publishing. After publis
 ![overview6.png](release.png)
 
 <!-- ## 对话历史和Dashboard -->
-## Conversation History and Dashboard
+## Conversation History
 <!-- 对话历史纪录了，当前项目的所有对话信息。 -->
 The conversation history records the conversation information for the current project.
-![overview7.png](/assets/images/overview/gpt-flow-07.png)
+![chat_history.png](chat_history.png)
