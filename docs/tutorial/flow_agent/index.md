@@ -67,6 +67,5 @@ The dialogue effect is shown below where the file will be displayed in conversat
 
 ## Run the Flow Agent
 You can click `Debug Run` to test your Flow Agent.
-![flow-08.png](/assets/images/tutorial/flow/flow-08.png)
-
+![debug.png](debug.png)
 
