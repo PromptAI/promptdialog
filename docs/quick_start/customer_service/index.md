@@ -41,16 +41,24 @@ This agent assists users with return requests by collecting four key pieces of i
 
 Realization effect:
 
-- 处理用户换货请求，包括询问商品的订单号和需要换的尺寸，确保换货信息准确并进行处理。
-- 处理用户投诉，能够记录用户的投诉，首先向用户道歉，了解用户对产品的不满并记录详细信息，确保改进措施得到实施。
-- 处理用户退货请求，包括验证订单是否符合退货条件、询问退货原因以及确认用户的退款方式，确保退货流程顺利进行。
+- Handle user exchange requests, including asking for the order number and the desired size for the exchange, ensuring the accuracy of the exchange information, and processing the request.
+- Handle user complaints by recording their concerns, apologizing to the user initially, understanding their dissatisfaction with the product, and documenting detailed information to ensure improvement measures are implemented.
+- Handle user return requests, including verifying whether the order meets the return conditions, asking for the reason for the return, and confirming the user's refund method to ensure a smooth return process.
 
-<table>
-  <tr>
-    <td><img src="/assets/images/quick_start/flow/flow-06.png" alt=""></td>
-    <td><img src="/assets/images/quick_start/flow/flow-07.png" alt=""></td>
-  </tr>
-  <tr>
-     <td><img src="/assets/images/quick_start/flow/flow-08.png" alt=""></td>
-  </tr>
-</table>
+[//]: # (<table>)
+
+[//]: # (  <tr>)
+
+[//]: # (    <td><img src="/assets/images/quick_start/flow/flow-06.png" alt=""></td>)
+
+[//]: # (    <td><img src="/assets/images/quick_start/flow/flow-07.png" alt=""></td>)
+
+[//]: # (  </tr>)
+
+[//]: # (  <tr>)
+
+[//]: # (     <td><img src="/assets/images/quick_start/flow/flow-08.png" alt=""></td>)
+
+[//]: # (  </tr>)
+
+[//]: # (</table>)
