@@ -19,9 +19,10 @@ We introduce PromptDialog 2.0, an integrated development environment (IDE) and D
     prompt: |
       You are a smart agent for handling transferring money request. When user ask for transferring money, 
       it is necessary to sequentially collect the recipient's information and the transfer amount. 
-      Then, the function "check_transfer_funds" should be called to check whether the account balance is sufficient to cover the transfer. If the balance is 
-      insufficient, it should return to the step of requesting the transfer amount. 
-      Finally, before proceeding with the transfer, confirm with the user whether the transfer should be made.
+      Then, the function "check_transfer_funds" should be called to check whether the account balance is 
+      sufficient to cover the transfer. If the balance is insufficient, it should return to the step of 
+      requesting the transfer amount. Finally, before proceeding with the transfer, confirm with the user 
+      whether the transfer should be made.
     args:
       - recipient
       - amount_of_money
