@@ -7,15 +7,34 @@
 </p>
 
 #### [Website](https://www.promptai.us) • [Docs](https://doc.promptai.us) • [FAQ](https://doc.promptai.us/docs/common_questions/) • [Email](mailto:info@promptai.us)
-We present PromptDialog, an integrated development (IDE) and operation environment (DevOps) to enable rapid development and delivery of AI assistants, aka, chatbots. 
+We introduce PromptDialog 2.0, an integrated development environment (IDE) and DevOps platform built on Multiple Intelligent Conversational Agents (MICA) ([GitHub Link]). MICA is a cutting-edge, open-source, agent-centric framework that stands apart from existing solutions such as AutoGen, CrewAI, LangChain, Amazon MAO, and Swarm. Unlike traditional agentic solutions that require extensive Python scripting, MICA enables users to define all agents within a single YAML file before launching the bot ([GitHub Example Link]). This streamlined approach significantly enhances development, maintenance, and testing efficiency by eliminating redundant coding and simplifying agent management.
 
-PromptDialog supports Rasa, ChatGPT and GPT4, together with a design/testing/deployment environment (an alternative of Rasa-X and Rasa-Pro).  With PromptDialog, we aim to bring you an AI experience with the latest LLMs technology and significant reduction (90%) of development cost.
-When you are using Rasa Open Source, you might be disappointed by the lack of Large Language Models’ support (LLMs) and the missing of Rasa-X that provides low code user interface for data annotation and model training.  When you are using ChatGPT/GPT4, you might be concerned on how to embed your own business logic in GPT4.  This is exactly what we experienced when building AI assistants for financial institutes and car manufacturers.  PromptDialog solves both problems by enabling GPT4 in RASA Open Source.  And the most important, it is free!  Here are a few highlights:
+<details>
+  <summary>MICA example</summary>
+  <pre><code>flows:
+  transfer_money:
+    type: llm agent
+    description: This agent let users transfer money to a recipient.
+    prompt: |
+      You are a smart agent for handling transferring money request. When user ask for transferring money, 
+      it is necessary to sequentially collect the recipient's information and the transfer amount. 
+      Then, the function "check_transfer_funds" should be called to check whether the account balance is sufficient to cover the transfer. If the balance is 
+      insufficient, it should return to the step of requesting the transfer amount. 
+      Finally, before proceeding with the transfer, confirm with the user whether the transfer should be made.
+    args:
+      - recipient
+      - amount_of_money
+    uses:
+      - check_transfer_funds
+  </code></pre>
+</details>
 
-* Automatically turn enterprise documents of various forms (FAQ, CSV, PDF, Doc, Text, HTML) into one knowledge base that your assistant can rely on, powered by GPT ([talk2bits.com](https://talk2bits.com)). 
+PromptyDialog brigns design studio and cloud deployment to MICA, further simplifying the design /launch process.  PromptDialog was originally built on Rasa/ChatGPT and conceived as an alternative of Rasa-X, Rasa-Pro, and Rasa Studio.  Based on the user feedback, it becomes obvious that the traditional task-oriented dialogue system that separates natural language understanding (NLU), dialogue management (DM), and response generation is hard to maintain.  The new agent-based architecture offers a much better solution.  By transitioning from RASA to MICA, every aspect of bot development—including coding, testing, and even documentation—is dramatically simplified. PromptDialog 2.0 will continue to deliver the following benefits: 
+
+* Automatically turn enterprise documents of various forms (FAQ, CSV, PDF, Doc, Text, HTML) into one knowledge base that your assistant can rely on.
 * Intuitive business logic design. The dialog flows can be drawn explicitly, not as vague as annotated conversations or python programs any more.  It can be displayed and shared with your team members.
 * All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
-* Zero shot intent classification and entity recognition, less or even no annotation required (coming soon).
+* Zero shot intent classification and entity recognition, no annotation required.
 
 ## Use cases
 - [IT Helpdesk Starter Pack](https://www.promptai.us/en/examples/#IT)
