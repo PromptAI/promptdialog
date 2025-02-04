@@ -8,7 +8,15 @@ permalink: /
 # Welcome to Prompt AI
 {: .no_toc .header }
 
-We introduce PromptDialog 2.0, an integrated development environment (IDE) and DevOps platform built on Multiple Intelligent Conversational Agents (MICA) ([GitHub Link]). MICA is a cutting-edge, open-source, agent-centric framework that stands apart from existing solutions such as AutoGen, CrewAI, LangChain, Amazon MAO, and Swarm. Unlike traditional agentic solutions that require extensive Python scripting, MICA enables users to define all agents within a single YAML file before launching the bot ([GitHub Example Link]). This streamlined approach significantly enhances development, maintenance, and testing efficiency by eliminating redundant coding and simplifying agent management. The following script demonstates a money transfer agent. 
+We are excited to introduce a major upgrade to PromptAI, now built on the MICA framework ([Link]).
+
+MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as AutoGen, CrewAI, LangChain, Amazon MAO, and Swarm, which rely heavily on extensive Python programming. With MICA, users can define all agents within a single YAML file before launching the bot ([GitHub Example Link]), significantly simplifying development and deployment.
+
+We have transitioned from Rasa to MICA, as we believe agent-based architecture is the future of service bot development. In PromptAI 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. This unified approach not only simplifies development but also enables downstream tasks such as automated testing and evaluation, making service bot management more efficient than ever.
+With advancements in LLMs (such as DeepSeek) and agent-based architecture, PromptAI 2.0 is designed to make building customer service bots simpler and more cost-effective.
+ 
+
+The following script demonstates a money transfer agent. A complete example is available at MICA  ([GitHub Link]).
 
 ```yaml
 transfer_money:
