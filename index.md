@@ -13,7 +13,7 @@ We are excited to introduce a major upgrade to PromptAI 2.0, now built on the MI
 MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as [AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/crewAIInc/crewAI), [LangChain](https://github.com/langchain-ai/langchain), [Amazon MAO](https://github.com/awslabs/multi-agent-orchestrator), and [Swarm](https://github.com/openai/swarm), which rely heavily on extensive Python programming. With MICA, users can define all agents within a single YAML file before launching the bot ([GitHub Example Link]), significantly simplifying development and deployment.
 
 We have transitioned from Rasa to MICA, as we believe agent-based architecture is the future of service bot development. In PromptAI 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. This unified approach not only simplifies development but also enables downstream tasks such as automated testing and evaluation, making service bot management more efficient than ever.
-With advancements in LLMs (such as DeepSeek) and agent-based architecture, PromptAI 2.0 is designed to make building customer service bots simpler and more cost-effective.
+With advancements in LLMs (such as DeepSeek) and agent-based architecture, PromptAI 2.0 is designed to make building customer service bots much simpler and more cost-effective.
  
 
 The following script demonstates a money transfer agent. A complete example is available at MICA  ([GitHub Link]).
