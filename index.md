@@ -40,7 +40,7 @@ PromptyDialog brings design studio and cloud deployment to MICA, further simplif
 
 * Intuitive business logic design. The dialog flows can be described in text or drawn explicitly, not as vague as annotated conversations or python programs anymore.  It can be displayed and shared with your team members.
 * All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
-* Zero shot intent classification and entity recognition, less or even no annotation required.
+* Zero shot intent classification and entity recognition, no annotation required.
 
 [Xifeng Yan](https://sites.cs.ucsb.edu/~xyan/), PromptAI
 
