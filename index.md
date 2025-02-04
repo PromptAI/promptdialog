@@ -8,7 +8,7 @@ permalink: /
 # Welcome to Prompt AI
 {: .no_toc .header }
 
-We introduce PromptDialog 2.0, an integrated development environment (IDE) and DevOps platform built on Multiple Intelligent Conversational Agents (MICA) ([GitHub Link]). MICA is a cutting-edge, open-source, agent-centric framework that stands apart from existing solutions such as AutoGen, CrewAI, LangChain, Amazon MAO, and Swarm. Unlike traditional agentic solutions that require extensive Python scripting, MICA enables users to define all agents within a single YAML file before launching the bot ([GitHub Example Link]). This streamlined approach significantly enhances development, maintenance, and testing efficiency by eliminating redundant coding and simplifying agent management.
+We introduce PromptDialog 2.0, an integrated development environment (IDE) and DevOps platform built on Multiple Intelligent Conversational Agents (MICA) ([GitHub Link]). MICA is a cutting-edge, open-source, agent-centric framework that stands apart from existing solutions such as AutoGen, CrewAI, LangChain, Amazon MAO, and Swarm. Unlike traditional agentic solutions that require extensive Python scripting, MICA enables users to define all agents within a single YAML file before launching the bot ([GitHub Example Link]). This streamlined approach significantly enhances development, maintenance, and testing efficiency by eliminating redundant coding and simplifying agent management. The following script demonstates a money transfer agent. 
 
 ```yaml
 transfer_money:
