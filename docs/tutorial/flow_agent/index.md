@@ -3,6 +3,7 @@ layout: default
 title: Flow Agent
 parent: Developer's Guide
 nav_order: 5
+has_children: true
 ---
 
 ## Create a Flow Agent
@@ -21,8 +22,8 @@ The followings are a few options you can make for bot reply.
 |-------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Bot Reply                     | What the bot will say                                                                                       |
 | Bot Reply Type                | Two different kinds of replies the bot can make. Please choose one.                                         |
-| Before the bot replies        | The [reply condition](/docs/advance_control/reply_conditions/) that needs to be met before the bot replies. |
-| After the user message arrives| If needed, [reset slot value](/docs/advance_control/reset_slot/)                                            |
+| Before the bot replies        | The [reply condition](/docs/tutorial/flow_agent/reply_conditions/) that needs to be met before the bot replies. |
+| After the user message arrives| If needed, [reset slot value](/docs/tutorial/flow_agent/reset_slot/)                                            |
 
 ### There are twp different kinds of replies a bot can make:
 
@@ -54,7 +55,7 @@ The followings are a few options you can make for user utterance.
 | Expect User Utterance          | The expected user utterance in this node     |
 | Are slots expected?            | Are we going to extract a slot value(s) from the user utterance?   |
 | Description                    | Some comments about this intent (optional)|
-| After the user message arrives | If needed, [reset slot value](/docs/advance_control/reset_slot/) based on the user utterance   |
+| After the user message arrives | If needed, [reset slot value](/docs/tutorial/flow_agent/reset_slot/) based on the user utterance   |
 
 ## A GPT node
 The fastest way to create a conversational bot is providing a GPT script, e.g.,

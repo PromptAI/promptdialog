@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Bot Reply Conditions
-parent: Advanced Control
-nav_order: 1
+parent: Flow Agent
+nav_order: 2
 ---
 # Reply Conditions
 {: .no_toc .header }

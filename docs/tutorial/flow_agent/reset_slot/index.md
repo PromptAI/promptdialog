@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Reset Slot Value
-parent: Advanced Control
-nav_order: 2
+parent: Flow Agent
+nav_order: 3
 ---
 # Reset Slot Value
 {: .no_toc .header }

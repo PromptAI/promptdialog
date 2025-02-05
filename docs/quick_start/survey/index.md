@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Overview
-nav_order: 1
+title: Survey
+nav_order: 2
+parent: Quick Start
 has_children: false
 ---
 
-# Overview
+# Survey
 
 PromptAI provides an all-in-one devops platform of building, running and deploying a chatbot.  It supports both on premises and cloud design and deployment.
 
