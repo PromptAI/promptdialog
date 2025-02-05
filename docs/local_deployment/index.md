@@ -37,12 +37,11 @@ curl -o install.sh 'https://raw.githubusercontent.com/PromptAI/homepage/main/scr
 
 When the system is ready, you will see the system information. Please change the admin password immediately. 
 
-![deploy-01](/assets/images/private_deploy/deploy-01.png)
+![deploy-01.png](deploy-01.png)
 
 ### Login
 Login: [http://localhost:9000](http://localhost:9000)
-
-![deploy-02](/assets/images/private_deploy/deploy-02.png)
+![deploy-02.png](deploy-02.png)
 
 ## How to get a Free License?
 Following installation, a license is needed. We offer a complimentary license for the local installment.
