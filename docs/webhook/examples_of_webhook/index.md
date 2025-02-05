@@ -65,7 +65,4 @@ Bot : Sure! Let me check the current weather conditions for you. Just a moment, 
 after the order information is confirmed by the user, we call a webhook to place the order.
 
 ### Webhook Settings:
-![webhook-example-01.png](/assets/images/webhook/webhook-example-01.png)
-
-### Handle fallback via Webhook
-Webhook can also be used to handle fallback.  See [Fallback](/docs/webhook/03-webhook).
+![webhook-example-01.png](webhook-example-01.png)
