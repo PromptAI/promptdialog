@@ -8,7 +8,7 @@ permalink: /
 # Welcome to Prompt AI
 {: .no_toc .header }
 
-We are excited to introduce a major upgrade: PromptDialog 2.0.  PromptDialog has transitioned from [Rasa](https://github.com/RasaHQ/rasa) to [MICA](https://mica-labs.github.io/), as we believe agent-based architecture is the future for bot development. In PromptDialog 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. This approach not only simplifies development but also makes downstream tasks possible such as automated testing and evaluation.  
+We are excited to introduce a major upgrade: PromptDialog 2.0. The new version transitioned from [Rasa](https://github.com/RasaHQ/rasa) to [MICA](https://mica-labs.github.io/), as we believe agent-based architecture is the future for bot development. In PromptDialog 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. This approach not only simplifies development but also makes downstream tasks possible such as automated testing and evaluation.  
 
 MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as [AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/crewAIInc/crewAI), [LangChain](https://github.com/langchain-ai/langchain), [Amazon MAO](https://github.com/awslabs/multi-agent-orchestrator), and [Swarm](https://github.com/openai/swarm), which rely heavily on extensive Python programming. With MICA, users can define [agents](https://mica-labs.github.io/docs/concepts/agent/) within a single YAML file before launching the bot, significantly simplifying development and deployment.
 
