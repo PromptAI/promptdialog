@@ -2,7 +2,7 @@
 layout: default 
 title: Customer Service
 parent: Quick Start 
-nav_order: 1
+nav_order: 2
 ---
 
 # Customer Service
