@@ -8,12 +8,9 @@ permalink: /
 # Welcome to Prompt AI
 {: .no_toc .header }
 
-We are excited to introduce a major upgrade to PromptDialog 2.0, now built on the [MICA](https://mica-labs.github.io/) framework.
+We are excited to introduce a major upgrade: PromptDialog 2.0. The new version transitioned from [Rasa](https://github.com/RasaHQ/rasa) to [MICA](https://mica-labs.github.io/), as we believe that agent-based architecture represents the future of bot development. In PromptDialog 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. The new approach not only simplifies development but also makes advanced downstream tasks possible such as automated testing and evaluation.  
 
-MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as [AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/crewAIInc/crewAI), [LangChain](https://github.com/langchain-ai/langchain), [Amazon MAO](https://github.com/awslabs/multi-agent-orchestrator), and [Swarm](https://github.com/openai/swarm), which rely heavily on extensive Python programming. With MICA, users can define [agents] (https://mica-labs.github.io/docs/concepts/agent/) within a single YAML file before launching the bot, significantly simplifying development and deployment.
-
-We have transitioned from Rasa to MICA, as we believe agent-based architecture is the future of service bot development. In PromptDialog 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. This unified approach not only simplifies development but also enables downstream tasks such as automated testing and evaluation, making service bot management more efficient than ever. PromptyDialog brings design studio and cloud deployment to MICA.  With advancements in LLMs (such as DeepSeek) and agent-based architecture, PromptAI 2.0 is designed to make building customer service bots much simpler and more cost-effective.
- 
+MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as [AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/crewAIInc/crewAI), [LangChain](https://github.com/langchain-ai/langchain), [Amazon MAO](https://github.com/awslabs/multi-agent-orchestrator), and [Swarm](https://github.com/openai/swarm), which rely heavily on extensive Python programming. With MICA, users can define [agents](https://mica-labs.github.io/docs/concepts/agent/) within a single YAML file before launching the bot, significantly simplifying development and deployment.
 
 The following script gives a demo money transfer agent. A complete example is available at MICA  ([GitHub Link]).
 
@@ -35,9 +32,11 @@ transfer_money:
     - check_transfer_funds
 ```
 
+
+
 <!--- PromptDialog was originally built on Rasa/ChatGPT and conceived as an alternative of Rasa-X, Rasa-Pro, and Rasa Studio.  Based on user feedback, it becomes obvious that the traditional task-oriented dialogue system that separates natural language understanding (NLU), dialogue management (DM), and response generation is hard to maintain.  The new agent-based architecture offers a much better solution.  By transitioning from RASA to MICA, every aspect of bot development—including coding, testing, and even documentation—is dramatically simplified.  --->  
 
-PromptDialog 2.0 will continue to deliver the following benefits: 
+PromptyDialog 2.0 brings design studio and cloud deployment to MICA, making building customer service bots much simpler and more cost-effective. It will continue to deliver the following benefits: 
 
 * Intuitive business logic design. The dialog flows can be described in text or drawn explicitly, not as vague as annotated conversations or python programs anymore.  It can be displayed and shared with your team members.
 * All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
