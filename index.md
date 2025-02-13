@@ -36,7 +36,7 @@ transfer_money:
 
 <!--- PromptDialog was originally built on Rasa/ChatGPT and conceived as an alternative of Rasa-X, Rasa-Pro, and Rasa Studio.  Based on user feedback, it becomes obvious that the traditional task-oriented dialogue system that separates natural language understanding (NLU), dialogue management (DM), and response generation is hard to maintain.  The new agent-based architecture offers a much better solution.  By transitioning from RASA to MICA, every aspect of bot development—including coding, testing, and even documentation—is dramatically simplified.  --->  
 
-PromptyDialog 2.0 brings design studio and cloud deployment to MICA, making building customer service bots much simpler and more cost-effective.  PromptDialog 2.0 will continue to deliver the following benefits: 
+PromptyDialog 2.0 brings design studio and cloud deployment to MICA, making building customer service bots much simpler and more cost-effective. It will continue to deliver the following benefits: 
 
 * Intuitive business logic design. The dialog flows can be described in text or drawn explicitly, not as vague as annotated conversations or python programs anymore.  It can be displayed and shared with your team members.
 * All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
