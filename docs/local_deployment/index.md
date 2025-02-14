@@ -42,10 +42,8 @@ When the system is ready, you will see the system information. Please change the
 ### Login
 Login: [http://localhost:9000](http://localhost:9000)
 ![deploy-02.png](deploy-02.png)
-<!--
 
-
-## How to get a Free License?
+<!-- ## How to get a Free License?
 Following installation, a license is needed. We offer a complimentary license for the local installment.
 ![license_1.png](license_1.png)
 
