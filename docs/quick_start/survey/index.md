@@ -15,20 +15,20 @@ has_children: false
 Let's build the first PromptAI chatbot. 
 <!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
-1. Create the project.
+Step 1. Create the project.
 ![overview1.png](create_project.png)
-2. Create the LLM Agent. 
+Step 2. Create the LLM Agent. 
 ![create_llm_agent.png](create_llm_agent.png)
   <details>
     <summary>copy/past the survey prompt</summary>
     <pre><code> please add the survey prompt here
     </code></pre>
   </details>
-3. Click `Save` to save the LLM Agent.
+Step 3. Click `Save` to save the LLM Agent.
 ![overview3.png](llm_agent.png)
-4. Click the "Debug Run" button on the upper right corner to start testing.
+Step 4. Click the "Debug Run" button on the upper right corner to start testing.
 ![overview4.png](run_debug.png)
-5. Wait and test your survey bot.
+Step 5. Wait and test your survey bot.
 ![chat.png](chat.png)
 
 <!-- ## 快速发布 -->
