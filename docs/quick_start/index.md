@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 ---
 
-PromptAI provides an all-in-one devops platform of building, running and deploying a chatbot.  It supports both on premises and cloud design and deployment.
+PromptAI provides a free all-in-one platform of building, running and deploying a chatbot.  It supports both on premises and cloud design and deployment.
 
 * [Design bots on cloud, run on cloud](https://www.promptai.us/en/pricing/on-cloud/)
 * [Design bots locally, run locally](https://www.promptai.us/en/pricing/premises/)
