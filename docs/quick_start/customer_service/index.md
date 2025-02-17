@@ -8,7 +8,7 @@ nav_order: 2
 # Customer Service
 {: .no_toc .header }
 
-We will use a custom service bot in clothing retail to showcase the capabilities of PromptDialog. The bot consists of three LLM agents, each dedicated to handling user complaints, product exchanges, and returns, providing comprehensive after-sales support.
+We showcase a custom service bot in clothing retail. The bot consists of three LLM agents, each handling user complaints, product exchanges, and returns separately.
 
 - Customer Complaint: Records user complaints, apologizes to the user, understands their dissatisfaction with the product, and documents detailed information to facilitate the implementation of corrective measures.
 
@@ -38,7 +38,12 @@ This agent assists users with return requests by collecting four key pieces of i
 ![function-calling.png](function-calling.png)
 
 ## Results
-Better show a few conversation results here.
+<details>
+  <summary>A few conversation examples</summary>
+  <pre><code> Better show a few conversation results here.
+  </code></pre>
+</details>
+
 
 <!-- Realization effect:
 
