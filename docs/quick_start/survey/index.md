@@ -20,7 +20,7 @@ Let's build the first PromptAI chatbot.
 2. Create the LLM Agent. 
 ![create_llm_agent.png](create_llm_agent.png)
   <details>
-    <summary>Copy/Past the Survey Prompt</summary>
+    <summary>copy/past the survey prompt</summary>
     <pre><code> please add the survey prompt here
     </code></pre>
   </details>
