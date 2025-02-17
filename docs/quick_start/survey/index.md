@@ -12,7 +12,7 @@ has_children: false
 <!-- PromptAI provides an intuitive conversation design tool for fast bot creation. It enable webhook calls, conversation history, as well as publishing as a web-embedded chatbot and a mobile chatbot. You have full control over response content. -->
 <!-- ## 快速开始  -->
 <!-- 以下是在云版本中创建第一个对话机器人的例子。（更多例子在[这里](/docs/examples/)可以查看） -->
-Let's build the first PromptAI chatbot. 
+Let's build the first bot. It is a survey bot involving a single agent. 
 <!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
 Step 1. Create the project.
