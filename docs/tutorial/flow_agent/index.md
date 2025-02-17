@@ -7,7 +7,7 @@ has_children: true
 ---
 
 ## Create a Flow Agent
-Click `Add Agent` in the left navigation pane to add a new Flow Agent.  Enter the flow name and description in the pop-up dialog box.
+Click `Add Agent` in the left navigation pane to add a new Flow Agent.  Enter the agent name and description in the pop-up dialog box.
 
 ![create_agent.png](create_agent.png)
 
@@ -57,10 +57,10 @@ The followings are a few options you can make for user utterance.
 | Description                    | Some comments about this intent (optional)|
 | After the user message arrives | If needed, [reset slot value](/docs/tutorial/flow_agent/reset_slot/) based on the user utterance   |
 
-## A GPT node
-The fastest way to create a conversational bot is providing a GPT script, e.g.,
+## An LLM Agent node
+The fastest way to create a conversational bot in a flow agent is providing an LLM prompt script via LLM Agent
 
-[GPT Flow](/docs/tutorial/llm_agent)
+[LLM Agent](/docs/tutorial/llm_agent)
 
 ## Complete a Flow Agent
 The dialogue effect is shown below where the file will be displayed in conversation.
