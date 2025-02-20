@@ -39,8 +39,35 @@ This agent assists users with return requests by collecting four key pieces of i
 
 ## Results
 <details>
-  <summary>A few conversation examples</summary>
-  <pre><code> Better show a few conversation results here.
+  <summary>Conversation examples</summary>
+  <pre><code>
+Bot : Hello, what can I do for you?
+
+User: Hi, I received my order yesterday, but I have a few issues. First, 
+I ordered the wrong size for one of the shirts and need to exchange it.
+
+Bot : I'm sorry to hear that. Could you please tell me the item you want
+to exchange and the order number?
+
+User: The order number is 12345.
+
+Bot : Thank you for providing the order number. Could you please tell me
+which item you would like to exchange?
+
+User: I'd like to exchange it for size L.
+
+Bot : I understand you want to exchange for a larger size. However, I still
+need to know which item you want to exchange. Could you please provide 
+that information?
+
+User: The black shirt.
+
+Bot : Thank you for the information. To confirm, you would like to exchange
+the black shirt from order number 12345 for a size L. Is that correct?
+
+User: Yes, that's correct.
+ß
+Bot : Great! I've noted your exchange request. We'll process it shortly.
   </code></pre>
 </details>
 
