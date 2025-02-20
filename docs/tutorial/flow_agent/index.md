@@ -60,10 +60,18 @@ The followings are a few options you can make for user utterance.
 ## An LLM Agent node
 The fastest way to create a conversational bot in a flow agent is providing an LLM prompt script via LLM Agent
 
+![llm_agent.png](llm_agent.png)
+
+<details>
+    <summary>copy/past the Incident Agent prompt</summary>
+    <pre><code> 
+When users report a problem, you need to collect the details and an email address.</code></pre>
+  </details>
+
 [LLM Agent](/docs/tutorial/llm_agent)
 
 ## Complete a Flow Agent
-The dialogue effect is shown below where the file will be displayed in conversation.
+
 ![hole_agent_view.png](hole_agent_view.png)
 
 ## Run the Flow Agent
