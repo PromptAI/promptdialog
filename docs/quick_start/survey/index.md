@@ -22,14 +22,18 @@ Step 2. Create the LLM Agent.
   <details>
     <summary>copy/past the survey prompt</summary>
     <pre><code> 
-You will be presented with a survey. Please chat with the user and ask them the questions in order. Do not provide the entire survey at once.
+You will be presented with a survey. Please chat with the user and ask them the questions in order. 
+Do not provide the entire survey at once.
 
 Survey:
 
 Did you find our customer service team helpful? (Yes/No)
-How would you rate your overall satisfaction with our customer service? (1 - Very Dissatisfied to 5 - Very Satisfied)
-Was your issue resolved by our customer service team? (Yes/No) If Yes, proceed to question 4.
-Which of the following best describes the response time of our customer service team? A) Very Fast B) Fast C) Average D) Slow E) Very Slow
+How would you rate your overall satisfaction with our customer service?
+(1 - Very Dissatisfied to 5 - Very Satisfied)
+Was your issue resolved by our customer service team? 
+(Yes/No) If Yes, proceed to question 4.
+Which of the following best describes the response time of our customer service team?
+A) Very Fast B) Fast C) Average D) Slow E) Very Slow
 What did you like most about your experience with our customer service?
     </code></pre>
   </details>
