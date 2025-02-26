@@ -106,7 +106,7 @@ Bot : Sure! Let me check the current weather conditions for you. Just a moment, 
      The current weather in New York is  6.5°C  with  humidity 48%
 ```
 
-### Insert value to slots in Rasa
+### Extract value from API response
 The above process needs a step to extract values from the API call and fill them in slots.  Suppose we have the following result sent by the weather service API. 
 
 ```json
@@ -118,7 +118,7 @@ The above process needs a step to extract values from the API call and fill them
   "city": "New York"
 }
 ```
-We shall do the following JsonPath reference and map the value to the slots in Rasa. 
+We shall do the following JsonPath reference and map the value to the slots. 
 
 ![webhook-concept-05.png](webhook-concept-05.png)
 
