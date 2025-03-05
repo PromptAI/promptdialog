@@ -12,7 +12,7 @@ We are excited to introduce a major upgrade: PromptDialog 2.0. The new version t
 
 MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as [AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/crewAIInc/crewAI), [LangChain](https://github.com/langchain-ai/langchain), [Amazon MAO](https://github.com/awslabs/multi-agent-orchestrator), and [Swarm](https://github.com/openai/swarm), which rely heavily on extensive Python programming. With MICA, users can define [agents](https://mica-labs.github.io/docs/concepts/agent/) within a single YAML file before launching the bot, significantly simplifying development and deployment.
 
-The following script gives a demo money transfer agent. A complete example is available at MICA  ([GitHub Link]).
+The following script gives a demo money transfer agent. A complete example is available at [MICA](https://github.com/Mica-labs/MICA/tree/main/examples/transfer_money)
 
 ```yaml
 transfer_money:
