@@ -36,11 +36,6 @@ PromptyDialog brigns design studio and cloud deployment to MICA, further simplif
 * All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
 * Zero shot intent classification and entity recognition, no annotation required.
 
-## Use cases
-- [IT Helpdesk Starter Pack](https://www.promptai.us/en/examples/#IT)
-- [Retail Starter Pack](https://www.promptai.us/en/examples/#Retail)
-- [Financial Services](https://www.promptai.us/en/examples/#Financial)
-
 ## Use Cloud Services
 Visit [www.promptai.us](https://www.promptai.us)
 
