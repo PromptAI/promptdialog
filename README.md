@@ -28,19 +28,19 @@ The following script gives a demo money transfer agent. A complete example is av
     - submit_transaction
 
 meta:
-type: ensemble agent
-description: You can select an agent to response user's question.
-contain:
-- transfer_money
-fallback: default
-steps:
-- call: transfer_money
-exit:
-- policy: "After 5 seconds, give a closure prompt: Is there anything else I can help you with?  After another 30 seconds, then leave."
+  type: ensemble agent
+  description: You can select an agent to response user's question.
+  contain:
+    - transfer_money
+  fallback: default
+  steps:
+    - call: transfer_money
+  exit:
+    - policy: "After 5 seconds, give a closure prompt: Is there anything else I can help you with?  After another 30 seconds, then leave."
 
 main:
-steps:
-- call: meta
+  steps:
+    - call: meta
   </code></pre>
 </details>
 
