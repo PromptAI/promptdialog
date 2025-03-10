@@ -16,7 +16,9 @@ The following script gives a demo money transfer agent. A complete example is av
 
 <details>
   <summary>MICA example</summary>
-  <pre><code class="language-yaml">transfer_money:
+
+```yaml
+transfer_money:
   type: llm agent
   description: This is an agent for transfer money request.
   prompt: "You are a smart agent for handling transferring money request. When user ask for transferring money, it is necessary to sequentially collect the recipient's information and the transfer amount. Then, the function \"validate_account_funds\" should be called to check whether the account balance is sufficient to cover the transfer. If the balance is insufficient, it should return to the step of requesting the transfer amount. Finally, before proceeding with the transfer, confirm with the user whether the transfer should be made and then call \"submit_transaction\"."
@@ -28,20 +30,20 @@ The following script gives a demo money transfer agent. A complete example is av
     - submit_transaction
 
 meta:
-  type: ensemble agent
-  description: You can select an agent to response user's question.
-  contain:
-    - transfer_money
-  fallback: default
-  steps:
-    - call: transfer_money
-  exit:
-    - policy: "After 5 seconds, give a closure prompt: Is there anything else I can help you with?  After another 30 seconds, then leave."
+type: ensemble agent
+description: You can select an agent to response user's question.
+contain:
+- transfer_money
+fallback: default
+steps:
+- call: transfer_money
+exit:
+- policy: "After 5 seconds, give a closure prompt: Is there anything else I can help you with?  After another 30 seconds, then leave."
 
 main:
-  steps:
-    - call: meta
-  </code></pre>
+steps:
+- call: meta
+```
 </details>
 
 PromptDialog 2.0 brings design studio and cloud deployment to [MICA](https://github.com/Mica-labs/MICA), making building customer service bots much simpler and more cost-effective. It will continue to deliver the following benefits:
