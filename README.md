@@ -13,7 +13,7 @@
   <a href="mailto:info@promptai.us">Enterprise inquiry</a>
 </p>
 
-PromptDialog is an open-source platform for building conversational AI applications. The new 2.0 version leverages agent-based architecture to simplify bot development, making it more intuitive and powerful for both developers and business users.
+PromptDialog is a platform for building conversational AI applications. The new 2.0 version leverages agent-based architecture to simplify bot development, making it more intuitive and powerful for both developers and business users.
 
 ## What's New in PromptDialog 2.0
 
