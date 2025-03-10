@@ -98,60 +98,6 @@ curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/ins
 
 After running, you can access the PromptDialog app in your browser at [http://localhost:9000](http://localhost:9000).
 
-## Feature Comparison
-
-<table style="width: 100%;">
-  <tr>
-    <th align="center">Feature</th>
-    <th align="center">PromptDialog 2.0</th>
-    <th align="center">Rasa</th>
-    <th align="center">LangChain</th>
-    <th align="center">AutoGen</th>
-  </tr>
-  <tr>
-    <td align="center">Programming Approach</td>
-    <td align="center">YAML-based</td>
-    <td align="center">Python + YAML</td>
-    <td align="center">Python Code</td>
-    <td align="center">Python Code</td>
-  </tr>
-  <tr>
-    <td align="center">Agent Architecture</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td align="center">Visual Dialog Design</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">❌</td>
-    <td align="center">❌</td>
-  </tr>
-  <tr>
-    <td align="center">Zero-shot NLU</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td align="center">Cloud Deployment</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">❌</td>
-  </tr>
-  <tr>
-    <td align="center">Local Deployment</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-  </tr>
-</table>
-
 ## Community & Contact
 
 If you have any questions, suggestions, or partnership inquiries, feel free to contact us through the following channels:
