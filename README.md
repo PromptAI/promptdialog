@@ -16,7 +16,7 @@ The following script gives a demo money transfer agent. A complete example is av
 
 <details>
   <summary>MICA example</summary>
-  <pre><code>transfer_money:
+  <pre><code class="language-yaml">transfer_money:
   type: llm agent
   description: This is an agent for transfer money request.
   prompt: "You are a smart agent for handling transferring money request. When user ask for transferring money, it is necessary to sequentially collect the recipient's information and the transfer amount. Then, the function \"validate_account_funds\" should be called to check whether the account balance is sufficient to cover the transfer. If the balance is insufficient, it should return to the step of requesting the transfer amount. Finally, before proceeding with the transfer, confirm with the user whether the transfer should be made and then call \"submit_transaction\"."
