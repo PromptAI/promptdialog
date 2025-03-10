@@ -64,8 +64,7 @@ Before installing PromptDialog, make sure your machine meets the following minim
 -  RAM: At least 8GB
 -  Docker Env: 20.10.6 or newer
 -  Disk Space : At least 32GB available
-Optional: 
--  GPU: CUDA 11.7 or newer and GPU Containers Runtime 1.11.0 or newer
+
 
 ### Quick Start
 Run following cmd in your terminal.
@@ -73,8 +72,6 @@ Run following cmd in your terminal.
 curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
 
-> PromptDialog will randomly occupy ports between 19000 and 29000.
-> 
 > Help: [info@promptai.us](mailto:info@promptai.us)
 
 After running, you can access the PromptDialog app in your browser at [http://localhost:9000](http://localhost:9000).
