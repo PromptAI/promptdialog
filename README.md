@@ -1,21 +1,47 @@
-<a target="_blank" rel="noopener noreferrer" href="https://www.promptai.us">
-  <img src="./image/main.png" alt="https://www.promptai.us" style="max-width: 100%;">
-</a>
 <p align="center">
-  <a href="https://www.promptai.us">Website</a> |
-  <a href="https://doc.promptai.us">Docs</a> |
-  <a href="mailto:info@promptai.us">Email</a>
+  <img src="./image/main.png" alt="PromptDialog 2.0" style="max-width: 100%;">
 </p>
+
+<p align="center">
+  📌 <a href="https://www.promptai.us">Introducing PromptDialog 2.0: Agent-based Architecture for Conversational AI</a>
+</p>
+
+<p align="center">
+  <a href="https://www.promptai.us">Cloud Service</a> ·
+  <a href="#localized-deployment">Self-hosting</a> ·
+  <a href="https://doc.promptai.us">Documentation</a> ·
+  <a href="mailto:info@promptai.us">Enterprise inquiry</a>
+</p>
+
+PromptDialog is an open-source platform for building conversational AI applications. The new 2.0 version leverages agent-based architecture to simplify bot development, making it more intuitive and powerful for both developers and business users.
+
+## What's New in PromptDialog 2.0
 
 We are excited to introduce a major upgrade: PromptDialog 2.0. The new version transitioned from [Rasa](https://github.com/RasaHQ/rasa) to [MICA](https://mica-labs.github.io/), as we believe that agent-based architecture represents the future of bot development. In PromptDialog 2.0, everything revolves around agents—eliminating the need for separate NLU, state management, and response generation. The new approach not only simplifies development but also makes advanced downstream tasks possible such as automated testing and evaluation.
 
 MICA is an open-source, agent-centric framework that sets itself apart from existing solutions such as [AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/crewAIInc/crewAI), [LangChain](https://github.com/langchain-ai/langchain), [Amazon MAO](https://github.com/awslabs/multi-agent-orchestrator), and [Swarm](https://github.com/openai/swarm), which rely heavily on extensive Python programming. With MICA, users can define [agents](https://mica-labs.github.io/docs/concepts/agent/) within a single YAML file before launching the bot, significantly simplifying development and deployment.
 
-The following script gives a demo money transfer agent. A complete example is available at [MICA](https://github.com/Mica-labs/MICA/tree/main/examples/transfer_money)
+## Key Features
 
+**1. Agent-based Architecture**:
+Define conversational agents in simple YAML files, eliminating the need for complex Python programming.
+
+**2. Intuitive Business Logic Design**:
+Dialog flows can be described in text or drawn explicitly, making them easier to understand and share with team members.
+
+**3. All-in-one DevOps**:
+Design, develop, and operate conversations on premises or in the cloud, all from a single platform.
+
+**4. Zero-shot Capabilities**:
+Intent classification and entity recognition with no annotation required.
+
+**5. Design Studio & Cloud Deployment**:
+Build customer service bots more simply and cost-effectively with our visual design tools.
+
+## Example: MICA Agent Definition
 
 <details>
-  <summary>MICA example</summary>
+  <summary>Money Transfer Agent Example</summary>
 
 ```yaml
 transfer_money:
@@ -46,41 +72,93 @@ main:
 ```
 </details>
 
-PromptDialog 2.0 brings design studio and cloud deployment to [MICA](https://github.com/Mica-labs/MICA), making building customer service bots much simpler and more cost-effective. It will continue to deliver the following benefits:
+A complete example is available at [MICA GitHub Repository](https://github.com/Mica-labs/MICA/tree/main/examples/transfer_money).
 
-* Intuitive business logic design. The dialog flows can be described in text or drawn explicitly, not as vague as annotated conversations or python programs anymore. It can be displayed and shared with your team members.
-* All-in-one DevOps: Design, develop and operate conversations, on premises or cloud, in one platform.
-* Zero shot intent classification and entity recognition, no annotation required.
+## Quick Start
 
-## Use Cloud Services
-Visit [www.promptai.us](https://www.promptai.us)
+### Cloud Service
+The easiest way to get started with PromptDialog 2.0 is through our cloud service:
+- Visit [www.promptai.us](https://www.promptai.us) to create an account and start building your first agent.
 
-## Localized Deployment
+### Localized Deployment
 
-### System Requirements
-Before installing PromptDialog, make sure your machine meets the following minimum system requirements:
--  OS: Linux / MacOS
--  location: $HOME/zbot
--  RAM: At least 8GB
--  Docker Env: 20.10.6 or newer
--  Disk Space : At least 32GB available
+> Before installing PromptDialog, make sure your machine meets the following minimum system requirements:
+>
+> - OS: Linux / MacOS
+> - Location: $HOME/zbot
+> - RAM: At least 8GB
+> - Docker: 20.10.6 or newer
+> - Disk Space: At least 32GB available
 
+Run the following command in your terminal:
 
-### Quick Start
-Run following cmd in your terminal.
 ```bash
 curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
 
-> Help: [info@promptai.us](mailto:info@promptai.us)
-
 After running, you can access the PromptDialog app in your browser at [http://localhost:9000](http://localhost:9000).
 
-## Contact Us
+## Feature Comparison
+
+<table style="width: 100%;">
+  <tr>
+    <th align="center">Feature</th>
+    <th align="center">PromptDialog 2.0</th>
+    <th align="center">Rasa</th>
+    <th align="center">LangChain</th>
+    <th align="center">AutoGen</th>
+  </tr>
+  <tr>
+    <td align="center">Programming Approach</td>
+    <td align="center">YAML-based</td>
+    <td align="center">Python + YAML</td>
+    <td align="center">Python Code</td>
+    <td align="center">Python Code</td>
+  </tr>
+  <tr>
+    <td align="center">Agent Architecture</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">Visual Dialog Design</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">Zero-shot NLU</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">Cloud Deployment</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">Local Deployment</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+</table>
+
+## Community & Contact
+
 If you have any questions, suggestions, or partnership inquiries, feel free to contact us through the following channels:
-- Submit an Issue or PR on our GitHub Repo
-- Send an email to info@promptai.us
-- Send a message to [there](https://www.promptai.us/en/contact/)
+- Submit an [Issue or PR](https://github.com/PromptAI/promptdialog) on our GitHub Repo
+- Send an email to [info@promptai.us](mailto:info@promptai.us)
+- Visit our [Contact Page](https://www.promptai.us/en/contact/)
 
 ## Security
-To protect your privacy, please avoid posting security issues on GitHub. Instead, send your questions to info@promptai.us and we will provide you with a more detailed answer.
+
+To protect your privacy, please avoid posting security issues on GitHub. Instead, send your questions to [info@promptai.us](mailto:info@promptai.us) and we will provide you with a more detailed answer.
