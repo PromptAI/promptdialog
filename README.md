@@ -93,7 +93,7 @@ The easiest way to get started with PromptDialog 2.0 is through our cloud servic
 Run the following command in your terminal:
 
 ```bash
-curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
+curl -o install.sh 'https://cdn.githubraw.com/PromptAI/PromptAI/main/install.sh' && chmod +x install.sh && ./install.sh
 ```
 
 After running, you can access the PromptDialog app in your browser at [http://localhost:9000](http://localhost:9000).
