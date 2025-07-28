@@ -2,7 +2,7 @@
 layout: default
 title: Reset Slot Value
 parent: Flow Agent
-nav_order: 3
+nav_order: 4
 ---
 # Reset Slot Value
 {: .no_toc .header }
@@ -12,7 +12,7 @@ Let's take buying pizza as an example, assuming there are three sizes: Small, Me
 
 ![chat.png](chat.png)
 
-The bot provides three buttons for users to click.  The click action will automatically send the text on the button to the bot, which will then be used to set the slot value. 
+Users can directly input their choice, which will then be used to set the slot value. 
 
 ![entire_view.png](entire_view.png)
 
