@@ -28,6 +28,7 @@ The followings are a few options you can make for bot reply.
 ### There are twp different kinds of replies a bot can make:
 
 - Text       : Send a text message to the user
+- Link       : Navigate the user to a specified URL when clicked
 - Webhook    : Call a webhook 
 
 <mark>Note</mark> that you can use the `${}` curly brace syntax in text replies to utilize Slot values existing in the system.
