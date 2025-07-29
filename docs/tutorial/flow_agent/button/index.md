@@ -13,13 +13,13 @@ Button nodes provide users with predefined options, allowing them to respond qui
 
 ## Button Features
 
-| Feature               | Description                                                                  |
-|-----------------------|------------------------------------------------------------------------------|
-| Flow Control          | Button clicks can guide the conversation flow to specified nodes or branches|
-| One-time Use          | A group of buttons can only be clicked once, and the button group disappears after clicking|
-| Multi-button Support  | Multiple buttons can be added after one bot node to provide users with multiple choices|
-| Predefined Options    | Button text is predefined to ensure consistency of user input               |
-| Quick Response        | Users don't need to manually input, they can make quick choices by clicking |
+| Feature               | Description                                                                             |
+|-----------------------|-----------------------------------------------------------------------------------------|
+| Flow Control          | Button clicks can guide the conversation flow to specified nodes or branches            |
+| One-time Use          | Buttons become disabled after being clicked once.                                       |
+| Multi-button Support  | Multiple buttons can be added after one bot node to provide users with multiple choices |
+| Predefined Options    | Button text is predefined to ensure consistency of user input                           |
+| Quick Response        | Users don't need to manually input, they can make quick choices by clicking             |
 
 ## Usage Scenarios
 
@@ -71,13 +71,6 @@ When you need to add multiple buttons:
 - Ensure each button has a clear target node
 - Avoid infinite loops or invalid jumps
 - Provide users with mechanisms to return or reselect
-
-## Important Notes
-
-1. **One-time Use**: Button groups disappear after user clicks and cannot be reused
-2. **Flow Control**: Properly design button jump logic to ensure conversation flow continuity
-3. **User Experience**: Buttons should provide clear choices and avoid confusing users
-4. **Compatibility**: Ensure buttons display and function properly on different devices and platforms
 
 ## Tips
 Button nodes are important tools for building interactive conversation flows. Proper use of buttons can significantly improve user experience and simplify complex conversation logic.
