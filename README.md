@@ -13,6 +13,13 @@
   <a href="mailto:info@promptai.us">Enterprise inquiry</a>
 </p>
 
+<p align="center">
+   PromptDialog 1.0 for RASA
+  <a href="https://github.com/PromptAI/promptdialog1.0/blob/main/docs/local_deployment.md">Download</a> ·
+  <a href="https://github.com/PromptAI/promptdialog1.0">Help</a>
+</p>
+
+
 PromptDialog is a platform for building conversational AI applications. The new 2.0 version leverages agent-based architecture to simplify bot development, making it more intuitive and powerful for both developers and business users.
 
 ## What's New in PromptDialog 2.0
